@@ -1,0 +1,2237 @@
+{
+  "conversations": [
+    {
+      "scenario_id": "FRIEND001",
+      "scenario": "Asking for directions in a busy city centre",
+      "setting": "London Street Corner",
+      "social_context": "Brief, transactional, helpfulness expected",
+      "participants": [
+        "Tourist",
+        "Local"
+      ],
+      "customer_profile": "Lost, polite, appreciative",
+      "culture": "UK",
+      "emotions": [
+        "confused",
+        "grateful",
+        "relieved"
+      ],
+      "success_rating": 9,
+      "naturalness_rating": 9,
+      "tone": "formal-polite",
+      "difficulty": "beginner",
+      "friendship_building_factor": "low",
+      "humour_potential": "low",
+      "dialogue": [
+        {
+          "speaker": "Tourist",
+          "text": "Excuse me, could you help me? I seem to be a bit lost.",
+          "emotion": "confused",
+          "intent": "seek assistance"
+        },
+        {
+          "speaker": "Local",
+          "text": "Of course! Where are you trying to get to?",
+          "emotion": "helpful",
+          "intent": "offer help"
+        },
+        {
+          "speaker": "Tourist",
+          "text": "I’m looking for the British Museum. Am I heading the right way?",
+          "emotion": "hopeful",
+          "intent": "clarify direction"
+        },
+        {
+          "speaker": "Local",
+          "text": "Ah, you’re close! Just head straight down this road, take the second left, and you’ll see it on your right.",
+          "emotion": "friendly",
+          "intent": "give directions"
+        },
+        {
+          "speaker": "Tourist",
+          "text": "Brilliant, thank you so much! I’ve been wandering around for ages.",
+          "emotion": "grateful",
+          "intent": "express thanks"
+        },
+        {
+          "speaker": "Local",
+          "text": "No worries at all. First time in London?",
+          "emotion": "curious",
+          "intent": "build rapport"
+        },
+        {
+          "speaker": "Tourist",
+          "text": "Yes, just arrived yesterday. It’s a bit overwhelming!",
+          "emotion": "relieved",
+          "intent": "share personal context"
+        },
+        {
+          "speaker": "Local",
+          "text": "It can be! If you need more tips, feel free to ask. Enjoy the museum!",
+          "emotion": "warm",
+          "intent": "offer future help"
+        },
+        {
+          "speaker": "Tourist",
+          "text": "That’s very kind of you. Maybe I’ll bump into you again!",
+          "emotion": "appreciative",
+          "intent": "leave door open for future interaction"
+        }
+      ],
+      "friendship_progression": "The conversation starts as a transactional direction request but progresses to light personal sharing and an open-ended offer for future help, planting seeds for potential future interaction.",
+      "cultural_elements": [
+        "Use of 'brilliant' for expressing gratitude",
+        "'No worries' as a casual reassurance",
+        "Polite indirect questioning ('First time in London?')"
+      ],
+      "rationale": [
+        {
+          "phrase": "No worries at all. First time in London?",
+          "explanation": "The local transitions from helping to light personal conversation, showing interest in the tourist’s experience."
+        },
+        {
+          "phrase": "If you need more tips, feel free to ask.",
+          "explanation": "Offers ongoing assistance, creating an opportunity for future contact."
+        },
+        {
+          "phrase": "Maybe I’ll bump into you again!",
+          "explanation": "The tourist leaves the interaction open-ended, hinting at potential future meetings."
+        }
+      ]
+    },
+    {
+      "scenario_id": "FRIEND002",
+      "scenario": "Commenting on the weather at a bus stop",
+      "setting": "Bus Stop",
+      "social_context": "Common British small talk, ice-breaker",
+      "participants": [
+        "Commuter A",
+        "Commuter B"
+      ],
+      "customer_profile": "Observant, seeks light interaction",
+      "culture": "UK",
+      "emotions": [
+        "neutral",
+        "connected",
+        "amused"
+      ],
+      "success_rating": 9,
+      "naturalness_rating": 10,
+      "tone": "casual",
+      "difficulty": "beginner",
+      "friendship_building_factor": "medium",
+      "humour_potential": "medium",
+      "dialogue": [
+        {
+          "speaker": "Commuter A",
+          "text": "Bit nippy today, isn’t it?",
+          "emotion": "neutral",
+          "intent": "ice-breaker"
+        },
+        {
+          "speaker": "Commuter B",
+          "text": "Oh, tell me about it! I swear my fingers are about to fall off.",
+          "emotion": "amused",
+          "intent": "agree and relate"
+        },
+        {
+          "speaker": "Commuter A",
+          "text": "Hah! At least it’s not raining. That’d be proper miserable.",
+          "emotion": "light-hearted",
+          "intent": "humour and positivity"
+        },
+        {
+          "speaker": "Commuter B",
+          "text": "True, true. Though knowing our luck, it’ll start pouring the second the bus arrives.",
+          "emotion": "amused",
+          "intent": "shared cultural reference"
+        },
+        {
+          "speaker": "Commuter A",
+          "text": "Classic British weather, eh? Always keeps us on our toes.",
+          "emotion": "connected",
+          "intent": "bond over common experience"
+        },
+        {
+          "speaker": "Commuter B",
+          "text": "Absolutely. Say, you take this bus often? I feel like I’ve seen you before.",
+          "emotion": "curious",
+          "intent": "transition to personal connection"
+        },
+        {
+          "speaker": "Commuter A",
+          "text": "Yeah, every morning. You’re the one with the bright blue scarf, right?",
+          "emotion": "friendly",
+          "intent": "show recognition"
+        },
+        {
+          "speaker": "Commuter B",
+          "text": "That’s me! Small world. I’m Sam, by the way.",
+          "emotion": "open",
+          "intent": "introduce self"
+        },
+        {
+          "speaker": "Commuter A",
+          "text": "Nice to meet you, Sam. I’m Jess. Fancy a cuppa sometime if we’re both stuck waiting for this unreliable bus again?",
+          "emotion": "warm",
+          "intent": "suggest future interaction"
+        },
+        {
+          "speaker": "Commuter B",
+          "text": "Sounds brilliant! There’s a decent café just round the corner.",
+          "emotion": "enthusiastic",
+          "intent": "accept and extend"
+        }
+      ],
+      "friendship_progression": "The conversation starts with light, relatable small talk about the weather, a common British ice-breaker. Humour and shared cultural references create rapport, leading to recognition of each other as regular commuters. A personal introduction and a casual invitation for future interaction (a 'cuppa') plant the seed for potential friendship.",
+      "cultural_elements": [
+        "‘Nippy’ (colloquial for cold)",
+        "‘Proper miserable’ (British understatement)",
+        "‘Classic British weather’ (shared cultural reference)",
+        "‘Cuppa’ (informal for tea, a social ritual)"
+      ],
+      "rationale": [
+        {
+          "phrase": "Bit nippy today, isn’t it?",
+          "explanation": "Opens with a safe, culturally familiar topic (weather) to establish common ground."
+        },
+        {
+          "phrase": "Classic British weather, eh?",
+          "explanation": "Humour and shared frustration bond speakers over a relatable experience."
+        },
+        {
+          "phrase": "Fancy a cuppa sometime...?",
+          "explanation": "Low-pressure future plan suggestion maintains casual tone while offering connection."
+        }
+      ]
+    },
+    {
+      "scenario_id": "FRIEND003",
+      "scenario": "Engaging in banter with a shop assistant at a local market",
+      "setting": "Farmers Market",
+      "social_context": "Friendly, community, regular interaction potential",
+      "participants": [
+        "Customer",
+        "Vendor"
+      ],
+      "customer_profile": "Friendly, enjoys local charm",
+      "culture": "UK",
+      "emotions": [
+        "amused",
+        "satisfied",
+        "charmed"
+      ],
+      "success_rating": 9,
+      "naturalness_rating": 9,
+      "tone": "friendly",
+      "difficulty": "intermediate",
+      "friendship_building_factor": "medium",
+      "humour_potential": "high",
+      "dialogue": [
+        {
+          "speaker": "Vendor",
+          "text": "Morning! Fancy a proper cuppa to go with these fresh scones? Just baked 'em not half an hour ago.",
+          "emotion": "cheerful",
+          "intent": "initiate friendly banter"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Oh, you're a mind reader! Though I reckon my waistline might protest... Ah, sod it - when in Rome!",
+          "emotion": "amused",
+          "intent": "play along with humour"
+        },
+        {
+          "speaker": "Vendor",
+          "text": "That's the spirit! Here - try this clotted cream, it's from my cousin's dairy in Devon. Secret family recipe, don't tell the Cornish!",
+          "emotion": "playful",
+          "intent": "share personal connection"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Blimey, that's proper lush! You're not wrong about family secrets - I'd fight someone for this cream. Might have to become a regular!",
+          "emotion": "delighted",
+          "intent": "compliment and hint at future visits"
+        },
+        {
+          "speaker": "Vendor",
+          "text": "Well now, if you're serious about regular visits, you'll need the inside track. Our strawberry jam bloke comes Thursdays - proper game changer.",
+          "emotion": "confiding",
+          "intent": "offer insider knowledge"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Is that so? Sounds like I've stumbled upon market royalty here! Tell you what - next Thursday, I'll bring my nan. She's a jam connoisseur, God help you.",
+          "emotion": "charmed",
+          "intent": "extend personal connection"
+        },
+        {
+          "speaker": "Vendor",
+          "text": "Brilliant! We'll make a proper event of it - I'll save you both a cuppa and some scandalous gossip about the carrot cake vendor two stalls down.",
+          "emotion": "mischievous",
+          "intent": "create shared anticipation"
+        },
+        {
+          "speaker": "Customer",
+          "text": "You're on! Here - let me grab your Instagram before I forget. Need to see what other contraband dairy products you're hiding!",
+          "emotion": "enthusiastic",
+          "intent": "initiate contact exchange"
+        },
+        {
+          "speaker": "Vendor",
+          "text": "Ha! @CreamOfTheCropMarket - just don't go sharing our Devon-Cornish alliance with anyone, yeah? This could get political!",
+          "emotion": "teasing",
+          "intent": "establish inside joke"
+        }
+      ],
+      "friendship_progression": "The conversation builds from playful banter to sharing personal connections (family recipes, insider tips), creating inside jokes, and culminating in social media exchange - establishing foundations for future interactions.",
+      "cultural_elements": [
+        "British understatement ('not half an hour ago')",
+        "Regional rivalry humour (Devon vs Cornish cream)",
+        "Tea culture references",
+        "Use of 'proper' as intensifier",
+        "Self-deprecating humour about waistlines"
+      ],
+      "rationale": [
+        {
+          "phrase": "Fancy a proper cuppa...",
+          "explanation": "Uses culturally familiar offer to create instant rapport through shared British tea ritual."
+        },
+        {
+          "phrase": "Secret family recipe...",
+          "explanation": "Personal sharing creates intimacy and exclusivity, making customer feel special."
+        },
+        {
+          "phrase": "Might have to become a regular!",
+          "explanation": "Customer signals openness to future interactions, which vendor immediately capitalises on."
+        },
+        {
+          "phrase": "Scandalous gossip about...",
+          "explanation": "Humorous framing of future meeting as 'event' strengthens social bond through shared anticipation."
+        },
+        {
+          "phrase": "Don't go sharing our... alliance",
+          "explanation": "Creates conspiratorial humour that functions as an inside joke, accelerating friendship development."
+        }
+      ]
+    },
+    {
+      "scenario_id": "FRIEND004",
+      "scenario": "Meeting someone at a dog park while pets play",
+      "setting": "Local Dog Park",
+      "social_context": "Natural bonding through pets, relaxed atmosphere",
+      "participants": [
+        "Dog Owner A",
+        "Dog Owner B"
+      ],
+      "customer_profile": "Animal lover, approachable",
+      "culture": "UK",
+      "emotions": [
+        "relaxed",
+        "entertained",
+        "connected"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 9,
+      "tone": "friendly",
+      "difficulty": "intermediate",
+      "friendship_building_factor": "high",
+      "humour_potential": "high",
+      "dialogue": [
+        {
+          "speaker": "Dog Owner A",
+          "text": "Blimey, your pup’s got some energy! What’s his name?",
+          "emotion": "amused",
+          "intent": "initiate conversation"
+        },
+        {
+          "speaker": "Dog Owner B",
+          "text": "Haha, that’s Archie. He’s a right handful, but I wouldn’t have it any other way. Yours seems much more chilled!",
+          "emotion": "cheerful",
+          "intent": "reciprocate and compliment"
+        },
+        {
+          "speaker": "Dog Owner A",
+          "text": "Oh, Bella’s a proper lazybones. She’s more interested in sunbathing than playing fetch! How old’s Archie?",
+          "emotion": "lighthearted",
+          "intent": "share personal detail and ask follow-up"
+        },
+        {
+          "speaker": "Dog Owner B",
+          "text": "Just turned two—still in the ‘chewing everything’ phase. You’d think my shoes were made of steak!",
+          "emotion": "self-deprecating humour",
+          "intent": "bond over shared struggles"
+        },
+        {
+          "speaker": "Dog Owner A",
+          "text": "Tell me about it! Bella ate an entire sofa cushion last year. The vet just laughed and said, ‘Welcome to dog ownership.’",
+          "emotion": "relieved",
+          "intent": "validate and escalate humour"
+        },
+        {
+          "speaker": "Dog Owner B",
+          "text": "No way! *laughs* At least it’s never dull. D’you come here often? I’ve not seen you two before.",
+          "emotion": "curious",
+          "intent": "transition to local connection"
+        },
+        {
+          "speaker": "Dog Owner A",
+          "text": "We’ve just moved to the area—still sussing out the best walks. This park’s brilliant though!",
+          "emotion": "enthusiastic",
+          "intent": "reveal personal context"
+        },
+        {
+          "speaker": "Dog Owner B",
+          "text": "Oh, you’re new? There’s a cracking route along the river if you fancy it. Less mud than here! *grins*",
+          "emotion": "helpful",
+          "intent": "offer local knowledge"
+        },
+        {
+          "speaker": "Dog Owner A",
+          "text": "That’d be smashing! Bella’s a nightmare after rain—comes home looking like a swamp monster.",
+          "emotion": "grateful",
+          "intent": "accept and joke"
+        },
+        {
+          "speaker": "Dog Owner B",
+          "text": "Right, let’s swap numbers then! I’m usually here weekends if you fancy a proper dog-walk natter.",
+          "emotion": "open",
+          "intent": "suggest future contact"
+        },
+        {
+          "speaker": "Dog Owner A",
+          "text": "Absolutely! And if Archie ever fancies a playdate with a sloth, you know where we are. *winks*",
+          "emotion": "warm",
+          "intent": "solidify plans with humour"
+        }
+      ],
+      "friendship_progression": "Starts with playful pet observations, escalates through shared humour and dog-related struggles, transitions to local tips, and culminates in exchanging contact details for future meetups.",
+      "cultural_elements": [
+        "‘Blimey’ (British exclamation)",
+        "‘Right handful’ (colloquialism for energetic)",
+        "‘Proper lazybones’ (affectionate exaggeration)",
+        "‘Sussing out’ (figuring out)",
+        "‘Cracking’ (excellent, informal praise)"
+      ],
+      "rationale": [
+        {
+          "phrase": "Blimey, your pup’s got some energy!",
+          "explanation": "Casual exclamation lowers barriers; commenting on pets is a safe, relatable opener."
+        },
+        {
+          "phrase": "You’d think my shoes were made of steak!",
+          "explanation": "Self-deprecating humour builds rapport by showing vulnerability."
+        },
+        {
+          "phrase": "Let’s swap numbers then!",
+          "explanation": "Direct yet casual suggestion normalises future contact without pressure."
+        }
+      ]
+    },
+    {
+      "scenario_id": "FRIEND006",
+      "scenario": "Chatting with someone at a coffee shop queue",
+      "setting": "Busy Coffee Shop",
+      "social_context": "Waiting time creates opportunity, shared experience",
+      "participants": [
+        "Coffee Customer A",
+        "Coffee Customer B"
+      ],
+      "customer_profile": "Caffeinated, time-conscious but friendly",
+      "culture": "UK",
+      "emotions": [
+        "impatient",
+        "amused",
+        "caffeinated"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 9,
+      "tone": "casual",
+      "difficulty": "beginner",
+      "friendship_building_factor": "medium",
+      "humour_potential": "medium",
+      "dialogue": [
+        {
+          "speaker": "Coffee Customer A",
+          "text": "Blimey, this queue’s longer than the one for the loo at a football match!",
+          "emotion": "amused",
+          "intent": "break the ice with humour"
+        },
+        {
+          "speaker": "Coffee Customer B",
+          "text": "Tell me about it! I swear it’s moved an inch in ten minutes. Do they roast the beans *in* the queue?",
+          "emotion": "exasperated",
+          "intent": "bond over shared frustration"
+        },
+        {
+          "speaker": "Coffee Customer A",
+          "text": "Ha! Maybe we should’ve brought camping gear. You here often?",
+          "emotion": "curious",
+          "intent": "transition to personal chat"
+        },
+        {
+          "speaker": "Coffee Customer B",
+          "text": "First time, actually. Heard their flat white’s decent though. You?",
+          "emotion": "open",
+          "intent": "reciprocate interest"
+        },
+        {
+          "speaker": "Coffee Customer A",
+          "text": "Oh yeah, proper good—though at this rate, I’ll need a IV drip of espresso by the time I’m served.",
+          "emotion": "playful",
+          "intent": "keep humour flowing"
+        },
+        {
+          "speaker": "Coffee Customer B",
+          "text": "Same! Name’s Liam, by the way. Reckon we’ll be queue buddies for life at this point.",
+          "emotion": "friendly",
+          "intent": "introduce self casually"
+        },
+        {
+          "speaker": "Coffee Customer A",
+          "text": "Nice one, I’m Priya. *glances at watch* Might as well swap numbers if we’re committing to this marathon.",
+          "emotion": "warm",
+          "intent": "suggest future contact"
+        },
+        {
+          "speaker": "Coffee Customer B",
+          "text": "Deal! Maybe next time we’ll pre-order and laugh at the new queue victims.",
+          "emotion": "cheerful",
+          "intent": "joke about future plans"
+        }
+      ],
+      "friendship_progression": "Starts with shared frustration over the queue, transitions to humour and personal introductions, and ends with exchanging contact info and joking about future meetups.",
+      "cultural_elements": [
+        "‘Blimey’ (British exclamation)",
+        "Queue culture (British patience/irritation with queues)",
+        "Self-deprecating humour",
+        "‘Proper good’ (colloquial praise)"
+      ],
+      "rationale": [
+        {
+          "phrase": "Blimey, this queue’s longer than...",
+          "explanation": "Humour about a relatable situation breaks the ice and invites reciprocity."
+        },
+        {
+          "phrase": "You here often?",
+          "explanation": "Open-ended question shifts focus from complaint to personal connection."
+        },
+        {
+          "phrase": "Might as well swap numbers...",
+          "explanation": "Casual suggestion to exchange contact info implies interest in future interaction without pressure."
+        }
+      ]
+    },
+    {
+      "scenario_id": "FRIEND008",
+      "scenario": "Striking up conversation at a local festival or fair",
+      "setting": "Village Fête / Local Festival",
+      "social_context": "Celebratory, community spirit, relaxed",
+      "participants": [
+        "Festival Goer A",
+        "Festival Goer B"
+      ],
+      "customer_profile": "Community-minded, festive",
+      "culture": "UK",
+      "emotions": [
+        "excited",
+        "festive",
+        "sociable"
+      ],
+      "success_rating": 9,
+      "naturalness_rating": 8,
+      "tone": "friendly",
+      "difficulty": "intermediate",
+      "friendship_building_factor": "high",
+      "humour_potential": "medium",
+      "dialogue": [
+        {
+          "speaker": "Festival Goer A",
+          "text": "Blimey, this fête is brilliant, isn’t it? The weather’s actually holding up for once!",
+          "emotion": "excited",
+          "intent": "initiate conversation with light humour"
+        },
+        {
+          "speaker": "Festival Goer B",
+          "text": "Tell me about it! After last year’s downpour, I brought my wellies just in case. Fancy a cuppa from the stall over there?",
+          "emotion": "cheerful",
+          "intent": "reciprocate and suggest shared activity"
+        },
+        {
+          "speaker": "Festival Goer A",
+          "text": "Oh, you’re a lifesaver—I could murder a cuppa. Lead the way!",
+          "emotion": "grateful",
+          "intent": "accept and bond over informal British phrasing"
+        },
+        {
+          "speaker": "Festival Goer B",
+          "text": "So, are you from the village? I don’t think I’ve seen you at the book club or yoga in the hall.",
+          "emotion": "curious",
+          "intent": "show interest in local connections"
+        },
+        {
+          "speaker": "Festival Goer A",
+          "text": "Just moved in last month! Still finding my feet—though I did join the terrible pub quiz team at The Crown.",
+          "emotion": "self-deprecating",
+          "intent": "share personal detail with humour"
+        },
+        {
+          "speaker": "Festival Goer B",
+          "text": "No way! I’m there every Thursday. We came last once—blame the ‘90s music round.",
+          "emotion": "amused",
+          "intent": "find common ground and laugh together"
+        },
+        {
+          "speaker": "Festival Goer A",
+          "text": "Next time, we should team up. Two minds are better than one, even if they’re both rubbish at Spice Girls trivia.",
+          "emotion": "playful",
+          "intent": "propose future interaction"
+        },
+        {
+          "speaker": "Festival Goer B",
+          "text": "Deal! Here—let me grab your number. I’ll text you the next quiz night.",
+          "emotion": "enthusiastic",
+          "intent": "escalate to contact exchange naturally"
+        },
+        {
+          "speaker": "Festival Goer A",
+          "text": "Perfect! And if you fancy a proper village intro, I’m hosting a board game night next weekend. Bring biscuits.",
+          "emotion": "warm",
+          "intent": "extend invitation to deepen connection"
+        },
+        {
+          "speaker": "Festival Goer B",
+          "text": "You had me at biscuits. Count me in!",
+          "emotion": "delighted",
+          "intent": "accept and reinforce rapport"
+        }
+      ],
+      "friendship_progression": "Starts with light, culturally relevant banter about weather, escalates to shared activity (tea), discovers mutual interests (pub quiz), and naturally exchanges contact info with future plans (quiz team, board games). Humour and self-deprecation ease tension.",
+      "cultural_elements": [
+        "‘Blimey’ (British exclamation)",
+        "‘Murder a cuppa’ (informal phrase for craving tea)",
+        "Village fête as community hub",
+        "Pub quiz as social activity",
+        "Self-deprecating humour"
+      ],
+      "rationale": [
+        {
+          "phrase": "Blimey, this fête is brilliant...",
+          "explanation": "Opens with relatable, positive observation to establish common ground."
+        },
+        {
+          "phrase": "Fancy a cuppa...?",
+          "explanation": "Suggests low-pressure shared activity to foster comfort."
+        },
+        {
+          "phrase": "Next time, we should team up...",
+          "explanation": "Proposes future interaction casually, testing receptiveness."
+        },
+        {
+          "phrase": "I’m hosting a board game night...",
+          "explanation": "Extends personal invitation to transition from public to private socialising."
+        }
+      ]
+    },
+    {
+      "scenario_id": "FRIEND012",
+      "scenario": "Regular train commuter small talk",
+      "setting": "Train Carriage",
+      "social_context": "Routine encounter, potential for regular interaction",
+      "participants": [
+        "Regular Commuter A",
+        "Regular Commuter B"
+      ],
+      "customer_profile": "Routine-oriented, observant",
+      "culture": "UK",
+      "emotions": [
+        "routine",
+        "sociable",
+        "time-conscious"
+      ],
+      "success_rating": 7,
+      "naturalness_rating": 9,
+      "tone": "casual",
+      "difficulty": "intermediate",
+      "friendship_building_factor": "medium",
+      "humour_potential": "medium",
+      "dialogue": [
+        {
+          "speaker": "Regular Commuter A",
+          "text": "Morning! Always see you on this train – reckon we’ve got the same routine, eh?",
+          "emotion": "friendly",
+          "intent": "initiate conversation"
+        },
+        {
+          "speaker": "Regular Commuter B",
+          "text": "Oh, absolutely! 7:15 every day, rain or shine. You’re the one who always nabs the seat by the window, right?",
+          "emotion": "amused",
+          "intent": "acknowledge shared routine"
+        },
+        {
+          "speaker": "Regular Commuter A",
+          "text": "Guilty as charged. Can’t resist a good view, even if it’s just the same old suburbs. You’re the bloke with the massive coffee cup – survival essential, I take it?",
+          "emotion": "playful",
+          "intent": "light humour + observation"
+        },
+        {
+          "speaker": "Regular Commuter B",
+          "text": "Ha! Spot on. This is the only thing standing between me and utter chaos before 9 AM. You’re not one of those ‘up at 5 for a jog’ types, are you?",
+          "emotion": "self-deprecating",
+          "intent": "bond over shared struggle"
+        },
+        {
+          "speaker": "Regular Commuter A",
+          "text": "Good lord, no. I barely manage toast before I’m out the door. Speaking of – reckon this train’s running a bit slow today?",
+          "emotion": "conspiratorial",
+          "intent": "shift to shared inconvenience"
+        },
+        {
+          "speaker": "Regular Commuter B",
+          "text": "Ugh, don’t get me started. Signal failures again, probably. At least we’ve got decent company for the delay!",
+          "emotion": "grateful",
+          "intent": "compliment + rapport"
+        },
+        {
+          "speaker": "Regular Commuter A",
+          "text": "Hear, hear! Say, if we’re doomed to this commute anyway, fancy a proper cuppa together tomorrow? There’s a decent stall by platform 3.",
+          "emotion": "hopeful",
+          "intent": "suggest future interaction"
+        },
+        {
+          "speaker": "Regular Commuter B",
+          "text": "You’re on! Might even upgrade from my sad instant stuff. I’m Mark, by the way.",
+          "emotion": "enthusiastic",
+          "intent": "share name (friendship milestone)"
+        },
+        {
+          "speaker": "Regular Commuter A",
+          "text": "Sarah. Cheers, Mark – see you at the coffee revolt tomorrow, then!",
+          "emotion": "warm",
+          "intent": "solidify plans with humour"
+        }
+      ],
+      "friendship_progression": "Starts with observational small talk about shared routines, builds rapport through humour and mutual complaints about commuting, and culminates in exchanging names and making concrete plans to meet again.",
+      "cultural_elements": [
+        "British self-deprecating humour",
+        "‘reckon’ as casual speculation",
+        "Complaining about transport as bonding",
+        "‘proper cuppa’ emphasis on tea culture",
+        "Understated compliment (‘decent company’)"
+      ],
+      "rationale": [
+        {
+          "phrase": "Always see you on this train...",
+          "explanation": "Observation of shared routine establishes common ground."
+        },
+        {
+          "phrase": "You’re the one who always nabs the seat...",
+          "explanation": "Reciprocal observation shows attentiveness, making the other feel recognised."
+        },
+        {
+          "phrase": "Signal failures again, probably...",
+          "explanation": "Complaining about a shared inconvenience fosters camaraderie."
+        },
+        {
+          "phrase": "fancy a proper cuppa together...",
+          "explanation": "Direct but low-pressure invitation moves interaction beyond small talk."
+        },
+        {
+          "phrase": "You’re on! Might even upgrade...",
+          "explanation": "Enthusiastic acceptance + personal detail (coffee preference) deepens connection."
+        }
+      ]
+    },
+    {
+      "scenario_id": "FRIEND013",
+      "scenario": "Shared taxi or rideshare conversation",
+      "setting": "Taxi / Uber",
+      "social_context": "Temporary shared space, polite interaction",
+      "participants": [
+        "Passenger A",
+        "Passenger B"
+      ],
+      "customer_profile": "Polite, makes best of shared situation",
+      "culture": "UK",
+      "emotions": [
+        "polite",
+        "accommodating",
+        "conversational"
+      ],
+      "success_rating": 6,
+      "naturalness_rating": 8,
+      "tone": "polite",
+      "difficulty": "intermediate",
+      "friendship_building_factor": "low",
+      "humour_potential": "low",
+      "dialogue": [
+        {
+          "speaker": "Passenger A",
+          "text": "Bit nippy out there today, isn’t it?",
+          "emotion": "polite",
+          "intent": "break the ice with small talk"
+        },
+        {
+          "speaker": "Passenger B",
+          "text": "Oh, absolutely. Could do with a cuppa to warm up!",
+          "emotion": "agreeable",
+          "intent": "respond with shared experience"
+        },
+        {
+          "speaker": "Passenger A",
+          "text": "Hah, same here. You heading into town as well?",
+          "emotion": "friendly",
+          "intent": "find common ground"
+        },
+        {
+          "speaker": "Passenger B",
+          "text": "Yes, just popping to the museum. You?",
+          "emotion": "open",
+          "intent": "share personal detail to encourage connection"
+        },
+        {
+          "speaker": "Passenger A",
+          "text": "Oh lovely! I’m off to meet a mate near Covent Garden. The museum’s a brilliant choice though—saves you from this drizzle.",
+          "emotion": "warm",
+          "intent": "compliment and relate"
+        },
+        {
+          "speaker": "Passenger B",
+          "text": "Cheers! If you ever fancy a museum trip, the V&A does a cracking afternoon tea.",
+          "emotion": "lightly playful",
+          "intent": "casually suggest future interaction"
+        },
+        {
+          "speaker": "Passenger A",
+          "text": "That sounds smashing, actually. Mind if I jot down your number? Could sort something next month.",
+          "emotion": "hopeful",
+          "intent": "initiate contact exchange"
+        },
+        {
+          "speaker": "Passenger B",
+          "text": "Not at all—here, let me grab my phone.",
+          "emotion": "accommodating",
+          "intent": "reciprocate friendly gesture"
+        }
+      ],
+      "friendship_progression": "Conversation moves from weather small talk to discovering shared interests (London activities), then a light invitation and contact exchange, suggesting potential future plans.",
+      "cultural_elements": [
+        "‘Bit nippy’ (colloquial for cold)",
+        "‘Cuppa’ (tea)",
+        "‘Cracking’ (excellent)",
+        "‘Smashing’ (great)",
+        "Polite indirect suggestion (‘fancy a museum trip’)",
+        "Use of ‘cheers’ for thanks"
+      ],
+      "rationale": [
+        {
+          "phrase": "Bit nippy out there today, isn’t it?",
+          "explanation": "Safe, culturally relevant small talk opens dialogue without pressure."
+        },
+        {
+          "phrase": "Could do with a cuppa to warm up!",
+          "explanation": "Shared cultural reference (tea) builds camaraderie."
+        },
+        {
+          "phrase": "The V&A does a cracking afternoon tea.",
+          "explanation": "Offers a specific, low-pressure future activity suggestion."
+        },
+        {
+          "phrase": "Mind if I jot down your number?",
+          "explanation": "Direct yet polite request signals genuine interest in maintaining contact."
+        }
+      ]
+    },
+    {
+      "scenario_id": "FRIEND014",
+      "scenario": "Helping someone with heavy bags or luggage",
+      "setting": "Train Station / Street",
+      "social_context": "Good Samaritan, gratitude-based interaction",
+      "participants": [
+        "Helper",
+        "Person Needing Help"
+      ],
+      "customer_profile": "Helpful, observant, kind",
+      "culture": "UK",
+      "emotions": [
+        "helpful",
+        "grateful",
+        "appreciative"
+      ],
+      "success_rating": 9,
+      "naturalness_rating": 8,
+      "tone": "friendly",
+      "difficulty": "beginner",
+      "friendship_building_factor": "medium",
+      "humour_potential": "low",
+      "dialogue": [
+        {
+          "speaker": "Helper",
+          "text": "Excuse me, those bags look quite heavy. Would you like a hand?",
+          "emotion": "helpful",
+          "intent": "offer assistance"
+        },
+        {
+          "speaker": "Person Needing Help",
+          "text": "Oh, that’s very kind of you! I’m struggling a bit, to be honest.",
+          "emotion": "grateful",
+          "intent": "accept help"
+        },
+        {
+          "speaker": "Helper",
+          "text": "No worries at all. Let me take that one for you. Are you heading to the station?",
+          "emotion": "friendly",
+          "intent": "build rapport"
+        },
+        {
+          "speaker": "Person Needing Help",
+          "text": "Yes, just trying to catch the 3:15 to Manchester. Cheers for this—I overpacked as usual!",
+          "emotion": "appreciative",
+          "intent": "share personal detail"
+        },
+        {
+          "speaker": "Helper",
+          "text": "Happens to the best of us! I’m Alex, by the way.",
+          "emotion": "warm",
+          "intent": "introduce self"
+        },
+        {
+          "speaker": "Person Needing Help",
+          "text": "Nice to meet you, Alex. I’m Sam. You’re a lifesaver—these pavements are brutal with luggage!",
+          "emotion": "relieved",
+          "intent": "reciprocate introduction"
+        },
+        {
+          "speaker": "Helper",
+          "text": "Pleasure, Sam. Do you travel to Manchester often? I’ve got family up there.",
+          "emotion": "curious",
+          "intent": "find common ground"
+        },
+        {
+          "speaker": "Person Needing Help",
+          "text": "Small world! I’m visiting my sister. Maybe we could grab a coffee next time you’re heading that way?",
+          "emotion": "open",
+          "intent": "suggest future interaction"
+        },
+        {
+          "speaker": "Helper",
+          "text": "That’d be lovely! Here’s my number—shoot me a text so I’ve got yours too.",
+          "emotion": "enthusiastic",
+          "intent": "exchange contacts"
+        },
+        {
+          "speaker": "Person Needing Help",
+          "text": "Brilliant. Thanks again, Alex. Proper decent of you!",
+          "emotion": "grateful",
+          "intent": "express appreciation"
+        }
+      ],
+      "friendship_progression": "The conversation starts with a simple offer of help, progresses to introductions and personal sharing, and culminates in exchanging contact details and making tentative future plans—demonstrating a natural shift from strangers to potential friends.",
+      "cultural_elements": [
+        "British politeness norms ('Excuse me', 'Very kind of you')",
+        "Understated humour ('overpacked as usual')",
+        "Regional reference (Manchester)",
+        "Colloquialisms ('Proper decent of you')"
+      ],
+      "rationale": [
+        {
+          "phrase": "Would you like a hand?",
+          "explanation": "A polite, low-pressure offer of assistance that invites positive engagement without imposing."
+        },
+        {
+          "phrase": "I’m visiting my sister.",
+          "explanation": "Personal disclosure creates trust and provides hooks for further conversation."
+        },
+        {
+          "phrase": "Maybe we could grab a coffee...",
+          "explanation": "A casual, non-committal suggestion leaves room for organic friendship development."
+        }
+      ]
+    },
+    {
+      "scenario_id": "FRIEND015",
+      "scenario": "Returning lost item to stranger",
+      "setting": "Public Space",
+      "social_context": "Honest gesture, creates positive interaction",
+      "participants": [
+        "Good Samaritan",
+        "Person Who Lost Item"
+      ],
+      "customer_profile": "Honest, observant, helpful",
+      "culture": "UK",
+      "emotions": [
+        "concerned",
+        "relieved",
+        "grateful"
+      ],
+      "success_rating": 10,
+      "naturalness_rating": 8,
+      "tone": "friendly",
+      "difficulty": "beginner",
+      "friendship_building_factor": "medium",
+      "humour_potential": "low",
+      "dialogue": [
+        {
+          "speaker": "Good Samaritan",
+          "text": "Excuse me, I think you dropped this back there.",
+          "emotion": "concerned",
+          "intent": "to return a lost item"
+        },
+        {
+          "speaker": "Person Who Lost Item",
+          "text": "Oh blimey, my wallet! I hadn’t even noticed. Cheers!",
+          "emotion": "surprised, relieved",
+          "intent": "to express gratitude"
+        },
+        {
+          "speaker": "Good Samaritan",
+          "text": "No worries at all. I saw it fall out of your pocket near the bench.",
+          "emotion": "friendly",
+          "intent": "to reassure"
+        },
+        {
+          "speaker": "Person Who Lost Item",
+          "text": "You’re a lifesaver. I’d have been in a right pickle without this.",
+          "emotion": "grateful",
+          "intent": "to show appreciation"
+        },
+        {
+          "speaker": "Good Samaritan",
+          "text": "Glad I could help. It’s a nice wallet, by the way. Leather?",
+          "emotion": "curious",
+          "intent": "to make small talk"
+        },
+        {
+          "speaker": "Person Who Lost Item",
+          "text": "Yeah, got it as a gift last Christmas. Say, do you come here often?",
+          "emotion": "friendly",
+          "intent": "to extend conversation"
+        },
+        {
+          "speaker": "Good Samaritan",
+          "text": "Now and then. I like to read by the fountain. It’s peaceful.",
+          "emotion": "relaxed",
+          "intent": "to share personal detail"
+        },
+        {
+          "speaker": "Person Who Lost Item",
+          "text": "Same here! Maybe I’ll see you around. I’m usually here on weekends.",
+          "emotion": "hopeful",
+          "intent": "to suggest future interaction"
+        },
+        {
+          "speaker": "Good Samaritan",
+          "text": "Definitely. I’m Tom, by the way.",
+          "emotion": "open",
+          "intent": "to introduce self"
+        },
+        {
+          "speaker": "Person Who Lost Item",
+          "text": "Nice to meet you, Tom. I’m Sarah. Fancy a cuppa sometime?",
+          "emotion": "warm",
+          "intent": "to propose friendship"
+        }
+      ],
+      "friendship_progression": "The conversation starts with a helpful gesture, leading to gratitude and small talk. Shared interests (reading in the park) and a casual invitation for tea create a natural bridge from strangers to potential friends.",
+      "cultural_elements": [
+        "‘Blimey’ (expression of surprise)",
+        "‘Cheers’ (informal thank you)",
+        "‘In a right pickle’ (in trouble)",
+        "‘Cuppa’ (cup of tea)"
+      ],
+      "rationale": [
+        {
+          "phrase": "You’re a lifesaver.",
+          "explanation": "Expresses deep gratitude, making the helper feel valued and opening the door for further interaction."
+        },
+        {
+          "phrase": "Do you come here often?",
+          "explanation": "A neutral, context-appropriate question that shifts the conversation from transactional to personal."
+        },
+        {
+          "phrase": "Fancy a cuppa sometime?",
+          "explanation": "A low-pressure, culturally familiar invitation that suggests continued contact without overcommitting."
+        }
+      ]
+    },
+    {
+      "scenario_id": "FRIEND016",
+      "scenario": "Meeting at a photography walk or art exhibition",
+      "setting": "Art Gallery / Photography Exhibition",
+      "social_context": "Shared artistic interest, thoughtful discussion",
+      "participants": [
+        "Art Enthusiast A",
+        "Art Enthusiast B"
+      ],
+      "customer_profile": "Creative, cultured, expressive",
+      "culture": "UK",
+      "emotions": [
+        "inspired",
+        "thoughtful",
+        "engaged"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 7,
+      "tone": "thoughtful",
+      "difficulty": "advanced",
+      "friendship_building_factor": "high",
+      "humour_potential": "low",
+      "dialogue": [
+        {
+          "speaker": "Art Enthusiast A",
+          "text": "This photograph is quite striking, isn’t it? The way the light falls on the subject’s face—it’s almost cinematic.",
+          "emotion": "inspired",
+          "intent": "initiate conversation, share appreciation"
+        },
+        {
+          "speaker": "Art Enthusiast B",
+          "text": "Absolutely. There’s such depth to it—like there’s a whole story behind that single moment. Do you think it’s staged or candid?",
+          "emotion": "thoughtful",
+          "intent": "engage, invite opinion"
+        },
+        {
+          "speaker": "Art Enthusiast A",
+          "text": "Hmm, I’d lean towards candid. The imperfections—the slightly blurred hand, the uneven shadow—feel too genuine to be staged. What draws you to this exhibition?",
+          "emotion": "engaged",
+          "intent": "deepen discussion, show interest"
+        },
+        {
+          "speaker": "Art Enthusiast B",
+          "text": "I’ve always been fascinated by how photography captures fleeting emotions. This artist’s work in particular—it’s like they’ve bottled humanity. And you?",
+          "emotion": "reflective",
+          "intent": "share personal connection, reciprocate interest"
+        },
+        {
+          "speaker": "Art Enthusiast A",
+          "text": "Much the same, really. I dabble in photography myself—mostly street scenes. There’s something magical about finding beauty in the mundane.",
+          "emotion": "passionate",
+          "intent": "reveal personal hobby, create common ground"
+        },
+        {
+          "speaker": "Art Enthusiast B",
+          "text": "Oh, that’s brilliant! I’d love to see your work sometime. Do you have a favourite spot in London for it?",
+          "emotion": "enthusiastic",
+          "intent": "express genuine interest, hint at future interaction"
+        },
+        {
+          "speaker": "Art Enthusiast A",
+          "text": "Borough Market, actually—the interplay of light and chaos there is endlessly inspiring. You’re welcome to tag along next time, if you’d like.",
+          "emotion": "warm",
+          "intent": "offer inclusion, test friendship potential"
+        },
+        {
+          "speaker": "Art Enthusiast B",
+          "text": "I’d love that. Maybe we could grab a coffee after? I’d enjoy hearing more about your perspective on composition.",
+          "emotion": "open",
+          "intent": "solidify plans, extend interaction"
+        },
+        {
+          "speaker": "Art Enthusiast A",
+          "text": "Perfect—let’s exchange numbers. It’s rare to meet someone who appreciates the art of observation as much as you do.",
+          "emotion": "pleased",
+          "intent": "transition to friendship, formalise connection"
+        }
+      ],
+      "friendship_progression": "The conversation begins with shared admiration for art, evolves into personal revelations about creative interests, and culminates in a concrete plan to meet again—demonstrating natural rapport-building through mutual passion and gradual vulnerability.",
+      "cultural_elements": [
+        "Understated compliments ('quite striking')",
+        "Polite invitations ('You’re welcome to tag along')",
+        "Indirect planning ('Maybe we could grab a coffee after?')",
+        "Respect for personal space (gradual sharing of hobbies)"
+      ],
+      "rationale": [
+        {
+          "phrase": "This photograph is quite striking, isn’t it?",
+          "explanation": "Opens with a neutral yet inviting observation, allowing the other person to engage without pressure."
+        },
+        {
+          "phrase": "I dabble in photography myself—mostly street scenes.",
+          "explanation": "Shares a personal detail to foster connection, making the interaction more meaningful."
+        },
+        {
+          "phrase": "You’re welcome to tag along next time, if you’d like.",
+          "explanation": "Offers a low-pressure future interaction, testing receptiveness to friendship."
+        },
+        {
+          "phrase": "let’s exchange numbers.",
+          "explanation": "Transitions from casual to committed connection, signalling mutual interest in deepening the relationship."
+        }
+      ]
+    },
+    {
+      "scenario_id": "FRIEND017",
+      "scenario": "Chatting at a local gardening centre",
+      "setting": "Garden Centre",
+      "social_context": "Shared hobby, advice-giving opportunity",
+      "participants": [
+        "Experienced Gardener",
+        "Novice Gardener"
+      ],
+      "customer_profile": "Patient, knowledgeable, nurturing",
+      "culture": "UK",
+      "emotions": [
+        "knowledgeable",
+        "curious",
+        "helpful"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 9,
+      "tone": "helpful",
+      "difficulty": "intermediate",
+      "friendship_building_factor": "high",
+      "humour_potential": "low",
+      "dialogue": [
+        {
+          "speaker": "Experienced Gardener",
+          "text": "Lovely day for it, isn’t it? I see you’ve been eyeing those lavender plants.",
+          "emotion": "friendly",
+          "intent": "initiate conversation"
+        },
+        {
+          "speaker": "Novice Gardener",
+          "text": "Oh, yes! I’ve been meaning to add some to my garden, but I’m not sure where to start. They seem a bit finicky.",
+          "emotion": "curious",
+          "intent": "seek advice"
+        },
+        {
+          "speaker": "Experienced Gardener",
+          "text": "Not at all! Lavender’s quite hardy once it’s settled. Do you have a sunny spot? They adore the sun.",
+          "emotion": "helpful",
+          "intent": "offer guidance"
+        },
+        {
+          "speaker": "Novice Gardener",
+          "text": "I do, actually—a south-facing border. That’s brilliant to hear. I was worried about our rainy spells.",
+          "emotion": "relieved",
+          "intent": "express concern"
+        },
+        {
+          "speaker": "Experienced Gardener",
+          "text": "Ah, they’ll manage. Just avoid waterlogged soil. If you’d like, I can point you to a variety that thrives here in the Midlands.",
+          "emotion": "encouraging",
+          "intent": "build rapport"
+        },
+        {
+          "speaker": "Novice Gardener",
+          "text": "That’d be wonderful, thank you! I’m just starting out, so any tips are appreciated.",
+          "emotion": "grateful",
+          "intent": "acknowledge kindness"
+        },
+        {
+          "speaker": "Experienced Gardener",
+          "text": "We all start somewhere. I’ve got a notebook full of mistakes—*laughs*—happy to spare you a few.",
+          "emotion": "warm",
+          "intent": "share personal experience"
+        },
+        {
+          "speaker": "Novice Gardener",
+          "text": "That’s so kind! Maybe I could buy you a cuppa in the café here? Swap notes?",
+          "emotion": "hopeful",
+          "intent": "extend invitation"
+        },
+        {
+          "speaker": "Experienced Gardener",
+          "text": "I’d love that. And if you fancy, I’m part of a local gardening club—always room for newcomers.",
+          "emotion": "inviting",
+          "intent": "suggest future interaction"
+        },
+        {
+          "speaker": "Novice Gardener",
+          "text": "That sounds perfect! Let me jot down your number—we can chat more over tea.",
+          "emotion": "enthusiastic",
+          "intent": "solidify connection"
+        }
+      ],
+      "friendship_progression": "The conversation begins with a neutral observation about the weather, a common British icebreaker. The experienced gardener offers unsolicited but friendly advice, which the novice gratefully accepts. Personal anecdotes and self-deprecating humour ('notebook full of mistakes') create warmth. The invitation to tea and mention of a shared activity (gardening club) transition the interaction from transactional to relational.",
+      "cultural_elements": [
+        "Weather as icebreaker",
+        "'Cuppa' (casual term for tea)",
+        "Self-deprecating humour",
+        "South-facing border (UK gardening norm)",
+        "Midlands reference (regional specificity)"
+      ],
+      "rationale": [
+        {
+          "phrase": "Lovely day for it, isn’t it?",
+          "explanation": "Uses weather as a neutral, culturally safe opener to gauge receptiveness."
+        },
+        {
+          "phrase": "I’ve got a notebook full of mistakes",
+          "explanation": "Self-deprecation lowers barriers, making the expert seem approachable."
+        },
+        {
+          "phrase": "Maybe I could buy you a cuppa",
+          "explanation": "Offering tea (a culturally significant gesture) signals willingness to deepen interaction."
+        },
+        {
+          "phrase": "I’m part of a local gardening club",
+          "explanation": "Introduces a shared activity possibility, anchoring potential future meetings."
+        }
+      ]
+    },
+    {
+      "scenario_id": "FRIEND018",
+      "scenario": "Sharing a table at a busy restaurant",
+      "setting": "Popular Restaurant",
+      "social_context": "Necessity-driven sharing, polite interaction",
+      "participants": [
+        "Diner A",
+        "Diner B"
+      ],
+      "customer_profile": "Adaptable, sociable, food-loving",
+      "culture": "UK",
+      "emotions": [
+        "accommodating",
+        "sociable",
+        "satisfied"
+      ],
+      "success_rating": 7,
+      "naturalness_rating": 8,
+      "tone": "polite",
+      "difficulty": "intermediate",
+      "friendship_building_factor": "medium",
+      "humour_potential": "medium",
+      "dialogue": [
+        {
+          "speaker": "Diner A",
+          "text": "Pardon me, mind if I share your table? It’s absolutely chocka in here.",
+          "emotion": "apologetic",
+          "intent": "initiate polite interaction"
+        },
+        {
+          "speaker": "Diner B",
+          "text": "Oh, not at all! Be my guest. I’d hate to eat alone anyway.",
+          "emotion": "friendly",
+          "intent": "accept and encourage conversation"
+        },
+        {
+          "speaker": "Diner A",
+          "text": "Cheers! You’re a lifesaver. Fancy a bite of my chips? They’re proper crispy.",
+          "emotion": "grateful",
+          "intent": "offer food to build rapport"
+        },
+        {
+          "speaker": "Diner B",
+          "text": "Haha, go on then—don’t mind if I do. You’ve convinced me with ‘proper crispy’.",
+          "emotion": "amused",
+          "intent": "accept with light humour"
+        },
+        {
+          "speaker": "Diner A",
+          "text": "So, what brings you here? Local or just passing through?",
+          "emotion": "curious",
+          "intent": "initiate personal sharing"
+        },
+        {
+          "speaker": "Diner B",
+          "text": "Local, thankfully. This place does the best Sunday roast in town—my weekly treat!",
+          "emotion": "enthusiastic",
+          "intent": "share personal routine"
+        },
+        {
+          "speaker": "Diner A",
+          "text": "No kidding? I’ve been meaning to try it! Any other gems you’d recommend round here?",
+          "emotion": "engaged",
+          "intent": "seek advice to continue bonding"
+        },
+        {
+          "speaker": "Diner B",
+          "text": "Oh, loads! There’s a cracking little bakery two streets over—best sourdough this side of the Thames.",
+          "emotion": "excited",
+          "intent": "offer helpful local insight"
+        },
+        {
+          "speaker": "Diner A",
+          "text": "Brilliant! Say… fancy being my food tour guide sometime? I’ll even return the favour with chips.",
+          "emotion": "playful",
+          "intent": "propose future meetup"
+        },
+        {
+          "speaker": "Diner B",
+          "text": "You’ve got yourself a deal! Here—let me jot down my number. Text me next weekend?",
+          "emotion": "warm",
+          "intent": "exchange contact info"
+        }
+      ],
+      "friendship_progression": "The conversation starts with necessity-driven table-sharing, progresses through food-sharing and local recommendations, and culminates in exchanging contact details for future meetups—a natural British approach to building acquaintanceship.",
+      "cultural_elements": [
+        "‘Chocka’ (slang for crowded)",
+        "‘Proper crispy’ (emphasis on quality)",
+        "‘Cracking’ (excellent)",
+        "Polite indirect requests (‘mind if…’)",
+        "Food as social currency"
+      ],
+      "rationale": [
+        {
+          "phrase": "Fancy a bite of my chips?",
+          "explanation": "Offering food creates immediate camaraderie and breaks the ice in British culture, where sharing meals is a bonding ritual."
+        },
+        {
+          "phrase": "You’ve convinced me with ‘proper crispy’.",
+          "explanation": "Light humour about food preferences establishes shared values and eases tension between strangers."
+        },
+        {
+          "phrase": "fancy being my food tour guide sometime?",
+          "explanation": "A low-pressure, activity-based invitation allows the other person to gracefully accept or decline without social awkwardness."
+        }
+      ]
+    },
+    {
+      "scenario_id": "FRIEND020",
+      "scenario": "Meeting at a local football match as spectators",
+      "setting": "Local Football Ground",
+      "social_context": "Shared team loyalty, emotional investment",
+      "participants": [
+        "Football Fan A",
+        "Football Fan B"
+      ],
+      "customer_profile": "Passionate, loyal, community-minded",
+      "culture": "UK",
+      "emotions": [
+        "excited",
+        "passionate",
+        "loyal"
+      ],
+      "success_rating": 9,
+      "naturalness_rating": 10,
+      "tone": "enthusiastic",
+      "difficulty": "intermediate",
+      "friendship_building_factor": "high",
+      "humour_potential": "high",
+      "dialogue": [
+        {
+          "speaker": "Football Fan A",
+          "text": "Blimey, what a start! That pass from Henderson was top drawer, wasn’t it?",
+          "emotion": "excited",
+          "intent": "initiate conversation, share enthusiasm"
+        },
+        {
+          "speaker": "Football Fan B",
+          "text": "Absolutely brilliant! You can always count on him to deliver. Proper captain’s performance.",
+          "emotion": "passionate",
+          "intent": "agree and bond over shared admiration"
+        },
+        {
+          "speaker": "Football Fan A",
+          "text": "Too right! Say, you don’t happen to sit in the Kop end, do you? Your face looks familiar.",
+          "emotion": "curious",
+          "intent": "find common ground"
+        },
+        {
+          "speaker": "Football Fan B",
+          "text": "Ha! Small world—I’m there every home game, row 12. You?",
+          "emotion": "friendly",
+          "intent": "reciprocate and deepen connection"
+        },
+        {
+          "speaker": "Football Fan A",
+          "text": "No way! Row 15 here. Bet we’ve celebrated a fair few goals together without realising!",
+          "emotion": "delighted",
+          "intent": "highlight shared experiences humorously"
+        },
+        {
+          "speaker": "Football Fan B",
+          "text": "That’s mad! Next time we score, I’ll give you a proper nod from the front. Name’s Raj, by the way.",
+          "emotion": "warm",
+          "intent": "personal introduction, future interaction"
+        },
+        {
+          "speaker": "Football Fan A",
+          "text": "Mike. Cheers, Raj! Reckon we’ll need that nod soon—look at Salah tearing down the wing!",
+          "emotion": "excited",
+          "intent": "use humour to sustain energy"
+        },
+        {
+          "speaker": "Football Fan B",
+          "text": "Go on, Mo! Bloke’s a wizard with the ball. Fancy grabbing a pint at halftime? My round.",
+          "emotion": "generous",
+          "intent": "extend social offer"
+        },
+        {
+          "speaker": "Football Fan A",
+          "text": "You’re on! Though if we keep playing like this, we might miss the second half celebrating!",
+          "emotion": "jovial",
+          "intent": "accept and joke to solidify rapport"
+        },
+        {
+          "speaker": "Football Fan B",
+          "text": "Worth it! Here—let’s swap numbers. Could meet up for the derby next month?",
+          "emotion": "enthusiastic",
+          "intent": "escalate to future plans"
+        },
+        {
+          "speaker": "Football Fan A",
+          "text": "Spot on. I’ll bring my mate Dave too—proper laugh, even if he supports the wrong team!",
+          "emotion": "inclusive",
+          "intent": "integrate social circles"
+        }
+      ],
+      "friendship_progression": "The conversation begins with shared excitement over the match, escalates to recognising potential past encounters, and culminates in exchanging contact details and making future plans. Humour and generosity (offering a pint) accelerate bonding.",
+      "cultural_elements": [
+        "‘Blimey’ (British exclamation)",
+        "‘Top drawer’ (high praise)",
+        "‘Proper’ (emphatic usage)",
+        "‘Kop end’ (football culture reference)",
+        "Pint invitation (pub culture)",
+        "Self-deprecating humour about mates"
+      ],
+      "rationale": [
+        {
+          "phrase": "Your face looks familiar",
+          "explanation": "Creates intrigue and invites discovery of shared experiences."
+        },
+        {
+          "phrase": "Next time we score, I’ll give you a proper nod",
+          "explanation": "Humorous future projection fosters continuity."
+        },
+        {
+          "phrase": "Fancy grabbing a pint at halftime?",
+          "explanation": "Casual social offer typical of British camaraderie."
+        },
+        {
+          "phrase": "Could meet up for the derby next month?",
+          "explanation": "Transient interaction shifts to potential friendship via concrete plans."
+        }
+      ]
+    },
+    {
+      "scenario_id": "FRIEND022",
+      "scenario": "Meeting at a co-working space",
+      "setting": "Shared Co-working Space",
+      "social_context": "Professional networking, potential collaboration",
+      "participants": [
+        "Freelancer A",
+        "Freelancer B"
+      ],
+      "customer_profile": "Professional, networking-minded",
+      "culture": "UK",
+      "emotions": [
+        "focused",
+        "curious",
+        "networking"
+      ],
+      "success_rating": 7,
+      "naturalness_rating": 8,
+      "tone": "professional-friendly",
+      "difficulty": "advanced",
+      "friendship_building_factor": "medium",
+      "humour_potential": "low",
+      "dialogue": [
+        {
+          "speaker": "Freelancer A",
+          "text": "Excuse me, is this seat taken? I noticed the plug socket nearby and my laptop’s about to die.",
+          "emotion": "polite",
+          "intent": "initiate contact, practical request"
+        },
+        {
+          "speaker": "Freelancer B",
+          "text": "Not at all, help yourself. Always a nightmare when the battery goes, isn’t it?",
+          "emotion": "friendly",
+          "intent": "acknowledge, share mild frustration"
+        },
+        {
+          "speaker": "Freelancer A",
+          "text": "Tell me about it. Cheers! I’m Alex, by the way. Freelance graphic designer.",
+          "emotion": "grateful",
+          "intent": "introduce self, signal openness"
+        },
+        {
+          "speaker": "Freelancer B",
+          "text": "Jamie. Copywriter. Do you work here often? It’s my first time—quite like the vibe.",
+          "emotion": "curious",
+          "intent": "reciprocate introduction, probe for common ground"
+        },
+        {
+          "speaker": "Freelancer A",
+          "text": "A few times a week. Beats the isolation of home, doesn’t it? That kettle in the kitchen makes a proper brew, too.",
+          "emotion": "warm",
+          "intent": "establish routine, inject light humour"
+        },
+        {
+          "speaker": "Freelancer B",
+          "text": "Ah, a fellow tea enthusiast! That might’ve just sold me on this place. How’s the Wi-Fi holding up for you?",
+          "emotion": "playful",
+          "intent": "bond over shared interest, practical concern"
+        },
+        {
+          "speaker": "Freelancer A",
+          "text": "Surprisingly decent. Had a client call earlier with no drops. You’re welcome to test it—I’ve got the password here.",
+          "emotion": "helpful",
+          "intent": "offer assistance, imply trust"
+        },
+        {
+          "speaker": "Freelancer B",
+          "text": "You’re a lifesaver. Fancy grabbing a cuppa later? Could pick your brains about good spots in the area.",
+          "emotion": "appreciative",
+          "intent": "propose casual follow-up, mutual benefit"
+        },
+        {
+          "speaker": "Freelancer A",
+          "text": "Yeah, why not? There’s a decent café round the corner—does proper biscuits with their brews. Here, let me jot my number down.",
+          "emotion": "agreeable",
+          "intent": "accept invitation, escalate connection"
+        }
+      ],
+      "friendship_progression": "The conversation moves from practical cooperation (sharing space) to personal introductions, shared humour over British tea culture, and ends with exchanging contact details for future meetups—a natural progression from strangers to potential colleagues/friends.",
+      "cultural_elements": [
+        "Use of 'cheers' as thanks",
+        "Tea as social lubricant",
+        "Understated humour ('proper brew')",
+        "Indirect invitation via 'picking brains'"
+      ],
+      "rationale": [
+        {
+          "phrase": "Always a nightmare when the battery goes",
+          "explanation": "Shared mild frustration creates instant camaraderie without oversharing."
+        },
+        {
+          "phrase": "Beats the isolation of home",
+          "explanation": "Casual vulnerability about freelance life invites relatability."
+        },
+        {
+          "phrase": "Fancy grabbing a cuppa later?",
+          "explanation": "Low-pressure invitation framed around cultural ritual maintains professionalism while advancing connection."
+        }
+      ]
+    },
+    {
+      "scenario_id": "FRIEND023",
+      "scenario": "Chatting while waiting for a delayed flight",
+      "setting": "Airport Departure Lounge",
+      "social_context": "Shared inconvenience, time to kill",
+      "participants": [
+        "Traveller A",
+        "Traveller B"
+      ],
+      "customer_profile": "Patient, story-sharing, adaptable",
+      "culture": "UK",
+      "emotions": [
+        "frustrated",
+        "resigned",
+        "sociable"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 9,
+      "tone": "casual",
+      "difficulty": "intermediate",
+      "friendship_building_factor": "medium",
+      "humour_potential": "medium",
+      "dialogue": [
+        {
+          "speaker": "Traveller A",
+          "text": "Blimey, this delay’s a bit of a nightmare, isn’t it?",
+          "emotion": "frustrated",
+          "intent": "initiate conversation, share frustration"
+        },
+        {
+          "speaker": "Traveller B",
+          "text": "Tell me about it. At this rate, we’ll be here till next week!",
+          "emotion": "resigned",
+          "intent": "agree, lighten mood"
+        },
+        {
+          "speaker": "Traveller A",
+          "text": "Ha! Might as well start a book club. What’s your destination, then?",
+          "emotion": "sociable",
+          "intent": "humour, personal inquiry"
+        },
+        {
+          "speaker": "Traveller B",
+          "text": "Headed to Edinburgh for a mate’s wedding. You?",
+          "emotion": "engaged",
+          "intent": "reciprocate, share context"
+        },
+        {
+          "speaker": "Traveller A",
+          "text": "Oh lovely! I’m off to Barcelona—supposed to be there for a work thing tomorrow. Fat chance now.",
+          "emotion": "wry",
+          "intent": "self-deprecating humour, vulnerability"
+        },
+        {
+          "speaker": "Traveller B",
+          "text": "Oof, that’s rough. At least weddings are flexible. Fancy a cuppa while we wait? My treat.",
+          "emotion": "kind",
+          "intent": "offer, deepen interaction"
+        },
+        {
+          "speaker": "Traveller A",
+          "text": "You’re a lifesaver. I could murder a brew. Cheers!",
+          "emotion": "grateful",
+          "intent": "accept, express thanks"
+        },
+        {
+          "speaker": "Traveller B",
+          "text": "No worries. So, Barcelona—what’s the work thing? Unless it’s top secret, of course.",
+          "emotion": "curious",
+          "intent": "follow-up, show interest"
+        },
+        {
+          "speaker": "Traveller A",
+          "text": "Hah, hardly! Just a dull conference. Though if this delay stretches, I might ‘accidentally’ miss it.",
+          "emotion": "playful",
+          "intent": "self-deprecate, bond over shared plight"
+        },
+        {
+          "speaker": "Traveller B",
+          "text": "Smart thinking. Say, if you’re ever in Edinburgh after this, give me a shout. I’ll show you the proper pubs.",
+          "emotion": "warm",
+          "intent": "future plans, friendship seed"
+        },
+        {
+          "speaker": "Traveller A",
+          "text": "Deal! And if you’re near London, I owe you that cuppa. Here—let me grab your number.",
+          "emotion": "enthusiastic",
+          "intent": "reciprocate, solidify connection"
+        }
+      ],
+      "friendship_progression": "Starts with shared frustration over the delay, progresses to humour and personal sharing, then mutual offers of assistance (tea) and future plans, culminating in exchanging contact details.",
+      "cultural_elements": [
+        "‘Blimey’ (British exclamation)",
+        "‘cuppa’ (informal for tea)",
+        "self-deprecating humour",
+        "pub culture reference",
+        "‘cheers’ as thanks"
+      ],
+      "rationale": [
+        {
+          "phrase": "Blimey, this delay’s a bit of a nightmare, isn’t it?",
+          "explanation": "Opens with relatable frustration, inviting agreement and camaraderie."
+        },
+        {
+          "phrase": "At this rate, we’ll be here till next week!",
+          "explanation": "Exaggeration for humour, easing tension and encouraging rapport."
+        },
+        {
+          "phrase": "Fancy a cuppa while we wait? My treat.",
+          "explanation": "Offering a small kindness fosters connection and reciprocity."
+        },
+        {
+          "phrase": "if you’re ever in Edinburgh after this, give me a shout.",
+          "explanation": "Casual future plans signal openness to continued contact."
+        }
+      ]
+    },
+    {
+      "scenario_id": "FRIEND026",
+      "scenario": "Chatting at a museum or historical site",
+      "setting": "Local Museum",
+      "social_context": "Shared learning experience, cultural interest",
+      "participants": [
+        "Museum Visitor A",
+        "Museum Visitor B"
+      ],
+      "customer_profile": "Curious, educational, thoughtful",
+      "culture": "UK",
+      "emotions": [
+        "curious",
+        "impressed",
+        "thoughtful"
+      ],
+      "success_rating": 7,
+      "naturalness_rating": 7,
+      "tone": "thoughtful",
+      "difficulty": "advanced",
+      "friendship_building_factor": "medium",
+      "humour_potential": "low",
+      "dialogue": [
+        {
+          "speaker": "Museum Visitor A",
+          "text": "This exhibit on Victorian life is fascinating, isn’t it? I had no idea how much daily life has changed.",
+          "emotion": "curious",
+          "intent": "initiate conversation, find common interest"
+        },
+        {
+          "speaker": "Museum Visitor B",
+          "text": "Absolutely! It’s mad to think how different things were—like children working in factories. Puts modern complaints into perspective, doesn’t it?",
+          "emotion": "thoughtful",
+          "intent": "agree and reflect, deepen connection"
+        },
+        {
+          "speaker": "Museum Visitor A",
+          "text": "Too right. And the craftsmanship on these artefacts—proper skilled work. Makes you appreciate the detail.",
+          "emotion": "impressed",
+          "intent": "share admiration, bond over appreciation"
+        },
+        {
+          "speaker": "Museum Visitor B",
+          "text": "Definitely. I’m always drawn to the textiles—the embroidery is stunning. Do you visit museums often?",
+          "emotion": "curious",
+          "intent": "personalise conversation, learn about the other"
+        },
+        {
+          "speaker": "Museum Visitor A",
+          "text": "When I can, yeah. This one’s a gem—I love how they’ve laid it out. You?",
+          "emotion": "engaged",
+          "intent": "reciprocate interest, encourage sharing"
+        },
+        {
+          "speaker": "Museum Visitor B",
+          "text": "Same. I try to pop in every few months—they rotate exhibits nicely. Fancy a cuppa after this? The café does a decent brew.",
+          "emotion": "friendly",
+          "intent": "suggest informal follow-up, test friendship potential"
+        },
+        {
+          "speaker": "Museum Visitor A",
+          "text": "Oh, go on then. Could do with a sit-down—and a natter about the rest of the exhibits.",
+          "emotion": "warm",
+          "intent": "accept and extend interaction"
+        },
+        {
+          "speaker": "Museum Visitor B",
+          "text": "Brilliant. Maybe we can compare notes on the Roman section next—I’ve heard they’ve added new pieces.",
+          "emotion": "enthusiastic",
+          "intent": "plant seed for future interaction"
+        }
+      ],
+      "friendship_progression": "The conversation starts with shared admiration for the exhibit, moves to personal museum habits, and culminates in an invitation to continue chatting over tea—a classic British social step. The offer to revisit another section hints at future meet-ups.",
+      "cultural_elements": [
+        "‘Proper skilled work’ (colloquial admiration)",
+        "‘Pop in’ (casual visiting)",
+        "‘Fancy a cuppa’ (informal tea invitation)",
+        "‘Go on then’ (playful agreement)"
+      ],
+      "rationale": [
+        {
+          "phrase": "This exhibit on Victorian life is fascinating, isn’t it?",
+          "explanation": "Opens with a neutral, culturally relevant topic to gauge interest and invite participation."
+        },
+        {
+          "phrase": "Puts modern complaints into perspective, doesn’t it?",
+          "explanation": "Uses a reflective question to deepen the exchange beyond surface-level observation."
+        },
+        {
+          "phrase": "Fancy a cuppa after this?",
+          "explanation": "Lowers the stakes of friendship-building with a low-pressure, culturally normalised suggestion."
+        },
+        {
+          "phrase": "Maybe we can compare notes on the Roman section next",
+          "explanation": "Implies future interaction without overcommitment, leaving room for organic connection."
+        }
+      ]
+    },
+    {
+      "scenario_id": "FRIEND027",
+      "scenario": "Bonding over shared weather experience (snow day, heatwave)",
+      "setting": "Public Space During Extreme Weather",
+      "social_context": "Shared experience, mutual support",
+      "participants": [
+        "Person A",
+        "Person B"
+      ],
+      "customer_profile": "Resilient, community-minded, humorous",
+      "culture": "UK",
+      "emotions": [
+        "resilient",
+        "humorous",
+        "supportive"
+      ],
+      "success_rating": 9,
+      "naturalness_rating": 10,
+      "tone": "humorous",
+      "difficulty": "intermediate",
+      "friendship_building_factor": "high",
+      "humour_potential": "high",
+      "dialogue": [
+        {
+          "speaker": "Person A",
+          "text": "Blimey, this snow’s coming down like someone’s shaken a giant snow globe, isn’t it?",
+          "emotion": "amused",
+          "intent": "break the ice with humour"
+        },
+        {
+          "speaker": "Person B",
+          "text": "Tell me about it! I half expect a polar bear to wander past at this rate. Fancy a cuppa while we wait it out? There’s a café just there.",
+          "emotion": "playful",
+          "intent": "extend friendly invitation"
+        },
+        {
+          "speaker": "Person A",
+          "text": "You’re a lifesaver – my fingers have gone full icicle mode. Though I warn you, I take my tea so strong it could trot.",
+          "emotion": "grateful",
+          "intent": "accept while sharing personal quirk"
+        },
+        {
+          "speaker": "Person B",
+          "text": "Hah! My gran always said proper tea should be able to stand a spoon up in it. You’d get her seal of approval.",
+          "emotion": "nostalgic",
+          "intent": "bond over shared cultural reference"
+        },
+        {
+          "speaker": "Person A",
+          "text": "Sounds like my kind of woman. Right then – race you to the café before we both turn into snowmen? Loser buys the biscuits.",
+          "emotion": "challenging",
+          "intent": "escalate playful interaction"
+        },
+        {
+          "speaker": "Person B",
+          "text": "Oh you’re on! Though fair warning – I was county junior sprint champion. Your wallet’s about to fund some custard creams.",
+          "emotion": "competitive",
+          "intent": "engage in light-hearted banter"
+        },
+        {
+          "speaker": "Person A",
+          "text": "*pretends to tie shoelaces* Ahem, false start! Blimey, is that your Olympic training regimen – terrifying innocent tea drinkers?",
+          "emotion": "mock-outraged",
+          "intent": "continue humorous exchange"
+        },
+        {
+          "speaker": "Person B",
+          "text": "Cheeky! Right, truce – let’s waddle there together like sensible penguins before someone breaks a hip on this ice.",
+          "emotion": "caring",
+          "intent": "show concern through humour"
+        },
+        {
+          "speaker": "Person A",
+          "text": "Wise words. Say… you seem like good people to be stranded in an arctic wasteland with. Fancy exchanging numbers for future weather emergencies?",
+          "emotion": "hopeful",
+          "intent": "initiate friendship transition"
+        },
+        {
+          "speaker": "Person B",
+          "text": "Absolutely! Next heatwave we can complain about melting together. Here – *pulls out phone* I’ll be your official British Weather Moaning Buddy.",
+          "emotion": "enthusiastic",
+          "intent": "accept and cement connection"
+        }
+      ],
+      "friendship_progression": "Starts with weather-related banter, escalates through playful challenges and cultural references, transitions to care-taking humour, and culminates in exchanging contact information framed as 'weather emergency support' – a very British approach to friendship initiation.",
+      "cultural_elements": [
+        "‘Blimey’ as an exclamation",
+        "Tea strength as personality indicator",
+        "Custard creams reference",
+        "Self-deprecating humour about weather",
+        "‘Moaning’ as national pastime"
+      ],
+      "rationale": [
+        {
+          "phrase": "Fancy a cuppa while we wait it out?",
+          "explanation": "British social lubricant – offering tea creates instant camaraderie and provides natural next step for interaction."
+        },
+        {
+          "phrase": "Loser buys the biscuits",
+          "explanation": "Playful challenge with low stakes creates shared experience and future interaction opportunity."
+        },
+        {
+          "phrase": "Official British Weather Moaning Buddy",
+          "explanation": "Humorous framing of contact exchange makes it feel culturally specific and less socially risky."
+        }
+      ]
+    },
+    {
+      "scenario_id": "FRIEND028",
+      "scenario": "Meeting at a car boot sale or flea market",
+      "setting": "Car Boot Sale",
+      "social_context": "Treasure hunting together, shared discoveries",
+      "participants": [
+        "Bargain Hunter A",
+        "Bargain Hunter B"
+      ],
+      "customer_profile": "Thrifty, curious, sociable",
+      "culture": "UK",
+      "emotions": [
+        "excited",
+        "collaborative",
+        "satisfied"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 9,
+      "tone": "enthusiastic",
+      "difficulty": "intermediate",
+      "friendship_building_factor": "medium",
+      "humour_potential": "medium",
+      "dialogue": [
+        {
+          "speaker": "Bargain Hunter A",
+          "text": "Blimey, look at this vintage teapot! Proper steal at a fiver, innit?",
+          "emotion": "excited",
+          "intent": "share discovery"
+        },
+        {
+          "speaker": "Bargain Hunter B",
+          "text": "Oh, that’s a cracking find! My nan’s got one just like it—still works a treat after 40 years.",
+          "emotion": "nostalgic",
+          "intent": "relate personally"
+        },
+        {
+          "speaker": "Bargain Hunter A",
+          "text": "No way! Maybe I should snap it up then. You’ve got a good eye—spot anything else decent here?",
+          "emotion": "curious",
+          "intent": "seek collaboration"
+        },
+        {
+          "speaker": "Bargain Hunter B",
+          "text": "Actually, that box of records over there—some real gems if you fancy a rummage. Fancy splitting the cost if we find a set?",
+          "emotion": "playful",
+          "intent": "propose teamwork"
+        },
+        {
+          "speaker": "Bargain Hunter A",
+          "text": "You’re on! Nothing like a bit of vinyl hunting. Found anything yourself yet?",
+          "emotion": "enthusiastic",
+          "intent": "build rapport"
+        },
+        {
+          "speaker": "Bargain Hunter B",
+          "text": "A mint-condition '70s scarf earlier—total fluke. These boot sales are hit or miss, but that’s half the fun, eh?",
+          "emotion": "satisfied",
+          "intent": "share success"
+        },
+        {
+          "speaker": "Bargain Hunter A",
+          "text": "Too right! Say, you seem to know your stuff—d’you often do the rounds at these?",
+          "emotion": "interested",
+          "intent": "explore common interest"
+        },
+        {
+          "speaker": "Bargain Hunter B",
+          "text": "Every Sunday if I can! There’s a brilliant one in Peckham next week—fancy joining? Safety in numbers against the early birds!",
+          "emotion": "friendly",
+          "intent": "suggest future plans"
+        },
+        {
+          "speaker": "Bargain Hunter A",
+          "text": "Peckham? Sold! Let’s swap numbers—I’ll bring the thermos if you bring the bargaining charm.",
+          "emotion": "cheerful",
+          "intent": "solidify connection"
+        },
+        {
+          "speaker": "Bargain Hunter B",
+          "text": "Deal! Though warning: my charm’s only as good as the coffee.",
+          "emotion": "humorous",
+          "intent": "lighten mood"
+        }
+      ],
+      "friendship_progression": "Starts with shared excitement over finds, progresses to collaborative hunting, and culminates in exchanging contact info for future outings—bonding over thrifting passion and humour.",
+      "cultural_elements": [
+        "British slang ('blimey', 'innit', 'cracking')",
+        "Car boot sale tradition",
+        "Reference to Peckham (London locale)",
+        "Self-deprecating humour"
+      ],
+      "rationale": [
+        {
+          "phrase": "Proper steal at a fiver",
+          "explanation": "Casual praise of a find invites agreement and shared enthusiasm."
+        },
+        {
+          "phrase": "Safety in numbers against the early birds",
+          "explanation": "Humorous exaggeration creates camaraderie around a common 'enemy' (competitive shoppers)."
+        },
+        {
+          "phrase": "Let’s swap numbers",
+          "explanation": "Direct yet low-pressure suggestion to continue the connection beyond the immediate interaction."
+        }
+      ]
+    },
+    {
+      "scenario_id": "FRIEND029",
+      "scenario": "Meeting at a comedy show or theatre",
+      "setting": "Local Theatre / Comedy Club",
+      "social_context": "Shared entertainment, reaction-based bonding",
+      "participants": [
+        "Audience Member A",
+        "Audience Member B"
+      ],
+      "customer_profile": "Entertainment-loving, socially aware",
+      "culture": "UK",
+      "emotions": [
+        "entertained",
+        "amused",
+        "connected"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 8,
+      "tone": "entertained",
+      "difficulty": "intermediate",
+      "friendship_building_factor": "medium",
+      "humour_potential": "high",
+      "dialogue": [
+        {
+          "speaker": "Audience Member A",
+          "text": "Blimey, that last joke was proper cheeky, wasn’t it?",
+          "emotion": "amused",
+          "intent": "initiate conversation, share reaction"
+        },
+        {
+          "speaker": "Audience Member B",
+          "text": "Absolutely! I nearly spat out my drink. The way he delivered it—priceless.",
+          "emotion": "entertained",
+          "intent": "agree and bond over humour"
+        },
+        {
+          "speaker": "Audience Member A",
+          "text": "You’re not wrong. Reminds me of a bloke I saw in Edinburgh last year—same deadpan style.",
+          "emotion": "nostalgic",
+          "intent": "share personal anecdote to connect"
+        },
+        {
+          "speaker": "Audience Member B",
+          "text": "Oh, you go to the Fringe? I’ve been meaning to—any recommendations?",
+          "emotion": "interested",
+          "intent": "show curiosity, steer toward common interests"
+        },
+        {
+          "speaker": "Audience Member A",
+          "text": "Loads! There’s this improv group, ‘The Pretendy Fun Times’—sounds daft, but they had me in stitches.",
+          "emotion": "enthusiastic",
+          "intent": "offer value, invite further discussion"
+        },
+        {
+          "speaker": "Audience Member B",
+          "text": "Brilliant name! I’ll jot that down. Say, d’you come here often? This place is a gem.",
+          "emotion": "friendly",
+          "intent": "hint at future interactions"
+        },
+        {
+          "speaker": "Audience Member A",
+          "text": "Once a month, if I’m lucky. Fancy grabbing a pint after? They do a cracking ale at the pub next door.",
+          "emotion": "warm",
+          "intent": "propose casual meet-up"
+        },
+        {
+          "speaker": "Audience Member B",
+          "text": "Go on then—you’ve sold me. Name’s Liam, by the way.",
+          "emotion": "open",
+          "intent": "formalise connection"
+        },
+        {
+          "speaker": "Audience Member A",
+          "text": "Cheers, Liam! I’m Priya. Let’s nab a seat before the encore—I’ll tell you about the time I heckled a magician.",
+          "emotion": "playful",
+          "intent": "deepen rapport with humour"
+        }
+      ],
+      "friendship_progression": "Starts with shared laughter over a joke, progresses to personal anecdotes and common interests (comedy festivals), and culminates in a casual plan to continue the conversation post-show.",
+      "cultural_elements": [
+        "‘Blimey’ (British exclamation)",
+        "‘Proper cheeky’ (colloquial praise)",
+        "‘Cracking ale’ (pub culture reference)",
+        "Casual pint invitation (British social norm)"
+      ],
+      "rationale": [
+        {
+          "phrase": "Reminds me of a bloke I saw in Edinburgh...",
+          "explanation": "Personal sharing creates relatability and opens doors to deeper conversation."
+        },
+        {
+          "phrase": "Fancy grabbing a pint after?",
+          "explanation": "Low-pressure invitation signals openness to friendship without overcommitment."
+        },
+        {
+          "phrase": "Let’s nab a seat before the encore...",
+          "explanation": "Lighthearted future-planning implies continued interaction."
+        }
+      ]
+    },
+    {
+      "scenario_id": "FRIEND030",
+      "scenario": "Meeting at a mindfulness or meditation group",
+      "setting": "Community Centre / Wellness Studio",
+      "social_context": "Shared wellness journey, mutual support",
+      "participants": [
+        "Wellness Seeker A",
+        "Wellness Seeker B"
+      ],
+      "customer_profile": "Mindful, supportive, growth-oriented",
+      "culture": "UK",
+      "emotions": [
+        "peaceful",
+        "supportive",
+        "connected"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 7,
+      "tone": "gentle",
+      "difficulty": "advanced",
+      "friendship_building_factor": "high",
+      "humour_potential": "low",
+      "dialogue": [
+        {
+          "speaker": "Wellness Seeker A",
+          "text": "Lovely session today, wasn’t it? I always find the guided breathing so calming.",
+          "emotion": "peaceful",
+          "intent": "initiate conversation, share positive experience"
+        },
+        {
+          "speaker": "Wellness Seeker B",
+          "text": "Absolutely. It’s my first time here—was a bit nervous, but the instructor’s voice is so soothing.",
+          "emotion": "relieved",
+          "intent": "admit vulnerability, seek connection"
+        },
+        {
+          "speaker": "Wellness Seeker A",
+          "text": "Oh, welcome then! I’ve been coming for a few months now. It gets easier—you’ll find your rhythm.",
+          "emotion": "encouraging",
+          "intent": "offer reassurance, establish common ground"
+        },
+        {
+          "speaker": "Wellness Seeker B",
+          "text": "That’s good to hear. Do you do other mindfulness practices outside the group?",
+          "emotion": "curious",
+          "intent": "deepen conversation, explore shared interests"
+        },
+        {
+          "speaker": "Wellness Seeker A",
+          "text": "I’ve started journaling, actually. It’s a bit hit and miss, but it helps me unwind. You?",
+          "emotion": "reflective",
+          "intent": "share personal habit, invite reciprocity"
+        },
+        {
+          "speaker": "Wellness Seeker B",
+          "text": "I’ve been trying yoga—though I’m hopeless at balancing! Still, it’s about the journey, isn’t it?",
+          "emotion": "self-deprecating",
+          "intent": "show humility, align with wellness philosophy"
+        },
+        {
+          "speaker": "Wellness Seeker A",
+          "text": "Too right. I admire that attitude. Maybe we could swap tips sometime—yoga for journaling?",
+          "emotion": "warm",
+          "intent": "suggest future interaction, mutual exchange"
+        },
+        {
+          "speaker": "Wellness Seeker B",
+          "text": "I’d like that. Do you fancy a cuppa after next week’s session? There’s a quiet café round the corner.",
+          "emotion": "hopeful",
+          "intent": "propose concrete plan, extend friendship"
+        },
+        {
+          "speaker": "Wellness Seeker A",
+          "text": "That sounds perfect. Let’s exchange numbers—just in case one of us runs late, yeah?",
+          "emotion": "agreeable",
+          "intent": "solidify plans, normalise contact exchange"
+        }
+      ],
+      "friendship_progression": "The conversation begins with a shared positive experience in the session, progresses to personal disclosures about wellness practices, and culminates in a concrete plan to meet outside the group. Mutual support and curiosity drive the interaction.",
+      "cultural_elements": [
+        "‘Lovely session’ (understated positivity)",
+        "‘cuppa’ (colloquial for tea)",
+        "self-deprecating humour about yoga",
+        "indirect suggestion to exchange numbers (‘just in case’)",
+        "café as neutral meeting space"
+      ],
+      "rationale": [
+        {
+          "phrase": "Lovely session today, wasn’t it?",
+          "explanation": "Opens with a neutral but positive observation about a shared experience, inviting agreement and dialogue."
+        },
+        {
+          "phrase": "It’s about the journey, isn’t it?",
+          "explanation": "Philosophical reflection reinforces shared values, creating emotional alignment."
+        },
+        {
+          "phrase": "Maybe we could swap tips sometime",
+          "explanation": "Offers a low-pressure future interaction framed as mutual benefit, not obligation."
+        },
+        {
+          "phrase": "Let’s exchange numbers—just in case",
+          "explanation": "British indirectness softens the request for contact details, making it socially comfortable."
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "total_scenarios": 30,
+    "generated_conversations": 21,
+    "focus": "stranger-to-friend interactions",
+    "culture": "UK English",
+    "designed_for": "language learning with friendship building focus"
+  }
+}

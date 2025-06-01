@@ -1,0 +1,2775 @@
+{
+  "conversations": [
+    {
+      "scenario_id": "SOC001",
+      "scenario": "Introducing yourself to someone at a party",
+      "setting": "House Party",
+      "social_context": "Social gathering, mutual friends",
+      "participants": [
+        "Party Guest A",
+        "Party Guest B"
+      ],
+      "customer_profile": "Nervous but social, wants to expand circle",
+      "culture": "UK",
+      "emotions": [
+        "nervous",
+        "friendly",
+        "hopeful"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 9,
+      "tone": "casual",
+      "difficulty": "beginner",
+      "humour_potential": "medium",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: House Party\n- Scenario: Introducing yourself to someone at a party\n- Social Context: Social gathering, mutual friends\n- Customer Profile: Nervous but social, wants to expand circle\n- Emotions: nervous, friendly, hopeful\n- Tone: casual (relaxed but professional)\n- Participants: Party Guest A, Party Guest B\n- Difficulty: beginner\n- Humour Potential: medium\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"casual\",\n  \"difficulty\": \"beginner\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Party Guest A",
+          "text": "Hi there! I don’t think we’ve met. I’m Alex.",
+          "emotion": "friendly",
+          "intent": "introduce self"
+        },
+        {
+          "speaker": "Party Guest B",
+          "text": "Oh, hello! I’m Jamie. Nice to meet you. How do you know the host?",
+          "emotion": "warm",
+          "intent": "reciprocate introduction"
+        },
+        {
+          "speaker": "Party Guest A",
+          "text": "We work together. Well, sort of—same office, different departments. You?",
+          "emotion": "relaxed",
+          "intent": "build connection"
+        },
+        {
+          "speaker": "Party Guest B",
+          "text": "Ah, right! We went to uni together. Fancy a drink? I’m heading to the kitchen.",
+          "emotion": "hopeful",
+          "intent": "extend friendly gesture"
+        },
+        {
+          "speaker": "Party Guest A",
+          "text": "Cheers! That’d be lovely. I’ll join you—this party’s a bit overwhelming, isn’t it?",
+          "emotion": "grateful",
+          "intent": "express camaraderie"
+        },
+        {
+          "speaker": "Party Guest B",
+          "text": "Tell me about it! At least the music’s decent. Do you like indie stuff?",
+          "emotion": "playful",
+          "intent": "find common ground"
+        }
+      ],
+      "cultural_notes": [
+        "Using 'cheers' for 'thank you' is very British and casual.",
+        "Asking how someone knows the host is a common icebreaker at UK parties."
+      ],
+      "rationale": [
+        {
+          "phrase": "Fancy a drink?",
+          "explanation": "A quintessentially British way to casually offer someone a beverage, often used to break the ice."
+        },
+        {
+          "phrase": "Tell me about it!",
+          "explanation": "A colloquial expression of agreement, often used to bond over shared experiences or feelings."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC002",
+      "scenario": "Starting conversation with someone sitting alone",
+      "setting": "University Cafeteria",
+      "social_context": "Academic environment, potential study buddy",
+      "participants": [
+        "Friendly Student",
+        "Lone Student"
+      ],
+      "customer_profile": "Empathetic, socially aware",
+      "culture": "UK",
+      "emotions": [
+        "considerate",
+        "curious",
+        "welcoming"
+      ],
+      "success_rating": 7,
+      "naturalness_rating": 8,
+      "tone": "gentle",
+      "difficulty": "intermediate",
+      "humour_potential": "low",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: University Cafeteria\n- Scenario: Starting conversation with someone sitting alone\n- Social Context: Academic environment, potential study buddy\n- Customer Profile: Empathetic, socially aware\n- Emotions: considerate, curious, welcoming\n- Tone: gentle (soft, considerate)\n- Participants: Friendly Student, Lone Student\n- Difficulty: intermediate\n- Humour Potential: low\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"gentle\",\n  \"difficulty\": \"intermediate\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Friendly Student",
+          "text": "Mind if I join you? The cafeteria’s packed today.",
+          "emotion": "considerate",
+          "intent": "initiate conversation"
+        },
+        {
+          "speaker": "Lone Student",
+          "text": "Oh, not at all! Please do.",
+          "emotion": "grateful",
+          "intent": "welcome company"
+        },
+        {
+          "speaker": "Friendly Student",
+          "text": "Cheers. I’m Alex, by the way. You’re in the Psychology lectures, right?",
+          "emotion": "friendly",
+          "intent": "establish connection"
+        },
+        {
+          "speaker": "Lone Student",
+          "text": "Yeah, I am! Jamie. You’ve got a good memory—I usually sit near the back.",
+          "emotion": "surprised",
+          "intent": "acknowledge recognition"
+        },
+        {
+          "speaker": "Friendly Student",
+          "text": "Ah, that’s it. I’m just across the aisle. Those stats modules are brutal—fancy revising together sometime?",
+          "emotion": "encouraging",
+          "intent": "propose collaboration"
+        },
+        {
+          "speaker": "Lone Student",
+          "text": "That’d be brilliant, actually. I’ve been struggling a bit on my own.",
+          "emotion": "relieved",
+          "intent": "accept offer"
+        },
+        {
+          "speaker": "Friendly Student",
+          "text": "Sorted! Let’s swap numbers before we forget.",
+          "emotion": "warm",
+          "intent": "solidify plans"
+        }
+      ],
+      "cultural_notes": [
+        "‘Cheers’ is commonly used in British English to mean ‘thank you’ or ‘goodbye’ in casual settings.",
+        "‘Sorted’ is a colloquial British phrase meaning ‘agreed’ or ‘arranged’, often used to confirm plans."
+      ],
+      "rationale": [
+        {
+          "phrase": "Mind if I join you?",
+          "explanation": "A polite and indirect British way to ask permission, avoiding direct imposition."
+        },
+        {
+          "phrase": "That’d be brilliant",
+          "explanation": "A typically British understated expression of enthusiasm, replacing stronger language like ‘amazing’."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC003",
+      "scenario": "Complimenting someone's style/item to start conversation",
+      "setting": "Coffee Shop Queue",
+      "social_context": "Casual public setting, brief interaction",
+      "participants": [
+        "Coffee Customer A",
+        "Coffee Customer B"
+      ],
+      "customer_profile": "Observant, socially confident",
+      "culture": "UK",
+      "emotions": [
+        "admiring",
+        "friendly",
+        "casual"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 9,
+      "tone": "casual",
+      "difficulty": "beginner",
+      "humour_potential": "medium",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: Coffee Shop Queue\n- Scenario: Complimenting someone's style/item to start conversation\n- Social Context: Casual public setting, brief interaction\n- Customer Profile: Observant, socially confident\n- Emotions: admiring, friendly, casual\n- Tone: casual (relaxed but professional)\n- Participants: Coffee Customer A, Coffee Customer B\n- Difficulty: beginner\n- Humour Potential: medium\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"casual\",\n  \"difficulty\": \"beginner\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Coffee Customer A",
+          "text": "Excuse me, I just had to say—I love your scarf! The pattern is brilliant.",
+          "emotion": "admiring",
+          "intent": "start conversation with a compliment"
+        },
+        {
+          "speaker": "Coffee Customer B",
+          "text": "Oh, thanks! Got it from a little shop in Brighton. You’ve got a keen eye!",
+          "emotion": "friendly",
+          "intent": "acknowledge compliment and reciprocate warmth"
+        },
+        {
+          "speaker": "Coffee Customer A",
+          "text": "Brighton, eh? That explains the vibe. Much nicer than my boring high street find!",
+          "emotion": "playful",
+          "intent": "light banter to keep conversation flowing"
+        },
+        {
+          "speaker": "Coffee Customer B",
+          "text": "Ha! Well, if you ever fancy a day trip, I’ll point you to the shop. Best cuppa in town too!",
+          "emotion": "cheerful",
+          "intent": "offer friendly suggestion and close conversation naturally"
+        }
+      ],
+      "cultural_notes": [
+        "Complimenting someone's clothing is a common icebreaker in the UK, often leading to light conversation.",
+        "Mentioning specific locations (e.g., Brighton) adds authenticity and can spark further dialogue about shared experiences."
+      ],
+      "rationale": [
+        {
+          "phrase": "The pattern is brilliant.",
+          "explanation": "Using 'brilliant' instead of 'nice' or 'pretty' is a distinctly British way to express enthusiastic approval casually."
+        },
+        {
+          "phrase": "Best cuppa in town too!",
+          "explanation": "'Cuppa' is a colloquial British term for tea (or sometimes coffee), making the dialogue feel more natural and locally grounded."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC004",
+      "scenario": "Bonding over shared experience (delayed train/flight)",
+      "setting": "Train Station Platform",
+      "social_context": "Shared inconvenience, temporary companionship",
+      "participants": [
+        "Stranded Passenger A",
+        "Stranded Passenger B"
+      ],
+      "customer_profile": "Adaptable, makes best of situations",
+      "culture": "UK",
+      "emotions": [
+        "frustrated",
+        "amused",
+        "companionable"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 9,
+      "tone": "casual",
+      "difficulty": "beginner",
+      "humour_potential": "high",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: Train Station Platform\n- Scenario: Bonding over shared experience (delayed train/flight)\n- Social Context: Shared inconvenience, temporary companionship\n- Customer Profile: Adaptable, makes best of situations\n- Emotions: frustrated, amused, companionable\n- Tone: casual (relaxed but professional)\n- Participants: Stranded Passenger A, Stranded Passenger B\n- Difficulty: beginner\n- Humour Potential: high\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"casual\",\n  \"difficulty\": \"beginner\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Stranded Passenger A",
+          "text": "Blimey, this train’s delayed again! Typical British transport, eh?",
+          "emotion": "frustrated",
+          "intent": "vent about the situation"
+        },
+        {
+          "speaker": "Stranded Passenger B",
+          "text": "Tell me about it! At this rate, we’ll be here till Christmas.",
+          "emotion": "amused",
+          "intent": "lighten the mood with humour"
+        },
+        {
+          "speaker": "Stranded Passenger A",
+          "text": "Might as well grab a cuppa while we wait. Fancy joining me?",
+          "emotion": "companionable",
+          "intent": "offer companionship"
+        },
+        {
+          "speaker": "Stranded Passenger B",
+          "text": "Why not? If we’re stuck, might as well make the best of it!",
+          "emotion": "cheerful",
+          "intent": "accept and bond over shared inconvenience"
+        }
+      ],
+      "cultural_notes": [
+        "‘Blimey’ is a common British exclamation expressing surprise or frustration, often used in casual conversation.",
+        "Offering a ‘cuppa’ (cup of tea) is a quintessentially British way to bond or show hospitality, even in inconvenient situations."
+      ],
+      "rationale": [
+        {
+          "phrase": "Typical British transport, eh?",
+          "explanation": "This phrase reflects the British tendency to complain humorously about public transport, a shared cultural experience."
+        },
+        {
+          "phrase": "At this rate, we’ll be here till Christmas.",
+          "explanation": "This hyperbolic humour is a common British way to downplay frustration and connect with others."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC005",
+      "scenario": "Asking to join a group activity (board game, sport)",
+      "setting": "Community Center",
+      "social_context": "Organized activity, seeking inclusion",
+      "participants": [
+        "Newcomer",
+        "Group Representative"
+      ],
+      "customer_profile": "Brave, activity-oriented",
+      "culture": "UK",
+      "emotions": [
+        "hopeful",
+        "slightly nervous",
+        "enthusiastic"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 8,
+      "tone": "friendly",
+      "difficulty": "intermediate",
+      "humour_potential": "medium",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: Community Center\n- Scenario: Asking to join a group activity (board game, sport)\n- Social Context: Organized activity, seeking inclusion\n- Customer Profile: Brave, activity-oriented\n- Emotions: hopeful, slightly nervous, enthusiastic\n- Tone: friendly (warm, familiar)\n- Participants: Newcomer, Group Representative\n- Difficulty: intermediate\n- Humour Potential: medium\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"friendly\",\n  \"difficulty\": \"intermediate\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Newcomer",
+          "text": "Hi there! Mind if I join in? I’ve been dying to try this board game.",
+          "emotion": "hopeful",
+          "intent": "seeking inclusion"
+        },
+        {
+          "speaker": "Group Representative",
+          "text": "Oh, brilliant! The more the merrier. We’re just setting up—fancy being on my team?",
+          "emotion": "enthusiastic",
+          "intent": "welcoming"
+        },
+        {
+          "speaker": "Newcomer",
+          "text": "That’d be lovely, cheers! I’m a bit rusty, so go easy on me.",
+          "emotion": "slightly nervous",
+          "intent": "self-deprecating humour"
+        },
+        {
+          "speaker": "Group Representative",
+          "text": "No worries, we’re all here for a laugh. Just don’t blame me if we lose!",
+          "emotion": "playful",
+          "intent": "light banter"
+        },
+        {
+          "speaker": "Newcomer",
+          "text": "Deal! Though I can’t promise I won’t throw you under the bus if things go south.",
+          "emotion": "amused",
+          "intent": "witty retort"
+        },
+        {
+          "speaker": "Group Representative",
+          "text": "Ha! Fair play. Right, let’s get started—hope you’re ready for some friendly rivalry.",
+          "emotion": "energetic",
+          "intent": "transition to activity"
+        }
+      ],
+      "cultural_notes": [
+        "‘The more the merrier’ is a common British phrase emphasising inclusivity and warmth in social settings.",
+        "‘Fair play’ is often used to acknowledge a witty or good-natured remark, reflecting British appreciation for humour and sportsmanship."
+      ],
+      "rationale": [
+        {
+          "phrase": "‘That’d be lovely, cheers!’",
+          "explanation": "Combines politeness (‘lovely’) with casual gratitude (‘cheers’), typical of British friendliness in informal settings."
+        },
+        {
+          "phrase": "‘Just don’t blame me if we lose!’",
+          "explanation": "Uses self-deprecating humour to put the newcomer at ease, a common tactic in British social interactions to avoid seeming overly competitive."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC006",
+      "scenario": "Discovering shared interests/hobbies",
+      "setting": "Bookstore",
+      "social_context": "Casual encounter, common ground discovery",
+      "participants": [
+        "Book Browser A",
+        "Book Browser B"
+      ],
+      "customer_profile": "Curious, loves deep conversations",
+      "culture": "UK",
+      "emotions": [
+        "excited",
+        "engaged",
+        "connected"
+      ],
+      "success_rating": 9,
+      "naturalness_rating": 9,
+      "tone": "enthusiastic",
+      "difficulty": "intermediate",
+      "humour_potential": "medium",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: Bookstore\n- Scenario: Discovering shared interests/hobbies\n- Social Context: Casual encounter, common ground discovery\n- Customer Profile: Curious, loves deep conversations\n- Emotions: excited, engaged, connected\n- Tone: enthusiastic (passionate, excited)\n- Participants: Book Browser A, Book Browser B\n- Difficulty: intermediate\n- Humour Potential: medium\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"enthusiastic\",\n  \"difficulty\": \"intermediate\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Book Browser A",
+          "text": "Oh, you've got the new Zadie Smith! I've been dying to read that. What do you think of her work?",
+          "emotion": "excited",
+          "intent": "initiate conversation and find common ground"
+        },
+        {
+          "speaker": "Book Browser B",
+          "text": "Absolutely love her! Her characters feel so real, don't they? I'm a sucker for London-set novels.",
+          "emotion": "engaged",
+          "intent": "share enthusiasm and connect"
+        },
+        {
+          "speaker": "Book Browser A",
+          "text": "Same here! There's something about how she captures the city's vibe. Are you from London originally?",
+          "emotion": "curious",
+          "intent": "deepen conversation and learn more"
+        },
+        {
+          "speaker": "Book Browser B",
+          "text": "Born and bred, mate. Though I swear I notice new things about the city every time I read her books. Proper eye-opener!",
+          "emotion": "passionate",
+          "intent": "share personal connection with humour"
+        },
+        {
+          "speaker": "Book Browser A",
+          "text": "Hah! That's brilliant. I'm from Manchester myself, but London's grown on me. Fancy a cuppa while we natter about books?",
+          "emotion": "friendly",
+          "intent": "extend friendship offer casually"
+        },
+        {
+          "speaker": "Book Browser B",
+          "text": "You're on! Though fair warning - once I start talking books, I don't know when to stop. Hope you've got all afternoon!",
+          "emotion": "playful",
+          "intent": "accept with light-hearted warning"
+        }
+      ],
+      "cultural_notes": [
+        "Using 'mate' creates instant informal camaraderie in British conversations",
+        "Inviting for 'a cuppa' (cup of tea) is a classic British way to extend friendship"
+      ],
+      "rationale": [
+        {
+          "phrase": "Proper eye-opener!",
+          "explanation": "Quintessentially British phrasing that adds emphasis while sounding natural in conversation."
+        },
+        {
+          "phrase": "Born and bred, mate.",
+          "explanation": "Colloquial British expression showing local pride, with 'mate' establishing friendly tone."
+        },
+        {
+          "phrase": "Fancy a cuppa while we natter about books?",
+          "explanation": "Combines two very British elements - tea ('cuppa') and chatty conversation ('natter')."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC007",
+      "scenario": "Exchanging contact information after good conversation",
+      "setting": "Networking Event",
+      "social_context": "Professional but friendly, future connection",
+      "participants": [
+        "Professional A",
+        "Professional B"
+      ],
+      "customer_profile": "Strategic networker, genuinely interested",
+      "culture": "UK",
+      "emotions": [
+        "pleased",
+        "optimistic",
+        "professional"
+      ],
+      "success_rating": 9,
+      "naturalness_rating": 8,
+      "tone": "friendly",
+      "difficulty": "intermediate",
+      "humour_potential": "low",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: Networking Event\n- Scenario: Exchanging contact information after good conversation\n- Social Context: Professional but friendly, future connection\n- Customer Profile: Strategic networker, genuinely interested\n- Emotions: pleased, optimistic, professional\n- Tone: friendly (warm, familiar)\n- Participants: Professional A, Professional B\n- Difficulty: intermediate\n- Humour Potential: low\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"friendly\",\n  \"difficulty\": \"intermediate\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Professional A",
+          "text": "It's been really lovely chatting with you today. I've genuinely enjoyed our conversation.",
+          "emotion": "pleased",
+          "intent": "express appreciation"
+        },
+        {
+          "speaker": "Professional B",
+          "text": "Likewise! It’s not often you meet someone with such shared interests at these events.",
+          "emotion": "optimistic",
+          "intent": "reciprocate warmth"
+        },
+        {
+          "speaker": "Professional A",
+          "text": "Absolutely. Would you be up for exchanging details? I’d love to stay in touch.",
+          "emotion": "professional",
+          "intent": "initiate connection"
+        },
+        {
+          "speaker": "Professional B",
+          "text": "I’d be chuffed to. Here’s my card—let’s grab a coffee sometime soon.",
+          "emotion": "friendly",
+          "intent": "offer contact"
+        },
+        {
+          "speaker": "Professional A",
+          "text": "Brilliant! I’ll drop you an email next week to sort something out.",
+          "emotion": "optimistic",
+          "intent": "confirm follow-up"
+        },
+        {
+          "speaker": "Professional B",
+          "text": "Perfect. Looking forward to it!",
+          "emotion": "pleased",
+          "intent": "close positively"
+        }
+      ],
+      "cultural_notes": [
+        "‘Chuffed’ is a British colloquialism meaning pleased or delighted, adding warmth to professional exchanges.",
+        "Suggesting coffee is a common, low-pressure way to propose future networking in the UK."
+      ],
+      "rationale": [
+        {
+          "phrase": "I’d be chuffed to",
+          "explanation": "This phrase is quintessentially British, conveying enthusiasm in a modest, understated way."
+        },
+        {
+          "phrase": "Let’s grab a coffee sometime soon",
+          "explanation": "A culturally standard, informal-yet-professional invitation in the UK, avoiding overcommitment."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC008",
+      "scenario": "Suggesting to meet up again after initial meeting",
+      "setting": "End of Social Event",
+      "social_context": "Transition from event to personal friendship",
+      "participants": [
+        "New Acquaintance A",
+        "New Acquaintance B"
+      ],
+      "customer_profile": "Proactive, values new connections",
+      "culture": "UK",
+      "emotions": [
+        "hopeful",
+        "friendly",
+        "slightly vulnerable"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 8,
+      "tone": "casual",
+      "difficulty": "intermediate",
+      "humour_potential": "low",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: End of Social Event\n- Scenario: Suggesting to meet up again after initial meeting\n- Social Context: Transition from event to personal friendship\n- Customer Profile: Proactive, values new connections\n- Emotions: hopeful, friendly, slightly vulnerable\n- Tone: casual (relaxed but professional)\n- Participants: New Acquaintance A, New Acquaintance B\n- Difficulty: intermediate\n- Humour Potential: low\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"casual\",\n  \"difficulty\": \"intermediate\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "New Acquaintance A",
+          "text": "This was really lovely, wasn’t it? I’ve had such a nice time chatting with you.",
+          "emotion": "hopeful",
+          "intent": "express enjoyment and gauge interest in future meetings"
+        },
+        {
+          "speaker": "New Acquaintance B",
+          "text": "Absolutely! It’s not often you meet someone you click with straight away. I’d love to do this again sometime.",
+          "emotion": "friendly",
+          "intent": "reciprocate interest and suggest future plans"
+        },
+        {
+          "speaker": "New Acquaintance A",
+          "text": "Brilliant! How about we grab a coffee next week? There’s a nice little café near the station.",
+          "emotion": "enthusiastic",
+          "intent": "propose a specific plan to solidify the connection"
+        },
+        {
+          "speaker": "New Acquaintance B",
+          "text": "That sounds perfect. I’m free on Tuesday or Wednesday—either works for me.",
+          "emotion": "accommodating",
+          "intent": "show flexibility and eagerness to meet"
+        },
+        {
+          "speaker": "New Acquaintance A",
+          "text": "Let’s say Wednesday then? Around 11? I’ll drop you a text to confirm.",
+          "emotion": "reassuring",
+          "intent": "finalise details and ensure follow-through"
+        },
+        {
+          "speaker": "New Acquaintance B",
+          "text": "Spot on. Looking forward to it!",
+          "emotion": "warm",
+          "intent": "express anticipation and close the conversation positively"
+        }
+      ],
+      "cultural_notes": [
+        "British people often use understatement ('This was really lovely') to express strong positive feelings.",
+        "Suggesting a coffee is a common, low-pressure way to arrange a follow-up meeting in British social contexts."
+      ],
+      "rationale": [
+        {
+          "phrase": "It’s not often you meet someone you click with straight away.",
+          "explanation": "This phrase reflects British modesty and understatement, subtly conveying strong positive feelings without being overly effusive."
+        },
+        {
+          "phrase": "Spot on.",
+          "explanation": "A colloquial British phrase meaning 'perfect' or 'exactly right,' used here to show agreement in a friendly, informal way."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC009",
+      "scenario": "Asking someone to hang out after a shared activity",
+      "setting": "Community Class (pottery, yoga, etc.)",
+      "social_context": "New connections, shared interest",
+      "participants": [
+        "Student A",
+        "Student B"
+      ],
+      "customer_profile": "Outgoing, seeks companionship",
+      "culture": "UK",
+      "emotions": [
+        "enthusiastic",
+        "inviting",
+        "hopeful"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 9,
+      "tone": "friendly",
+      "difficulty": "beginner",
+      "humour_potential": "low",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: Community Class (pottery, yoga, etc.)\n- Scenario: Asking someone to hang out after a shared activity\n- Social Context: New connections, shared interest\n- Customer Profile: Outgoing, seeks companionship\n- Emotions: enthusiastic, inviting, hopeful\n- Tone: friendly (warm, familiar)\n- Participants: Student A, Student B\n- Difficulty: beginner\n- Humour Potential: low\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"friendly\",\n  \"difficulty\": \"beginner\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Student A",
+          "text": "That was a great pottery session today, wasn’t it?",
+          "emotion": "enthusiastic",
+          "intent": "start conversation"
+        },
+        {
+          "speaker": "Student B",
+          "text": "Yeah, really enjoyed it! I’m rubbish at it, but it’s good fun.",
+          "emotion": "cheerful",
+          "intent": "agree and self-deprecate"
+        },
+        {
+          "speaker": "Student A",
+          "text": "Oh, you’re not that bad! Fancy grabbing a cuppa after this? There’s a nice café just round the corner.",
+          "emotion": "hopeful",
+          "intent": "invite to socialise"
+        },
+        {
+          "speaker": "Student B",
+          "text": "That sounds lovely! I’d love to.",
+          "emotion": "happy",
+          "intent": "accept invitation"
+        }
+      ],
+      "cultural_notes": [
+        "British people often use self-deprecating humour to appear modest.",
+        "Inviting someone for a 'cuppa' (cup of tea) is a common and casual way to socialise."
+      ],
+      "rationale": [
+        {
+          "phrase": "I’m rubbish at it, but it’s good fun.",
+          "explanation": "Self-deprecation is a common British trait to avoid seeming boastful."
+        },
+        {
+          "phrase": "Fancy grabbing a cuppa after this?",
+          "explanation": "Using 'cuppa' instead of 'tea' is a colloquial and friendly way to invite someone out casually."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC010",
+      "scenario": "Inviting someone to join you for lunch/coffee",
+      "setting": "Workplace",
+      "social_context": "Professional environment, building workplace friendship",
+      "participants": [
+        "Colleague A",
+        "Colleague B"
+      ],
+      "customer_profile": "Socially inclusive, workplace connector",
+      "culture": "UK",
+      "emotions": [
+        "friendly",
+        "inclusive",
+        "casual"
+      ],
+      "success_rating": 9,
+      "naturalness_rating": 9,
+      "tone": "casual",
+      "difficulty": "beginner",
+      "humour_potential": "medium",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: Workplace\n- Scenario: Inviting someone to join you for lunch/coffee\n- Social Context: Professional environment, building workplace friendship\n- Customer Profile: Socially inclusive, workplace connector\n- Emotions: friendly, inclusive, casual\n- Tone: casual (relaxed but professional)\n- Participants: Colleague A, Colleague B\n- Difficulty: beginner\n- Humour Potential: medium\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"casual\",\n  \"difficulty\": \"beginner\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Colleague A",
+          "text": "Fancy grabbing a coffee? I could do with a break.",
+          "emotion": "friendly",
+          "intent": "invite"
+        },
+        {
+          "speaker": "Colleague B",
+          "text": "Oh, go on then. I’ve been staring at this spreadsheet for ages—my eyes need a rest!",
+          "emotion": "relieved",
+          "intent": "accept"
+        },
+        {
+          "speaker": "Colleague A",
+          "text": "Brilliant! The café downstairs does a proper cuppa. None of that instant stuff.",
+          "emotion": "enthusiastic",
+          "intent": "suggest"
+        },
+        {
+          "speaker": "Colleague B",
+          "text": "Perfect. Lead the way—before I get sucked back into emails!",
+          "emotion": "playful",
+          "intent": "agree"
+        }
+      ],
+      "cultural_notes": [
+        "‘Fancy grabbing...’ is a common British way to casually suggest an activity without pressure.",
+        "‘Proper cuppa’ refers to a well-made cup of tea, a cultural staple in the UK."
+      ],
+      "rationale": [
+        {
+          "phrase": "Fancy grabbing a coffee?",
+          "explanation": "This phrase is very British—polite, casual, and avoids sounding too direct."
+        },
+        {
+          "phrase": "Proper cuppa",
+          "explanation": "Highlights the British preference for quality tea and subtly bonds over shared cultural norms."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC011",
+      "scenario": "Sharing a personal story or experience",
+      "setting": "Walking in Park",
+      "social_context": "Growing friendship, building trust",
+      "participants": [
+        "Friend A",
+        "Friend B"
+      ],
+      "customer_profile": "Open, values authentic connection",
+      "culture": "UK",
+      "emotions": [
+        "reflective",
+        "trusting",
+        "vulnerable"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 8,
+      "tone": "intimate",
+      "difficulty": "advanced",
+      "humour_potential": "low",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: Walking in Park\n- Scenario: Sharing a personal story or experience\n- Social Context: Growing friendship, building trust\n- Customer Profile: Open, values authentic connection\n- Emotions: reflective, trusting, vulnerable\n- Tone: intimate (deep, meaningful)\n- Participants: Friend A, Friend B\n- Difficulty: advanced\n- Humour Potential: low\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"intimate\",\n  \"difficulty\": \"advanced\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Friend A",
+          "text": "You know, I’ve been meaning to tell you about something that happened last year. It’s a bit personal, but I feel like I can trust you.",
+          "emotion": "vulnerable",
+          "intent": "opening up"
+        },
+        {
+          "speaker": "Friend B",
+          "text": "Of course, I’m all ears. It’s nice to have someone to share these things with, isn’t it?",
+          "emotion": "reassuring",
+          "intent": "encouraging"
+        },
+        {
+          "speaker": "Friend A",
+          "text": "Cheers. Well, it was around this time last year when I lost my job. Proper knocked me for six, to be honest.",
+          "emotion": "reflective",
+          "intent": "sharing a difficult experience"
+        },
+        {
+          "speaker": "Friend B",
+          "text": "Blimey, that’s rough. I had no idea. How did you cope with it all?",
+          "emotion": "concerned",
+          "intent": "showing empathy"
+        },
+        {
+          "speaker": "Friend A",
+          "text": "At first, I bottled it up—didn’t want to burden anyone. But eventually, I realised that wasn’t doing me any favours.",
+          "emotion": "honest",
+          "intent": "admitting vulnerability"
+        },
+        {
+          "speaker": "Friend B",
+          "text": "That’s brave of you to say. It’s not easy admitting when you’re struggling, especially here where everyone puts on a stiff upper lip.",
+          "emotion": "supportive",
+          "intent": "validating feelings"
+        },
+        {
+          "speaker": "Friend A",
+          "text": "Exactly. It’s funny how we’re taught to just crack on, isn’t it? But sometimes, you need to let it out.",
+          "emotion": "relieved",
+          "intent": "reflecting on cultural norms"
+        },
+        {
+          "speaker": "Friend B",
+          "text": "Too right. And for what it’s worth, I’m glad you felt you could tell me. That’s what friends are for.",
+          "emotion": "warm",
+          "intent": "reinforcing trust"
+        }
+      ],
+      "cultural_notes": [
+        "The phrase 'knocked me for six' is a British idiom derived from cricket, meaning something has deeply affected or overwhelmed someone.",
+        "'Stiff upper lip' refers to the British cultural norm of remaining stoic and not showing emotion in difficult situations."
+      ],
+      "rationale": [
+        {
+          "phrase": "Proper knocked me for six",
+          "explanation": "This cricket-derived phrase is quintessentially British and conveys deep emotional impact in a culturally specific way."
+        },
+        {
+          "phrase": "Stiff upper lip",
+          "explanation": "This reflects the traditional British value of emotional restraint, making it a culturally resonant way to discuss vulnerability."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC012",
+      "scenario": "Confiding in a new friend about a personal problem (lightly)",
+      "setting": "Park Bench",
+      "social_context": "Building trust, deepening friendship",
+      "participants": [
+        "Friend A",
+        "Friend B"
+      ],
+      "customer_profile": "Vulnerable, seeks support",
+      "culture": "UK",
+      "emotions": [
+        "hesitant",
+        "trusting",
+        "relieved"
+      ],
+      "success_rating": 7,
+      "naturalness_rating": 8,
+      "tone": "caring",
+      "difficulty": "intermediate",
+      "humour_potential": "low",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: Park Bench\n- Scenario: Confiding in a new friend about a personal problem (lightly)\n- Social Context: Building trust, deepening friendship\n- Customer Profile: Vulnerable, seeks support\n- Emotions: hesitant, trusting, relieved\n- Tone: caring (gentle, empathetic)\n- Participants: Friend A, Friend B\n- Difficulty: intermediate\n- Humour Potential: low\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"caring\",\n  \"difficulty\": \"intermediate\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Friend A",
+          "text": "Erm... I’ve been meaning to tell you something, but I’m a bit nervous about it.",
+          "emotion": "hesitant",
+          "intent": "seeking support"
+        },
+        {
+          "speaker": "Friend B",
+          "text": "It’s alright, take your time. I’m here to listen.",
+          "emotion": "empathetic",
+          "intent": "building trust"
+        },
+        {
+          "speaker": "Friend A",
+          "text": "Cheers. It’s just... I’ve been feeling a bit overwhelmed with work lately. Like I’m not coping well.",
+          "emotion": "vulnerable",
+          "intent": "confiding"
+        },
+        {
+          "speaker": "Friend B",
+          "text": "That sounds really tough. You’re not alone in feeling that way—it happens to the best of us.",
+          "emotion": "caring",
+          "intent": "reassuring"
+        },
+        {
+          "speaker": "Friend A",
+          "text": "Really? I thought I was just being daft. It’s a relief to hear that.",
+          "emotion": "relieved",
+          "intent": "grateful"
+        },
+        {
+          "speaker": "Friend B",
+          "text": "Not at all. If you ever need to chat or even just a cuppa to take your mind off things, I’m here.",
+          "emotion": "supportive",
+          "intent": "offering help"
+        },
+        {
+          "speaker": "Friend A",
+          "text": "Ta, that means a lot. I might take you up on that.",
+          "emotion": "grateful",
+          "intent": "accepting support"
+        }
+      ],
+      "cultural_notes": [
+        "Using 'cheers' and 'ta' as informal British expressions of gratitude helps build rapport in friendships.",
+        "Offering a 'cuppa' (cup of tea) is a culturally common way to show care and support in the UK."
+      ],
+      "rationale": [
+        {
+          "phrase": "You’re not alone in feeling that way—it happens to the best of us.",
+          "explanation": "This phrase normalises the struggle, which is a key part of British empathy—avoiding dramatic reassurance while still being supportive."
+        },
+        {
+          "phrase": "I thought I was just being daft.",
+          "explanation": "'Daft' is a colloquial British term meaning silly or foolish, often used self-deprecatingly to downplay one's worries."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC013",
+      "scenario": "Asking for advice about a decision",
+      "setting": "Friend's Living Room",
+      "social_context": "Established friendship, seeking guidance",
+      "participants": [
+        "Advice Seeker",
+        "Trusted Friend"
+      ],
+      "customer_profile": "Values others' opinions, decisive but collaborative",
+      "culture": "UK",
+      "emotions": [
+        "uncertain",
+        "trusting",
+        "grateful"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 9,
+      "tone": "caring",
+      "difficulty": "intermediate",
+      "humour_potential": "low",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: Friend's Living Room\n- Scenario: Asking for advice about a decision\n- Social Context: Established friendship, seeking guidance\n- Customer Profile: Values others' opinions, decisive but collaborative\n- Emotions: uncertain, trusting, grateful\n- Tone: caring (gentle, empathetic)\n- Participants: Advice Seeker, Trusted Friend\n- Difficulty: intermediate\n- Humour Potential: low\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"caring\",\n  \"difficulty\": \"intermediate\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Advice Seeker",
+          "text": "Hey, I’ve been mulling over this job offer, and I’m really torn. Fancy giving me your two pence?",
+          "emotion": "uncertain",
+          "intent": "seeking guidance"
+        },
+        {
+          "speaker": "Trusted Friend",
+          "text": "Of course! You know I’ve got your back. What’s bothering you about it?",
+          "emotion": "supportive",
+          "intent": "encouraging openness"
+        },
+        {
+          "speaker": "Advice Seeker",
+          "text": "Well, the pay’s decent, but the commute’s a bit of a slog. Plus, I’m not sure if it’s the right fit long-term.",
+          "emotion": "hesitant",
+          "intent": "sharing concerns"
+        },
+        {
+          "speaker": "Trusted Friend",
+          "text": "Hmm, I see. Commuting can really take it out of you. Have you thought about what you’d be giving up if you took it?",
+          "emotion": "empathetic",
+          "intent": "probing deeper"
+        },
+        {
+          "speaker": "Advice Seeker",
+          "text": "That’s just it—I’d have to leave my current team, and I really get on with them. It’s a bit of a gamble, isn’t it?",
+          "emotion": "conflicted",
+          "intent": "expressing doubt"
+        },
+        {
+          "speaker": "Trusted Friend",
+          "text": "It is, but sometimes a change can be good. Maybe make a pros and cons list? That always helps me see things clearer.",
+          "emotion": "reassuring",
+          "intent": "offering practical advice"
+        },
+        {
+          "speaker": "Advice Seeker",
+          "text": "That’s a shout. Cheers, mate—I knew you’d help me sort my head out.",
+          "emotion": "grateful",
+          "intent": "expressing thanks"
+        },
+        {
+          "speaker": "Trusted Friend",
+          "text": "Anytime. You’d do the same for me. Fancy a cuppa while you jot things down?",
+          "emotion": "caring",
+          "intent": "reinforcing support"
+        }
+      ],
+      "cultural_notes": [
+        "Using phrases like 'two pence' instead of 'two cents' reflects British colloquial speech.",
+        "Offering tea ('a cuppa') is a common British gesture of comfort and support."
+      ],
+      "rationale": [
+        {
+          "phrase": "Fancy giving me your two pence?",
+          "explanation": "This is a British alternative to 'two cents,' showing local idiom use while seeking opinion."
+        },
+        {
+          "phrase": "That’s a shout.",
+          "explanation": "A casual British phrase meaning 'good idea,' reflecting informal yet friendly advice-sharing."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC014",
+      "scenario": "Celebrating friend's achievement or good news",
+      "setting": "Restaurant",
+      "social_context": "Friendship maintenance, showing support",
+      "participants": [
+        "Celebrating Friend",
+        "Supportive Friend"
+      ],
+      "customer_profile": "Generous, celebrates others' success",
+      "culture": "UK",
+      "emotions": [
+        "excited",
+        "proud",
+        "joyful"
+      ],
+      "success_rating": 9,
+      "naturalness_rating": 9,
+      "tone": "enthusiastic",
+      "difficulty": "beginner",
+      "humour_potential": "high",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: Restaurant\n- Scenario: Celebrating friend's achievement or good news\n- Social Context: Friendship maintenance, showing support\n- Customer Profile: Generous, celebrates others' success\n- Emotions: excited, proud, joyful\n- Tone: enthusiastic (passionate, excited)\n- Participants: Celebrating Friend, Supportive Friend\n- Difficulty: beginner\n- Humour Potential: high\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"enthusiastic\",\n  \"difficulty\": \"beginner\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Supportive Friend",
+          "text": "Blimey, you got the promotion! That's absolutely brilliant!",
+          "emotion": "excited",
+          "intent": "congratulate"
+        },
+        {
+          "speaker": "Celebrating Friend",
+          "text": "Cheers, mate! Still can't believe it myself. Fancy a toast?",
+          "emotion": "proud",
+          "intent": "share joy"
+        },
+        {
+          "speaker": "Supportive Friend",
+          "text": "Too right! Let’s order the posh bubbly—my treat!",
+          "emotion": "joyful",
+          "intent": "celebrate generously"
+        },
+        {
+          "speaker": "Celebrating Friend",
+          "text": "You’re a legend! Just don’t make me dance on the table later.",
+          "emotion": "amused",
+          "intent": "joke/banter"
+        }
+      ],
+      "cultural_notes": [
+        "‘Blimey’ is a common British exclamation showing surprise or excitement.",
+        "‘Cheers, mate’ is a casual and friendly way to say thank you in the UK."
+      ],
+      "rationale": [
+        {
+          "phrase": "Blimey, you got the promotion!",
+          "explanation": "‘Blimey’ is a very British expression conveying genuine surprise and delight, fitting the enthusiastic tone."
+        },
+        {
+          "phrase": "Fancy a toast?",
+          "explanation": "This phrase is culturally common in celebratory UK settings, often used when marking achievements with drinks."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC015",
+      "scenario": "Offering help to a friend in need",
+      "setting": "Text/Phone Call Context",
+      "social_context": "Crisis support, friendship strength test",
+      "participants": [
+        "Helpful Friend",
+        "Friend in Need"
+      ],
+      "customer_profile": "Reliable, emotionally supportive",
+      "culture": "UK",
+      "emotions": [
+        "concerned",
+        "caring",
+        "determined"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 8,
+      "tone": "caring",
+      "difficulty": "intermediate",
+      "humour_potential": "low",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: Text/Phone Call Context\n- Scenario: Offering help to a friend in need\n- Social Context: Crisis support, friendship strength test\n- Customer Profile: Reliable, emotionally supportive\n- Emotions: concerned, caring, determined\n- Tone: caring (gentle, empathetic)\n- Participants: Helpful Friend, Friend in Need\n- Difficulty: intermediate\n- Humour Potential: low\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"caring\",\n  \"difficulty\": \"intermediate\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Helpful Friend",
+          "text": "Hey, I heard about what happened. Are you okay?",
+          "emotion": "concerned",
+          "intent": "checking in"
+        },
+        {
+          "speaker": "Friend in Need",
+          "text": "Not really. It’s been a bit of a nightmare, to be honest.",
+          "emotion": "distressed",
+          "intent": "sharing feelings"
+        },
+        {
+          "speaker": "Helpful Friend",
+          "text": "I’m so sorry you’re going through this. Do you fancy a cuppa and a chat? I can pop round if you like.",
+          "emotion": "caring",
+          "intent": "offering support"
+        },
+        {
+          "speaker": "Friend in Need",
+          "text": "That’s really kind of you. I could use the company.",
+          "emotion": "grateful",
+          "intent": "accepting help"
+        },
+        {
+          "speaker": "Helpful Friend",
+          "text": "No problem at all. We’ll sort this out together, alright?",
+          "emotion": "determined",
+          "intent": "reassuring"
+        },
+        {
+          "speaker": "Friend in Need",
+          "text": "Thanks, mate. I don’t know what I’d do without you.",
+          "emotion": "relieved",
+          "intent": "expressing gratitude"
+        },
+        {
+          "speaker": "Helpful Friend",
+          "text": "Don’t mention it. That’s what friends are for.",
+          "emotion": "warm",
+          "intent": "reinforcing friendship"
+        }
+      ],
+      "cultural_notes": [
+        "Offering a 'cuppa' (cup of tea) is a common British way to show care and provide comfort in difficult situations.",
+        "Using phrases like 'pop round' reflects the informal yet considerate nature of British friendships, where dropping by is seen as a gesture of support."
+      ],
+      "rationale": [
+        {
+          "phrase": "Do you fancy a cuppa and a chat?",
+          "explanation": "This phrase is quintessentially British, as tea is often associated with comfort and a chat signifies emotional support in a low-pressure way."
+        },
+        {
+          "phrase": "Thanks, mate.",
+          "explanation": "'Mate' is a common term of endearment in British English, used even in serious contexts to convey closeness and solidarity."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC016",
+      "scenario": "Introducing two friends to each other",
+      "setting": "Social Gathering",
+      "social_context": "Friend group expansion, social facilitation",
+      "participants": [
+        "Mutual Friend",
+        "Friend A",
+        "Friend B"
+      ],
+      "customer_profile": "Social connector, group facilitator",
+      "culture": "UK",
+      "emotions": [
+        "excited",
+        "hopeful",
+        "inclusive"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 8,
+      "tone": "enthusiastic",
+      "difficulty": "intermediate",
+      "humour_potential": "medium",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: Social Gathering\n- Scenario: Introducing two friends to each other\n- Social Context: Friend group expansion, social facilitation\n- Customer Profile: Social connector, group facilitator\n- Emotions: excited, hopeful, inclusive\n- Tone: enthusiastic (passionate, excited)\n- Participants: Mutual Friend, Friend A, Friend B\n- Difficulty: intermediate\n- Humour Potential: medium\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"enthusiastic\",\n  \"difficulty\": \"intermediate\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Mutual Friend",
+          "text": "Alright, you two! I reckon it's about time you met properly. Jamie, this is Alex—we went to uni together. Alex, Jamie's my partner in crime at the book club.",
+          "emotion": "excited",
+          "intent": "facilitate introduction"
+        },
+        {
+          "speaker": "Friend A (Jamie)",
+          "text": "Oh, brilliant! Alex, I’ve heard loads about you—apparently, you’re the only one who can keep this one in check during pub quizzes!",
+          "emotion": "playful",
+          "intent": "break the ice with humour"
+        },
+        {
+          "speaker": "Friend B (Alex)",
+          "text": "Ha! That’s a bit of an exaggeration—though I did stop them from betting our entire kitty on a question about 90s boy bands once.",
+          "emotion": "amused",
+          "intent": "reciprocate banter"
+        },
+        {
+          "speaker": "Mutual Friend",
+          "text": "Oi, that was a solid guess! Anyway, Jamie’s just moved to the area, and I thought you could give them the lowdown on the best cafés—since you’re basically a professional coffee snob.",
+          "emotion": "teasing",
+          "intent": "encourage bonding"
+        },
+        {
+          "speaker": "Friend B (Alex)",
+          "text": "Guilty as charged. Jamie, if you fancy a proper flat white without the hipster queue, there’s a tiny place off Brick Lane—my treat next week?",
+          "emotion": "hopeful",
+          "intent": "extend invitation"
+        },
+        {
+          "speaker": "Friend A (Jamie)",
+          "text": "You had me at ‘no queue’. Count me in! Cheers, Alex.",
+          "emotion": "grateful",
+          "intent": "accept and affirm"
+        }
+      ],
+      "cultural_notes": [
+        "‘Partner in crime’ is a lighthearted British term for a close friend who shares your mischievous side.",
+        "‘The lowdown’ is colloquial for insider knowledge, often used in social contexts."
+      ],
+      "rationale": [
+        {
+          "phrase": "‘I reckon it’s about time you met properly’",
+          "explanation": "A casual yet warm British phrasing to suggest overdue introductions, implying familiarity."
+        },
+        {
+          "phrase": "‘Professional coffee snob’",
+          "explanation": "Self-deprecating humour is common in British banter; teasing about niche interests fosters camaraderie."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC017",
+      "scenario": "Joining an established friend group conversation",
+      "setting": "Pub/Bar",
+      "social_context": "Group integration, finding your place",
+      "participants": [
+        "Newcomer",
+        "Group Member A",
+        "Group Member B"
+      ],
+      "customer_profile": "Adaptable, wants to belong",
+      "culture": "UK",
+      "emotions": [
+        "nervous",
+        "eager",
+        "hopeful"
+      ],
+      "success_rating": 7,
+      "naturalness_rating": 8,
+      "tone": "casual",
+      "difficulty": "advanced",
+      "humour_potential": "medium",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: Pub/Bar\n- Scenario: Joining an established friend group conversation\n- Social Context: Group integration, finding your place\n- Customer Profile: Adaptable, wants to belong\n- Emotions: nervous, eager, hopeful\n- Tone: casual (relaxed but professional)\n- Participants: Newcomer, Group Member A, Group Member B\n- Difficulty: advanced\n- Humour Potential: medium\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"casual\",\n  \"difficulty\": \"advanced\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Newcomer",
+          "text": "Mind if I join you lot? I’m still finding my feet here.",
+          "emotion": "nervous",
+          "intent": "seeking acceptance"
+        },
+        {
+          "speaker": "Group Member A",
+          "text": "Course not! Pull up a chair—we don’t bite. Well, unless you nick the last crisp.",
+          "emotion": "welcoming",
+          "intent": "lighten the mood"
+        },
+        {
+          "speaker": "Group Member B",
+          "text": "Ignore him, he’s just gutted someone beat him to the pork scratchings earlier. I’m Sarah, by the way.",
+          "emotion": "friendly",
+          "intent": "introduce and reassure"
+        },
+        {
+          "speaker": "Newcomer",
+          "text": "Cheers, Sarah. I’m Tom. So, what’s the vibe here? Proper local haunt or just pretending?",
+          "emotion": "eager",
+          "intent": "engage with humour"
+        },
+        {
+          "speaker": "Group Member A",
+          "text": "Oi, we take our ‘local’ status very seriously! The sticky floors are a historic landmark.",
+          "emotion": "mock-offended",
+          "intent": "banter"
+        },
+        {
+          "speaker": "Group Member B",
+          "text": "Translation: we’re here every Thursday pretending we’ll ‘just have one’.",
+          "emotion": "amused",
+          "intent": "self-deprecating humour"
+        },
+        {
+          "speaker": "Newcomer",
+          "text": "Ah, the classic British lie. Next you’ll tell me you ‘don’t really do pudding’.",
+          "emotion": "hopeful",
+          "intent": "bond over cultural quirks"
+        },
+        {
+          "speaker": "Group Member A",
+          "text": "Mate, you’ll fit right in. Fancy a proper drink or still on the ‘I’ll just sip this’ phase?",
+          "emotion": "accepting",
+          "intent": "integrate"
+        }
+      ],
+      "cultural_notes": [
+        "‘Pull up a chair’ is a common British invitation signalling informal inclusion.",
+        "Self-deprecating humour (‘pretending we’ll just have one’) is a key social lubricant in UK groups."
+      ],
+      "rationale": [
+        {
+          "phrase": "Proper local haunt or just pretending?",
+          "explanation": "Uses ‘proper’ for authenticity and playful scepticism common in British pub banter."
+        },
+        {
+          "phrase": "The classic British lie",
+          "explanation": "References the cultural trope of understating habits (e.g., drinking/eating) while fully committing to them."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC018",
+      "scenario": "Planning a group activity or outing",
+      "setting": "Group Chat/Meeting",
+      "social_context": "Friendship maintenance, leadership opportunity",
+      "participants": [
+        "Organizer",
+        "Friend A",
+        "Friend B"
+      ],
+      "customer_profile": "Organized, values group cohesion",
+      "culture": "UK",
+      "emotions": [
+        "enthusiastic",
+        "inclusive",
+        "practical"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 8,
+      "tone": "organized",
+      "difficulty": "intermediate",
+      "humour_potential": "medium",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: Group Chat/Meeting\n- Scenario: Planning a group activity or outing\n- Social Context: Friendship maintenance, leadership opportunity\n- Customer Profile: Organized, values group cohesion\n- Emotions: enthusiastic, inclusive, practical\n- Tone: organized (structured, efficient)\n- Participants: Organizer, Friend A, Friend B\n- Difficulty: intermediate\n- Humour Potential: medium\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"organized\",\n  \"difficulty\": \"intermediate\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Organizer",
+          "text": "Right, everyone! Fancy a group outing next Saturday? I was thinking of something fun but not too hectic.",
+          "emotion": "enthusiastic",
+          "intent": "propose activity"
+        },
+        {
+          "speaker": "Friend A",
+          "text": "Sounds brilliant! As long as it doesn’t involve another escape room—I still haven’t recovered from last time.",
+          "emotion": "playful",
+          "intent": "agree with humour"
+        },
+        {
+          "speaker": "Friend B",
+          "text": "How about a picnic in Hyde Park? Weather’s meant to be decent, and we can all bring something.",
+          "emotion": "practical",
+          "intent": "suggest alternative"
+        },
+        {
+          "speaker": "Organizer",
+          "text": "Spot on! We can meet at the Serpentine Café at noon. I’ll sort a blanket and some nibbles.",
+          "emotion": "organized",
+          "intent": "confirm details"
+        },
+        {
+          "speaker": "Friend A",
+          "text": "I’ll bring the posh crisps and some fizzy drinks. None of that supermarket own-brand nonsense!",
+          "emotion": "lighthearted",
+          "intent": "volunteer contribution"
+        },
+        {
+          "speaker": "Friend B",
+          "text": "Classic A—always upgrading the snack game. I’ll handle sandwiches, no crusts if you’re feeling fancy.",
+          "emotion": "teasing",
+          "intent": "banter + offer"
+        },
+        {
+          "speaker": "Organizer",
+          "text": "Sorted! Let’s WhatsApp the others so no one feels left out. Cheers for the ideas, you two.",
+          "emotion": "grateful",
+          "intent": "close planning"
+        }
+      ],
+      "cultural_notes": [
+        "‘Sorted’ is a common British phrase meaning ‘agreed’ or ‘arranged’, reflecting casual efficiency.",
+        "Hyde Park is a iconic London green space, often used for casual meetups—a culturally relevant suggestion."
+      ],
+      "rationale": [
+        {
+          "phrase": "None of that supermarket own-brand nonsense!",
+          "explanation": "Playfully highlights British class-consciousness around food brands, a frequent topic of humour."
+        },
+        {
+          "phrase": "Cheers for the ideas",
+          "explanation": "‘Cheers’ here means ‘thanks’—a versatile British term used casually among friends."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC019",
+      "scenario": "Addressing a misunderstanding with a friend",
+      "setting": "Private Coffee Meeting",
+      "social_context": "Conflict resolution, friendship preservation",
+      "participants": [
+        "Concerned Friend",
+        "Misunderstood Friend"
+      ],
+      "customer_profile": "Mature, values resolution over being right",
+      "culture": "UK",
+      "emotions": [
+        "concerned",
+        "apologetic",
+        "hopeful"
+      ],
+      "success_rating": 7,
+      "naturalness_rating": 7,
+      "tone": "sincere",
+      "difficulty": "advanced",
+      "humour_potential": "low",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: Private Coffee Meeting\n- Scenario: Addressing a misunderstanding with a friend\n- Social Context: Conflict resolution, friendship preservation\n- Customer Profile: Mature, values resolution over being right\n- Emotions: concerned, apologetic, hopeful\n- Tone: sincere (heartfelt, genuine)\n- Participants: Concerned Friend, Misunderstood Friend\n- Difficulty: advanced\n- Humour Potential: low\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"sincere\",\n  \"difficulty\": \"advanced\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Concerned Friend",
+          "text": "I wanted to have a proper chat about the other day. I think there might have been a bit of a misunderstanding between us.",
+          "emotion": "concerned",
+          "intent": "initiate resolution"
+        },
+        {
+          "speaker": "Misunderstood Friend",
+          "text": "Oh, right. I did sense things felt a bit off. I’m glad you brought it up.",
+          "emotion": "receptive",
+          "intent": "acknowledge issue"
+        },
+        {
+          "speaker": "Concerned Friend",
+          "text": "I feel awful, really. I didn’t mean to come across as dismissive. It’s been playing on my mind.",
+          "emotion": "apologetic",
+          "intent": "express regret"
+        },
+        {
+          "speaker": "Misunderstood Friend",
+          "text": "That means a lot, honestly. I might have overreacted a tad—just felt a bit put out at the time.",
+          "emotion": "relieved",
+          "intent": "admit partial fault"
+        },
+        {
+          "speaker": "Concerned Friend",
+          "text": "No, no—your feelings are completely valid. I should’ve been more considerate. Let’s chalk it up to a bad day, yeah?",
+          "emotion": "sincere",
+          "intent": "validate and reconcile"
+        },
+        {
+          "speaker": "Misunderstood Friend",
+          "text": "Absolutely. And I appreciate you reaching out. It’s what proper friends do, isn’t it?",
+          "emotion": "hopeful",
+          "intent": "affirm friendship"
+        },
+        {
+          "speaker": "Concerned Friend",
+          "text": "Too right. Fancy another cuppa? My treat—consider it a peace offering.",
+          "emotion": "lighthearted",
+          "intent": "restore normalcy"
+        },
+        {
+          "speaker": "Misunderstood Friend",
+          "text": "You’re on. And next round’s on me—no arguments.",
+          "emotion": "cheerful",
+          "intent": "reciprocate goodwill"
+        }
+      ],
+      "cultural_notes": [
+        "British conflict resolution often involves understatement (e.g., 'a bit off', 'a tad') to soften tense situations.",
+        "Offering tea ('cuppa') is a culturally significant peace gesture in UK social repair."
+      ],
+      "rationale": [
+        {
+          "phrase": "Let’s chalk it up to a bad day, yeah?",
+          "explanation": "A common British phrase to mutually downplay conflict, using 'yeah?' for gentle agreement-seeking."
+        },
+        {
+          "phrase": "It’s what proper friends do, isn’t it?",
+          "explanation": "'Proper friends' reflects British values of earnest friendship, with tag question 'isn’t it?' inviting solidarity."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC020",
+      "scenario": "Setting boundaries with an overly clingy friend",
+      "setting": "Private Conversation",
+      "social_context": "Relationship management, healthy boundaries",
+      "participants": [
+        "Boundary Setter",
+        "Clingy Friend"
+      ],
+      "customer_profile": "Assertive but kind, values healthy relationships",
+      "culture": "UK",
+      "emotions": [
+        "uncomfortable",
+        "firm",
+        "caring"
+      ],
+      "success_rating": 6,
+      "naturalness_rating": 7,
+      "tone": "gentle",
+      "difficulty": "advanced",
+      "humour_potential": "low",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: Private Conversation\n- Scenario: Setting boundaries with an overly clingy friend\n- Social Context: Relationship management, healthy boundaries\n- Customer Profile: Assertive but kind, values healthy relationships\n- Emotions: uncomfortable, firm, caring\n- Tone: gentle (soft, considerate)\n- Participants: Boundary Setter, Clingy Friend\n- Difficulty: advanced\n- Humour Potential: low\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"gentle\",\n  \"difficulty\": \"advanced\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Boundary Setter",
+          "text": "Hey, I wanted to chat about something that’s been on my mind. Do you have a moment?",
+          "emotion": "uncomfortable",
+          "intent": "initiate a sensitive conversation"
+        },
+        {
+          "speaker": "Clingy Friend",
+          "text": "Of course! Is everything alright?",
+          "emotion": "concerned",
+          "intent": "show care and readiness to listen"
+        },
+        {
+          "speaker": "Boundary Setter",
+          "text": "Yeah, I’m fine. It’s just... I’ve been feeling a bit overwhelmed lately with how much we’ve been spending time together. I value our friendship, but I also need some space to recharge.",
+          "emotion": "firm but caring",
+          "intent": "express need for boundaries gently"
+        },
+        {
+          "speaker": "Clingy Friend",
+          "text": "Oh... I didn’t realise I was being too much. I just really enjoy hanging out with you.",
+          "emotion": "sad, slightly defensive",
+          "intent": "acknowledge but express hurt"
+        },
+        {
+          "speaker": "Boundary Setter",
+          "text": "I really enjoy our time together too, honestly. It’s not about not wanting to see you—it’s just that I need a bit more balance. Maybe we could plan things a bit less frequently?",
+          "emotion": "reassuring",
+          "intent": "clarify and suggest a compromise"
+        },
+        {
+          "speaker": "Clingy Friend",
+          "text": "Right, yeah. I get that. I suppose I’ve been a bit full-on lately. Sorry about that.",
+          "emotion": "apologetic, reflective",
+          "intent": "accept feedback and self-reflect"
+        },
+        {
+          "speaker": "Boundary Setter",
+          "text": "No need to apologise! I just wanted to be honest because I care about our friendship. Maybe we could catch up once a week instead of every other day?",
+          "emotion": "kind, solution-oriented",
+          "intent": "offer a practical solution"
+        },
+        {
+          "speaker": "Clingy Friend",
+          "text": "That sounds fair. And thanks for being straight with me—I appreciate it.",
+          "emotion": "grateful, relieved",
+          "intent": "acknowledge and accept the boundary"
+        },
+        {
+          "speaker": "Boundary Setter",
+          "text": "Cheers for understanding. It means a lot.",
+          "emotion": "appreciative",
+          "intent": "close the conversation positively"
+        }
+      ],
+      "cultural_notes": [
+        "British people often use understatement (e.g., 'a bit overwhelmed') to soften difficult conversations.",
+        "Directness is balanced with politeness, often using phrases like 'I wanted to chat about something' to ease into sensitive topics."
+      ],
+      "rationale": [
+        {
+          "phrase": "Cheers for understanding.",
+          "explanation": "A common British way to express gratitude informally, often used among friends to keep the tone light and positive."
+        },
+        {
+          "phrase": "I’ve been a bit full-on lately.",
+          "explanation": "'Full-on' is a British colloquialism meaning overly intense or demanding, used here to self-reflect without sounding overly harsh."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC021",
+      "scenario": "Apologizing for a mistake that hurt a friend",
+      "setting": "Friend's Home",
+      "social_context": "Damage control, showing accountability",
+      "participants": [
+        "Apologetic Friend",
+        "Hurt Friend"
+      ],
+      "customer_profile": "Accountable, values friendship over pride",
+      "culture": "UK",
+      "emotions": [
+        "regretful",
+        "sincere",
+        "hopeful"
+      ],
+      "success_rating": 7,
+      "naturalness_rating": 8,
+      "tone": "sincere",
+      "difficulty": "advanced",
+      "humour_potential": "low",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: Friend's Home\n- Scenario: Apologizing for a mistake that hurt a friend\n- Social Context: Damage control, showing accountability\n- Customer Profile: Accountable, values friendship over pride\n- Emotions: regretful, sincere, hopeful\n- Tone: sincere (heartfelt, genuine)\n- Participants: Apologetic Friend, Hurt Friend\n- Difficulty: advanced\n- Humour Potential: low\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"sincere\",\n  \"difficulty\": \"advanced\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Apologetic Friend",
+          "text": "Hey, I’ve been thinking a lot about what happened the other day, and I just wanted to say… I’m really sorry. I messed up.",
+          "emotion": "regretful",
+          "intent": "to acknowledge the mistake and express genuine remorse"
+        },
+        {
+          "speaker": "Hurt Friend",
+          "text": "Yeah, it did hurt. I wasn’t expecting that from you.",
+          "emotion": "hurt",
+          "intent": "to express the impact of the mistake"
+        },
+        {
+          "speaker": "Apologetic Friend",
+          "text": "I know, and I feel awful about it. I should’ve thought before I spoke. You mean a lot to me, and I hate that I’ve upset you.",
+          "emotion": "sincere",
+          "intent": "to show accountability and reinforce the value of the friendship"
+        },
+        {
+          "speaker": "Hurt Friend",
+          "text": "It’s just… it felt like you weren’t considering my feelings at all.",
+          "emotion": "vulnerable",
+          "intent": "to explain the emotional impact"
+        },
+        {
+          "speaker": "Apologetic Friend",
+          "text": "You’re absolutely right. I wasn’t thinking straight, and that’s no excuse. I want to make it right, if you’ll let me.",
+          "emotion": "hopeful",
+          "intent": "to take full responsibility and seek reconciliation"
+        },
+        {
+          "speaker": "Hurt Friend",
+          "text": "I appreciate you saying that. It means a lot that you’re owning up to it.",
+          "emotion": "softening",
+          "intent": "to acknowledge the apology and show openness to repair"
+        },
+        {
+          "speaker": "Apologetic Friend",
+          "text": "I’ll do better, I promise. And if there’s anything I can do to make it up to you, just say the word.",
+          "emotion": "determined",
+          "intent": "to commit to change and offer reparations"
+        },
+        {
+          "speaker": "Hurt Friend",
+          "text": "Thanks. I think I just need a bit of time, but… I’m glad we’re talking about it.",
+          "emotion": "relieved",
+          "intent": "to accept the apology while setting boundaries"
+        }
+      ],
+      "cultural_notes": [
+        "In British culture, direct apologies are valued, but they often come with understated language (e.g., 'I messed up' instead of overly dramatic expressions).",
+        "The phrase 'say the word' is a common British way to offer help or support, implying readiness to act when the other person is ready."
+      ],
+      "rationale": [
+        {
+          "phrase": "I should’ve thought before I spoke.",
+          "explanation": "This reflects the British value of self-deprecation and taking personal responsibility without deflection."
+        },
+        {
+          "phrase": "You mean a lot to me, and I hate that I’ve upset you.",
+          "explanation": "This combines sincerity with emotional openness, which is important in British friendships where vulnerability is often expressed subtly."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC022",
+      "scenario": "Catching up after not seeing each other for a while",
+      "setting": "Coffee Shop",
+      "social_context": "Friendship maintenance, life updates",
+      "participants": [
+        "Friend A",
+        "Friend B"
+      ],
+      "customer_profile": "Nostalgic, values long-term friendships",
+      "culture": "UK",
+      "emotions": [
+        "excited",
+        "nostalgic",
+        "curious"
+      ],
+      "success_rating": 9,
+      "naturalness_rating": 9,
+      "tone": "warm",
+      "difficulty": "beginner",
+      "humour_potential": "medium",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: Coffee Shop\n- Scenario: Catching up after not seeing each other for a while\n- Social Context: Friendship maintenance, life updates\n- Customer Profile: Nostalgic, values long-term friendships\n- Emotions: excited, nostalgic, curious\n- Tone: warm ()\n- Participants: Friend A, Friend B\n- Difficulty: beginner\n- Humour Potential: medium\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"warm\",\n  \"difficulty\": \"beginner\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Friend A",
+          "text": "Blimey, is that really you? It's been ages!",
+          "emotion": "excited",
+          "intent": "greet warmly"
+        },
+        {
+          "speaker": "Friend B",
+          "text": "Cor, look who it is! How've you been, mate?",
+          "emotion": "nostalgic",
+          "intent": "respond enthusiastically"
+        },
+        {
+          "speaker": "Friend A",
+          "text": "Can't complain! Just been ticking along. Fancy a cuppa?",
+          "emotion": "warm",
+          "intent": "offer hospitality"
+        },
+        {
+          "speaker": "Friend B",
+          "text": "Oh, go on then. You still take yours builder's strength?",
+          "emotion": "playful",
+          "intent": "light banter"
+        },
+        {
+          "speaker": "Friend A",
+          "text": "Too right! None of that weak stuff. Remember that time we got tea at that posh place?",
+          "emotion": "amused",
+          "intent": "share memory"
+        },
+        {
+          "speaker": "Friend B",
+          "text": "Don't! They gave us those tiny cups - proper miffed we were!",
+          "emotion": "humorous",
+          "intent": "bond over shared experience"
+        }
+      ],
+      "cultural_notes": [
+        "'Blimey' and 'Cor' are British exclamations showing surprise/familiarity",
+        "'Builder's strength' refers to very strong tea, a working-class cultural reference"
+      ],
+      "rationale": [
+        {
+          "phrase": "Fancy a cuppa?",
+          "explanation": "Quintessential British offer of tea, showing hospitality and informal friendship."
+        },
+        {
+          "phrase": "Proper miffed we were",
+          "explanation": "Colloquial phrasing ('miffed' meaning annoyed) with inverted structure ('we were') common in UK speech."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC023",
+      "scenario": "Making small talk while doing activity together",
+      "setting": "Hiking Trail",
+      "social_context": "Shared activity, natural conversation flow",
+      "participants": [
+        "Hiking Buddy A",
+        "Hiking Buddy B"
+      ],
+      "customer_profile": "Nature lover, comfortable with companionable silence",
+      "culture": "UK",
+      "emotions": [
+        "relaxed",
+        "contemplative",
+        "friendly"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 9,
+      "tone": "casual",
+      "difficulty": "beginner",
+      "humour_potential": "medium",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: Hiking Trail\n- Scenario: Making small talk while doing activity together\n- Social Context: Shared activity, natural conversation flow\n- Customer Profile: Nature lover, comfortable with companionable silence\n- Emotions: relaxed, contemplative, friendly\n- Tone: casual (relaxed but professional)\n- Participants: Hiking Buddy A, Hiking Buddy B\n- Difficulty: beginner\n- Humour Potential: medium\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"casual\",\n  \"difficulty\": \"beginner\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Hiking Buddy A",
+          "text": "Lovely day for it, isn't it?",
+          "emotion": "relaxed",
+          "intent": "initiate small talk"
+        },
+        {
+          "speaker": "Hiking Buddy B",
+          "text": "Absolutely! The sun's come out just in time.",
+          "emotion": "cheerful",
+          "intent": "agree and add positivity"
+        },
+        {
+          "speaker": "Hiking Buddy A",
+          "text": "Fancy a quick breather by that bench? My legs could use a rest.",
+          "emotion": "tired but content",
+          "intent": "suggest a break"
+        },
+        {
+          "speaker": "Hiking Buddy B",
+          "text": "Good shout. I could murder a cuppa right about now.",
+          "emotion": "playful",
+          "intent": "agree and joke lightly"
+        }
+      ],
+      "cultural_notes": [
+        "Using 'lovely day for it' is a common British way to comment on the weather in a positive, understated manner.",
+        "'Good shout' is a casual British phrase meaning 'good idea' or 'good suggestion.'"
+      ],
+      "rationale": [
+        {
+          "phrase": "I could murder a cuppa right about now.",
+          "explanation": "This is a humorous British exaggeration meaning 'I really want a cup of tea,' showcasing typical UK humour and the cultural importance of tea."
+        },
+        {
+          "phrase": "Lovely day for it, isn't it?",
+          "explanation": "A quintessential British small-talk starter, often used to acknowledge good weather in a polite, understated way."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC024",
+      "scenario": "Gossiping (harmlessly) about mutual acquaintances",
+      "setting": "Friend's Kitchen",
+      "social_context": "Casual bonding, social information sharing",
+      "participants": [
+        "Gossip Sharer",
+        "Interested Friend"
+      ],
+      "customer_profile": "Socially aware, enjoys social dynamics",
+      "culture": "UK",
+      "emotions": [
+        "amused",
+        "conspiratorial",
+        "entertained"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 9,
+      "tone": "casual",
+      "difficulty": "intermediate",
+      "humour_potential": "high",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: Friend's Kitchen\n- Scenario: Gossiping (harmlessly) about mutual acquaintances\n- Social Context: Casual bonding, social information sharing\n- Customer Profile: Socially aware, enjoys social dynamics\n- Emotions: amused, conspiratorial, entertained\n- Tone: casual (relaxed but professional)\n- Participants: Gossip Sharer, Interested Friend\n- Difficulty: intermediate\n- Humour Potential: high\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"casual\",\n  \"difficulty\": \"intermediate\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Gossip Sharer",
+          "text": "You’ll never guess what I heard about Sarah from book club.",
+          "emotion": "amused",
+          "intent": "to intrigue"
+        },
+        {
+          "speaker": "Interested Friend",
+          "text": "Oh, go on then—spill the tea!",
+          "emotion": "eager",
+          "intent": "to encourage sharing"
+        },
+        {
+          "speaker": "Gossip Sharer",
+          "text": "Right, so apparently she’s been secretly seeing that bloke from her pottery class. The one with the questionable jumpers.",
+          "emotion": "conspiratorial",
+          "intent": "to entertain"
+        },
+        {
+          "speaker": "Interested Friend",
+          "text": "No way! The one who looks like he’s dressed by his nan?",
+          "emotion": "disbelief",
+          "intent": "to confirm details"
+        },
+        {
+          "speaker": "Gossip Sharer",
+          "text": "The very same! And get this—they’ve been ‘accidentally’ running into each other at the café every Tuesday. How very convenient.",
+          "emotion": "mocking",
+          "intent": "to highlight irony"
+        },
+        {
+          "speaker": "Interested Friend",
+          "text": "Classic Sarah. Always playing it cool but utterly transparent.",
+          "emotion": "entertained",
+          "intent": "to bond over observation"
+        },
+        {
+          "speaker": "Gossip Sharer",
+          "text": "Honestly, if she put half that effort into her book reviews, we might actually finish a novel on time.",
+          "emotion": "playful",
+          "intent": "to joke"
+        },
+        {
+          "speaker": "Interested Friend",
+          "text": "Too right! Though I’d take this over her rant about ‘overrated literary fiction’ any day.",
+          "emotion": "amused",
+          "intent": "to agree and banter"
+        }
+      ],
+      "cultural_notes": [
+        "‘Spill the tea’ is a playful British slang phrase meaning to share gossip, derived from the idea of sharing secrets over tea.",
+        "Referring to someone as ‘dressed by his nan’ humorously implies their fashion sense is outdated or overly conservative, typical of British teasing."
+      ],
+      "rationale": [
+        {
+          "phrase": "spill the tea",
+          "explanation": "This phrase is widely used in UK casual conversation to mean sharing gossip, reflecting the social ritual of tea-drinking as a backdrop for chats."
+        },
+        {
+          "phrase": "dressed by his nan",
+          "explanation": "A quintessentially British jab implying someone’s clothes are old-fashioned or overly fussy, playing on stereotypes of grandparents’ fashion sense."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC025",
+      "scenario": "Discussing weekend or holiday plans",
+      "setting": "Lunch Break",
+      "social_context": "Casual planning, potential inclusion",
+      "participants": [
+        "Planner",
+        "Friend"
+      ],
+      "customer_profile": "Social coordinator, includes others",
+      "culture": "UK",
+      "emotions": [
+        "excited",
+        "inclusive",
+        "anticipatory"
+      ],
+      "success_rating": 9,
+      "naturalness_rating": 9,
+      "tone": "enthusiastic",
+      "difficulty": "beginner",
+      "humour_potential": "medium",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: Lunch Break\n- Scenario: Discussing weekend or holiday plans\n- Social Context: Casual planning, potential inclusion\n- Customer Profile: Social coordinator, includes others\n- Emotions: excited, inclusive, anticipatory\n- Tone: enthusiastic (passionate, excited)\n- Participants: Planner, Friend\n- Difficulty: beginner\n- Humour Potential: medium\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"enthusiastic\",\n  \"difficulty\": \"beginner\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Planner",
+          "text": "Hey, have you got any plans for the weekend?",
+          "emotion": "excited",
+          "intent": "initiate conversation"
+        },
+        {
+          "speaker": "Friend",
+          "text": "Not really! Fancy doing something together?",
+          "emotion": "anticipatory",
+          "intent": "express interest"
+        },
+        {
+          "speaker": "Planner",
+          "text": "Brilliant! How about a picnic in Hyde Park if the weather holds up?",
+          "emotion": "enthusiastic",
+          "intent": "suggest activity"
+        },
+        {
+          "speaker": "Friend",
+          "text": "Sounds lovely! Shall we invite the others too?",
+          "emotion": "inclusive",
+          "intent": "expand plans"
+        },
+        {
+          "speaker": "Planner",
+          "text": "Absolutely! The more, the merrier. I’ll text the group chat.",
+          "emotion": "excited",
+          "intent": "confirm and coordinate"
+        },
+        {
+          "speaker": "Friend",
+          "text": "Perfect! Fingers crossed for sunshine—or at least no rain!",
+          "emotion": "playful",
+          "intent": "light-hearted closure"
+        }
+      ],
+      "cultural_notes": [
+        "Using 'brilliant' as an enthusiastic affirmation is very British.",
+        "Referring to the weather ('if the weather holds up') is a common British conversational topic."
+      ],
+      "rationale": [
+        {
+          "phrase": "Brilliant!",
+          "explanation": "A quintessentially British way to express enthusiastic agreement, often used casually among friends."
+        },
+        {
+          "phrase": "Fingers crossed for sunshine—or at least no rain!",
+          "explanation": "Humorous and relatable in the UK, where weather is famously unpredictable and a frequent topic of conversation."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC026",
+      "scenario": "Supporting friend through breakup",
+      "setting": "Friend's Apartment",
+      "social_context": "Crisis support, emotional availability",
+      "participants": [
+        "Supportive Friend",
+        "Heartbroken Friend"
+      ],
+      "customer_profile": "Emotionally intelligent, loyal",
+      "culture": "UK",
+      "emotions": [
+        "empathetic",
+        "protective",
+        "caring"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 8,
+      "tone": "caring",
+      "difficulty": "intermediate",
+      "humour_potential": "low",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: Friend's Apartment\n- Scenario: Supporting friend through breakup\n- Social Context: Crisis support, emotional availability\n- Customer Profile: Emotionally intelligent, loyal\n- Emotions: empathetic, protective, caring\n- Tone: caring (gentle, empathetic)\n- Participants: Supportive Friend, Heartbroken Friend\n- Difficulty: intermediate\n- Humour Potential: low\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"caring\",\n  \"difficulty\": \"intermediate\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Supportive Friend",
+          "text": "Hey, I just wanted to check in on you. How are you holding up?",
+          "emotion": "concerned",
+          "intent": "to show care and open the conversation gently"
+        },
+        {
+          "speaker": "Heartbroken Friend",
+          "text": "Honestly? I’m a bit of a mess. It’s all just... a lot.",
+          "emotion": "vulnerable",
+          "intent": "to express sadness and seek comfort"
+        },
+        {
+          "speaker": "Supportive Friend",
+          "text": "I can’t imagine how tough this must be for you. Do you want to talk about it, or would you rather just have a cuppa and a distraction?",
+          "emotion": "empathetic",
+          "intent": "to offer support without pressure"
+        },
+        {
+          "speaker": "Heartbroken Friend",
+          "text": "A cuppa sounds lovely, thanks. And maybe just a chat—I don’t want to dwell, but it helps to not feel alone.",
+          "emotion": "grateful",
+          "intent": "to accept comfort and companionship"
+        },
+        {
+          "speaker": "Supportive Friend",
+          "text": "Of course, you’re not alone. I’m here for you, no matter what. And remember, it’s okay to not be okay.",
+          "emotion": "reassuring",
+          "intent": "to validate feelings and reinforce support"
+        },
+        {
+          "speaker": "Heartbroken Friend",
+          "text": "Cheers for that. You’re a proper mate, you know?",
+          "emotion": "appreciative",
+          "intent": "to acknowledge friendship and gratitude"
+        },
+        {
+          "speaker": "Supportive Friend",
+          "text": "Always. Now, let’s get that kettle on and put on something rubbish telly to take your mind off things, yeah?",
+          "emotion": "comforting",
+          "intent": "to lighten the mood slightly while maintaining support"
+        }
+      ],
+      "cultural_notes": [
+        "The phrase 'a cuppa' (short for 'a cup of tea') is a quintessentially British way to offer comfort in difficult situations.",
+        "Using 'proper mate' emphasises deep friendship and loyalty, common in British vernacular to express genuine appreciation."
+      ],
+      "rationale": [
+        {
+          "phrase": "a cuppa",
+          "explanation": "Tea is culturally significant in the UK as a comforting ritual, often used to offer solace or a moment of pause in stressful times."
+        },
+        {
+          "phrase": "proper mate",
+          "explanation": "This phrase underscores the value placed on steadfast friendship in British culture, often used to affirm strong bonds."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC027",
+      "scenario": "Discussing dating life and giving relationship advice",
+      "setting": "Wine Bar",
+      "social_context": "Personal sharing, friendship intimacy",
+      "participants": [
+        "Dating Friend",
+        "Advisor Friend"
+      ],
+      "customer_profile": "Open about personal life, seeks input",
+      "culture": "UK",
+      "emotions": [
+        "curious",
+        "supportive",
+        "amused"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 9,
+      "tone": "casual",
+      "difficulty": "intermediate",
+      "humour_potential": "medium",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: Wine Bar\n- Scenario: Discussing dating life and giving relationship advice\n- Social Context: Personal sharing, friendship intimacy\n- Customer Profile: Open about personal life, seeks input\n- Emotions: curious, supportive, amused\n- Tone: casual (relaxed but professional)\n- Participants: Dating Friend, Advisor Friend\n- Difficulty: intermediate\n- Humour Potential: medium\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"casual\",\n  \"difficulty\": \"intermediate\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Dating Friend",
+          "text": "So, I’ve been seeing this bloke for a few weeks now, and I’m not sure if he’s really into me. What do you reckon?",
+          "emotion": "curious",
+          "intent": "seeking advice"
+        },
+        {
+          "speaker": "Advisor Friend",
+          "text": "Oh, spill the tea then! What’s he like?",
+          "emotion": "supportive",
+          "intent": "encouraging sharing"
+        },
+        {
+          "speaker": "Dating Friend",
+          "text": "Well, he’s lovely, but he’s a bit... how do I put it? Hard to read. Like, he texts back, but it’s always a bit deadpan.",
+          "emotion": "frustrated",
+          "intent": "venting"
+        },
+        {
+          "speaker": "Advisor Friend",
+          "text": "Ah, the classic British ‘stiff upper lip’! Maybe he’s just shy. Have you tried asking him out properly?",
+          "emotion": "amused",
+          "intent": "offering perspective"
+        },
+        {
+          "speaker": "Dating Friend",
+          "text": "I did! He said yes, but then he cancelled last minute. Said he had to ‘help his mate move’.",
+          "emotion": "skeptical",
+          "intent": "sharing doubts"
+        },
+        {
+          "speaker": "Advisor Friend",
+          "text": "Hmm, that’s a bit dodgy. Unless his mate’s a professional nomad, how often does one need help moving?",
+          "emotion": "playful",
+          "intent": "lightening the mood"
+        },
+        {
+          "speaker": "Dating Friend",
+          "text": "Exactly! I’m starting to think he’s just not that bothered. Maybe I should bin him off.",
+          "emotion": "resigned",
+          "intent": "considering options"
+        },
+        {
+          "speaker": "Advisor Friend",
+          "text": "Well, if he’s not making the effort, he’s not worth your time. Plenty more fish in the sea, love.",
+          "emotion": "supportive",
+          "intent": "reassuring"
+        }
+      ],
+      "cultural_notes": [
+        "‘Spill the tea’ is a playful way to ask for gossip or details, commonly used in UK slang.",
+        "‘Bin him off’ is a colloquial British phrase meaning to end a relationship or stop seeing someone."
+      ],
+      "rationale": [
+        {
+          "phrase": "‘Stiff upper lip’",
+          "explanation": "A quintessentially British phrase referring to emotional reserve or stoicism, often used humorously to describe someone who’s hard to read."
+        },
+        {
+          "phrase": "‘Plenty more fish in the sea’",
+          "explanation": "A common British idiom used to console someone after a breakup or rejection, implying there are many other potential partners available."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC028",
+      "scenario": "Helping friend prepare for job interview",
+      "setting": "Living Room Practice Session",
+      "social_context": "Practical support, skill building",
+      "participants": [
+        "Interview Candidate",
+        "Practice Partner"
+      ],
+      "customer_profile": "Helpful, invested in friend's success",
+      "culture": "UK",
+      "emotions": [
+        "nervous",
+        "encouraging",
+        "supportive"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 8,
+      "tone": "encouraging",
+      "difficulty": "intermediate",
+      "humour_potential": "medium",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: Living Room Practice Session\n- Scenario: Helping friend prepare for job interview\n- Social Context: Practical support, skill building\n- Customer Profile: Helpful, invested in friend's success\n- Emotions: nervous, encouraging, supportive\n- Tone: encouraging (uplifting, positive)\n- Participants: Interview Candidate, Practice Partner\n- Difficulty: intermediate\n- Humour Potential: medium\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"encouraging\",\n  \"difficulty\": \"intermediate\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Practice Partner",
+          "text": "Alright, let's get cracking on this interview prep. You’ve got this!",
+          "emotion": "encouraging",
+          "intent": "to motivate and start the session positively"
+        },
+        {
+          "speaker": "Interview Candidate",
+          "text": "Cheers, mate. I’m proper nervous, though. What if I mess up the ‘tell me about yourself’ bit?",
+          "emotion": "nervous",
+          "intent": "to express anxiety and seek reassurance"
+        },
+        {
+          "speaker": "Practice Partner",
+          "text": "Don’t be daft! You’re brilliant at talking about yourself—just think of it like telling a story at the pub, but with fewer swear words.",
+          "emotion": "humorous",
+          "intent": "to lighten the mood and build confidence"
+        },
+        {
+          "speaker": "Interview Candidate",
+          "text": "Hah, fair point. Right, let’s give it a go. ‘I’ve been working in retail for three years…’",
+          "emotion": "determined",
+          "intent": "to start practicing despite nerves"
+        },
+        {
+          "speaker": "Practice Partner",
+          "text": "Spot on! Now, throw in how you handled that difficult customer last month—that’s gold for showing problem-solving.",
+          "emotion": "supportive",
+          "intent": "to guide and highlight strengths"
+        },
+        {
+          "speaker": "Interview Candidate",
+          "text": "Oh yeah, the one who wanted a refund without a receipt? Blimey, that was a nightmare.",
+          "emotion": "amused",
+          "intent": "to recall a challenging but funny memory"
+        },
+        {
+          "speaker": "Practice Partner",
+          "text": "Exactly! See, you’re already nailing it. Just keep calm and carry on—you’ll smash it.",
+          "emotion": "uplifting",
+          "intent": "to reinforce confidence and end on a high note"
+        }
+      ],
+      "cultural_notes": [
+        "‘Proper nervous’ is a colloquial British phrase emphasising genuine feeling, often used in informal settings.",
+        "‘Don’t be daft’ is a light-hearted way to dismiss someone’s worries, common among friends in the UK."
+      ],
+      "rationale": [
+        {
+          "phrase": "‘Cheers, mate’",
+          "explanation": "A casual and friendly way to say thank you in British English, reflecting camaraderie."
+        },
+        {
+          "phrase": "‘Keep calm and carry on’",
+          "explanation": "A well-known British slogan often used humorously or sincerely to encourage perseverance."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC029",
+      "scenario": "Discussing career changes or life transitions",
+      "setting": "Evening Walk",
+      "social_context": "Deep conversation, life reflection",
+      "participants": [
+        "Transitioning Friend",
+        "Listening Friend"
+      ],
+      "customer_profile": "Thoughtful, going through changes",
+      "culture": "UK",
+      "emotions": [
+        "uncertain",
+        "reflective",
+        "supported"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 8,
+      "tone": "thoughtful",
+      "difficulty": "advanced",
+      "humour_potential": "low",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: Evening Walk\n- Scenario: Discussing career changes or life transitions\n- Social Context: Deep conversation, life reflection\n- Customer Profile: Thoughtful, going through changes\n- Emotions: uncertain, reflective, supported\n- Tone: thoughtful (reflective, contemplative)\n- Participants: Transitioning Friend, Listening Friend\n- Difficulty: advanced\n- Humour Potential: low\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"thoughtful\",\n  \"difficulty\": \"advanced\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Transitioning Friend",
+          "text": "You know, I’ve been thinking a lot lately about where I’m headed. This job just doesn’t feel right anymore.",
+          "emotion": "uncertain",
+          "intent": "to share personal doubts"
+        },
+        {
+          "speaker": "Listening Friend",
+          "text": "I get that. It’s a big decision, though. Have you got any ideas about what you might do instead?",
+          "emotion": "supportive",
+          "intent": "to encourage reflection"
+        },
+        {
+          "speaker": "Transitioning Friend",
+          "text": "That’s the thing—I’m not entirely sure. Part of me fancies a complete change, maybe even going back to uni.",
+          "emotion": "reflective",
+          "intent": "to explore possibilities"
+        },
+        {
+          "speaker": "Listening Friend",
+          "text": "Blimey, that’s a proper leap. But if it feels right, why not? You’ve always been clever enough.",
+          "emotion": "encouraging",
+          "intent": "to reassure"
+        },
+        {
+          "speaker": "Transitioning Friend",
+          "text": "Cheers, mate. It’s just... daunting, you know? Starting over at this stage.",
+          "emotion": "vulnerable",
+          "intent": "to express fear"
+        },
+        {
+          "speaker": "Listening Friend",
+          "text": "Course it is. But you’re not exactly on your last legs, are you? Plenty of time to pivot.",
+          "emotion": "lighthearted",
+          "intent": "to lighten the mood"
+        },
+        {
+          "speaker": "Transitioning Friend",
+          "text": "Hah, true. Suppose I’m just having a bit of a wobble about it all.",
+          "emotion": "relieved",
+          "intent": "to acknowledge support"
+        },
+        {
+          "speaker": "Listening Friend",
+          "text": "Perfectly normal. Fancy a cuppa while we mull it over?",
+          "emotion": "caring",
+          "intent": "to offer comfort"
+        }
+      ],
+      "cultural_notes": [
+        "Using terms like 'cheers, mate' and 'blimey' adds a distinctly British casual warmth to the conversation.",
+        "The offer of a 'cuppa' (cup of tea) is a classic British gesture of comfort and support during difficult discussions."
+      ],
+      "rationale": [
+        {
+          "phrase": "having a bit of a wobble",
+          "explanation": "A British colloquialism for experiencing doubt or uncertainty, often used to downplay emotional vulnerability in a light-hearted way."
+        },
+        {
+          "phrase": "not on your last legs",
+          "explanation": "A humorous British idiom meaning 'not old or incapable yet,' used here to reassure without dismissing the friend's concerns."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC030",
+      "scenario": "Celebrating friend's birthday or special occasion",
+      "setting": "Birthday Party/Celebration",
+      "social_context": "Celebration, showing appreciation",
+      "participants": [
+        "Birthday Friend",
+        "Celebrating Friend"
+      ],
+      "customer_profile": "Thoughtful, enjoys celebrating others",
+      "culture": "UK",
+      "emotions": [
+        "joyful",
+        "appreciative",
+        "festive"
+      ],
+      "success_rating": 9,
+      "naturalness_rating": 9,
+      "tone": "celebratory",
+      "difficulty": "beginner",
+      "humour_potential": "high",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: Birthday Party/Celebration\n- Scenario: Celebrating friend's birthday or special occasion\n- Social Context: Celebration, showing appreciation\n- Customer Profile: Thoughtful, enjoys celebrating others\n- Emotions: joyful, appreciative, festive\n- Tone: celebratory (joyful, festive)\n- Participants: Birthday Friend, Celebrating Friend\n- Difficulty: beginner\n- Humour Potential: high\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"celebratory\",\n  \"difficulty\": \"beginner\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Celebrating Friend",
+          "text": "Happy birthday, mate! Blimey, you're getting old now, aren't you?",
+          "emotion": "joyful",
+          "intent": "tease affectionately"
+        },
+        {
+          "speaker": "Birthday Friend",
+          "text": "Cheers! I’m not old—just vintage, like a fine wine!",
+          "emotion": "amused",
+          "intent": "play along with humour"
+        },
+        {
+          "speaker": "Celebrating Friend",
+          "text": "Oh, absolutely posh! Here’s your present—hope you like it!",
+          "emotion": "excited",
+          "intent": "show appreciation"
+        },
+        {
+          "speaker": "Birthday Friend",
+          "text": "You shouldn’t have! But I’m chuffed you did. Let’s crack open the cake!",
+          "emotion": "grateful",
+          "intent": "express thanks and celebrate"
+        }
+      ],
+      "cultural_notes": [
+        "‘Blimey’ is a British exclamation expressing surprise, often used humorously.",
+        "‘Chuffed’ is a colloquial term meaning very pleased, commonly used in the UK."
+      ],
+      "rationale": [
+        {
+          "phrase": "Blimey, you're getting old now, aren't you?",
+          "explanation": "British friends often tease each other affectionately, especially during celebrations, to show closeness."
+        },
+        {
+          "phrase": "I’m not old—just vintage, like a fine wine!",
+          "explanation": "Self-deprecating humour is a key part of British banter, turning a teasing remark into a playful comeback."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC031",
+      "scenario": "Following up on social media interaction in person",
+      "setting": "Chance Street Encounter",
+      "social_context": "Digital to physical world transition",
+      "participants": [
+        "Social Media Connector",
+        "Online Friend"
+      ],
+      "customer_profile": "Digitally native, bridges online/offline",
+      "culture": "UK",
+      "emotions": [
+        "curious",
+        "friendly",
+        "slightly awkward"
+      ],
+      "success_rating": 7,
+      "naturalness_rating": 8,
+      "tone": "casual",
+      "difficulty": "intermediate",
+      "humour_potential": "medium",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: Chance Street Encounter\n- Scenario: Following up on social media interaction in person\n- Social Context: Digital to physical world transition\n- Customer Profile: Digitally native, bridges online/offline\n- Emotions: curious, friendly, slightly awkward\n- Tone: casual (relaxed but professional)\n- Participants: Social Media Connector, Online Friend\n- Difficulty: intermediate\n- Humour Potential: medium\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"casual\",\n  \"difficulty\": \"intermediate\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Social Media Connector",
+          "text": "Blimey, is that you? I was just scrolling through your Insta the other day!",
+          "emotion": "excited",
+          "intent": "break the ice with a friendly, informal greeting"
+        },
+        {
+          "speaker": "Online Friend",
+          "text": "No way! Small world, innit? I thought I recognised you from your profile pic.",
+          "emotion": "surprised but pleased",
+          "intent": "acknowledge the coincidence and reciprocate friendliness"
+        },
+        {
+          "speaker": "Social Media Connector",
+          "text": "Bit weird seeing you in the flesh after all those DMs, eh?",
+          "emotion": "slightly awkward but amused",
+          "intent": "acknowledge the digital-to-physical transition with humour"
+        },
+        {
+          "speaker": "Online Friend",
+          "text": "Tell me about it! Though you’re taller than I expected—your photos must be all angles.",
+          "emotion": "playful",
+          "intent": "light-hearted teasing to ease tension"
+        },
+        {
+          "speaker": "Social Media Connector",
+          "text": "Cheeky! At least I don’t use those dodgy filters like some people...",
+          "emotion": "mock-offended",
+          "intent": "continue banter to build rapport"
+        },
+        {
+          "speaker": "Online Friend",
+          "text": "Alright, fair play. Fancy grabbing a cuppa while we’re here? Feels odd chatting on the pavement.",
+          "emotion": "warm and inviting",
+          "intent": "transition to a more comfortable setting"
+        },
+        {
+          "speaker": "Social Media Connector",
+          "text": "Yeah, go on then. As long as you’re paying—you owe me for the filter slander.",
+          "emotion": "jovial",
+          "intent": "accept invitation with playful negotiation"
+        }
+      ],
+      "cultural_notes": [
+        "‘Blimey’ is a quintessentially British exclamation expressing surprise, often used in informal settings.",
+        "‘Innit’ is a colloquial contraction of ‘isn’t it’, commonly used in casual UK speech for agreement or emphasis."
+      ],
+      "rationale": [
+        {
+          "phrase": "Bit weird seeing you in the flesh after all those DMs, eh?",
+          "explanation": "This phrase acknowledges the modern dynamic of transitioning from online to offline interaction, using ‘in the flesh’ (a British idiom for meeting someone in person) and ‘eh’ (a casual tag question)."
+        },
+        {
+          "phrase": "Fancy grabbing a cuppa while we’re here?",
+          "explanation": "‘Cuppa’ is a British shorthand for ‘cup of tea’, reflecting the cultural importance of tea as a social lubricant in the UK."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC032",
+      "scenario": "Making plans via group chat coordination",
+      "setting": "Digital Communication Context",
+      "social_context": "Modern friendship maintenance, coordination",
+      "participants": [
+        "Group Chat Organizer",
+        "Group Members"
+      ],
+      "customer_profile": "Digitally organized, group coordinator",
+      "culture": "UK",
+      "emotions": [
+        "practical",
+        "inclusive",
+        "efficient"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 8,
+      "tone": "organized",
+      "difficulty": "beginner",
+      "humour_potential": "medium",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: Digital Communication Context\n- Scenario: Making plans via group chat coordination\n- Social Context: Modern friendship maintenance, coordination\n- Customer Profile: Digitally organized, group coordinator\n- Emotions: practical, inclusive, efficient\n- Tone: organized (structured, efficient)\n- Participants: Group Chat Organizer, Group Members\n- Difficulty: beginner\n- Humour Potential: medium\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"organized\",\n  \"difficulty\": \"beginner\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Group Chat Organizer",
+          "text": "Right then, team! Fancy a catch-up this weekend? I was thinking Saturday afternoon.",
+          "emotion": "enthusiastic",
+          "intent": "initiate plans"
+        },
+        {
+          "speaker": "Group Member 1",
+          "text": "Sounds good to me! As long as it's after 2pm—got a lie-in planned.",
+          "emotion": "playful",
+          "intent": "agree with condition"
+        },
+        {
+          "speaker": "Group Member 2",
+          "text": "Same here! Maybe that new café by the park? Heard their scones are banging.",
+          "emotion": "excited",
+          "intent": "suggest location"
+        },
+        {
+          "speaker": "Group Chat Organizer",
+          "text": "Brilliant! 2:30 at the café it is. I’ll book us a table—no faffing about when we get there.",
+          "emotion": "efficient",
+          "intent": "confirm details"
+        },
+        {
+          "speaker": "Group Member 1",
+          "text": "Cheers, mate! You’re a star for sorting it.",
+          "emotion": "grateful",
+          "intent": "express thanks"
+        },
+        {
+          "speaker": "Group Member 2",
+          "text": "Perfect. Now, who’s bringing the gossip?",
+          "emotion": "teasing",
+          "intent": "lighten mood"
+        }
+      ],
+      "cultural_notes": [
+        "‘Fancy a catch-up’ is a common British way to casually suggest meeting socially.",
+        "‘No faffing about’ reflects a British preference for efficiency and avoiding unnecessary hassle."
+      ],
+      "rationale": [
+        {
+          "phrase": "‘Fancy a catch-up?’",
+          "explanation": "A quintessentially British, informal way to propose meeting up, often used among friends."
+        },
+        {
+          "phrase": "‘Banging’",
+          "explanation": "British slang for ‘excellent’, adding casual, youthful energy to the conversation."
+        },
+        {
+          "phrase": "‘No faffing about’",
+          "explanation": "A typically British phrase meaning to avoid wasting time, emphasizing practicality in plans."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC033",
+      "scenario": "Transitioning work relationship to personal friendship",
+      "setting": "After Work Drinks",
+      "social_context": "Professional boundary crossing, deepening relationship",
+      "participants": [
+        "Colleague A",
+        "Colleague B"
+      ],
+      "customer_profile": "Professional but personable, values deeper connections",
+      "culture": "UK",
+      "emotions": [
+        "hopeful",
+        "slightly nervous",
+        "genuine"
+      ],
+      "success_rating": 7,
+      "naturalness_rating": 8,
+      "tone": "casual",
+      "difficulty": "intermediate",
+      "humour_potential": "medium",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: After Work Drinks\n- Scenario: Transitioning work relationship to personal friendship\n- Social Context: Professional boundary crossing, deepening relationship\n- Customer Profile: Professional but personable, values deeper connections\n- Emotions: hopeful, slightly nervous, genuine\n- Tone: casual (relaxed but professional)\n- Participants: Colleague A, Colleague B\n- Difficulty: intermediate\n- Humour Potential: medium\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"casual\",\n  \"difficulty\": \"intermediate\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Colleague A",
+          "text": "Fancy another round? I feel like we've only just scratched the surface of proper chat outside the office.",
+          "emotion": "hopeful",
+          "intent": "deepen connection"
+        },
+        {
+          "speaker": "Colleague B",
+          "text": "Go on then, twist my arm! Though I should warn you, I get properly chatty after a second G&T.",
+          "emotion": "playful",
+          "intent": "reciprocate interest"
+        },
+        {
+          "speaker": "Colleague A",
+          "text": "Brilliant! You know, it's refreshing - most work drinks stay painfully polite. Like we're all still mentally checking our Outlook calendars.",
+          "emotion": "genuine",
+          "intent": "break professional barrier"
+        },
+        {
+          "speaker": "Colleague B",
+          "text": "God, yes! Though I did nearly call you 'mate' earlier and panicked it was too soon. There should be a handbook for when work banter becomes actual friendship.",
+          "emotion": "slightly nervous",
+          "intent": "acknowledge boundary crossing"
+        },
+        {
+          "speaker": "Colleague A",
+          "text": "Consider this your official 'mate' license then. Cheers to that!",
+          "emotion": "warm",
+          "intent": "reassure and bond"
+        },
+        {
+          "speaker": "Colleague B",
+          "text": "Cheers! Right, proper friend rules now - you have to help me brainstorm how to politely avoid Dave's spreadsheet seminars.",
+          "emotion": "teasing",
+          "intent": "initiate inside joke"
+        }
+      ],
+      "cultural_notes": [
+        "'Twist my arm' is a British idiom expressing playful reluctance when agreeing to something",
+        "Using 'proper' as an intensifier (e.g. 'proper chatty') is common in UK casual speech"
+      ],
+      "rationale": [
+        {
+          "phrase": "painfully polite",
+          "explanation": "British culture often values restrained professionalism; this phrase humorously acknowledges that social norm while subverting it."
+        },
+        {
+          "phrase": "mate license",
+          "explanation": "Playfully formalising the informal 'mate' term reflects British humour around social hierarchies and relationship milestones."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC034",
+      "scenario": "Supporting colleague-friend through work stress",
+      "setting": "Office Break Room",
+      "social_context": "Dual role navigation, workplace support",
+      "participants": [
+        "Supportive Colleague",
+        "Stressed Colleague"
+      ],
+      "customer_profile": "Empathetic professional, good boundaries",
+      "culture": "UK",
+      "emotions": [
+        "concerned",
+        "supportive",
+        "professional"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 8,
+      "tone": "caring",
+      "difficulty": "intermediate",
+      "humour_potential": "low",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: Office Break Room\n- Scenario: Supporting colleague-friend through work stress\n- Social Context: Dual role navigation, workplace support\n- Customer Profile: Empathetic professional, good boundaries\n- Emotions: concerned, supportive, professional\n- Tone: caring (gentle, empathetic)\n- Participants: Supportive Colleague, Stressed Colleague\n- Difficulty: intermediate\n- Humour Potential: low\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"caring\",\n  \"difficulty\": \"intermediate\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Stressed Colleague",
+          "text": "Blimey, this project is doing my head in. I’ve been at it since half seven this morning, and I’m still nowhere near finished.",
+          "emotion": "frustrated",
+          "intent": "venting"
+        },
+        {
+          "speaker": "Supportive Colleague",
+          "text": "Oh, that sounds rough. Fancy a cuppa while you take five? Sometimes stepping away helps clear the mind.",
+          "emotion": "concerned",
+          "intent": "offering support"
+        },
+        {
+          "speaker": "Stressed Colleague",
+          "text": "Ta, that’d be lovely. I just feel like I’m banging my head against a brick wall with these figures.",
+          "emotion": "grateful",
+          "intent": "accepting help"
+        },
+        {
+          "speaker": "Supportive Colleague",
+          "text": "I get that. You’ve been grafting non-stop—maybe a quick breather will give you a fresh perspective. Don’t want you burning out.",
+          "emotion": "empathetic",
+          "intent": "reassuring"
+        },
+        {
+          "speaker": "Stressed Colleague",
+          "text": "Cheers, mate. You’re right—I’ll take a proper lunch break after this. Just needed a moan to someone who gets it.",
+          "emotion": "relieved",
+          "intent": "acknowledging support"
+        },
+        {
+          "speaker": "Supportive Colleague",
+          "text": "Anytime. That’s what work pals are for, innit? Just promise you’ll actually step away for a bit.",
+          "emotion": "warm",
+          "intent": "reinforcing care"
+        }
+      ],
+      "cultural_notes": [
+        "‘Blimey’ is a mild British exclamation expressing surprise or frustration, often used informally among friends.",
+        "‘Ta’ is a colloquial, casual way of saying ‘thank you,’ common in UK workplaces among colleagues."
+      ],
+      "rationale": [
+        {
+          "phrase": "Fancy a cuppa?",
+          "explanation": "A quintessentially British way to offer tea (and by extension, a break), reflecting the cultural importance of tea as a comfort ritual."
+        },
+        {
+          "phrase": "Banging my head against a brick wall",
+          "explanation": "A vivid British idiom for futile effort, adding relatability and cultural flavour to the stress expressed."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC035",
+      "scenario": "Getting to know a new neighbor",
+      "setting": "Front Garden/Doorstep",
+      "social_context": "Community building, proximity-based friendship",
+      "participants": [
+        "Established Resident",
+        "New Neighbor"
+      ],
+      "customer_profile": "Community-minded, welcoming",
+      "culture": "UK",
+      "emotions": [
+        "welcoming",
+        "curious",
+        "neighborly"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 9,
+      "tone": "friendly",
+      "difficulty": "beginner",
+      "humour_potential": "medium",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: Front Garden/Doorstep\n- Scenario: Getting to know a new neighbor\n- Social Context: Community building, proximity-based friendship\n- Customer Profile: Community-minded, welcoming\n- Emotions: welcoming, curious, neighborly\n- Tone: friendly (warm, familiar)\n- Participants: Established Resident, New Neighbor\n- Difficulty: beginner\n- Humour Potential: medium\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"friendly\",\n  \"difficulty\": \"beginner\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Established Resident",
+          "text": "Hello there! You must be the new neighbour. Welcome to the street!",
+          "emotion": "welcoming",
+          "intent": "greet and introduce"
+        },
+        {
+          "speaker": "New Neighbor",
+          "text": "Oh, hello! Yes, we just moved in last week. Lovely to meet you.",
+          "emotion": "grateful",
+          "intent": "respond and acknowledge"
+        },
+        {
+          "speaker": "Established Resident",
+          "text": "Brilliant! How are you settling in? The moving boxes can be a nightmare, can't they?",
+          "emotion": "friendly",
+          "intent": "show interest and relate"
+        },
+        {
+          "speaker": "New Neighbor",
+          "text": "Haha, tell me about it! Still tripping over them. But the area seems really nice.",
+          "emotion": "amused",
+          "intent": "share experience and compliment"
+        },
+        {
+          "speaker": "Established Resident",
+          "text": "Oh, it’s lovely round here. If you need any tips—best takeaways, dodgy pavements—just give us a shout.",
+          "emotion": "helpful",
+          "intent": "offer assistance"
+        },
+        {
+          "speaker": "New Neighbor",
+          "text": "That’s so kind of you! Might take you up on that. Fancy a cuppa sometime?",
+          "emotion": "appreciative",
+          "intent": "reciprocate and suggest future meet"
+        }
+      ],
+      "cultural_notes": [
+        "‘Give us a shout’ is a colloquial British phrase meaning ‘let me know’—it’s informal and neighbourly.",
+        "Offering a ‘cuppa’ (cup of tea) is a classic British icebreaker for building friendships."
+      ],
+      "rationale": [
+        {
+          "phrase": "Give us a shout",
+          "explanation": "This phrase reflects British informality and community spirit, making the offer of help sound casual yet genuine."
+        },
+        {
+          "phrase": "Fancy a cuppa sometime?",
+          "explanation": "Tea is a cultural cornerstone in the UK; suggesting a cuppa is a low-pressure way to initiate further interaction."
+        }
+      ]
+    },
+    {
+      "scenario_id": "SOC036",
+      "scenario": "Bonding with parent at child's activity",
+      "setting": "School/Activity Sidelines",
+      "social_context": "Parent networking, shared experience",
+      "participants": [
+        "Parent A",
+        "Parent B"
+      ],
+      "customer_profile": "Parent seeking adult friendship, community connection",
+      "culture": "UK",
+      "emotions": [
+        "tired",
+        "amused",
+        "companionable"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 9,
+      "tone": "casual",
+      "difficulty": "beginner",
+      "humour_potential": "high",
+      "prompt": "Create a realistic friendship conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English (British social context)\n- Setting: School/Activity Sidelines\n- Scenario: Bonding with parent at child's activity\n- Social Context: Parent networking, shared experience\n- Customer Profile: Parent seeking adult friendship, community connection\n- Emotions: tired, amused, companionable\n- Tone: casual (relaxed but professional)\n- Participants: Parent A, Parent B\n- Difficulty: beginner\n- Humour Potential: high\n\nRequirements:\n- Alternating dialogue between participants (4–18 lines total, depending on scenario complexity and difficulty).\n- Conversation length should match scenario realism and difficulty:\n  * Beginner (simple interactions): 4-8 lines\n  * Intermediate (standard conversations): 6-12 lines  \n  * Advanced (complex discussions): 8-18 lines\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate British phrases, cultural context, and social norms.\n- For higher humour potential, include light banter, witty exchanges, or amusing observations.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups.\n- Show authentic friendship dynamics and social intelligence.\n- Provide rationale for 2-3 standout phrases explaining British cultural/linguistic choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"casual\",\n  \"difficulty\": \"beginner\",\n  \"cultural_notes\": [\"string\", \"string\"],\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Parent A",
+          "text": "Blimey, these Saturday morning football matches are knackering, aren’t they?",
+          "emotion": "tired",
+          "intent": "bonding over shared experience"
+        },
+        {
+          "speaker": "Parent B",
+          "text": "Tell me about it! I swear I need a cuppa just to recover from the sidelines.",
+          "emotion": "amused",
+          "intent": "agreeing and lightening the mood"
+        },
+        {
+          "speaker": "Parent A",
+          "text": "Ha! At least the kids are having a blast. Mine’s convinced he’s the next Harry Kane.",
+          "emotion": "companionable",
+          "intent": "sharing a humorous observation"
+        },
+        {
+          "speaker": "Parent B",
+          "text": "Mine too—though I reckon he’s more of a ‘enthusiastic tripper’ than a striker!",
+          "emotion": "playful",
+          "intent": "adding light banter"
+        }
+      ],
+      "cultural_notes": [
+        "‘Blimey’ is a common British exclamation expressing surprise or mild frustration, often used in casual conversation.",
+        "‘Cuppa’ is a colloquial term for a cup of tea, deeply ingrained in British culture as a comfort or recovery ritual."
+      ],
+      "rationale": [
+        {
+          "phrase": "Blimey, these Saturday morning football matches are knackering, aren’t they?",
+          "explanation": "Uses ‘Blimey’ for casual emphasis and ‘knackering’ (very tired) to reflect British slang, making the exchange feel authentic and relatable."
+        },
+        {
+          "phrase": "At least the kids are having a blast. Mine’s convinced he’s the next Harry Kane.",
+          "explanation": "References Harry Kane, a well-known British footballer, to add cultural relevance and humour about parental pride and childlike ambition."
+        }
+      ]
+    }
+  ]
+}

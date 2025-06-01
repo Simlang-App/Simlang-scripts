@@ -1,0 +1,1121 @@
+{
+  "conversations": [
+    {
+      "scenario_id": "001",
+      "scenario": "Ordering the usual latte",
+      "brand": "Starbucks",
+      "customer_profile": "Regular customer",
+      "culture": "UK",
+      "emotions": [
+        "relieved",
+        "exhausted",
+        "grateful"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 9,
+      "tone": "formal",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Starbucks\n- Scenario: Ordering the usual latte\n- Customer Profile: Regular customer\n- Emotions: relieved, exhausted, grateful\n- Tone: formal (polite, structured)\n\nRequirements:\n- Alternating dialogue between customer and barista (4–6 lines total).\n- Include emotional cues (e.g., nervous, friendly) and speaker intentions (e.g., ordering, thanking).\n- Use UK-specific phrases (e.g., takeaway, cheers).\n- Provide a rationale for 1–2 standout phrases, explaining cultural, linguistic, or tone-specific choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"formal\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Good afternoon! The usual latte today?",
+          "emotion": "friendly",
+          "intent": "greeting"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Yes, please. Takeaway, if you don’t mind. It’s been quite a day.",
+          "emotion": "exhausted",
+          "intent": "ordering"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Of course, one tall latte to go. Rough day at work?",
+          "emotion": "sympathetic",
+          "intent": "small talk"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Absolutely shattered, but this’ll perk me right up. Cheers!",
+          "emotion": "grateful",
+          "intent": "thanking"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Absolutely shattered",
+          "explanation": "A common UK phrase to express extreme tiredness, adding cultural authenticity and relatability."
+        },
+        {
+          "phrase": "Cheers",
+          "explanation": "A versatile British term used here to express gratitude, fitting the polite and structured tone while sounding natural."
+        }
+      ]
+    },
+    {
+      "scenario_id": "002",
+      "scenario": "Asking about a seasonal drink",
+      "brand": "Starbucks",
+      "customer_profile": "Curious tourist",
+      "culture": "UK",
+      "emotions": [
+        "curious",
+        "satisfied"
+      ],
+      "success_rating": 7,
+      "naturalness_rating": 8,
+      "tone": "friendly",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Starbucks\n- Scenario: Asking about a seasonal drink\n- Customer Profile: Curious tourist\n- Emotions: curious, satisfied\n- Tone: friendly (warm, familiar between regulars)\n\nRequirements:\n- Alternating dialogue between customer and barista (4–6 lines total).\n- Include emotional cues (e.g., nervous, friendly) and speaker intentions (e.g., ordering, thanking).\n- Use UK-specific phrases (e.g., takeaway, cheers).\n- Provide a rationale for 1–2 standout phrases, explaining cultural, linguistic, or tone-specific choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"friendly\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Morning! What can I get for you today? We've got a lovely new seasonal drink—the Toffee Nut Latte—if you fancy trying something different.",
+          "emotion": "friendly",
+          "intent": "greeting and suggesting"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Ooh, that sounds delicious! Is it very sweet? I don’t usually go for overly sugary drinks.",
+          "emotion": "curious",
+          "intent": "inquiring"
+        },
+        {
+          "speaker": "Barista",
+          "text": "It’s got a nice balance, actually—the toffee syrup adds warmth without being cloying. Would you like it hot or iced?",
+          "emotion": "helpful",
+          "intent": "clarifying"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Hot, please. And could I have it to take away? Cheers!",
+          "emotion": "satisfied",
+          "intent": "ordering and thanking"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Absolutely! That’ll be £3.80. I’ll have it ready for you in a jiffy.",
+          "emotion": "warm",
+          "intent": "confirming"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Cheers!",
+          "explanation": "A versatile UK phrase used here to express thanks informally, reinforcing the warm, familiar tone between speakers."
+        },
+        {
+          "phrase": "in a jiffy",
+          "explanation": "A colloquial British expression meaning 'very quickly,' adding a touch of local charm and approachability to the barista's response."
+        }
+      ]
+    },
+    {
+      "scenario_id": "003",
+      "scenario": "Mispronouncing a drink name",
+      "brand": "Costa",
+      "customer_profile": "Shy student",
+      "culture": "UK",
+      "emotions": [
+        "nervous",
+        "relieved"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 9,
+      "tone": "casual",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Costa\n- Scenario: Mispronouncing a drink name\n- Customer Profile: Shy student\n- Emotions: nervous, relieved\n- Tone: casual (relaxed but professional)\n\nRequirements:\n- Alternating dialogue between customer and barista (4–6 lines total).\n- Include emotional cues (e.g., nervous, friendly) and speaker intentions (e.g., ordering, thanking).\n- Use UK-specific phrases (e.g., takeaway, cheers).\n- Provide a rationale for 1–2 standout phrases, explaining cultural, linguistic, or tone-specific choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"casual\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Hi there, what can I get for you today?",
+          "emotion": "friendly",
+          "intent": "greeting"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Um, could I have a... caramel macchiato, please? Takeaway.",
+          "emotion": "nervous",
+          "intent": "ordering"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Sure thing! One caramel macchiato to go. That’ll be £3.20.",
+          "emotion": "reassuring",
+          "intent": "confirming order"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Oh, cheers! Sorry, I was a bit nervous—I always mispronounce that.",
+          "emotion": "relieved",
+          "intent": "thanking"
+        },
+        {
+          "speaker": "Barista",
+          "text": "No worries at all! Happens all the time. Your drink’ll be ready in a mo.",
+          "emotion": "warm",
+          "intent": "reassuring"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "cheers",
+          "explanation": "A common UK colloquialism for 'thank you,' adding a casual yet friendly tone."
+        },
+        {
+          "phrase": "Your drink’ll be ready in a mo.",
+          "explanation": "Uses contractions ('drink’ll') and 'mo' (short for 'moment') to sound relaxed and approachable, typical of UK coffee shop banter."
+        }
+      ]
+    },
+    {
+      "scenario_id": "004",
+      "scenario": "No stock of requested item",
+      "brand": "Caffè Nero",
+      "customer_profile": "Regular customer",
+      "culture": "UK",
+      "emotions": [
+        "disappointed",
+        "understanding"
+      ],
+      "success_rating": 7,
+      "naturalness_rating": 8,
+      "tone": "formal",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Caffè Nero\n- Scenario: No stock of requested item\n- Customer Profile: Regular customer\n- Emotions: disappointed, understanding\n- Tone: formal (polite, structured)\n\nRequirements:\n- Alternating dialogue between customer and barista (4–6 lines total).\n- Include emotional cues (e.g., nervous, friendly) and speaker intentions (e.g., ordering, thanking).\n- Use UK-specific phrases (e.g., takeaway, cheers).\n- Provide a rationale for 1–2 standout phrases, explaining cultural, linguistic, or tone-specific choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"formal\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Good morning! The usual flat white for you today?",
+          "emotion": "friendly",
+          "intent": "greeting"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Yes, please. To takeaway, as always. Cheers!",
+          "emotion": "cheerful",
+          "intent": "ordering"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Ah, I'm terribly sorry, but we've just run out of flat whites. Would you like an alternative? Perhaps a latte?",
+          "emotion": "apologetic",
+          "intent": "explaining"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Oh, that's a shame. A latte will do nicely, then. Thank you for letting me know.",
+          "emotion": "understanding",
+          "intent": "accepting"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Perfect! I'll get that sorted for you straight away.",
+          "emotion": "grateful",
+          "intent": "confirming"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Cheers!",
+          "explanation": "A common British informal expression used to say thank you, fitting for a regular customer in a friendly yet polite context."
+        },
+        {
+          "phrase": "I'm terribly sorry",
+          "explanation": "This phrase reflects the formal and polite tone, typical in UK customer service to express sincere apologies."
+        }
+      ]
+    },
+    {
+      "scenario_id": "005",
+      "scenario": "Friendly small talk while ordering",
+      "brand": "Costa",
+      "customer_profile": "Chatty customer",
+      "culture": "UK",
+      "emotions": [
+        "cheerful",
+        "engaged"
+      ],
+      "success_rating": 9,
+      "naturalness_rating": 9,
+      "tone": "friendly",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Costa\n- Scenario: Friendly small talk while ordering\n- Customer Profile: Chatty customer\n- Emotions: cheerful, engaged\n- Tone: friendly (warm, familiar between regulars)\n\nRequirements:\n- Alternating dialogue between customer and barista (4–6 lines total).\n- Include emotional cues (e.g., nervous, friendly) and speaker intentions (e.g., ordering, thanking).\n- Use UK-specific phrases (e.g., takeaway, cheers).\n- Provide a rationale for 1–2 standout phrases, explaining cultural, linguistic, or tone-specific choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"friendly\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Morning! Usual flat white for you today, or fancy mixing it up?",
+          "emotion": "cheerful",
+          "intent": "greeting and offering"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Oh, go on then—let’s live dangerously! I’ll have a caramel latte to takeaway, please.",
+          "emotion": "engaged",
+          "intent": "ordering playfully"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Nice choice! That’ll be £3.20, love. How’s your day been so far?",
+          "emotion": "warm",
+          "intent": "confirming order and small talk"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Not bad at all, cheers! Just dodged the rain to get here—typical British summer, eh?",
+          "emotion": "cheerful",
+          "intent": "responding and bonding"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "cheers",
+          "explanation": "A versatile UK colloquialism used here to express thanks informally, reinforcing the warm, regular-customer dynamic."
+        },
+        {
+          "phrase": "typical British summer, eh?",
+          "explanation": "Light-hearted weather-related banter is a cultural staple in UK small talk, fostering camaraderie through shared experience."
+        }
+      ]
+    },
+    {
+      "scenario_id": "006",
+      "scenario": "Correcting a name on the cup",
+      "brand": "Starbucks",
+      "customer_profile": "Polite customer",
+      "culture": "UK",
+      "emotions": [
+        "annoyed",
+        "relieved"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 8,
+      "tone": "casual",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Starbucks\n- Scenario: Correcting a name on the cup\n- Customer Profile: Polite customer\n- Emotions: annoyed, relieved\n- Tone: casual (relaxed but professional)\n\nRequirements:\n- Alternating dialogue between customer and barista (4–6 lines total).\n- Include emotional cues (e.g., nervous, friendly) and speaker intentions (e.g., ordering, thanking).\n- Use UK-specific phrases (e.g., takeaway, cheers).\n- Provide a rationale for 1–2 standout phrases, explaining cultural, linguistic, or tone-specific choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"casual\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Hi there, what can I get for you today?",
+          "emotion": "friendly",
+          "intent": "greeting"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Hi, could I get a large latte to takeaway, please?",
+          "emotion": "polite",
+          "intent": "ordering"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Sure thing! Could I get your name for the cup?",
+          "emotion": "professional",
+          "intent": "requesting information"
+        },
+        {
+          "speaker": "Customer",
+          "text": "It's Sarah with an 'h'. Oh, you've spelled it 'Sara'—could you possibly correct that?",
+          "emotion": "annoyed",
+          "intent": "correcting"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Oh, my apologies! I’ll sort that straight away.",
+          "emotion": "apologetic",
+          "intent": "acknowledging mistake"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Cheers, I appreciate it!",
+          "emotion": "relieved",
+          "intent": "thanking"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Cheers",
+          "explanation": "A common UK colloquialism for 'thank you', fitting the casual but polite tone."
+        },
+        {
+          "phrase": "Takeaway",
+          "explanation": "UK English for 'to-go', reinforcing the cultural context."
+        }
+      ]
+    },
+    {
+      "scenario_id": "007",
+      "scenario": "Paying with Apple Pay",
+      "brand": "Caffè Nero",
+      "customer_profile": "Tech-savvy customer",
+      "culture": "UK",
+      "emotions": [
+        "confident",
+        "satisfied"
+      ],
+      "success_rating": 9,
+      "naturalness_rating": 9,
+      "tone": "formal",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Caffè Nero\n- Scenario: Paying with Apple Pay\n- Customer Profile: Tech-savvy customer\n- Emotions: confident, satisfied\n- Tone: formal (polite, structured)\n\nRequirements:\n- Alternating dialogue between customer and barista (4–6 lines total).\n- Include emotional cues (e.g., nervous, friendly) and speaker intentions (e.g., ordering, thanking).\n- Use UK-specific phrases (e.g., takeaway, cheers).\n- Provide a rationale for 1–2 standout phrases, explaining cultural, linguistic, or tone-specific choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"formal\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Good morning! What can I get for you today?",
+          "emotion": "friendly",
+          "intent": "greeting"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Hello! I’d like a flat white to takeaway, please.",
+          "emotion": "confident",
+          "intent": "ordering"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Certainly! That’ll be £3.20. Will you be paying by card?",
+          "emotion": "polite",
+          "intent": "confirming payment"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Yes, I’ll use Apple Pay. Cheers!",
+          "emotion": "satisfied",
+          "intent": "paying"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Perfect. Here’s your receipt. Have a lovely day!",
+          "emotion": "warm",
+          "intent": "closing"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Cheers!",
+          "explanation": "A common UK expression used informally to mean 'thank you', fitting the polite yet confident tone."
+        },
+        {
+          "phrase": "Takeaway",
+          "explanation": "UK English for 'to go', which is essential for cultural accuracy in a coffee shop setting."
+        }
+      ]
+    },
+    {
+      "scenario_id": "008",
+      "scenario": "Complimenting the barista",
+      "brand": "Costa",
+      "customer_profile": "Friendly customer",
+      "culture": "UK",
+      "emotions": [
+        "cheerful",
+        "grateful"
+      ],
+      "success_rating": 9,
+      "naturalness_rating": 9,
+      "tone": "friendly",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Costa\n- Scenario: Complimenting the barista\n- Customer Profile: Friendly customer\n- Emotions: cheerful, grateful\n- Tone: friendly (warm, familiar between regulars)\n\nRequirements:\n- Alternating dialogue between customer and barista (4–6 lines total).\n- Include emotional cues (e.g., nervous, friendly) and speaker intentions (e.g., ordering, thanking).\n- Use UK-specific phrases (e.g., takeaway, cheers).\n- Provide a rationale for 1–2 standout phrases, explaining cultural, linguistic, or tone-specific choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"friendly\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Morning, love! Your usual flat white to takeaway?",
+          "emotion": "cheerful",
+          "intent": "greeting"
+        },
+        {
+          "speaker": "Customer",
+          "text": "You know me too well! Cheers, you’re a star. That latte art last time was proper lovely.",
+          "emotion": "grateful",
+          "intent": "complimenting"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Aw, ta! Chuffed you noticed. Extra shot today, on the house—you’ve brightened my shift!",
+          "emotion": "warm",
+          "intent": "thanking"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Blimey, that’s kind! Now I’ll be buzzing all morning. Catch you tomorrow!",
+          "emotion": "delighted",
+          "intent": "appreciating"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "proper lovely",
+          "explanation": "A quintessentially British phrase conveying genuine, understated appreciation—common in casual compliments."
+        },
+        {
+          "phrase": "Blimey",
+          "explanation": "A mild exclamation of surprise, often used in the UK to express delight or shock in a friendly, informal way."
+        }
+      ]
+    },
+    {
+      "scenario_id": "009",
+      "scenario": "Ordering in a rush",
+      "brand": "Starbucks",
+      "customer_profile": "Busy commuter",
+      "culture": "UK",
+      "emotions": [
+        "hurried",
+        "grateful"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 8,
+      "tone": "casual",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Starbucks\n- Scenario: Ordering in a rush\n- Customer Profile: Busy commuter\n- Emotions: hurried, grateful\n- Tone: casual (relaxed but professional)\n\nRequirements:\n- Alternating dialogue between customer and barista (4–6 lines total).\n- Include emotional cues (e.g., nervous, friendly) and speaker intentions (e.g., ordering, thanking).\n- Use UK-specific phrases (e.g., takeaway, cheers).\n- Provide a rationale for 1–2 standout phrases, explaining cultural, linguistic, or tone-specific choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"casual\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Morning! What can I get for you today?",
+          "emotion": "friendly",
+          "intent": "greeting"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Hi, just a large flat white to takeaway, please. I'm in a bit of a rush.",
+          "emotion": "hurried",
+          "intent": "ordering"
+        },
+        {
+          "speaker": "Barista",
+          "text": "No worries, that'll be £3.20. Need anything else with that?",
+          "emotion": "accommodating",
+          "intent": "confirming order"
+        },
+        {
+          "speaker": "Customer",
+          "text": "That's all, cheers! Appreciate it.",
+          "emotion": "grateful",
+          "intent": "thanking"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "cheers",
+          "explanation": "A common UK colloquialism used to express thanks, fitting the casual yet polite tone."
+        },
+        {
+          "phrase": "takeaway",
+          "explanation": "UK English for 'to go', reflecting the cultural preference for this term over 'to go' in coffee shop contexts."
+        }
+      ]
+    },
+    {
+      "scenario_id": "010",
+      "scenario": "Forgetting to specify takeaway",
+      "brand": "Caffè Nero",
+      "customer_profile": "Distracted customer",
+      "culture": "UK",
+      "emotions": [
+        "embarrassed",
+        "relieved"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 8,
+      "tone": "formal",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Caffè Nero\n- Scenario: Forgetting to specify takeaway\n- Customer Profile: Distracted customer\n- Emotions: embarrassed, relieved\n- Tone: formal (polite, structured)\n\nRequirements:\n- Alternating dialogue between customer and barista (4–6 lines total).\n- Include emotional cues (e.g., nervous, friendly) and speaker intentions (e.g., ordering, thanking).\n- Use UK-specific phrases (e.g., takeaway, cheers).\n- Provide a rationale for 1–2 standout phrases, explaining cultural, linguistic, or tone-specific choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"formal\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Good morning! What can I get for you today?",
+          "emotion": "friendly",
+          "intent": "greeting"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Oh, hello! Could I have a flat white, please?",
+          "emotion": "distracted",
+          "intent": "ordering"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Certainly! Would you like that to have here or takeaway?",
+          "emotion": "polite",
+          "intent": "clarifying"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Oh dear, I completely forgot to say—takeaway, please. Sorry about that!",
+          "emotion": "embarrassed",
+          "intent": "apologizing"
+        },
+        {
+          "speaker": "Barista",
+          "text": "No problem at all! I’ll put that in a takeaway cup for you.",
+          "emotion": "reassuring",
+          "intent": "acknowledging"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Cheers, I really appreciate it!",
+          "emotion": "relieved",
+          "intent": "thanking"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Cheers",
+          "explanation": "A common British informal expression for 'thank you,' often used in casual but polite exchanges."
+        },
+        {
+          "phrase": "Oh dear",
+          "explanation": "A mild, polite exclamation in UK English to express embarrassment or slight dismay, fitting the formal tone."
+        }
+      ]
+    },
+    {
+      "scenario_id": "011",
+      "scenario": "Asking for a loyalty card stamp",
+      "brand": "Costa",
+      "customer_profile": "Regular customer",
+      "culture": "UK",
+      "emotions": [
+        "hopeful",
+        "satisfied"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 9,
+      "tone": "friendly",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Costa\n- Scenario: Asking for a loyalty card stamp\n- Customer Profile: Regular customer\n- Emotions: hopeful, satisfied\n- Tone: friendly (warm, familiar between regulars)\n\nRequirements:\n- Alternating dialogue between customer and barista (4–6 lines total).\n- Include emotional cues (e.g., nervous, friendly) and speaker intentions (e.g., ordering, thanking).\n- Use UK-specific phrases (e.g., takeaway, cheers).\n- Provide a rationale for 1–2 standout phrases, explaining cultural, linguistic, or tone-specific choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"friendly\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Morning! Your usual flat white to takeaway?",
+          "emotion": "friendly",
+          "intent": "greeting and confirming order"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Yes, please! And could I get a stamp for my loyalty card? I’m so close to a free one.",
+          "emotion": "hopeful",
+          "intent": "ordering and requesting stamp"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Of course! Here you go—just one more stamp to go. You’re practically a Costa VIP now!",
+          "emotion": "cheerful",
+          "intent": "acknowledging and encouraging"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Brilliant, cheers! See you tomorrow for that free coffee then.",
+          "emotion": "satisfied",
+          "intent": "thanking and joking"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Cheers",
+          "explanation": "A common British informal expression for 'thank you,' reinforcing the warm, familiar tone between regulars."
+        },
+        {
+          "phrase": "Costa VIP",
+          "explanation": "A playful exaggeration to make the customer feel valued, typical of UK banter in customer service."
+        }
+      ]
+    },
+    {
+      "scenario_id": "012",
+      "scenario": "Ordering for a group",
+      "brand": "Starbucks",
+      "customer_profile": "Social friend",
+      "culture": "UK",
+      "emotions": [
+        "confident",
+        "cheerful"
+      ],
+      "success_rating": 9,
+      "naturalness_rating": 9,
+      "tone": "casual",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Starbucks\n- Scenario: Ordering for a group\n- Customer Profile: Social friend\n- Emotions: confident, cheerful\n- Tone: casual (relaxed but professional)\n\nRequirements:\n- Alternating dialogue between customer and barista (4–6 lines total).\n- Include emotional cues (e.g., nervous, friendly) and speaker intentions (e.g., ordering, thanking).\n- Use UK-specific phrases (e.g., takeaway, cheers).\n- Provide a rationale for 1–2 standout phrases, explaining cultural, linguistic, or tone-specific choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"casual\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Hi there! What can I get for you today?",
+          "emotion": "friendly",
+          "intent": "greeting"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Hey! Could I get two flat whites, a caramel latte, and a cuppa tea—takeaway, please?",
+          "emotion": "cheerful",
+          "intent": "ordering"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Sure thing! Any particular tea preference? We’ve got Earl Grey, English Breakfast, and a few others.",
+          "emotion": "helpful",
+          "intent": "clarifying"
+        },
+        {
+          "speaker": "Customer",
+          "text": "English Breakfast would be brilliant, cheers!",
+          "emotion": "confident",
+          "intent": "confirming"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Lovely! That’ll be £12.50 altogether.",
+          "emotion": "polite",
+          "intent": "finalising"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Perfect—here you go. Ta very much!",
+          "emotion": "grateful",
+          "intent": "thanking"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "cuppa tea",
+          "explanation": "A colloquial UK term for a cup of tea, reinforcing cultural authenticity and casual tone."
+        },
+        {
+          "phrase": "Ta very much!",
+          "explanation": "A playful, informal way to say 'thank you,' common in UK speech and fitting for a friendly interaction."
+        }
+      ]
+    },
+    {
+      "scenario_id": "013",
+      "scenario": "Handling a wrong order",
+      "brand": "Costa",
+      "customer_profile": "Polite customer",
+      "culture": "UK",
+      "emotions": [
+        "annoyed",
+        "calmed"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 8,
+      "tone": "formal",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Costa\n- Scenario: Handling a wrong order\n- Customer Profile: Polite customer\n- Emotions: annoyed, calmed\n- Tone: formal (polite, structured)\n\nRequirements:\n- Alternating dialogue between customer and barista (4–6 lines total).\n- Include emotional cues (e.g., nervous, friendly) and speaker intentions (e.g., ordering, thanking).\n- Use UK-specific phrases (e.g., takeaway, cheers).\n- Provide a rationale for 1–2 standout phrases, explaining cultural, linguistic, or tone-specific choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"formal\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "text": "Excuse me, I ordered a flat white to take away, but this seems to be a latte.",
+          "emotion": "annoyed",
+          "intent": "complaining"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Oh, I’m terribly sorry about that. Let me check your order and sort this out for you straight away.",
+          "emotion": "apologetic",
+          "intent": "resolving"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Thank you, I’d really appreciate that. It’s just not quite what I was expecting.",
+          "emotion": "calmed",
+          "intent": "thanking"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Absolutely, no problem at all. Here’s your flat white—on the house as an apology. Cheers for your patience!",
+          "emotion": "friendly",
+          "intent": "compensating"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Cheers for your patience!",
+          "explanation": "The phrase 'cheers' is commonly used in the UK as a casual way to say 'thank you,' fitting the polite yet friendly tone of the interaction."
+        },
+        {
+          "phrase": "Let me check your order and sort this out for you straight away.",
+          "explanation": "The phrase 'sort this out' is a British colloquialism meaning to resolve an issue, which adds authenticity to the dialogue while maintaining a formal tone."
+        }
+      ]
+    },
+    {
+      "scenario_id": "014",
+      "scenario": "Asking about vegan options",
+      "brand": "Starbucks",
+      "customer_profile": "Health-conscious customer",
+      "culture": "UK",
+      "emotions": [
+        "curious",
+        "satisfied"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 8,
+      "tone": "friendly",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Starbucks\n- Scenario: Asking about vegan options\n- Customer Profile: Health-conscious customer\n- Emotions: curious, satisfied\n- Tone: friendly (warm, familiar between regulars)\n\nRequirements:\n- Alternating dialogue between customer and barista (4–6 lines total).\n- Include emotional cues (e.g., nervous, friendly) and speaker intentions (e.g., ordering, thanking).\n- Use UK-specific phrases (e.g., takeaway, cheers).\n- Provide a rationale for 1–2 standout phrases, explaining cultural, linguistic, or tone-specific choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"friendly\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Morning! What can I get for you today?",
+          "emotion": "friendly",
+          "intent": "greeting"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Hi there! I was wondering if you could tell me about your vegan options?",
+          "emotion": "curious",
+          "intent": "inquiring"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Absolutely! Our vegan breakfast muffin is quite popular, and we’ve got almond or oat milk for your coffee. Fancy a takeaway?",
+          "emotion": "helpful",
+          "intent": "suggesting"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Oh, brilliant! I’ll have the muffin and a flat white with oat milk, please. Cheers!",
+          "emotion": "satisfied",
+          "intent": "ordering"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Lovely choice! That’ll be £6.50. I’ll have that ready for you in a jiffy.",
+          "emotion": "warm",
+          "intent": "confirming"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Cheers!",
+          "explanation": "A common British informal expression used to express thanks, fitting the warm, familiar tone between regulars."
+        },
+        {
+          "phrase": "In a jiffy",
+          "explanation": "A colloquial UK phrase meaning 'very quickly,' adding a friendly and reassuring touch to the barista's response."
+        }
+      ]
+    },
+    {
+      "scenario_id": "015",
+      "scenario": "Ordering with a foreign accent",
+      "brand": "Caffè Nero",
+      "customer_profile": "International student",
+      "culture": "UK",
+      "emotions": [
+        "nervous",
+        "reassured"
+      ],
+      "success_rating": 7,
+      "naturalness_rating": 8,
+      "tone": "casual",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Caffè Nero\n- Scenario: Ordering with a foreign accent\n- Customer Profile: International student\n- Emotions: nervous, reassured\n- Tone: casual (relaxed but professional)\n\nRequirements:\n- Alternating dialogue between customer and barista (4–6 lines total).\n- Include emotional cues (e.g., nervous, friendly) and speaker intentions (e.g., ordering, thanking).\n- Use UK-specific phrases (e.g., takeaway, cheers).\n- Provide a rationale for 1–2 standout phrases, explaining cultural, linguistic, or tone-specific choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"casual\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Hi there, what can I get for you today?",
+          "emotion": "friendly",
+          "intent": "greeting"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Um, hello! Could I have a flat white, please? To take away.",
+          "emotion": "nervous",
+          "intent": "ordering"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Of course! Would you like anything else with that—maybe a pastry or a muffin?",
+          "emotion": "reassuring",
+          "intent": "upselling"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Oh, no thank you. Just the coffee, please.",
+          "emotion": "polite",
+          "intent": "declining"
+        },
+        {
+          "speaker": "Barista",
+          "text": "No worries. That’ll be £3.20, please. Cheers!",
+          "emotion": "warm",
+          "intent": "confirming payment"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Thank you so much! Have a lovely day.",
+          "emotion": "grateful",
+          "intent": "thanking"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Cheers!",
+          "explanation": "A common UK informal expression used to say 'thank you' or 'goodbye,' adding a friendly and casual tone to the interaction."
+        },
+        {
+          "phrase": "To take away",
+          "explanation": "The UK equivalent of 'to go,' reflecting local terminology and ensuring clarity in the customer's request."
+        }
+      ]
+    },
+    {
+      "scenario_id": "016",
+      "scenario": "Customizing a complicated order",
+      "brand": "Starbucks",
+      "customer_profile": "Confident foodie",
+      "culture": "UK",
+      "emotions": [
+        "confident",
+        "pleased"
+      ],
+      "success_rating": 9,
+      "naturalness_rating": 9,
+      "tone": "formal",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Starbucks\n- Scenario: Customizing a complicated order\n- Customer Profile: Confident foodie\n- Emotions: confident, pleased\n- Tone: formal (polite, structured)\n\nRequirements:\n- Alternating dialogue between customer and barista (4–6 lines total).\n- Include emotional cues (e.g., nervous, friendly) and speaker intentions (e.g., ordering, thanking).\n- Use UK-specific phrases (e.g., takeaway, cheers).\n- Provide a rationale for 1–2 standout phrases, explaining cultural, linguistic, or tone-specific choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"formal\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Good morning! What can I get for you today?",
+          "emotion": "friendly",
+          "intent": "greeting"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Hello! I’d like a grande oat milk latte, please, with an extra shot, half a pump of vanilla syrup, and served at 160 degrees. To takeaway, if you don’t mind.",
+          "emotion": "confident",
+          "intent": "ordering"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Certainly! That’s a grande oat milk latte with an extra shot, half a pump of vanilla, and at 160 degrees. Will that be all?",
+          "emotion": "polite",
+          "intent": "confirming"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Yes, that’s perfect. Cheers!",
+          "emotion": "pleased",
+          "intent": "thanking"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "To takeaway, if you don’t mind.",
+          "explanation": "This phrase is quintessentially British, using 'takeaway' instead of 'to go' and the polite addition 'if you don’t mind' to soften the request, maintaining a formal yet friendly tone."
+        },
+        {
+          "phrase": "Cheers!",
+          "explanation": "A common British informal expression for 'thank you,' used here to convey gratitude in a casual yet polite manner, fitting the confident and pleased emotion of the customer."
+        }
+      ]
+    },
+    {
+      "scenario_id": "017",
+      "scenario": "Forgetting wallet",
+      "brand": "Costa",
+      "customer_profile": "Embarrassed student",
+      "culture": "UK",
+      "emotions": [
+        "embarrassed",
+        "grateful"
+      ],
+      "success_rating": 7,
+      "naturalness_rating": 8,
+      "tone": "friendly",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Costa\n- Scenario: Forgetting wallet\n- Customer Profile: Embarrassed student\n- Emotions: embarrassed, grateful\n- Tone: friendly (warm, familiar between regulars)\n\nRequirements:\n- Alternating dialogue between customer and barista (4–6 lines total).\n- Include emotional cues (e.g., nervous, friendly) and speaker intentions (e.g., ordering, thanking).\n- Use UK-specific phrases (e.g., takeaway, cheers).\n- Provide a rationale for 1–2 standout phrases, explaining cultural, linguistic, or tone-specific choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"friendly\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Morning, love! Your usual flat white to takeaway?",
+          "emotion": "friendly",
+          "intent": "greeting and confirming order"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Yeah, that’d be brilliant—oh no, I’ve just realised I’ve left my wallet at home. Blimey, I’m so sorry.",
+          "emotion": "embarrassed",
+          "intent": "expressing regret"
+        },
+        {
+          "speaker": "Barista",
+          "text": "No worries at all! You’re in here every day—we’ll sort it next time. Cheers for being honest.",
+          "emotion": "reassuring",
+          "intent": "offering leniency"
+        },
+        {
+          "speaker": "Customer",
+          "text": "You’re an absolute star—thanks ever so much. I’ll pop in tomorrow to settle up.",
+          "emotion": "grateful",
+          "intent": "thanking and promising repayment"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Blimey",
+          "explanation": "A quintessentially British exclamation conveying surprise or dismay, adding authenticity to the student’s embarrassment."
+        },
+        {
+          "phrase": "You’re an absolute star",
+          "explanation": "A warm, colloquial phrase common in the UK to express deep gratitude, reinforcing the friendly rapport between regulars."
+        }
+      ]
+    },
+    {
+      "scenario_id": "018",
+      "scenario": "Asking for a recommendation",
+      "brand": "Caffè Nero",
+      "customer_profile": "Indecisive customer",
+      "culture": "UK",
+      "emotions": [
+        "hesitant",
+        "grateful"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 9,
+      "tone": "casual",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Caffè Nero\n- Scenario: Asking for a recommendation\n- Customer Profile: Indecisive customer\n- Emotions: hesitant, grateful\n- Tone: casual (relaxed but professional)\n\nRequirements:\n- Alternating dialogue between customer and barista (4–6 lines total).\n- Include emotional cues (e.g., nervous, friendly) and speaker intentions (e.g., ordering, thanking).\n- Use UK-specific phrases (e.g., takeaway, cheers).\n- Provide a rationale for 1–2 standout phrases, explaining cultural, linguistic, or tone-specific choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"casual\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Hi there! What can I get for you today?",
+          "emotion": "friendly",
+          "intent": "greeting"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Erm, I’m not sure—what would you recommend? I fancy something a bit different.",
+          "emotion": "hesitant",
+          "intent": "asking for recommendation"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Our caramelised honey latte is a real winner—sweet but not too overpowering. Fancy giving it a go?",
+          "emotion": "helpful",
+          "intent": "suggesting"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Oh, that sounds lovely! I’ll have that, please. To take away, if that’s alright.",
+          "emotion": "grateful",
+          "intent": "ordering"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Spot on! That’ll be £3.50. Cheers!",
+          "emotion": "cheerful",
+          "intent": "confirming order"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Cheers!",
+          "explanation": "A common UK colloquialism used informally to mean 'thank you' or 'thanks,' fitting the casual but professional tone of the interaction."
+        },
+        {
+          "phrase": "To take away",
+          "explanation": "The UK term for 'to go,' reflecting local usage and ensuring cultural accuracy in the dialogue."
+        }
+      ]
+    },
+    {
+      "scenario_id": "019",
+      "scenario": "Dealing with a long queue",
+      "brand": "Starbucks",
+      "customer_profile": "Patient customer",
+      "culture": "UK",
+      "emotions": [
+        "impatient",
+        "calmed"
+      ],
+      "success_rating": 7,
+      "naturalness_rating": 8,
+      "tone": "formal",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Starbucks\n- Scenario: Dealing with a long queue\n- Customer Profile: Patient customer\n- Emotions: impatient, calmed\n- Tone: formal (polite, structured)\n\nRequirements:\n- Alternating dialogue between customer and barista (4–6 lines total).\n- Include emotional cues (e.g., nervous, friendly) and speaker intentions (e.g., ordering, thanking).\n- Use UK-specific phrases (e.g., takeaway, cheers).\n- Provide a rationale for 1–2 standout phrases, explaining cultural, linguistic, or tone-specific choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"formal\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Good morning! Apologies for the wait—we’re a bit short-staffed today. What can I get for you?",
+          "emotion": "apologetic",
+          "intent": "acknowledge delay and take order"
+        },
+        {
+          "speaker": "Customer",
+          "text": "No worries at all. I’ll have a flat white to takeaway, please.",
+          "emotion": "patient",
+          "intent": "order politely"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Lovely choice. Would you like anything else with that—perhaps a pastry?",
+          "emotion": "friendly",
+          "intent": "upsell"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Actually, yes—I’ll take a pain au chocolat as well. Cheers!",
+          "emotion": "calmed",
+          "intent": "add to order and thank"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Perfect! That’ll be £6.20. Your order will be ready shortly.",
+          "emotion": "helpful",
+          "intent": "confirm and reassure"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Cheers",
+          "explanation": "A common UK colloquialism for 'thank you,' adding a casual yet polite touch in a formal exchange."
+        },
+        {
+          "phrase": "Takeaway",
+          "explanation": "The UK term for 'to go,' reflecting local usage and avoiding Americanisms like 'to go.'"
+        }
+      ]
+    },
+    {
+      "scenario_id": "020",
+      "scenario": "Ordering a seasonal drink",
+      "brand": "Starbucks",
+      "customer_profile": "Adventurous customer",
+      "culture": "UK",
+      "emotions": [
+        "excited",
+        "satisfied"
+      ],
+      "success_rating": 9,
+      "naturalness_rating": 9,
+      "tone": "friendly",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Starbucks\n- Scenario: Ordering a seasonal drink\n- Customer Profile: Adventurous customer\n- Emotions: excited, satisfied\n- Tone: friendly (warm, familiar between regulars)\n\nRequirements:\n- Alternating dialogue between customer and barista (4–6 lines total).\n- Include emotional cues (e.g., nervous, friendly) and speaker intentions (e.g., ordering, thanking).\n- Use UK-specific phrases (e.g., takeaway, cheers).\n- Provide a rationale for 1–2 standout phrases, explaining cultural, linguistic, or tone-specific choices.\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"friendly\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Morning! What can I get for you today?",
+          "emotion": "friendly",
+          "intent": "greeting"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Hi there! I’m feeling adventurous—what’s your seasonal special at the moment?",
+          "emotion": "excited",
+          "intent": "inquiring"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Ooh, lovely choice! We’ve got the new Toffee Nut Latte—it’s proper festive. Fancy giving it a go?",
+          "emotion": "enthusiastic",
+          "intent": "recommending"
+        },
+        {
+          "speaker": "Customer",
+          "text": "That sounds brilliant! I’ll take one to takeaway, please. Cheers!",
+          "emotion": "satisfied",
+          "intent": "ordering"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Spot on! That’ll be £3.80. I’ll have it ready for you in a jiffy.",
+          "emotion": "warm",
+          "intent": "confirming"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "proper festive",
+          "explanation": "This phrase is quintessentially British, adding a warm, colloquial touch to the recommendation, making it feel more personal and inviting."
+        },
+        {
+          "phrase": "Cheers!",
+          "explanation": "A versatile UK expression used here to express gratitude in a casual, friendly manner, reinforcing the familiar tone between regulars."
+        }
+      ]
+    }
+  ]
+}

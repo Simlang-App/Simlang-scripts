@@ -1,0 +1,2016 @@
+{
+  "conversations": [
+    {
+      "scenario_id": "TRANS001",
+      "scenario": "Asking a bus driver for specific directions to a landmark",
+      "setting": "Bus stop (onboard a bus)",
+      "social_context": "Direct, time-sensitive, information-seeking",
+      "participants": [
+        "Passenger",
+        "Bus Driver"
+      ],
+      "traveler_profile": "Unfamiliar with area, polite, reliant on driver's knowledge",
+      "emotions": [
+        "hopeful",
+        "slightly anxious",
+        "grateful"
+      ],
+      "complexity": "low",
+      "tone": "formal-polite",
+      "prompt": "Create a realistic transportation conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Context: Public transit interactions, airport procedures, car rental, taxi/ride-share services, or related travel situations.\n- Location: Bus stop (onboard a bus)\n- Scenario: Asking a bus driver for specific directions to a landmark\n- Traveler Profile (or primary speaker's role): Unfamiliar with area, polite, reliant on driver's knowledge\n- Emotions: hopeful, slightly anxious, grateful\n- Tone: formal-polite (conversational)\n- Participants: Passenger, Bus Driver\n\nRequirements:\n- Alternating dialogue between participants (4-7 lines total).\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate transportation vocabulary, specific terminology (e.g., boarding pass, platform, fare, baggage claim, vehicle class, customs declaration), and common travel procedures.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups typical of travel environments.\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices specific to transportation contexts.\n\nOutput JSON structure:\n{\n    \"dialogue\": [\n        {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"}\n    ],\n    \"tone\": \"formal-polite\",\n    \"rationale\": [\n        {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"}\n    ]\n}",
+      "dialogue": [
+        {
+          "speaker": "Passenger",
+          "text": "Excuse me, could you tell me if this bus goes to the Central Museum?",
+          "emotion": "hopeful",
+          "intent": "ask for directions"
+        },
+        {
+          "speaker": "Bus Driver",
+          "text": "Yes, it does. You'll need to get off at the third stop—that's the Main Square stop.",
+          "emotion": "helpful",
+          "intent": "provide information"
+        },
+        {
+          "speaker": "Passenger",
+          "text": "Thank you! And how will I know when we're there? Is there an announcement?",
+          "emotion": "slightly anxious",
+          "intent": "seek reassurance"
+        },
+        {
+          "speaker": "Bus Driver",
+          "text": "Don't worry, I'll call it out. Just listen for 'Main Square.' You can also check the display screen above the door.",
+          "emotion": "reassuring",
+          "intent": "offer additional guidance"
+        },
+        {
+          "speaker": "Passenger",
+          "text": "That's very kind of you. I really appreciate your help!",
+          "emotion": "grateful",
+          "intent": "express thanks"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Excuse me, could you tell me if this bus goes to the Central Museum?",
+          "explanation": "This opener is polite and clear, using 'Excuse me' to acknowledge the driver's attention and 'could you' to soften the request."
+        },
+        {
+          "phrase": "You'll need to get off at the third stop—that's the Main Square stop.",
+          "explanation": "The driver specifies the stop number and name, which is common in transit systems to avoid confusion, especially for tourists."
+        },
+        {
+          "phrase": "Don't worry, I'll call it out.",
+          "explanation": "This reassures the passenger and reflects the driver's role in assisting travelers, a cultural norm in many public transit systems."
+        }
+      ],
+      "transportation_type": "Public Transport"
+    },
+    {
+      "scenario_id": "TRANS002",
+      "scenario": "Inquiring about a delayed train's estimated arrival time",
+      "setting": "Train station platform",
+      "social_context": "Customer to staff, potentially stressed situation",
+      "participants": [
+        "Commuter",
+        "Station Staff"
+      ],
+      "traveler_profile": "Time-conscious, frustrated but patient, seeks accurate information",
+      "emotions": [
+        "frustrated",
+        "impatient",
+        "concerned"
+      ],
+      "complexity": "medium",
+      "tone": "neutral-formal",
+      "prompt": "Create a realistic transportation conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Context: Public transit interactions, airport procedures, car rental, taxi/ride-share services, or related travel situations.\n- Location: Train station platform\n- Scenario: Inquiring about a delayed train's estimated arrival time\n- Traveler Profile (or primary speaker's role): Time-conscious, frustrated but patient, seeks accurate information\n- Emotions: frustrated, impatient, concerned\n- Tone: neutral-formal (conversational)\n- Participants: Commuter, Station Staff\n\nRequirements:\n- Alternating dialogue between participants (7-10 lines total).\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate transportation vocabulary, specific terminology (e.g., boarding pass, platform, fare, baggage claim, vehicle class, customs declaration), and common travel procedures.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups typical of travel environments.\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices specific to transportation contexts.\n\nOutput JSON structure:\n{\n    \"dialogue\": [\n        {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"}\n    ],\n    \"tone\": \"neutral-formal\",\n    \"rationale\": [\n        {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"}\n    ]\n}",
+      "dialogue": [
+        {
+          "speaker": "Commuter",
+          "text": "Excuse me, I've been waiting for the 3:15 express to Manchester. The departure board says 'delayed' but no estimated time. Do you have any updates?",
+          "emotion": "frustrated",
+          "intent": "seek accurate information"
+        },
+        {
+          "speaker": "Station Staff",
+          "text": "I understand your concern. Let me check the latest system update... Ah, there's a signaling issue further down the line. The train is currently held at Crewe station.",
+          "emotion": "calm",
+          "intent": "provide explanation"
+        },
+        {
+          "speaker": "Commuter",
+          "text": "Signaling issue? That sounds serious. How long until it arrives here? I have a tight connection at Manchester Piccadilly.",
+          "emotion": "concerned",
+          "intent": "clarify urgency"
+        },
+        {
+          "speaker": "Station Staff",
+          "text": "The control center estimates a 45-minute delay. Would you like me to check alternative routes or connections?",
+          "emotion": "helpful",
+          "intent": "offer solution"
+        },
+        {
+          "speaker": "Commuter",
+          "text": "Yes, please. I'm supposed to catch the 5:20 to Edinburgh - will I make that?",
+          "emotion": "impatient",
+          "intent": "express urgency"
+        },
+        {
+          "speaker": "Station Staff",
+          "text": "Let me see... With the current delay, you'd arrive at 4:50. That gives you just 30 minutes - tight but possible if your first train doesn't get held further.",
+          "emotion": "professional",
+          "intent": "set realistic expectations"
+        },
+        {
+          "speaker": "Commuter",
+          "text": "Thirty minutes to transfer... And if I miss it? Are there later services with available seats?",
+          "emotion": "anxious",
+          "intent": "plan for contingencies"
+        },
+        {
+          "speaker": "Station Staff",
+          "text": "There's a 6:40 with plenty of capacity. I can note your situation - if you miss the 5:20, present this reference number at the ticket office for rebooking without charge.",
+          "emotion": "reassuring",
+          "intent": "provide backup option"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "signaling issue",
+          "explanation": "Common rail terminology that avoids technical jargon while explaining delays professionally."
+        },
+        {
+          "phrase": "present this reference number",
+          "explanation": "Standard UK rail procedure phrasing that teaches learners official protocol for rebooking."
+        },
+        {
+          "phrase": "tight but possible",
+          "explanation": "Cultural nuance in British transport communication - acknowledges stress while offering pragmatic optimism."
+        }
+      ],
+      "transportation_type": "Public Transport"
+    },
+    {
+      "scenario_id": "TRANS003",
+      "scenario": "Asking a fellow passenger about the best route for a tram transfer",
+      "setting": "Inside a tram during off-peak hours",
+      "social_context": "Casual, peer-to-peer, seeking local advice",
+      "participants": [
+        "Tourist",
+        "Local Passenger"
+      ],
+      "traveler_profile": "Lost, open to friendly advice, appreciative",
+      "emotions": [
+        "confused",
+        "hopeful",
+        "thankful"
+      ],
+      "complexity": "low",
+      "tone": "friendly-casual",
+      "prompt": "Create a realistic transportation conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Context: Public transit interactions, airport procedures, car rental, taxi/ride-share services, or related travel situations.\n- Location: Inside a tram during off-peak hours\n- Scenario: Asking a fellow passenger about the best route for a tram transfer\n- Traveler Profile (or primary speaker's role): Lost, open to friendly advice, appreciative\n- Emotions: confused, hopeful, thankful\n- Tone: friendly-casual (conversational)\n- Participants: Tourist, Local Passenger\n\nRequirements:\n- Alternating dialogue between participants (4-7 lines total).\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate transportation vocabulary, specific terminology (e.g., boarding pass, platform, fare, baggage claim, vehicle class, customs declaration), and common travel procedures.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups typical of travel environments.\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices specific to transportation contexts.\n\nOutput JSON structure:\n{\n    \"dialogue\": [\n        {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"}\n    ],\n    \"tone\": \"friendly-casual\",\n    \"rationale\": [\n        {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"}\n    ]\n}",
+      "dialogue": [
+        {
+          "speaker": "Tourist",
+          "text": "Excuse me, I’m a bit lost. Do you know if this tram goes to the central station?",
+          "emotion": "confused",
+          "intent": "seek help"
+        },
+        {
+          "speaker": "Local Passenger",
+          "text": "Oh, no, this line doesn’t go directly there. You’ll need to transfer at the next stop to Line 3.",
+          "emotion": "helpful",
+          "intent": "provide guidance"
+        },
+        {
+          "speaker": "Tourist",
+          "text": "Line 3? Okay, thank you! Do I need to buy another ticket for the transfer?",
+          "emotion": "hopeful",
+          "intent": "clarify procedure"
+        },
+        {
+          "speaker": "Local Passenger",
+          "text": "No, your current ticket is valid for 90 minutes, so you’re all set. Just check the platform signs—Line 3 will be on your right.",
+          "emotion": "reassuring",
+          "intent": "confirm details"
+        },
+        {
+          "speaker": "Tourist",
+          "text": "That’s a relief! You’ve been so kind. Thanks again!",
+          "emotion": "thankful",
+          "intent": "express gratitude"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Do I need to buy another ticket for the transfer?",
+          "explanation": "This reflects common traveler concerns about fare policies and transfers, emphasizing practical vocabulary."
+        },
+        {
+          "phrase": "Your current ticket is valid for 90 minutes.",
+          "explanation": "Highlights a key detail in many transit systems where timed tickets reduce confusion for tourists."
+        }
+      ],
+      "transportation_type": "Public Transport"
+    },
+    {
+      "scenario_id": "TRANS004",
+      "scenario": "Reporting a lost wallet to a bus company's customer service",
+      "setting": "Bus company customer service office/phone",
+      "social_context": "Formal, problem-solving, official procedure",
+      "participants": [
+        "Customer",
+        "Customer Service Rep"
+      ],
+      "traveler_profile": "Distressed, detail-oriented, seeks recovery",
+      "emotions": [
+        "anxious",
+        "frustrated",
+        "hopeful"
+      ],
+      "complexity": "high",
+      "tone": "formal",
+      "prompt": "Create a realistic transportation conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Context: Public transit interactions, airport procedures, car rental, taxi/ride-share services, or related travel situations.\n- Location: Bus company customer service office/phone\n- Scenario: Reporting a lost wallet to a bus company's customer service\n- Traveler Profile (or primary speaker's role): Distressed, detail-oriented, seeks recovery\n- Emotions: anxious, frustrated, hopeful\n- Tone: formal (structured, professional)\n- Participants: Customer, Customer Service Rep\n\nRequirements:\n- Alternating dialogue between participants (10-15 lines total).\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate transportation vocabulary, specific terminology (e.g., boarding pass, platform, fare, baggage claim, vehicle class, customs declaration), and common travel procedures.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups typical of travel environments.\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices specific to transportation contexts.\n\nOutput JSON structure:\n{\n    \"dialogue\": [\n        {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"}\n    ],\n    \"tone\": \"formal\",\n    \"rationale\": [\n        {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"}\n    ]\n}",
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "text": "Hello, I need to report a lost wallet. I believe I left it on one of your buses yesterday.",
+          "emotion": "anxious",
+          "intent": "seek assistance"
+        },
+        {
+          "speaker": "Customer Service Rep",
+          "text": "I’m sorry to hear that. Could you provide the bus route number and approximate time of travel?",
+          "emotion": "calm",
+          "intent": "gather details"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Yes, it was the 7:30 AM Route 42 bus from downtown to the airport. I boarded at the Central Station platform.",
+          "emotion": "frustrated",
+          "intent": "provide specifics"
+        },
+        {
+          "speaker": "Customer Service Rep",
+          "text": "Thank you. Did you happen to notice the bus number or the vehicle class? It helps narrow down the search.",
+          "emotion": "professional",
+          "intent": "clarify"
+        },
+        {
+          "speaker": "Customer",
+          "text": "I think it was a standard coach, but I’m not sure about the number. I was in a hurry to catch my flight.",
+          "emotion": "hopeful",
+          "intent": "cooperate"
+        },
+        {
+          "speaker": "Customer Service Rep",
+          "text": "Understood. We’ll check the lost and found for that route. Can you describe the wallet and its contents?",
+          "emotion": "reassuring",
+          "intent": "verify ownership"
+        },
+        {
+          "speaker": "Customer",
+          "text": "It’s a black leather wallet with my boarding pass, credit cards, and about $50 in cash. My ID is inside too.",
+          "emotion": "anxious",
+          "intent": "detail loss"
+        },
+        {
+          "speaker": "Customer Service Rep",
+          "text": "We’ll prioritize this. If found, should we contact you by phone or email?",
+          "emotion": "helpful",
+          "intent": "confirm contact"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Phone, please. Here’s my number. How long does it usually take to recover lost items?",
+          "emotion": "hopeful",
+          "intent": "seek timeline"
+        },
+        {
+          "speaker": "Customer Service Rep",
+          "text": "Typically 24–48 hours if it’s turned in. We’ll also check with the driver and the airport baggage claim.",
+          "emotion": "professional",
+          "intent": "set expectations"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Thank you. I appreciate your help. This is really stressful.",
+          "emotion": "grateful",
+          "intent": "express relief"
+        },
+        {
+          "speaker": "Customer Service Rep",
+          "text": "Of course. We’ll update you as soon as we hear anything. Safe travels.",
+          "emotion": "polite",
+          "intent": "close conversation"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "vehicle class",
+          "explanation": "Used to specify the type of bus (e.g., standard coach, luxury), common in transit systems to differentiate service levels."
+        },
+        {
+          "phrase": "lost and found",
+          "explanation": "A standard term in transportation contexts for reporting and retrieving misplaced items, universally understood by travelers."
+        },
+        {
+          "phrase": "boarding pass",
+          "explanation": "Included to highlight travel-specific items often carried in wallets, reinforcing the scenario’s authenticity."
+        }
+      ],
+      "transportation_type": "Public Transport"
+    },
+    {
+      "scenario_id": "TRANS005",
+      "scenario": "Discussing the challenges of using public transport during peak hours with a stranger",
+      "setting": "Crowded subway car",
+      "social_context": "Shared experience, light complaint, informal bonding",
+      "participants": [
+        "Commuter A",
+        "Commuter B"
+      ],
+      "traveler_profile": "Tolerant, observant, seeks camaraderie",
+      "emotions": [
+        "mildly annoyed",
+        "resigned",
+        "amused"
+      ],
+      "complexity": "medium",
+      "tone": "casual",
+      "prompt": "Create a realistic transportation conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Context: Public transit interactions, airport procedures, car rental, taxi/ride-share services, or related travel situations.\n- Location: Crowded subway car\n- Scenario: Discussing the challenges of using public transport during peak hours with a stranger\n- Traveler Profile (or primary speaker's role): Tolerant, observant, seeks camaraderie\n- Emotions: mildly annoyed, resigned, amused\n- Tone: casual (relaxed, informal)\n- Participants: Commuter A, Commuter B\n\nRequirements:\n- Alternating dialogue between participants (7-10 lines total).\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate transportation vocabulary, specific terminology (e.g., boarding pass, platform, fare, baggage claim, vehicle class, customs declaration), and common travel procedures.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups typical of travel environments.\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices specific to transportation contexts.\n\nOutput JSON structure:\n{\n    \"dialogue\": [\n        {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"}\n    ],\n    \"tone\": \"casual\",\n    \"rationale\": [\n        {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"}\n    ]\n}",
+      "dialogue": [
+        {
+          "speaker": "Commuter A",
+          "text": "Ugh, I can barely move my arms. Is it always this packed during rush hour?",
+          "emotion": "mildly annoyed",
+          "intent": "seek commiseration"
+        },
+        {
+          "speaker": "Commuter B",
+          "text": "Yeah, it’s brutal. I swear, the platform was even worse—people pushing like it’s the last train out.",
+          "emotion": "resigned",
+          "intent": "share frustration"
+        },
+        {
+          "speaker": "Commuter A",
+          "text": "Right? And good luck if you’ve got baggage—I saw someone’s suitcase get wedged in the doors earlier.",
+          "emotion": "amused",
+          "intent": "lighten the mood"
+        },
+        {
+          "speaker": "Commuter B",
+          "text": "Hah! At least we’re not stuck in a fare dispute like that guy at the turnstile. ‘But I tapped my card!’",
+          "emotion": "amused",
+          "intent": "bond over absurdity"
+        },
+        {
+          "speaker": "Commuter A",
+          "text": "Classic. Though I’d take this over airport customs any day—less paperwork, more armpits.",
+          "emotion": "resigned",
+          "intent": "compare experiences"
+        },
+        {
+          "speaker": "Commuter B",
+          "text": "True. Hey, heads up—your stop’s next. Unless you wanna joyride to the end of the line with us sardines.",
+          "emotion": "playful",
+          "intent": "offer camaraderie"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "people pushing like it’s the last train out",
+          "explanation": "Hyperbole common in transit complaints, emphasizing urgency and chaos."
+        },
+        {
+          "phrase": "less paperwork, more armpits",
+          "explanation": "Humorous contrast between formal travel procedures and the gritty reality of crowded transit."
+        }
+      ],
+      "transportation_type": "Public Transport"
+    },
+    {
+      "scenario_id": "TRANS006",
+      "scenario": "Asking for clarification on baggage allowance at airport check-in",
+      "setting": "Airport check-in counter",
+      "social_context": "Formal, transactional, potentially negotiation",
+      "participants": [
+        "Passenger",
+        "Airline Agent"
+      ],
+      "traveler_profile": "Prepared, budget-conscious, seeks to avoid fees",
+      "emotions": [
+        "cautious",
+        "concerned",
+        "hopeful"
+      ],
+      "complexity": "medium",
+      "tone": "formal-polite",
+      "prompt": "Create a realistic transportation conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Context: Public transit interactions, airport procedures, car rental, taxi/ride-share services, or related travel situations.\n- Location: Airport check-in counter\n- Scenario: Asking for clarification on baggage allowance at airport check-in\n- Traveler Profile (or primary speaker's role): Prepared, budget-conscious, seeks to avoid fees\n- Emotions: cautious, concerned, hopeful\n- Tone: formal-polite (conversational)\n- Participants: Passenger, Airline Agent\n\nRequirements:\n- Alternating dialogue between participants (7-10 lines total).\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate transportation vocabulary, specific terminology (e.g., boarding pass, platform, fare, baggage claim, vehicle class, customs declaration), and common travel procedures.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups typical of travel environments.\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices specific to transportation contexts.\n\nOutput JSON structure:\n{\n    \"dialogue\": [\n        {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"}\n    ],\n    \"tone\": \"formal-polite\",\n    \"rationale\": [\n        {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"}\n    ]\n}",
+      "dialogue": [
+        {
+          "speaker": "Passenger",
+          "text": "Good morning! I’d like to confirm my baggage allowance before checking in—could you clarify the weight limits for my flight?",
+          "emotion": "cautious",
+          "intent": "seek clarification"
+        },
+        {
+          "speaker": "Airline Agent",
+          "text": "Of course! Your ticket includes one checked bag up to 23 kilograms. May I see your boarding pass to confirm?",
+          "emotion": "helpful",
+          "intent": "assist"
+        },
+        {
+          "speaker": "Passenger",
+          "text": "Here you go. I’m a bit concerned—my suitcase might be slightly over. Would there be an excess fee?",
+          "emotion": "concerned",
+          "intent": "avoid fees"
+        },
+        {
+          "speaker": "Airline Agent",
+          "text": "Let’s weigh it now to be sure. [pauses] Hmm, it’s at 24.5 kilos. We could allow a small overage this time, but I’d recommend redistributing some items to your carry-on to avoid future charges.",
+          "emotion": "reassuring",
+          "intent": "offer solution"
+        },
+        {
+          "speaker": "Passenger",
+          "text": "That’s a relief! I’ll quickly move a few things. Thank you for the flexibility—budget travel can be tricky.",
+          "emotion": "hopeful",
+          "intent": "express gratitude"
+        },
+        {
+          "speaker": "Airline Agent",
+          "text": "Happy to help! Safe travels, and don’t forget to collect your baggage claim tag after check-in.",
+          "emotion": "warm",
+          "intent": "conclude positively"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Would there be an excess fee?",
+          "explanation": "This indirect phrasing softens the request, common in polite travel interactions to avoid confrontation."
+        },
+        {
+          "phrase": "We could allow a small overage this time",
+          "explanation": "The agent’s phrasing implies discretion, a cultural norm in service roles to build goodwill while adhering to policies."
+        }
+      ],
+      "transportation_type": "Air Travel"
+    },
+    {
+      "scenario_id": "TRANS007",
+      "scenario": "Complaining about a significant flight delay/cancellation at the gate",
+      "setting": "Airport gate area",
+      "social_context": "Confrontational, high-stress, seeking compensation/solutions",
+      "participants": [
+        "Frustrated Passenger",
+        "Gate Agent"
+      ],
+      "traveler_profile": "Angry, inconvenienced, determined",
+      "emotions": [
+        "angry",
+        "stressed",
+        "demanding"
+      ],
+      "complexity": "high",
+      "tone": "assertive",
+      "prompt": "Create a realistic transportation conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Context: Public transit interactions, airport procedures, car rental, taxi/ride-share services, or related travel situations.\n- Location: Airport gate area\n- Scenario: Complaining about a significant flight delay/cancellation at the gate\n- Traveler Profile (or primary speaker's role): Angry, inconvenienced, determined\n- Emotions: angry, stressed, demanding\n- Tone: assertive (confident, insistent, expresses strong opinions)\n- Participants: Frustrated Passenger, Gate Agent\n\nRequirements:\n- Alternating dialogue between participants (10-15 lines total).\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate transportation vocabulary, specific terminology (e.g., boarding pass, platform, fare, baggage claim, vehicle class, customs declaration), and common travel procedures.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups typical of travel environments.\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices specific to transportation contexts.\n\nOutput JSON structure:\n{\n    \"dialogue\": [\n        {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"}\n    ],\n    \"tone\": \"assertive\",\n    \"rationale\": [\n        {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"}\n    ]\n}",
+      "dialogue": [
+        {
+          "speaker": "Frustrated Passenger",
+          "text": "Excuse me, but this is completely unacceptable! My flight has been delayed for over three hours now. What is going on?",
+          "emotion": "angry",
+          "intent": "demand explanation"
+        },
+        {
+          "speaker": "Gate Agent",
+          "text": "I understand your frustration, sir. There’s a mechanical issue with the aircraft, and safety is our top priority.",
+          "emotion": "calm",
+          "intent": "reassure"
+        },
+        {
+          "speaker": "Frustrated Passenger",
+          "text": "Safety? I get that, but why wasn’t this checked before? I have a connecting flight, and now I’ll miss it!",
+          "emotion": "stressed",
+          "intent": "express urgency"
+        },
+        {
+          "speaker": "Gate Agent",
+          "text": "We’re doing our best to rebook passengers. May I see your boarding pass to assist you?",
+          "emotion": "polite",
+          "intent": "offer help"
+        },
+        {
+          "speaker": "Frustrated Passenger",
+          "text": "Here! And I need compensation for this mess. Do you have any idea how much this is costing me?",
+          "emotion": "demanding",
+          "intent": "seek compensation"
+        },
+        {
+          "speaker": "Gate Agent",
+          "text": "I can check for meal vouchers or hotel accommodations if needed. Let me see what options are available.",
+          "emotion": "helpful",
+          "intent": "provide solutions"
+        },
+        {
+          "speaker": "Frustrated Passenger",
+          "text": "Hotel? I shouldn’t need a hotel! This flight was supposed to leave on time. What about my checked baggage?",
+          "emotion": "frustrated",
+          "intent": "address concerns"
+        },
+        {
+          "speaker": "Gate Agent",
+          "text": "Your baggage will be automatically transferred to your new flight. We’ll ensure it reaches your final destination.",
+          "emotion": "reassuring",
+          "intent": "clarify procedure"
+        },
+        {
+          "speaker": "Frustrated Passenger",
+          "text": "Fine. But I want confirmation in writing. And I expect an upgrade for all this inconvenience.",
+          "emotion": "assertive",
+          "intent": "demand perks"
+        },
+        {
+          "speaker": "Gate Agent",
+          "text": "I’ll note your request, but upgrades depend on availability. Here’s your new boarding pass and a meal voucher.",
+          "emotion": "professional",
+          "intent": "resolve issue"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "What about my checked baggage?",
+          "explanation": "This phrase is common in travel disputes, as passengers often worry about their belongings during delays or cancellations."
+        },
+        {
+          "phrase": "I want confirmation in writing.",
+          "explanation": "Demanding written proof is a cultural norm in many countries to ensure accountability from service providers."
+        },
+        {
+          "phrase": "I expect an upgrade for all this inconvenience.",
+          "explanation": "Requesting upgrades is a frequent traveler strategy to compensate for delays, reflecting assertive negotiation in travel contexts."
+        }
+      ],
+      "transportation_type": "Air Travel"
+    },
+    {
+      "scenario_id": "TRANS008",
+      "scenario": "Requesting a special meal option during an in-flight service",
+      "setting": "Airplane cabin",
+      "social_context": "Polite, routine service interaction",
+      "participants": [
+        "Passenger",
+        "Flight Attendant"
+      ],
+      "traveler_profile": "Prepared, has dietary needs, considerate",
+      "emotions": [
+        "calm",
+        "appreciative",
+        "satisfied"
+      ],
+      "complexity": "low",
+      "tone": "polite",
+      "prompt": "Create a realistic transportation conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Context: Public transit interactions, airport procedures, car rental, taxi/ride-share services, or related travel situations.\n- Location: Airplane cabin\n- Scenario: Requesting a special meal option during an in-flight service\n- Traveler Profile (or primary speaker's role): Prepared, has dietary needs, considerate\n- Emotions: calm, appreciative, satisfied\n- Tone: polite (conversational)\n- Participants: Passenger, Flight Attendant\n\nRequirements:\n- Alternating dialogue between participants (4-7 lines total).\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate transportation vocabulary, specific terminology (e.g., boarding pass, platform, fare, baggage claim, vehicle class, customs declaration), and common travel procedures.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups typical of travel environments.\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices specific to transportation contexts.\n\nOutput JSON structure:\n{\n    \"dialogue\": [\n        {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"}\n    ],\n    \"tone\": \"polite\",\n    \"rationale\": [\n        {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"}\n    ]\n}",
+      "dialogue": [
+        {
+          "speaker": "Passenger",
+          "text": "Excuse me, I pre-ordered a vegetarian meal when I booked my ticket. Could you confirm if it's available?",
+          "emotion": "calm",
+          "intent": "request confirmation"
+        },
+        {
+          "speaker": "Flight Attendant",
+          "text": "Of course! Let me check the manifest. Could I see your boarding pass to verify your seat number?",
+          "emotion": "helpful",
+          "intent": "verify details"
+        },
+        {
+          "speaker": "Passenger",
+          "text": "Here you go. I'm in 12A. I really appreciate you checking.",
+          "emotion": "appreciative",
+          "intent": "provide information"
+        },
+        {
+          "speaker": "Flight Attendant",
+          "text": "Thank you! Yes, your meal is loaded. We'll serve it shortly with the special meal service.",
+          "emotion": "reassuring",
+          "intent": "confirm and inform"
+        },
+        {
+          "speaker": "Passenger",
+          "text": "That's perfect. Thank you so much for your help!",
+          "emotion": "satisfied",
+          "intent": "express gratitude"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "pre-ordered a vegetarian meal",
+          "explanation": "Common airline terminology for dietary requests made during booking, emphasizing preparation."
+        },
+        {
+          "phrase": "check the manifest",
+          "explanation": "Professional term used by crew to refer to the passenger and meal list, adding authenticity."
+        },
+        {
+          "phrase": "serve it shortly with the special meal service",
+          "explanation": "Clarifies procedure (special meals are served first) while managing passenger expectations politely."
+        }
+      ],
+      "transportation_type": "Air Travel"
+    },
+    {
+      "scenario_id": "TRANS009",
+      "scenario": "Asking for directions to ground transportation at arrivals",
+      "setting": "Airport arrivals hall",
+      "social_context": "Brief, information-seeking, helpfulness expected",
+      "participants": [
+        "Arriving Passenger",
+        "Airport Staff"
+      ],
+      "traveler_profile": "Tired, keen to leave, direct",
+      "emotions": [
+        "fatigued",
+        "focused",
+        "grateful"
+      ],
+      "complexity": "low",
+      "tone": "neutral-polite",
+      "prompt": "Create a realistic transportation conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Context: Public transit interactions, airport procedures, car rental, taxi/ride-share services, or related travel situations.\n- Location: Airport arrivals hall\n- Scenario: Asking for directions to ground transportation at arrivals\n- Traveler Profile (or primary speaker's role): Tired, keen to leave, direct\n- Emotions: fatigued, focused, grateful\n- Tone: neutral-polite (conversational)\n- Participants: Arriving Passenger, Airport Staff\n\nRequirements:\n- Alternating dialogue between participants (4-7 lines total).\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate transportation vocabulary, specific terminology (e.g., boarding pass, platform, fare, baggage claim, vehicle class, customs declaration), and common travel procedures.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups typical of travel environments.\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices specific to transportation contexts.\n\nOutput JSON structure:\n{\n    \"dialogue\": [\n        {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"}\n    ],\n    \"tone\": \"neutral-polite\",\n    \"rationale\": [\n        {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"}\n    ]\n}",
+      "dialogue": [
+        {
+          "speaker": "Arriving Passenger",
+          "text": "Excuse me, could you point me to the ground transportation area? I just came from baggage claim.",
+          "emotion": "fatigued",
+          "intent": "request directions"
+        },
+        {
+          "speaker": "Airport Staff",
+          "text": "Of course! Head straight down this corridor, then turn left at the signs for 'Ground Transportation.' You'll see taxis, ride-shares, and rental car counters there.",
+          "emotion": "helpful",
+          "intent": "provide directions"
+        },
+        {
+          "speaker": "Arriving Passenger",
+          "text": "Thanks. Do you know if the shuttle to downtown runs this late?",
+          "emotion": "focused",
+          "intent": "confirm schedule"
+        },
+        {
+          "speaker": "Airport Staff",
+          "text": "Yes, it runs until midnight. The pickup is at Bay 3—just look for the blue signs.",
+          "emotion": "reassuring",
+          "intent": "clarify details"
+        },
+        {
+          "speaker": "Arriving Passenger",
+          "text": "Perfect, I appreciate it.",
+          "emotion": "grateful",
+          "intent": "express thanks"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "ground transportation area",
+          "explanation": "This is a standard term in airports worldwide, helping travelers distinguish between arrivals, departures, and transport options."
+        },
+        {
+          "phrase": "Bay 3",
+          "explanation": "Numbered bays are commonly used in airports to organize pickup/drop-off points, making it easier for travelers to navigate."
+        }
+      ],
+      "transportation_type": "Air Travel"
+    },
+    {
+      "scenario_id": "TRANS010",
+      "scenario": "Confirming a ride-share destination and route preference with the driver",
+      "setting": "Inside a ride-share vehicle",
+      "social_context": "Transactional, ensuring accuracy, building rapport",
+      "participants": [
+        "Passenger",
+        "Ride-share Driver"
+      ],
+      "traveler_profile": "Specific, safety-conscious, polite",
+      "emotions": [
+        "focused",
+        "trusting",
+        "relaxed"
+      ],
+      "complexity": "low",
+      "tone": "casual-friendly",
+      "prompt": "Create a realistic transportation conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Context: Public transit interactions, airport procedures, car rental, taxi/ride-share services, or related travel situations.\n- Location: Inside a ride-share vehicle\n- Scenario: Confirming a ride-share destination and route preference with the driver\n- Traveler Profile (or primary speaker's role): Specific, safety-conscious, polite\n- Emotions: focused, trusting, relaxed\n- Tone: casual-friendly (conversational)\n- Participants: Passenger, Ride-share Driver\n\nRequirements:\n- Alternating dialogue between participants (4-7 lines total).\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate transportation vocabulary, specific terminology (e.g., boarding pass, platform, fare, baggage claim, vehicle class, customs declaration), and common travel procedures.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups typical of travel environments.\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices specific to transportation contexts.\n\nOutput JSON structure:\n{\n    \"dialogue\": [\n        {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"}\n    ],\n    \"tone\": \"casual-friendly\",\n    \"rationale\": [\n        {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"}\n    ]\n}",
+      "dialogue": [
+        {
+          "speaker": "Passenger",
+          "text": "Hi there! Just wanted to confirm we're headed to 123 Main Street, right?",
+          "emotion": "focused",
+          "intent": "verify destination"
+        },
+        {
+          "speaker": "Driver",
+          "text": "Yes, that's correct! The app shows 123 Main Street. Would you prefer the highway or local roads?",
+          "emotion": "relaxed",
+          "intent": "confirm and offer route choice"
+        },
+        {
+          "speaker": "Passenger",
+          "text": "Local roads would be great—less traffic this time of day. Thanks for asking!",
+          "emotion": "trusting",
+          "intent": "express preference politely"
+        },
+        {
+          "speaker": "Driver",
+          "text": "No problem at all. I’ll take the scenic route—it’s a nice drive.",
+          "emotion": "friendly",
+          "intent": "reassure and build rapport"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Would you prefer the highway or local roads?",
+          "explanation": "This phrase demonstrates cultural consideration by offering the passenger agency in route selection, common in ride-share etiquette."
+        },
+        {
+          "phrase": "I’ll take the scenic route—it’s a nice drive.",
+          "explanation": "This reassures the passenger while subtly emphasizing safety (avoiding highways) and fostering a friendly atmosphere."
+        }
+      ],
+      "transportation_type": "Ride Services & Taxis"
+    },
+    {
+      "scenario_id": "TRANS011",
+      "scenario": "Explaining accessibility needs (e.g., wheelchair) to a taxi company via phone",
+      "setting": "Phone call to a taxi dispatch",
+      "social_context": "Formal, clear communication of specific needs",
+      "participants": [
+        "Customer",
+        "Taxi Dispatcher"
+      ],
+      "traveler_profile": "Needs-specific, patient, detail-oriented",
+      "emotions": [
+        "hopeful",
+        "focused",
+        "relieved"
+      ],
+      "complexity": "medium",
+      "tone": "formal-informative",
+      "prompt": "Create a realistic transportation conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Context: Public transit interactions, airport procedures, car rental, taxi/ride-share services, or related travel situations.\n- Location: Phone call to a taxi dispatch\n- Scenario: Explaining accessibility needs (e.g., wheelchair) to a taxi company via phone\n- Traveler Profile (or primary speaker's role): Needs-specific, patient, detail-oriented\n- Emotions: hopeful, focused, relieved\n- Tone: formal-informative (conversational)\n- Participants: Customer, Taxi Dispatcher\n\nRequirements:\n- Alternating dialogue between participants (7-10 lines total).\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate transportation vocabulary, specific terminology (e.g., boarding pass, platform, fare, baggage claim, vehicle class, customs declaration), and common travel procedures.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups typical of travel environments.\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices specific to transportation contexts.\n\nOutput JSON structure:\n{\n    \"dialogue\": [\n        {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"}\n    ],\n    \"tone\": \"formal-informative\",\n    \"rationale\": [\n        {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"}\n    ]\n}",
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "text": "Hello, I’d like to book a taxi for tomorrow morning at 8 AM.",
+          "emotion": "hopeful",
+          "intent": "initiate booking"
+        },
+        {
+          "speaker": "Taxi Dispatcher",
+          "text": "Certainly! Could you please provide the pickup location and destination?",
+          "emotion": "polite",
+          "intent": "gather details"
+        },
+        {
+          "speaker": "Customer",
+          "text": "I’ll be at 123 Main Street, going to the airport. Also, I need a wheelchair-accessible vehicle—do you have those available?",
+          "emotion": "focused",
+          "intent": "specify needs"
+        },
+        {
+          "speaker": "Taxi Dispatcher",
+          "text": "Yes, we do. I’ll note the accessibility requirement. Could you confirm if you’ll need assistance with boarding or have any additional luggage?",
+          "emotion": "helpful",
+          "intent": "clarify accommodations"
+        },
+        {
+          "speaker": "Customer",
+          "text": "I’ll have one suitcase, and yes, I’d appreciate help with boarding if possible.",
+          "emotion": "relieved",
+          "intent": "confirm details"
+        },
+        {
+          "speaker": "Taxi Dispatcher",
+          "text": "Noted. Your fare will include the accessibility surcharge, and the driver will assist with boarding and luggage. Anything else?",
+          "emotion": "professional",
+          "intent": "finalize booking"
+        },
+        {
+          "speaker": "Customer",
+          "text": "That’s all—thank you so much for your help!",
+          "emotion": "grateful",
+          "intent": "express appreciation"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "wheelchair-accessible vehicle",
+          "explanation": "This term is standard in transportation contexts to clearly communicate accessibility needs without ambiguity."
+        },
+        {
+          "phrase": "accessibility surcharge",
+          "explanation": "This phrase prepares the customer for potential additional costs while maintaining transparency, common in formal service interactions."
+        }
+      ],
+      "transportation_type": "Ride Services & Taxis"
+    },
+    {
+      "scenario_id": "TRANS012",
+      "scenario": "Giving feedback/complaint about a ride-share driver's service",
+      "setting": "Online app support / phone call",
+      "social_context": "Formal, complaint resolution, seeking redress",
+      "participants": [
+        "Customer",
+        "Support Agent"
+      ],
+      "traveler_profile": "Disappointed, seeks resolution, factual",
+      "emotions": [
+        "annoyed",
+        "determined",
+        "calm"
+      ],
+      "complexity": "high",
+      "tone": "formal-assertive",
+      "prompt": "Create a realistic transportation conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Context: Public transit interactions, airport procedures, car rental, taxi/ride-share services, or related travel situations.\n- Location: Online app support / phone call\n- Scenario: Giving feedback/complaint about a ride-share driver's service\n- Traveler Profile (or primary speaker's role): Disappointed, seeks resolution, factual\n- Emotions: annoyed, determined, calm\n- Tone: formal-assertive (conversational)\n- Participants: Customer, Support Agent\n\nRequirements:\n- Alternating dialogue between participants (10-15 lines total).\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate transportation vocabulary, specific terminology (e.g., boarding pass, platform, fare, baggage claim, vehicle class, customs declaration), and common travel procedures.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups typical of travel environments.\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices specific to transportation contexts.\n\nOutput JSON structure:\n{\n    \"dialogue\": [\n        {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"}\n    ],\n    \"tone\": \"formal-assertive\",\n    \"rationale\": [\n        {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"}\n    ]\n}",
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "text": "Hello, I’d like to file a complaint about a recent ride-share experience.",
+          "emotion": "annoyed",
+          "intent": "initiate complaint"
+        },
+        {
+          "speaker": "Support Agent",
+          "text": "I’m sorry to hear that. Could you please provide the trip details, such as the date and driver’s name?",
+          "emotion": "neutral",
+          "intent": "gather information"
+        },
+        {
+          "speaker": "Customer",
+          "text": "The trip was yesterday at 3:30 PM. The driver’s name was Alex, and the vehicle was a silver sedan. The license plate ended with 45K.",
+          "emotion": "determined",
+          "intent": "provide specifics"
+        },
+        {
+          "speaker": "Support Agent",
+          "text": "Thank you. What was the issue with the service?",
+          "emotion": "neutral",
+          "intent": "clarify complaint"
+        },
+        {
+          "speaker": "Customer",
+          "text": "The driver took an unnecessarily long route, which increased the fare significantly. I’ve taken this route before, and it should have been 20 minutes, not 40.",
+          "emotion": "annoyed",
+          "intent": "explain grievance"
+        },
+        {
+          "speaker": "Support Agent",
+          "text": "I understand your frustration. We’ll review the GPS data to verify the route taken. Did you express your concern to the driver during the trip?",
+          "emotion": "apologetic",
+          "intent": "assure investigation"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Yes, I did. The driver dismissed it and said the app’s navigation was ‘optimizing for traffic.’ But there was no traffic—I checked my own maps.",
+          "emotion": "frustrated",
+          "intent": "reinforce complaint"
+        },
+        {
+          "speaker": "Support Agent",
+          "text": "I see. We take such feedback seriously. Would you like a partial refund for the fare difference?",
+          "emotion": "conciliatory",
+          "intent": "offer resolution"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Yes, that would be appropriate. I’d also appreciate it if this driver receives additional training on route efficiency.",
+          "emotion": "calm",
+          "intent": "request action"
+        },
+        {
+          "speaker": "Support Agent",
+          "text": "Understood. I’ve processed a refund for the fare difference, and we’ll address this with the driver. Is there anything else I can assist you with?",
+          "emotion": "helpful",
+          "intent": "conclude interaction"
+        },
+        {
+          "speaker": "Customer",
+          "text": "No, that’s all for now. Thank you for your help.",
+          "emotion": "satisfied",
+          "intent": "end conversation"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "The driver took an unnecessarily long route, which increased the fare significantly.",
+          "explanation": "This phrase uses transportation-specific terms like ‘fare’ and ‘route,’ which are critical for clarity in ride-share complaints."
+        },
+        {
+          "phrase": "I’ve taken this route before, and it should have been 20 minutes, not 40.",
+          "explanation": "This contrasts expected vs. actual service, a common structure in complaints to emphasize the discrepancy."
+        },
+        {
+          "phrase": "We’ll review the GPS data to verify the route taken.",
+          "explanation": "Mentions ‘GPS data,’ a technical detail that reassures the customer of a factual investigation."
+        }
+      ],
+      "transportation_type": "Ride Services & Taxis"
+    },
+    {
+      "scenario_id": "TRANS013",
+      "scenario": "Inquiring about car rental insurance options at the counter",
+      "setting": "Car rental desk",
+      "social_context": "Transactional, detail-oriented, financial implications",
+      "participants": [
+        "Renter",
+        "Rental Agent"
+      ],
+      "traveler_profile": "Cautious, financially aware, seeks clarity",
+      "emotions": [
+        "careful",
+        "inquisitive",
+        "concerned"
+      ],
+      "complexity": "medium",
+      "tone": "formal-inquisitive",
+      "prompt": "Create a realistic transportation conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Context: Public transit interactions, airport procedures, car rental, taxi/ride-share services, or related travel situations.\n- Location: Car rental desk\n- Scenario: Inquiring about car rental insurance options at the counter\n- Traveler Profile (or primary speaker's role): Cautious, financially aware, seeks clarity\n- Emotions: careful, inquisitive, concerned\n- Tone: formal-inquisitive (conversational)\n- Participants: Renter, Rental Agent\n\nRequirements:\n- Alternating dialogue between participants (7-10 lines total).\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate transportation vocabulary, specific terminology (e.g., boarding pass, platform, fare, baggage claim, vehicle class, customs declaration), and common travel procedures.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups typical of travel environments.\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices specific to transportation contexts.\n\nOutput JSON structure:\n{\n    \"dialogue\": [\n        {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"}\n    ],\n    \"tone\": \"formal-inquisitive\",\n    \"rationale\": [\n        {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"}\n    ]\n}",
+      "dialogue": [
+        {
+          "speaker": "Renter",
+          "text": "Hello, I’d like to inquire about the insurance options for my rental. Could you explain the coverage differences?",
+          "emotion": "careful",
+          "intent": "seek clarity"
+        },
+        {
+          "speaker": "Rental Agent",
+          "text": "Of course. We offer three levels: Basic, which covers liability; Standard, adding collision; and Premium, which includes personal effects and roadside assistance.",
+          "emotion": "professional",
+          "intent": "inform"
+        },
+        {
+          "speaker": "Renter",
+          "text": "I see. Does my credit card’s rental insurance overlap with any of these? I want to avoid redundant coverage.",
+          "emotion": "inquisitive",
+          "intent": "clarify"
+        },
+        {
+          "speaker": "Rental Agent",
+          "text": "Good question. Many cards cover collision but exclude liability. I’d recommend checking your card’s terms—we can adjust your selection afterward.",
+          "emotion": "helpful",
+          "intent": "guide"
+        },
+        {
+          "speaker": "Renter",
+          "text": "That makes sense. What’s the cost difference between Standard and Premium? I’m weighing the value.",
+          "emotion": "concerned",
+          "intent": "compare"
+        },
+        {
+          "speaker": "Rental Agent",
+          "text": "Premium adds about $12/day. It includes towing and lockout services, which can save hassle if you’re unfamiliar with the area.",
+          "emotion": "reassuring",
+          "intent": "persuade"
+        },
+        {
+          "speaker": "Renter",
+          "text": "Got it. I’ll take Standard for now, but I’d like to review my credit card details first. Can I upgrade later if needed?",
+          "emotion": "decisive",
+          "intent": "confirm flexibility"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "avoid redundant coverage",
+          "explanation": "Common financial concern in rentals; ‘redundant’ signals awareness of overlapping policies."
+        },
+        {
+          "phrase": "we can adjust your selection afterward",
+          "explanation": "Reassures flexibility, a key cultural expectation in customer service-heavy industries like car rentals."
+        }
+      ],
+      "transportation_type": "Car-Related"
+    },
+    {
+      "scenario_id": "TRANS014",
+      "scenario": "Asking a gas station attendant for directions to a specific motorway junction",
+      "setting": "Gas station forecourt",
+      "social_context": "Brief, information-seeking, local knowledge",
+      "participants": [
+        "Driver",
+        "Gas Station Attendant"
+      ],
+      "traveler_profile": "Lost, needs quick help, appreciative",
+      "emotions": [
+        "confused",
+        "hopeful",
+        "grateful"
+      ],
+      "complexity": "low",
+      "tone": "polite-casual",
+      "prompt": "Create a realistic transportation conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Context: Public transit interactions, airport procedures, car rental, taxi/ride-share services, or related travel situations.\n- Location: Gas station forecourt\n- Scenario: Asking a gas station attendant for directions to a specific motorway junction\n- Traveler Profile (or primary speaker's role): Lost, needs quick help, appreciative\n- Emotions: confused, hopeful, grateful\n- Tone: polite-casual (conversational)\n- Participants: Driver, Gas Station Attendant\n\nRequirements:\n- Alternating dialogue between participants (4-7 lines total).\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate transportation vocabulary, specific terminology (e.g., boarding pass, platform, fare, baggage claim, vehicle class, customs declaration), and common travel procedures.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups typical of travel environments.\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices specific to transportation contexts.\n\nOutput JSON structure:\n{\n    \"dialogue\": [\n        {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"}\n    ],\n    \"tone\": \"polite-casual\",\n    \"rationale\": [\n        {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"}\n    ]\n}",
+      "dialogue": [
+        {
+          "speaker": "Driver",
+          "text": "Excuse me, I’m a bit lost. Could you point me toward Junction 14 on the M5?",
+          "emotion": "confused",
+          "intent": "seek directions"
+        },
+        {
+          "speaker": "Gas Station Attendant",
+          "text": "No worries! Head back the way you came, take the first roundabout, and follow signs for the M5 South. Junction 14’s about 10 minutes from there.",
+          "emotion": "helpful",
+          "intent": "provide guidance"
+        },
+        {
+          "speaker": "Driver",
+          "text": "First roundabout, then M5 South—got it. Do I need to watch for any tricky merges?",
+          "emotion": "hopeful",
+          "intent": "clarify details"
+        },
+        {
+          "speaker": "Gas Station Attendant",
+          "text": "Nah, it’s straightforward. Just stay left after the roundabout—the slip road’s well marked.",
+          "emotion": "reassuring",
+          "intent": "simplify instructions"
+        },
+        {
+          "speaker": "Driver",
+          "text": "Perfect, thanks so much! You’ve saved me a lot of hassle.",
+          "emotion": "grateful",
+          "intent": "express appreciation"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "slip road",
+          "explanation": "Common UK term for an entrance/exit ramp to a motorway; clarifies local terminology to avoid confusion."
+        },
+        {
+          "phrase": "watch for tricky merges",
+          "explanation": "Highlights driver’s concern for road safety while subtly requesting elaboration—natural in navigation conversations."
+        }
+      ],
+      "transportation_type": "Car-Related"
+    },
+    {
+      "scenario_id": "TRANS015",
+      "scenario": "Disputing a parking ticket with a council enforcement officer",
+      "setting": "Street parking enforcement area",
+      "social_context": "Confrontational, legal/procedural, seeking exoneration",
+      "participants": [
+        "Driver",
+        "Enforcement Officer"
+      ],
+      "traveler_profile": "Aggrieved, believes in innocence, assertive",
+      "emotions": [
+        "frustrated",
+        "assertive",
+        "disappointed"
+      ],
+      "complexity": "high",
+      "tone": "assertive-formal",
+      "prompt": "Create a realistic transportation conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Context: Public transit interactions, airport procedures, car rental, taxi/ride-share services, or related travel situations.\n- Location: Street parking enforcement area\n- Scenario: Disputing a parking ticket with a council enforcement officer\n- Traveler Profile (or primary speaker's role): Aggrieved, believes in innocence, assertive\n- Emotions: frustrated, assertive, disappointed\n- Tone: assertive-formal (conversational)\n- Participants: Driver, Enforcement Officer\n\nRequirements:\n- Alternating dialogue between participants (10-15 lines total).\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate transportation vocabulary, specific terminology (e.g., boarding pass, platform, fare, baggage claim, vehicle class, customs declaration), and common travel procedures.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups typical of travel environments.\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices specific to transportation contexts.\n\nOutput JSON structure:\n{\n    \"dialogue\": [\n        {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"}\n    ],\n    \"tone\": \"assertive-formal\",\n    \"rationale\": [\n        {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"}\n    ]\n}",
+      "dialogue": [
+        {
+          "speaker": "Driver",
+          "text": "Excuse me, officer, but I believe there's been a mistake with this parking ticket.",
+          "emotion": "frustrated",
+          "intent": "dispute the ticket"
+        },
+        {
+          "speaker": "Enforcement Officer",
+          "text": "What seems to be the issue, sir?",
+          "emotion": "neutral",
+          "intent": "clarify the situation"
+        },
+        {
+          "speaker": "Driver",
+          "text": "I was only parked here for five minutes to drop off a passenger. The sign clearly allows loading and unloading.",
+          "emotion": "assertive",
+          "intent": "cite regulations"
+        },
+        {
+          "speaker": "Enforcement Officer",
+          "text": "The sign specifies a 3-minute limit for loading. Our records show your vehicle was stationary for seven minutes.",
+          "emotion": "firm",
+          "intent": "present evidence"
+        },
+        {
+          "speaker": "Driver",
+          "text": "That can't be right—I timed it myself. Are your meters calibrated regularly?",
+          "emotion": "disappointed",
+          "intent": "challenge accuracy"
+        },
+        {
+          "speaker": "Enforcement Officer",
+          "text": "All enforcement equipment undergoes monthly inspections. You're welcome to appeal the citation through the council portal.",
+          "emotion": "professional",
+          "intent": "direct to proper channels"
+        },
+        {
+          "speaker": "Driver",
+          "text": "This is ridiculous—I followed the rules. What's the point of loading zones if we get penalized for using them?",
+          "emotion": "frustrated",
+          "intent": "express injustice"
+        },
+        {
+          "speaker": "Enforcement Officer",
+          "text": "I understand your frustration, but duration limits prevent abuse of short-term parking spaces.",
+          "emotion": "patient",
+          "intent": "explain policy"
+        },
+        {
+          "speaker": "Driver",
+          "text": "Fine. What's the appeals process? I want this reviewed properly.",
+          "emotion": "resigned",
+          "intent": "seek resolution"
+        },
+        {
+          "speaker": "Enforcement Officer",
+          "text": "The instructions are on the ticket's reverse side. You'll need to submit evidence like dashcam footage or witness statements.",
+          "emotion": "helpful",
+          "intent": "provide guidance"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "loading and unloading",
+          "explanation": "This is standard transportation terminology for designated short-term parking areas, crucial for learners to recognize on signage."
+        },
+        {
+          "phrase": "appeal the citation through the council portal",
+          "explanation": "Reflects modern bureaucratic processes where many disputes are handled digitally, emphasizing practical vocabulary for travelers."
+        },
+        {
+          "phrase": "duration limits prevent abuse of short-term parking spaces",
+          "explanation": "Demonstrates how to professionally justify regulations—a common need when explaining transportation policies across cultures."
+        }
+      ],
+      "transportation_type": "Car-Related"
+    },
+    {
+      "scenario_id": "TRANS016",
+      "scenario": "Booking a ferry ticket for a vehicle and passengers at the terminal",
+      "setting": "Ferry terminal ticket office",
+      "social_context": "Transactional, detail-oriented, planning",
+      "participants": [
+        "Driver/Passenger",
+        "Ticket Agent"
+      ],
+      "traveler_profile": "Organized, knows travel details, efficient",
+      "emotions": [
+        "focused",
+        "prepared",
+        "anticipatory"
+      ],
+      "complexity": "medium",
+      "tone": "formal-efficient",
+      "prompt": "Create a realistic transportation conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Context: Public transit interactions, airport procedures, car rental, taxi/ride-share services, or related travel situations.\n- Location: Ferry terminal ticket office\n- Scenario: Booking a ferry ticket for a vehicle and passengers at the terminal\n- Traveler Profile (or primary speaker's role): Organized, knows travel details, efficient\n- Emotions: focused, prepared, anticipatory\n- Tone: formal-efficient (conversational)\n- Participants: Driver/Passenger, Ticket Agent\n\nRequirements:\n- Alternating dialogue between participants (7-10 lines total).\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate transportation vocabulary, specific terminology (e.g., boarding pass, platform, fare, baggage claim, vehicle class, customs declaration), and common travel procedures.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups typical of travel environments.\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices specific to transportation contexts.\n\nOutput JSON structure:\n{\n    \"dialogue\": [\n        {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"}\n    ],\n    \"tone\": \"formal-efficient\",\n    \"rationale\": [\n        {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"}\n    ]\n}",
+      "dialogue": [
+        {
+          "speaker": "Ticket Agent",
+          "text": "Good morning! How can I assist you today?",
+          "emotion": "polite",
+          "intent": "greet and offer help"
+        },
+        {
+          "speaker": "Driver/Passenger",
+          "text": "Hello, I'd like to book a ferry ticket for my vehicle and two passengers to the mainland for tomorrow morning.",
+          "emotion": "focused",
+          "intent": "request service"
+        },
+        {
+          "speaker": "Ticket Agent",
+          "text": "Certainly. Do you know the vehicle class and dimensions? We need this to calculate the fare.",
+          "emotion": "professional",
+          "intent": "gather necessary details"
+        },
+        {
+          "speaker": "Driver/Passenger",
+          "text": "It's a standard sedan—5 meters long, 1.8 meters wide. We’ll also need boarding passes for the passengers.",
+          "emotion": "prepared",
+          "intent": "provide precise information"
+        },
+        {
+          "speaker": "Ticket Agent",
+          "text": "Understood. The next available departure is at 8:15 AM from Platform 3. Will that work for you?",
+          "emotion": "helpful",
+          "intent": "confirm schedule"
+        },
+        {
+          "speaker": "Driver/Passenger",
+          "text": "Perfect. Do we need to arrive earlier for vehicle check-in or customs declarations?",
+          "emotion": "anticipatory",
+          "intent": "clarify procedures"
+        },
+        {
+          "speaker": "Ticket Agent",
+          "text": "Yes, please arrive 45 minutes prior. Customs forms are available at the terminal, and staff will direct you to the vehicle lane.",
+          "emotion": "reassuring",
+          "intent": "explain process"
+        },
+        {
+          "speaker": "Driver/Passenger",
+          "text": "Got it. One last thing—is there baggage claim on arrival, or should we keep everything in the car?",
+          "emotion": "efficient",
+          "intent": "finalize logistics"
+        },
+        {
+          "speaker": "Ticket Agent",
+          "text": "All luggage stays with your vehicle. Here are your tickets and a map of the loading area. Safe travels!",
+          "emotion": "courteous",
+          "intent": "conclude transaction"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "vehicle class and dimensions",
+          "explanation": "Specific terminology ensures accurate fare calculation and avoids boarding issues—common in ferry transport where space is allocated by size."
+        },
+        {
+          "phrase": "45 minutes prior",
+          "explanation": "Sets clear expectations for check-in, reflecting real-world ferry procedures where early arrival is standard for vehicle processing."
+        }
+      ],
+      "transportation_type": "Maritime/Ferry"
+    },
+    {
+      "scenario_id": "TRANS017",
+      "scenario": "Inquiring about dining options and amenities on a long ferry journey",
+      "setting": "Ferry information desk/onboard",
+      "social_context": "Leisurely, information-seeking, planning leisure",
+      "participants": [
+        "Passenger",
+        "Ferry Staff"
+      ],
+      "traveler_profile": "Relaxed, curious, seeks comfort",
+      "emotions": [
+        "interested",
+        "relaxed",
+        "satisfied"
+      ],
+      "complexity": "low",
+      "tone": "friendly-casual",
+      "prompt": "Create a realistic transportation conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Context: Public transit interactions, airport procedures, car rental, taxi/ride-share services, or related travel situations.\n- Location: Ferry information desk/onboard\n- Scenario: Inquiring about dining options and amenities on a long ferry journey\n- Traveler Profile (or primary speaker's role): Relaxed, curious, seeks comfort\n- Emotions: interested, relaxed, satisfied\n- Tone: friendly-casual (conversational)\n- Participants: Passenger, Ferry Staff\n\nRequirements:\n- Alternating dialogue between participants (4-7 lines total).\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate transportation vocabulary, specific terminology (e.g., boarding pass, platform, fare, baggage claim, vehicle class, customs declaration), and common travel procedures.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups typical of travel environments.\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices specific to transportation contexts.\n\nOutput JSON structure:\n{\n    \"dialogue\": [\n        {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"}\n    ],\n    \"tone\": \"friendly-casual\",\n    \"rationale\": [\n        {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"}\n    ]\n}",
+      "dialogue": [
+        {
+          "speaker": "Passenger",
+          "text": "Hi there! I’m excited for this long ferry ride—could you tell me what dining options are available onboard?",
+          "emotion": "interested",
+          "intent": "inquire about amenities"
+        },
+        {
+          "speaker": "Ferry Staff",
+          "text": "Of course! We have a main restaurant serving hot meals, a café with light snacks, and a bar with drinks. The restaurant opens right after departure.",
+          "emotion": "helpful",
+          "intent": "provide information"
+        },
+        {
+          "speaker": "Passenger",
+          "text": "That sounds great! Are there any vegetarian or special diet options?",
+          "emotion": "relaxed",
+          "intent": "clarify details"
+        },
+        {
+          "speaker": "Ferry Staff",
+          "text": "Absolutely! The menu marks vegetarian, vegan, and gluten-free choices. Just let the server know if you have other requests.",
+          "emotion": "reassuring",
+          "intent": "assure flexibility"
+        },
+        {
+          "speaker": "Passenger",
+          "text": "Perfect, thanks! One last thing—are there any lounges or quiet areas to relax?",
+          "emotion": "satisfied",
+          "intent": "seek comfort"
+        },
+        {
+          "speaker": "Ferry Staff",
+          "text": "Yes, we have a quiet lounge on Deck 5 with recliners and ocean views. It’s my favorite spot!",
+          "emotion": "friendly",
+          "intent": "recommend"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "The restaurant opens right after departure.",
+          "explanation": "This phrasing is common in ferry/transport contexts to clarify timing relative to boarding procedures."
+        },
+        {
+          "phrase": "The menu marks vegetarian, vegan, and gluten-free choices.",
+          "explanation": "Highlights standardized dietary labeling in travel hospitality, useful for learners navigating food options."
+        }
+      ],
+      "transportation_type": "Maritime/Ferry"
+    },
+    {
+      "scenario_id": "TRANS018",
+      "scenario": "Calling roadside assistance to report a car breakdown",
+      "setting": "Roadside (phone call)",
+      "social_context": "Urgent, problem-solving, descriptive",
+      "participants": [
+        "Driver",
+        "Roadside Assistance Operator"
+      ],
+      "traveler_profile": "Stressed, needs immediate help, clear communicator",
+      "emotions": [
+        "stressed",
+        "frustrated",
+        "hopeful"
+      ],
+      "complexity": "high",
+      "tone": "urgent-calm",
+      "prompt": "Create a realistic transportation conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Context: Public transit interactions, airport procedures, car rental, taxi/ride-share services, or related travel situations.\n- Location: Roadside (phone call)\n- Scenario: Calling roadside assistance to report a car breakdown\n- Traveler Profile (or primary speaker's role): Stressed, needs immediate help, clear communicator\n- Emotions: stressed, frustrated, hopeful\n- Tone: urgent-calm (pressured but composed, needs immediate help)\n- Participants: Driver, Roadside Assistance Operator\n\nRequirements:\n- Alternating dialogue between participants (10-15 lines total).\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate transportation vocabulary, specific terminology (e.g., boarding pass, platform, fare, baggage claim, vehicle class, customs declaration), and common travel procedures.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups typical of travel environments.\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices specific to transportation contexts.\n\nOutput JSON structure:\n{\n    \"dialogue\": [\n        {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"}\n    ],\n    \"tone\": \"urgent-calm\",\n    \"rationale\": [\n        {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"}\n    ]\n}",
+      "dialogue": [
+        {
+          "speaker": "Driver",
+          "text": "Hello, I need roadside assistance immediately. My car broke down on Highway 5 near the Willow Creek exit.",
+          "emotion": "stressed",
+          "intent": "request help"
+        },
+        {
+          "speaker": "Operator",
+          "text": "I understand. Are you in a safe location? Can you describe the issue with your vehicle?",
+          "emotion": "calm",
+          "intent": "assess situation"
+        },
+        {
+          "speaker": "Driver",
+          "text": "Yes, I pulled over to the shoulder. The engine started smoking, and now it won’t start at all.",
+          "emotion": "frustrated",
+          "intent": "explain problem"
+        },
+        {
+          "speaker": "Operator",
+          "text": "Understood. For safety, please turn on your hazard lights. Do you have a spare tire or jumper cables?",
+          "emotion": "professional",
+          "intent": "ensure safety"
+        },
+        {
+          "speaker": "Driver",
+          "text": "I have hazard lights on. No, I don’t have jumper cables—this seems more serious.",
+          "emotion": "hopeful",
+          "intent": "clarify urgency"
+        },
+        {
+          "speaker": "Operator",
+          "text": "We’ll dispatch a tow truck to your location. What’s your vehicle make, model, and license plate?",
+          "emotion": "reassuring",
+          "intent": "gather details"
+        },
+        {
+          "speaker": "Driver",
+          "text": "It’s a 2018 Honda Accord, license plate XYZ123. How long until help arrives?",
+          "emotion": "anxious",
+          "intent": "seek timeline"
+        },
+        {
+          "speaker": "Operator",
+          "text": "Typically 30–45 minutes. Stay in your vehicle with doors locked. Can I confirm your contact number?",
+          "emotion": "calm",
+          "intent": "provide reassurance"
+        },
+        {
+          "speaker": "Driver",
+          "text": "Yes, it’s 555-123-4567. Thank you—I’ll wait.",
+          "emotion": "relieved",
+          "intent": "express gratitude"
+        },
+        {
+          "speaker": "Operator",
+          "text": "You’re welcome. The tow truck driver will call you when nearby. Stay safe.",
+          "emotion": "polite",
+          "intent": "conclude call"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "turn on your hazard lights",
+          "explanation": "Standard safety protocol in breakdowns; reinforces learner’s practical vocabulary."
+        },
+        {
+          "phrase": "dispatch a tow truck",
+          "explanation": "Common transportation term; clarifies the assistance process for learners."
+        }
+      ],
+      "transportation_type": "Emergency/Problem"
+    },
+    {
+      "scenario_id": "TRANS019",
+      "scenario": "Reporting a lost passport at an airport information desk",
+      "setting": "Airport information desk",
+      "social_context": "Urgent, crisis-oriented, formal reporting",
+      "participants": [
+        "Distressed Traveler",
+        "Airport Information Staff"
+      ],
+      "traveler_profile": "Panicked, desperate, seeks immediate assistance",
+      "emotions": [
+        "panicked",
+        "anxious",
+        "desperate"
+      ],
+      "complexity": "high",
+      "tone": "urgent-formal",
+      "prompt": "Create a realistic transportation conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Context: Public transit interactions, airport procedures, car rental, taxi/ride-share services, or related travel situations.\n- Location: Airport information desk\n- Scenario: Reporting a lost passport at an airport information desk\n- Traveler Profile (or primary speaker's role): Panicked, desperate, seeks immediate assistance\n- Emotions: panicked, anxious, desperate\n- Tone: urgent-formal (conversational)\n- Participants: Distressed Traveler, Airport Information Staff\n\nRequirements:\n- Alternating dialogue between participants (10-15 lines total).\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate transportation vocabulary, specific terminology (e.g., boarding pass, platform, fare, baggage claim, vehicle class, customs declaration), and common travel procedures.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups typical of travel environments.\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices specific to transportation contexts.\n\nOutput JSON structure:\n{\n    \"dialogue\": [\n        {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"}\n    ],\n    \"tone\": \"urgent-formal\",\n    \"rationale\": [\n        {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"}\n    ]\n}",
+      "dialogue": [
+        {
+          "speaker": "Distressed Traveler",
+          "text": "Excuse me! I need help immediately—I’ve lost my passport!",
+          "emotion": "panicked",
+          "intent": "seek urgent assistance"
+        },
+        {
+          "speaker": "Airport Information Staff",
+          "text": "I understand this is stressful. When and where did you last have it?",
+          "emotion": "calm",
+          "intent": "gather details"
+        },
+        {
+          "speaker": "Distressed Traveler",
+          "text": "I—I think at the baggage claim! I had it when I got off the plane, but now it’s gone!",
+          "emotion": "anxious",
+          "intent": "convey urgency"
+        },
+        {
+          "speaker": "Airport Information Staff",
+          "text": "Let’s check Lost and Found first. Do you have your boarding pass or flight details?",
+          "emotion": "reassuring",
+          "intent": "navigate procedure"
+        },
+        {
+          "speaker": "Distressed Traveler",
+          "text": "Yes, here! Flight BA 203. Please, I have a connecting flight in two hours!",
+          "emotion": "desperate",
+          "intent": "emphasize time pressure"
+        },
+        {
+          "speaker": "Airport Information Staff",
+          "text": "We’ll act quickly. I’ll also alert customs—they may need to issue a temporary document.",
+          "emotion": "professional",
+          "intent": "explain next steps"
+        },
+        {
+          "speaker": "Distressed Traveler",
+          "text": "Will that delay me? I can’t miss my flight!",
+          "emotion": "frantic",
+          "intent": "clarify consequences"
+        },
+        {
+          "speaker": "Airport Information Staff",
+          "text": "It might, but we’ll prioritize this. First, let’s retrace your steps—did you visit currency exchange or restrooms?",
+          "emotion": "focused",
+          "intent": "narrow search"
+        },
+        {
+          "speaker": "Distressed Traveler",
+          "text": "The restroom! Maybe I left it there—oh no, what if someone took it?",
+          "emotion": "distraught",
+          "intent": "express fear"
+        },
+        {
+          "speaker": "Airport Information Staff",
+          "text": "Stay here—I’ll call cleaning staff to check. Meanwhile, fill out this lost property form.",
+          "emotion": "authoritative",
+          "intent": "delegate tasks"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "alert customs—they may need to issue a temporary document",
+          "explanation": "Highlights airport-specific protocol; 'customs' and 'temporary document' are critical terms for lost passport scenarios."
+        },
+        {
+          "phrase": "fill out this lost property form",
+          "explanation": "Standard procedure in travel hubs; 'lost property' is the formal term used internationally for misplaced items."
+        }
+      ],
+      "transportation_type": "Emergency/Problem"
+    },
+    {
+      "scenario_id": "TRANS020",
+      "scenario": "Witnessing a minor traffic accident and offering a statement to police",
+      "setting": "Street/Roadside",
+      "social_context": "Formal, factual reporting, civic duty",
+      "participants": [
+        "Witness",
+        "Police Officer"
+      ],
+      "traveler_profile": "Observant, civic-minded, factual",
+      "emotions": [
+        "concerned",
+        "calm",
+        "helpful"
+      ],
+      "complexity": "high",
+      "tone": "formal-factual",
+      "prompt": "Create a realistic transportation conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Context: Public transit interactions, airport procedures, car rental, taxi/ride-share services, or related travel situations.\n- Location: Street/Roadside\n- Scenario: Witnessing a minor traffic accident and offering a statement to police\n- Traveler Profile (or primary speaker's role): Observant, civic-minded, factual\n- Emotions: concerned, calm, helpful\n- Tone: formal-factual (conversational)\n- Participants: Witness, Police Officer\n\nRequirements:\n- Alternating dialogue between participants (10-15 lines total).\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate transportation vocabulary, specific terminology (e.g., boarding pass, platform, fare, baggage claim, vehicle class, customs declaration), and common travel procedures.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups typical of travel environments.\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices specific to transportation contexts.\n\nOutput JSON structure:\n{\n    \"dialogue\": [\n        {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"}\n    ],\n    \"tone\": \"formal-factual\",\n    \"rationale\": [\n        {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"}\n    ]\n}",
+      "dialogue": [
+        {
+          "speaker": "Police Officer",
+          "text": "Good afternoon, sir. We're gathering statements about the accident that just occurred. Did you witness what happened?",
+          "emotion": "calm",
+          "intent": "gather information"
+        },
+        {
+          "speaker": "Witness",
+          "text": "Yes, officer. I saw the whole thing. The blue sedan ran the red light and collided with the white SUV.",
+          "emotion": "concerned",
+          "intent": "provide factual account"
+        },
+        {
+          "speaker": "Police Officer",
+          "text": "Can you describe the sequence of events in more detail?",
+          "emotion": "professional",
+          "intent": "clarify details"
+        },
+        {
+          "speaker": "Witness",
+          "text": "Certainly. The light had been red for at least three seconds when the sedan entered the intersection. The SUV had the right of way.",
+          "emotion": "calm",
+          "intent": "be precise"
+        },
+        {
+          "speaker": "Police Officer",
+          "text": "Did you notice the speed of either vehicle?",
+          "emotion": "neutral",
+          "intent": "establish facts"
+        },
+        {
+          "speaker": "Witness",
+          "text": "The sedan was moving at about 40 mph, well above the 25 mph speed limit here. The SUV was traveling at a normal speed.",
+          "emotion": "helpful",
+          "intent": "assist investigation"
+        },
+        {
+          "speaker": "Police Officer",
+          "text": "Were there any pedestrians or cyclists in the area we should know about?",
+          "emotion": "concerned",
+          "intent": "ensure safety"
+        },
+        {
+          "speaker": "Witness",
+          "text": "No, officer. The crosswalks were clear at the time of impact.",
+          "emotion": "reassuring",
+          "intent": "provide complete information"
+        },
+        {
+          "speaker": "Police Officer",
+          "text": "Thank you for your cooperation. Would you be willing to provide your contact information in case we need to follow up?",
+          "emotion": "grateful",
+          "intent": "conclude professionally"
+        },
+        {
+          "speaker": "Witness",
+          "text": "Of course. Here's my driver's license and phone number. I'm happy to help further if needed.",
+          "emotion": "cooperative",
+          "intent": "fulfill civic duty"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "The blue sedan ran the red light",
+          "explanation": "This uses standard traffic terminology ('ran the red light') that's universally understood in transportation contexts and clearly establishes fault."
+        },
+        {
+          "phrase": "The crosswalks were clear at the time of impact",
+          "explanation": "The phrase 'time of impact' is specific legal/accident terminology that shows the witness is providing precise, professional testimony."
+        }
+      ],
+      "transportation_type": "Emergency/Problem"
+    },
+    {
+      "scenario_id": "TRANS021",
+      "scenario": "Asking about stroller policies and family seating on a train",
+      "setting": "Train station customer service",
+      "social_context": "Information-seeking, planning for family needs",
+      "participants": [
+        "Parent",
+        "Customer Service Agent"
+      ],
+      "traveler_profile": "Organized parent, child-focused, appreciative of assistance",
+      "emotions": [
+        "focused",
+        "careful",
+        "hopeful"
+      ],
+      "complexity": "medium",
+      "tone": "polite-informative",
+      "prompt": "Create a realistic transportation conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Context: Public transit interactions, airport procedures, car rental, taxi/ride-share services, or related travel situations.\n- Location: Train station customer service\n- Scenario: Asking about stroller policies and family seating on a train\n- Traveler Profile (or primary speaker's role): Organized parent, child-focused, appreciative of assistance\n- Emotions: focused, careful, hopeful\n- Tone: polite-informative (conversational)\n- Participants: Parent, Customer Service Agent\n\nRequirements:\n- Alternating dialogue between participants (7-10 lines total).\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate transportation vocabulary, specific terminology (e.g., boarding pass, platform, fare, baggage claim, vehicle class, customs declaration), and common travel procedures.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups typical of travel environments.\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices specific to transportation contexts.\n\nOutput JSON structure:\n{\n    \"dialogue\": [\n        {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"}\n    ],\n    \"tone\": \"polite-informative\",\n    \"rationale\": [\n        {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"}\n    ]\n}",
+      "dialogue": [
+        {
+          "speaker": "Parent",
+          "text": "Excuse me, I’d like to ask about your stroller policy for the train. We’re traveling with a toddler and want to make sure we’re prepared.",
+          "emotion": "focused",
+          "intent": "clarify rules"
+        },
+        {
+          "speaker": "Customer Service Agent",
+          "text": "Of course! Strollers are allowed, but they must be folded and stored in the luggage area during the ride. Would you like assistance with boarding?",
+          "emotion": "helpful",
+          "intent": "provide policy"
+        },
+        {
+          "speaker": "Parent",
+          "text": "That’s good to know. Are there designated family seating areas where we can sit together comfortably?",
+          "emotion": "hopeful",
+          "intent": "request accommodation"
+        },
+        {
+          "speaker": "Customer Service Agent",
+          "text": "Yes, our family cars have extra space near the doors and priority seating. Just look for the blue signs when you board.",
+          "emotion": "reassuring",
+          "intent": "guide passenger"
+        },
+        {
+          "speaker": "Parent",
+          "text": "Perfect! Do we need to reserve those seats in advance, or are they first-come, first-served?",
+          "emotion": "careful",
+          "intent": "confirm procedure"
+        },
+        {
+          "speaker": "Customer Service Agent",
+          "text": "They’re first-come, but I can note your ticket for priority access. Would you like me to do that?",
+          "emotion": "accommodating",
+          "intent": "offer assistance"
+        },
+        {
+          "speaker": "Parent",
+          "text": "That would be wonderful—thank you so much for your help!",
+          "emotion": "appreciative",
+          "intent": "express gratitude"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "family cars",
+          "explanation": "This term is commonly used in European transit systems to denote carriages with amenities for families, reinforcing region-specific vocabulary."
+        },
+        {
+          "phrase": "note your ticket for priority access",
+          "explanation": "Highlights a cultural norm in many countries where staff can manually annotate tickets for special needs, emphasizing flexibility in service."
+        }
+      ],
+      "transportation_type": "Special Circumstances"
+    },
+    {
+      "scenario_id": "TRANS022",
+      "scenario": "Arranging wheelchair assistance for an elderly passenger at the airport",
+      "setting": "Airport special assistance desk",
+      "social_context": "Formal, empathetic, coordinating services",
+      "participants": [
+        "Caregiver/Passenger",
+        "Assistance Coordinator"
+      ],
+      "traveler_profile": "Caring, organized, advocates for needs",
+      "emotions": [
+        "concerned",
+        "patient",
+        "relieved"
+      ],
+      "complexity": "high",
+      "tone": "respectful-formal",
+      "prompt": "Create a realistic transportation conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Context: Public transit interactions, airport procedures, car rental, taxi/ride-share services, or related travel situations.\n- Location: Airport special assistance desk\n- Scenario: Arranging wheelchair assistance for an elderly passenger at the airport\n- Traveler Profile (or primary speaker's role): Caring, organized, advocates for needs\n- Emotions: concerned, patient, relieved\n- Tone: respectful-formal (conversational)\n- Participants: Caregiver/Passenger, Assistance Coordinator\n\nRequirements:\n- Alternating dialogue between participants (10-15 lines total).\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate transportation vocabulary, specific terminology (e.g., boarding pass, platform, fare, baggage claim, vehicle class, customs declaration), and common travel procedures.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups typical of travel environments.\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices specific to transportation contexts.\n\nOutput JSON structure:\n{\n    \"dialogue\": [\n        {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"}\n    ],\n    \"tone\": \"respectful-formal\",\n    \"rationale\": [\n        {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"}\n    ]\n}",
+      "dialogue": [
+        {
+          "speaker": "Caregiver/Passenger",
+          "text": "Good morning. I’m here to arrange wheelchair assistance for my elderly mother. She has difficulty walking long distances.",
+          "emotion": "concerned",
+          "intent": "request assistance"
+        },
+        {
+          "speaker": "Assistance Coordinator",
+          "text": "Of course, we’re happy to help. Do you have her boarding pass and flight details handy?",
+          "emotion": "patient",
+          "intent": "gather information"
+        },
+        {
+          "speaker": "Caregiver/Passenger",
+          "text": "Yes, here’s her boarding pass. She’s on flight DL 247 to Miami, departing at 2:30 PM.",
+          "emotion": "relieved",
+          "intent": "provide details"
+        },
+        {
+          "speaker": "Assistance Coordinator",
+          "text": "Thank you. We’ll arrange for a wheelchair to meet her at the check-in counter and assist her through security and to the gate.",
+          "emotion": "professional",
+          "intent": "confirm assistance"
+        },
+        {
+          "speaker": "Caregiver/Passenger",
+          "text": "That’s wonderful. Will the same attendant stay with her until boarding?",
+          "emotion": "concerned",
+          "intent": "clarify procedure"
+        },
+        {
+          "speaker": "Assistance Coordinator",
+          "text": "Yes, our staff will assist her all the way to the aircraft door and ensure she’s comfortably seated.",
+          "emotion": "reassuring",
+          "intent": "provide reassurance"
+        },
+        {
+          "speaker": "Caregiver/Passenger",
+          "text": "Thank you so much. She also has a connecting flight—will assistance be available in Miami for baggage claim and the next gate?",
+          "emotion": "concerned",
+          "intent": "confirm ongoing support"
+        },
+        {
+          "speaker": "Assistance Coordinator",
+          "text": "Absolutely. We’ll note her file for wheelchair assistance upon arrival, and Miami airport staff will meet her at the jet bridge.",
+          "emotion": "professional",
+          "intent": "explain process"
+        },
+        {
+          "speaker": "Caregiver/Passenger",
+          "text": "That’s a relief. One last thing—should we arrive earlier than usual for check-in?",
+          "emotion": "patient",
+          "intent": "seek advice"
+        },
+        {
+          "speaker": "Assistance Coordinator",
+          "text": "I’d recommend arriving at least 3 hours before departure to allow ample time for assistance procedures.",
+          "emotion": "helpful",
+          "intent": "offer guidance"
+        },
+        {
+          "speaker": "Caregiver/Passenger",
+          "text": "Perfect. We’ll plan accordingly. Thank you for your help—it means a lot.",
+          "emotion": "relieved",
+          "intent": "express gratitude"
+        },
+        {
+          "speaker": "Assistance Coordinator",
+          "text": "You’re very welcome. Safe travels to you both!",
+          "emotion": "warm",
+          "intent": "conclude positively"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "arrange wheelchair assistance",
+          "explanation": "This phrase is standard in airport contexts, emphasizing proactive service coordination for passengers with mobility needs."
+        },
+        {
+          "phrase": "meet her at the jet bridge",
+          "explanation": "‘Jet bridge’ is industry terminology for the enclosed walkway connecting the terminal to the aircraft, ensuring precise communication about assistance locations."
+        },
+        {
+          "phrase": "arriving at least 3 hours before departure",
+          "explanation": "This reflects real-world airport advice for passengers requiring special assistance, balancing practicality with reassurance."
+        }
+      ],
+      "transportation_type": "Special Circumstances"
+    },
+    {
+      "scenario_id": "TRANS023",
+      "scenario": "Discussing pet travel requirements with airline staff",
+      "setting": "Airline check-in counter",
+      "social_context": "Formal, detailed information exchange, compliance-focused",
+      "participants": [
+        "Pet Owner",
+        "Airline Agent"
+      ],
+      "traveler_profile": "Responsible pet owner, detail-oriented, concerned for pet's welfare",
+      "emotions": [
+        "cautious",
+        "concerned",
+        "diligent"
+      ],
+      "complexity": "high",
+      "tone": "formal-inquisitive",
+      "prompt": "Create a realistic transportation conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Context: Public transit interactions, airport procedures, car rental, taxi/ride-share services, or related travel situations.\n- Location: Airline check-in counter\n- Scenario: Discussing pet travel requirements with airline staff\n- Traveler Profile (or primary speaker's role): Responsible pet owner, detail-oriented, concerned for pet's welfare\n- Emotions: cautious, concerned, diligent\n- Tone: formal-inquisitive (conversational)\n- Participants: Pet Owner, Airline Agent\n\nRequirements:\n- Alternating dialogue between participants (10-15 lines total).\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate transportation vocabulary, specific terminology (e.g., boarding pass, platform, fare, baggage claim, vehicle class, customs declaration), and common travel procedures.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups typical of travel environments.\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices specific to transportation contexts.\n\nOutput JSON structure:\n{\n    \"dialogue\": [\n        {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"}\n    ],\n    \"tone\": \"formal-inquisitive\",\n    \"rationale\": [\n        {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"}\n    ]\n}",
+      "dialogue": [
+        {
+          "speaker": "Pet Owner",
+          "text": "Good morning. I'm checking in for my flight to Paris and need to confirm the requirements for traveling with my cat.",
+          "emotion": "cautious",
+          "intent": "clarify pet travel procedures"
+        },
+        {
+          "speaker": "Airline Agent",
+          "text": "Of course, I’d be happy to assist. Do you have your pet's health certificate and vaccination records with you?",
+          "emotion": "professional",
+          "intent": "request documentation"
+        },
+        {
+          "speaker": "Pet Owner",
+          "text": "Yes, I have them right here. The vet issued them last week. Are there any specific crate dimensions I should be aware of?",
+          "emotion": "diligent",
+          "intent": "verify compliance"
+        },
+        {
+          "speaker": "Airline Agent",
+          "text": "The crate must be IATA-approved and large enough for your cat to stand and turn around. Let me measure yours to ensure it meets our guidelines.",
+          "emotion": "helpful",
+          "intent": "ensure safety standards"
+        },
+        {
+          "speaker": "Pet Owner",
+          "text": "Thank you. I also read about a pet handling fee—could you clarify how that’s processed?",
+          "emotion": "concerned",
+          "intent": "understand costs"
+        },
+        {
+          "speaker": "Airline Agent",
+          "text": "It’s added to your ticket at check-in. For international flights, it’s $200 each way. Would you like me to apply it now?",
+          "emotion": "polite",
+          "intent": "offer service"
+        },
+        {
+          "speaker": "Pet Owner",
+          "text": "Please do. And will my cat travel in the cabin or cargo hold? I’m quite anxious about her comfort.",
+          "emotion": "worried",
+          "intent": "seek reassurance"
+        },
+        {
+          "speaker": "Airline Agent",
+          "text": "Since the crate fits under-seat dimensions, she’ll stay with you in the cabin. Here’s a tag for her carrier—it includes your contact and flight details.",
+          "emotion": "reassuring",
+          "intent": "provide clarity"
+        },
+        {
+          "speaker": "Pet Owner",
+          "text": "That’s a relief. One last thing: do I need to present anything at customs upon arrival?",
+          "emotion": "attentive",
+          "intent": "anticipate procedures"
+        },
+        {
+          "speaker": "Airline Agent",
+          "text": "Yes, keep the health certificate handy—French authorities may request it. Your boarding pass and pet documents are all set. Safe travels!",
+          "emotion": "courteous",
+          "intent": "conclude interaction"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "IATA-approved",
+          "explanation": "Uses industry terminology to emphasize compliance with international pet travel standards, reinforcing the formal context."
+        },
+        {
+          "phrase": "under-seat dimensions",
+          "explanation": "Clarifies a common cabin requirement succinctly, addressing the owner’s concern while maintaining professionalism."
+        }
+      ],
+      "transportation_type": "Special Circumstances"
+    },
+    {
+      "scenario_id": "TRANS024",
+      "scenario": "Navigating customs declarations with a language barrier",
+      "setting": "Airport customs checkpoint",
+      "social_context": "Formal, official, overcoming communication challenges",
+      "participants": [
+        "International Traveler",
+        "Customs Officer"
+      ],
+      "traveler_profile": "Nervous, tries to communicate, relies on gestures/tools",
+      "emotions": [
+        "nervous",
+        "confused",
+        "relieved"
+      ],
+      "complexity": "high",
+      "tone": "stressed-neutral",
+      "prompt": "Create a realistic transportation conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Context: Public transit interactions, airport procedures, car rental, taxi/ride-share services, or related travel situations.\n- Location: Airport customs checkpoint\n- Scenario: Navigating customs declarations with a language barrier\n- Traveler Profile (or primary speaker's role): Nervous, tries to communicate, relies on gestures/tools\n- Emotions: nervous, confused, relieved\n- Tone: stressed-neutral (conversational)\n- Participants: International Traveler, Customs Officer\n\nRequirements:\n- Alternating dialogue between participants (10-15 lines total).\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate transportation vocabulary, specific terminology (e.g., boarding pass, platform, fare, baggage claim, vehicle class, customs declaration), and common travel procedures.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups typical of travel environments.\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices specific to transportation contexts.\n\nOutput JSON structure:\n{\n    \"dialogue\": [\n        {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"}\n    ],\n    \"tone\": \"stressed-neutral\",\n    \"rationale\": [\n        {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"}\n    ]\n}",
+      "dialogue": [
+        {
+          "speaker": "Customs Officer",
+          "text": "Welcome. Passport and customs declaration form, please.",
+          "emotion": "neutral",
+          "intent": "request documents"
+        },
+        {
+          "speaker": "International Traveler",
+          "text": "Uh... yes! Here... passport. Form... I think... this one?",
+          "emotion": "nervous",
+          "intent": "provide documents hesitantly"
+        },
+        {
+          "speaker": "Customs Officer",
+          "text": "This is your boarding pass, sir. I need the yellow customs form.",
+          "emotion": "patient",
+          "intent": "clarify request"
+        },
+        {
+          "speaker": "International Traveler",
+          "text": "Ah! Sorry! *fumbles through bag* Yellow... here?",
+          "emotion": "flustered",
+          "intent": "correct mistake"
+        },
+        {
+          "speaker": "Customs Officer",
+          "text": "Yes. Did you declare all items? Food, plants, over 10,000 USD?",
+          "emotion": "neutral",
+          "intent": "verify declaration"
+        },
+        {
+          "speaker": "International Traveler",
+          "text": "No food... no plants. Money... *shows phone calculator* 8,500.",
+          "emotion": "anxious",
+          "intent": "confirm compliance"
+        },
+        {
+          "speaker": "Customs Officer",
+          "text": "Any gifts or purchases abroad?",
+          "emotion": "neutral",
+          "intent": "continue screening"
+        },
+        {
+          "speaker": "International Traveler",
+          "text": "Gifts? Uh... *points to suitcase* clothes... souvenirs. Small things.",
+          "emotion": "confused",
+          "intent": "explain vaguely"
+        },
+        {
+          "speaker": "Customs Officer",
+          "text": "Total value under 800 USD?",
+          "emotion": "clarifying",
+          "intent": "simplify question"
+        },
+        {
+          "speaker": "International Traveler",
+          "text": "Yes! Under, under! *nods vigorously*",
+          "emotion": "relieved",
+          "intent": "affirm quickly"
+        },
+        {
+          "speaker": "Customs Officer",
+          "text": "Stamp here. Proceed to baggage claim. Next!",
+          "emotion": "dismissive",
+          "intent": "conclude interaction"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "This is your boarding pass, sir. I need the yellow customs form.",
+          "explanation": "Highlights common confusion between travel documents and reinforces color-coding used in many airports for clarity."
+        },
+        {
+          "phrase": "Total value under 800 USD?",
+          "explanation": "Uses a monetary threshold common in US customs procedures, providing a concrete reference point for travelers."
+        },
+        {
+          "phrase": "*shows phone calculator* 8,500.",
+          "explanation": "Demonstrates realistic workaround for language barriers using universal number displays, common in travel contexts."
+        }
+      ],
+      "transportation_type": "International Travel"
+    },
+    {
+      "scenario_id": "TRANS025",
+      "scenario": "Asking a taxi driver about acceptable foreign currency or payment methods",
+      "setting": "Taxi stand outside airport/station",
+      "social_context": "Transactional, financial clarity, initial interaction",
+      "participants": [
+        "Tourist",
+        "Taxi Driver"
+      ],
+      "traveler_profile": "International visitor, budget-conscious, seeks clarity",
+      "emotions": [
+        "cautious",
+        "curious",
+        "relieved"
+      ],
+      "complexity": "low",
+      "tone": "polite-direct",
+      "prompt": "Create a realistic transportation conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Context: Public transit interactions, airport procedures, car rental, taxi/ride-share services, or related travel situations.\n- Location: Taxi stand outside airport/station\n- Scenario: Asking a taxi driver about acceptable foreign currency or payment methods\n- Traveler Profile (or primary speaker's role): International visitor, budget-conscious, seeks clarity\n- Emotions: cautious, curious, relieved\n- Tone: polite-direct (conversational)\n- Participants: Tourist, Taxi Driver\n\nRequirements:\n- Alternating dialogue between participants (4-7 lines total).\n- Include emotional cues and speaker intentions throughout.\n- Use appropriate transportation vocabulary, specific terminology (e.g., boarding pass, platform, fare, baggage claim, vehicle class, customs declaration), and common travel procedures.\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups typical of travel environments.\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices specific to transportation contexts.\n\nOutput JSON structure:\n{\n    \"dialogue\": [\n        {\"speaker\": \"string\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"}\n    ],\n    \"tone\": \"polite-direct\",\n    \"rationale\": [\n        {\"phrase\": \"string\", \"explanation\": \"1–2 sentences\"}\n    ]\n}",
+      "dialogue": [
+        {
+          "speaker": "Tourist",
+          "text": "Excuse me, do you accept US dollars for the fare?",
+          "emotion": "cautious",
+          "intent": "clarify payment options"
+        },
+        {
+          "speaker": "Taxi Driver",
+          "text": "Sorry, we only take local currency or credit cards. There's an ATM near the baggage claim if you need to withdraw cash.",
+          "emotion": "helpful",
+          "intent": "inform and assist"
+        },
+        {
+          "speaker": "Tourist",
+          "text": "Oh, I see. Do you know if there’s a currency exchange nearby?",
+          "emotion": "curious",
+          "intent": "seek alternatives"
+        },
+        {
+          "speaker": "Taxi Driver",
+          "text": "Yes, just inside the terminal, next to customs declaration. I can wait if you need a few minutes.",
+          "emotion": "patient",
+          "intent": "offer flexibility"
+        },
+        {
+          "speaker": "Tourist",
+          "text": "That’s very kind, thank you! I’ll be quick.",
+          "emotion": "relieved",
+          "intent": "express gratitude"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "There's an ATM near the baggage claim",
+          "explanation": "This phrase is specific to airport contexts, directing the traveler to a common facility while using precise transportation terminology."
+        },
+        {
+          "phrase": "next to customs declaration",
+          "explanation": "Mentions a key airport procedure location, helping the traveler navigate efficiently while reinforcing travel-related vocabulary."
+        }
+      ],
+      "transportation_type": "International Travel"
+    }
+  ]
+}
