@@ -37,19 +37,19 @@
         },
         {
           "speaker": "Tourist",
-          "text": "I’m looking for the British Museum. Am I heading the right way?",
+          "text": "I\u2019m looking for the British Museum. Am I heading the right way?",
           "emotion": "hopeful",
           "intent": "clarify direction"
         },
         {
           "speaker": "Local",
-          "text": "Ah, you’re close! Just head straight down this road, take the second left, and you’ll see it on your right.",
+          "text": "Ah, you\u2019re close! Just head straight down this road, take the second left, and you\u2019ll see it on your right.",
           "emotion": "friendly",
           "intent": "give directions"
         },
         {
           "speaker": "Tourist",
-          "text": "Brilliant, thank you so much! I’ve been wandering around for ages.",
+          "text": "Brilliant, thank you so much! I\u2019ve been wandering around for ages.",
           "emotion": "grateful",
           "intent": "express thanks"
         },
@@ -61,7 +61,7 @@
         },
         {
           "speaker": "Tourist",
-          "text": "Yes, just arrived yesterday. It’s a bit overwhelming!",
+          "text": "Yes, just arrived yesterday. It\u2019s a bit overwhelming!",
           "emotion": "relieved",
           "intent": "share personal context"
         },
@@ -73,31 +73,50 @@
         },
         {
           "speaker": "Tourist",
-          "text": "That’s very kind of you. Maybe I’ll bump into you again!",
+          "text": "That\u2019s very kind of you. Maybe I\u2019ll bump into you again!",
           "emotion": "appreciative",
           "intent": "leave door open for future interaction"
         }
       ],
       "friendship_progression": "The conversation starts as a transactional direction request but progresses to light personal sharing and an open-ended offer for future help, planting seeds for potential future interaction.",
-      "cultural_elements": [
-        "Use of 'brilliant' for expressing gratitude",
-        "'No worries' as a casual reassurance",
-        "Polite indirect questioning ('First time in London?')"
-      ],
       "rationale": [
         {
           "phrase": "No worries at all. First time in London?",
-          "explanation": "The local transitions from helping to light personal conversation, showing interest in the tourist’s experience."
+          "explanation": "The local transitions from helping to light personal conversation, showing interest in the tourist\u2019s experience."
         },
         {
           "phrase": "If you need more tips, feel free to ask.",
           "explanation": "Offers ongoing assistance, creating an opportunity for future contact."
         },
         {
-          "phrase": "Maybe I’ll bump into you again!",
+          "phrase": "Maybe I\u2019ll bump into you again!",
           "explanation": "The tourist leaves the interaction open-ended, hinting at potential future meetings."
         }
-      ]
+      ],
+      "cultural_notes": [
+        "Use of 'brilliant' for expressing gratitude",
+        "'No worries' as a casual reassurance",
+        "Polite indirect questioning ('First time in London?')"
+      ],
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
     },
     {
       "scenario_id": "FRIEND002",
@@ -124,7 +143,7 @@
       "dialogue": [
         {
           "speaker": "Commuter A",
-          "text": "Bit nippy today, isn’t it?",
+          "text": "Bit nippy today, isn\u2019t it?",
           "emotion": "neutral",
           "intent": "ice-breaker"
         },
@@ -136,13 +155,13 @@
         },
         {
           "speaker": "Commuter A",
-          "text": "Hah! At least it’s not raining. That’d be proper miserable.",
+          "text": "Hah! At least it\u2019s not raining. That\u2019d be proper miserable.",
           "emotion": "light-hearted",
           "intent": "humour and positivity"
         },
         {
           "speaker": "Commuter B",
-          "text": "True, true. Though knowing our luck, it’ll start pouring the second the bus arrives.",
+          "text": "True, true. Though knowing our luck, it\u2019ll start pouring the second the bus arrives.",
           "emotion": "amused",
           "intent": "shared cultural reference"
         },
@@ -154,45 +173,39 @@
         },
         {
           "speaker": "Commuter B",
-          "text": "Absolutely. Say, you take this bus often? I feel like I’ve seen you before.",
+          "text": "Absolutely. Say, you take this bus often? I feel like I\u2019ve seen you before.",
           "emotion": "curious",
           "intent": "transition to personal connection"
         },
         {
           "speaker": "Commuter A",
-          "text": "Yeah, every morning. You’re the one with the bright blue scarf, right?",
+          "text": "Yeah, every morning. You\u2019re the one with the bright blue scarf, right?",
           "emotion": "friendly",
           "intent": "show recognition"
         },
         {
           "speaker": "Commuter B",
-          "text": "That’s me! Small world. I’m Sam, by the way.",
+          "text": "That\u2019s me! Small world. I\u2019m Sam, by the way.",
           "emotion": "open",
           "intent": "introduce self"
         },
         {
           "speaker": "Commuter A",
-          "text": "Nice to meet you, Sam. I’m Jess. Fancy a cuppa sometime if we’re both stuck waiting for this unreliable bus again?",
+          "text": "Nice to meet you, Sam. I\u2019m Jess. Fancy a cuppa sometime if we\u2019re both stuck waiting for this unreliable bus again?",
           "emotion": "warm",
           "intent": "suggest future interaction"
         },
         {
           "speaker": "Commuter B",
-          "text": "Sounds brilliant! There’s a decent café just round the corner.",
+          "text": "Sounds brilliant! There\u2019s a decent caf\u00e9 just round the corner.",
           "emotion": "enthusiastic",
           "intent": "accept and extend"
         }
       ],
       "friendship_progression": "The conversation starts with light, relatable small talk about the weather, a common British ice-breaker. Humour and shared cultural references create rapport, leading to recognition of each other as regular commuters. A personal introduction and a casual invitation for future interaction (a 'cuppa') plant the seed for potential friendship.",
-      "cultural_elements": [
-        "‘Nippy’ (colloquial for cold)",
-        "‘Proper miserable’ (British understatement)",
-        "‘Classic British weather’ (shared cultural reference)",
-        "‘Cuppa’ (informal for tea, a social ritual)"
-      ],
       "rationale": [
         {
-          "phrase": "Bit nippy today, isn’t it?",
+          "phrase": "Bit nippy today, isn\u2019t it?",
           "explanation": "Opens with a safe, culturally familiar topic (weather) to establish common ground."
         },
         {
@@ -203,7 +216,32 @@
           "phrase": "Fancy a cuppa sometime...?",
           "explanation": "Low-pressure future plan suggestion maintains casual tone while offering connection."
         }
-      ]
+      ],
+      "cultural_notes": [
+        "\u2018Nippy\u2019 (colloquial for cold)",
+        "\u2018Proper miserable\u2019 (British understatement)",
+        "\u2018Classic British weather\u2019 (shared cultural reference)",
+        "\u2018Cuppa\u2019 (informal for tea, a social ritual)"
+      ],
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
     },
     {
       "scenario_id": "FRIEND003",
@@ -284,13 +322,6 @@
         }
       ],
       "friendship_progression": "The conversation builds from playful banter to sharing personal connections (family recipes, insider tips), creating inside jokes, and culminating in social media exchange - establishing foundations for future interactions.",
-      "cultural_elements": [
-        "British understatement ('not half an hour ago')",
-        "Regional rivalry humour (Devon vs Cornish cream)",
-        "Tea culture references",
-        "Use of 'proper' as intensifier",
-        "Self-deprecating humour about waistlines"
-      ],
       "rationale": [
         {
           "phrase": "Fancy a proper cuppa...",
@@ -312,7 +343,33 @@
           "phrase": "Don't go sharing our... alliance",
           "explanation": "Creates conspiratorial humour that functions as an inside joke, accelerating friendship development."
         }
-      ]
+      ],
+      "cultural_notes": [
+        "British understatement ('not half an hour ago')",
+        "Regional rivalry humour (Devon vs Cornish cream)",
+        "Tea culture references",
+        "Use of 'proper' as intensifier",
+        "Self-deprecating humour about waistlines"
+      ],
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
     },
     {
       "scenario_id": "FRIEND004",
@@ -339,61 +396,61 @@
       "dialogue": [
         {
           "speaker": "Dog Owner A",
-          "text": "Blimey, your pup’s got some energy! What’s his name?",
+          "text": "Blimey, your pup\u2019s got some energy! What\u2019s his name?",
           "emotion": "amused",
           "intent": "initiate conversation"
         },
         {
           "speaker": "Dog Owner B",
-          "text": "Haha, that’s Archie. He’s a right handful, but I wouldn’t have it any other way. Yours seems much more chilled!",
+          "text": "Haha, that\u2019s Archie. He\u2019s a right handful, but I wouldn\u2019t have it any other way. Yours seems much more chilled!",
           "emotion": "cheerful",
           "intent": "reciprocate and compliment"
         },
         {
           "speaker": "Dog Owner A",
-          "text": "Oh, Bella’s a proper lazybones. She’s more interested in sunbathing than playing fetch! How old’s Archie?",
+          "text": "Oh, Bella\u2019s a proper lazybones. She\u2019s more interested in sunbathing than playing fetch! How old\u2019s Archie?",
           "emotion": "lighthearted",
           "intent": "share personal detail and ask follow-up"
         },
         {
           "speaker": "Dog Owner B",
-          "text": "Just turned two—still in the ‘chewing everything’ phase. You’d think my shoes were made of steak!",
+          "text": "Just turned two\u2014still in the \u2018chewing everything\u2019 phase. You\u2019d think my shoes were made of steak!",
           "emotion": "self-deprecating humour",
           "intent": "bond over shared struggles"
         },
         {
           "speaker": "Dog Owner A",
-          "text": "Tell me about it! Bella ate an entire sofa cushion last year. The vet just laughed and said, ‘Welcome to dog ownership.’",
+          "text": "Tell me about it! Bella ate an entire sofa cushion last year. The vet just laughed and said, \u2018Welcome to dog ownership.\u2019",
           "emotion": "relieved",
           "intent": "validate and escalate humour"
         },
         {
           "speaker": "Dog Owner B",
-          "text": "No way! *laughs* At least it’s never dull. D’you come here often? I’ve not seen you two before.",
+          "text": "No way! *laughs* At least it\u2019s never dull. D\u2019you come here often? I\u2019ve not seen you two before.",
           "emotion": "curious",
           "intent": "transition to local connection"
         },
         {
           "speaker": "Dog Owner A",
-          "text": "We’ve just moved to the area—still sussing out the best walks. This park’s brilliant though!",
+          "text": "We\u2019ve just moved to the area\u2014still sussing out the best walks. This park\u2019s brilliant though!",
           "emotion": "enthusiastic",
           "intent": "reveal personal context"
         },
         {
           "speaker": "Dog Owner B",
-          "text": "Oh, you’re new? There’s a cracking route along the river if you fancy it. Less mud than here! *grins*",
+          "text": "Oh, you\u2019re new? There\u2019s a cracking route along the river if you fancy it. Less mud than here! *grins*",
           "emotion": "helpful",
           "intent": "offer local knowledge"
         },
         {
           "speaker": "Dog Owner A",
-          "text": "That’d be smashing! Bella’s a nightmare after rain—comes home looking like a swamp monster.",
+          "text": "That\u2019d be smashing! Bella\u2019s a nightmare after rain\u2014comes home looking like a swamp monster.",
           "emotion": "grateful",
           "intent": "accept and joke"
         },
         {
           "speaker": "Dog Owner B",
-          "text": "Right, let’s swap numbers then! I’m usually here weekends if you fancy a proper dog-walk natter.",
+          "text": "Right, let\u2019s swap numbers then! I\u2019m usually here weekends if you fancy a proper dog-walk natter.",
           "emotion": "open",
           "intent": "suggest future contact"
         },
@@ -405,27 +462,46 @@
         }
       ],
       "friendship_progression": "Starts with playful pet observations, escalates through shared humour and dog-related struggles, transitions to local tips, and culminates in exchanging contact details for future meetups.",
-      "cultural_elements": [
-        "‘Blimey’ (British exclamation)",
-        "‘Right handful’ (colloquialism for energetic)",
-        "‘Proper lazybones’ (affectionate exaggeration)",
-        "‘Sussing out’ (figuring out)",
-        "‘Cracking’ (excellent, informal praise)"
-      ],
       "rationale": [
         {
-          "phrase": "Blimey, your pup’s got some energy!",
+          "phrase": "Blimey, your pup\u2019s got some energy!",
           "explanation": "Casual exclamation lowers barriers; commenting on pets is a safe, relatable opener."
         },
         {
-          "phrase": "You’d think my shoes were made of steak!",
+          "phrase": "You\u2019d think my shoes were made of steak!",
           "explanation": "Self-deprecating humour builds rapport by showing vulnerability."
         },
         {
-          "phrase": "Let’s swap numbers then!",
+          "phrase": "Let\u2019s swap numbers then!",
           "explanation": "Direct yet casual suggestion normalises future contact without pressure."
         }
-      ]
+      ],
+      "cultural_notes": [
+        "\u2018Blimey\u2019 (British exclamation)",
+        "\u2018Right handful\u2019 (colloquialism for energetic)",
+        "\u2018Proper lazybones\u2019 (affectionate exaggeration)",
+        "\u2018Sussing out\u2019 (figuring out)",
+        "\u2018Cracking\u2019 (excellent, informal praise)"
+      ],
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
     },
     {
       "scenario_id": "FRIEND006",
@@ -452,63 +528,57 @@
       "dialogue": [
         {
           "speaker": "Coffee Customer A",
-          "text": "Blimey, this queue’s longer than the one for the loo at a football match!",
+          "text": "Blimey, this queue\u2019s longer than the one for the loo at a football match!",
           "emotion": "amused",
           "intent": "break the ice with humour"
         },
         {
           "speaker": "Coffee Customer B",
-          "text": "Tell me about it! I swear it’s moved an inch in ten minutes. Do they roast the beans *in* the queue?",
+          "text": "Tell me about it! I swear it\u2019s moved an inch in ten minutes. Do they roast the beans *in* the queue?",
           "emotion": "exasperated",
           "intent": "bond over shared frustration"
         },
         {
           "speaker": "Coffee Customer A",
-          "text": "Ha! Maybe we should’ve brought camping gear. You here often?",
+          "text": "Ha! Maybe we should\u2019ve brought camping gear. You here often?",
           "emotion": "curious",
           "intent": "transition to personal chat"
         },
         {
           "speaker": "Coffee Customer B",
-          "text": "First time, actually. Heard their flat white’s decent though. You?",
+          "text": "First time, actually. Heard their flat white\u2019s decent though. You?",
           "emotion": "open",
           "intent": "reciprocate interest"
         },
         {
           "speaker": "Coffee Customer A",
-          "text": "Oh yeah, proper good—though at this rate, I’ll need a IV drip of espresso by the time I’m served.",
+          "text": "Oh yeah, proper good\u2014though at this rate, I\u2019ll need a IV drip of espresso by the time I\u2019m served.",
           "emotion": "playful",
           "intent": "keep humour flowing"
         },
         {
           "speaker": "Coffee Customer B",
-          "text": "Same! Name’s Liam, by the way. Reckon we’ll be queue buddies for life at this point.",
+          "text": "Same! Name\u2019s Liam, by the way. Reckon we\u2019ll be queue buddies for life at this point.",
           "emotion": "friendly",
           "intent": "introduce self casually"
         },
         {
           "speaker": "Coffee Customer A",
-          "text": "Nice one, I’m Priya. *glances at watch* Might as well swap numbers if we’re committing to this marathon.",
+          "text": "Nice one, I\u2019m Priya. *glances at watch* Might as well swap numbers if we\u2019re committing to this marathon.",
           "emotion": "warm",
           "intent": "suggest future contact"
         },
         {
           "speaker": "Coffee Customer B",
-          "text": "Deal! Maybe next time we’ll pre-order and laugh at the new queue victims.",
+          "text": "Deal! Maybe next time we\u2019ll pre-order and laugh at the new queue victims.",
           "emotion": "cheerful",
           "intent": "joke about future plans"
         }
       ],
       "friendship_progression": "Starts with shared frustration over the queue, transitions to humour and personal introductions, and ends with exchanging contact info and joking about future meetups.",
-      "cultural_elements": [
-        "‘Blimey’ (British exclamation)",
-        "Queue culture (British patience/irritation with queues)",
-        "Self-deprecating humour",
-        "‘Proper good’ (colloquial praise)"
-      ],
       "rationale": [
         {
-          "phrase": "Blimey, this queue’s longer than...",
+          "phrase": "Blimey, this queue\u2019s longer than...",
           "explanation": "Humour about a relatable situation breaks the ice and invites reciprocity."
         },
         {
@@ -519,12 +589,37 @@
           "phrase": "Might as well swap numbers...",
           "explanation": "Casual suggestion to exchange contact info implies interest in future interaction without pressure."
         }
-      ]
+      ],
+      "cultural_notes": [
+        "\u2018Blimey\u2019 (British exclamation)",
+        "Queue culture (British patience/irritation with queues)",
+        "Self-deprecating humour",
+        "\u2018Proper good\u2019 (colloquial praise)"
+      ],
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
     },
     {
       "scenario_id": "FRIEND008",
       "scenario": "Striking up conversation at a local festival or fair",
-      "setting": "Village Fête / Local Festival",
+      "setting": "Village F\u00eate / Local Festival",
       "social_context": "Celebratory, community spirit, relaxed",
       "participants": [
         "Festival Goer A",
@@ -546,55 +641,55 @@
       "dialogue": [
         {
           "speaker": "Festival Goer A",
-          "text": "Blimey, this fête is brilliant, isn’t it? The weather’s actually holding up for once!",
+          "text": "Blimey, this f\u00eate is brilliant, isn\u2019t it? The weather\u2019s actually holding up for once!",
           "emotion": "excited",
           "intent": "initiate conversation with light humour"
         },
         {
           "speaker": "Festival Goer B",
-          "text": "Tell me about it! After last year’s downpour, I brought my wellies just in case. Fancy a cuppa from the stall over there?",
+          "text": "Tell me about it! After last year\u2019s downpour, I brought my wellies just in case. Fancy a cuppa from the stall over there?",
           "emotion": "cheerful",
           "intent": "reciprocate and suggest shared activity"
         },
         {
           "speaker": "Festival Goer A",
-          "text": "Oh, you’re a lifesaver—I could murder a cuppa. Lead the way!",
+          "text": "Oh, you\u2019re a lifesaver\u2014I could murder a cuppa. Lead the way!",
           "emotion": "grateful",
           "intent": "accept and bond over informal British phrasing"
         },
         {
           "speaker": "Festival Goer B",
-          "text": "So, are you from the village? I don’t think I’ve seen you at the book club or yoga in the hall.",
+          "text": "So, are you from the village? I don\u2019t think I\u2019ve seen you at the book club or yoga in the hall.",
           "emotion": "curious",
           "intent": "show interest in local connections"
         },
         {
           "speaker": "Festival Goer A",
-          "text": "Just moved in last month! Still finding my feet—though I did join the terrible pub quiz team at The Crown.",
+          "text": "Just moved in last month! Still finding my feet\u2014though I did join the terrible pub quiz team at The Crown.",
           "emotion": "self-deprecating",
           "intent": "share personal detail with humour"
         },
         {
           "speaker": "Festival Goer B",
-          "text": "No way! I’m there every Thursday. We came last once—blame the ‘90s music round.",
+          "text": "No way! I\u2019m there every Thursday. We came last once\u2014blame the \u201890s music round.",
           "emotion": "amused",
           "intent": "find common ground and laugh together"
         },
         {
           "speaker": "Festival Goer A",
-          "text": "Next time, we should team up. Two minds are better than one, even if they’re both rubbish at Spice Girls trivia.",
+          "text": "Next time, we should team up. Two minds are better than one, even if they\u2019re both rubbish at Spice Girls trivia.",
           "emotion": "playful",
           "intent": "propose future interaction"
         },
         {
           "speaker": "Festival Goer B",
-          "text": "Deal! Here—let me grab your number. I’ll text you the next quiz night.",
+          "text": "Deal! Here\u2014let me grab your number. I\u2019ll text you the next quiz night.",
           "emotion": "enthusiastic",
           "intent": "escalate to contact exchange naturally"
         },
         {
           "speaker": "Festival Goer A",
-          "text": "Perfect! And if you fancy a proper village intro, I’m hosting a board game night next weekend. Bring biscuits.",
+          "text": "Perfect! And if you fancy a proper village intro, I\u2019m hosting a board game night next weekend. Bring biscuits.",
           "emotion": "warm",
           "intent": "extend invitation to deepen connection"
         },
@@ -606,16 +701,9 @@
         }
       ],
       "friendship_progression": "Starts with light, culturally relevant banter about weather, escalates to shared activity (tea), discovers mutual interests (pub quiz), and naturally exchanges contact info with future plans (quiz team, board games). Humour and self-deprecation ease tension.",
-      "cultural_elements": [
-        "‘Blimey’ (British exclamation)",
-        "‘Murder a cuppa’ (informal phrase for craving tea)",
-        "Village fête as community hub",
-        "Pub quiz as social activity",
-        "Self-deprecating humour"
-      ],
       "rationale": [
         {
-          "phrase": "Blimey, this fête is brilliant...",
+          "phrase": "Blimey, this f\u00eate is brilliant...",
           "explanation": "Opens with relatable, positive observation to establish common ground."
         },
         {
@@ -627,10 +715,36 @@
           "explanation": "Proposes future interaction casually, testing receptiveness."
         },
         {
-          "phrase": "I’m hosting a board game night...",
+          "phrase": "I\u2019m hosting a board game night...",
           "explanation": "Extends personal invitation to transition from public to private socialising."
         }
-      ]
+      ],
+      "cultural_notes": [
+        "\u2018Blimey\u2019 (British exclamation)",
+        "\u2018Murder a cuppa\u2019 (informal phrase for craving tea)",
+        "Village f\u00eate as community hub",
+        "Pub quiz as social activity",
+        "Self-deprecating humour"
+      ],
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
     },
     {
       "scenario_id": "FRIEND012",
@@ -657,74 +771,67 @@
       "dialogue": [
         {
           "speaker": "Regular Commuter A",
-          "text": "Morning! Always see you on this train – reckon we’ve got the same routine, eh?",
+          "text": "Morning! Always see you on this train \u2013 reckon we\u2019ve got the same routine, eh?",
           "emotion": "friendly",
           "intent": "initiate conversation"
         },
         {
           "speaker": "Regular Commuter B",
-          "text": "Oh, absolutely! 7:15 every day, rain or shine. You’re the one who always nabs the seat by the window, right?",
+          "text": "Oh, absolutely! 7:15 every day, rain or shine. You\u2019re the one who always nabs the seat by the window, right?",
           "emotion": "amused",
           "intent": "acknowledge shared routine"
         },
         {
           "speaker": "Regular Commuter A",
-          "text": "Guilty as charged. Can’t resist a good view, even if it’s just the same old suburbs. You’re the bloke with the massive coffee cup – survival essential, I take it?",
+          "text": "Guilty as charged. Can\u2019t resist a good view, even if it\u2019s just the same old suburbs. You\u2019re the bloke with the massive coffee cup \u2013 survival essential, I take it?",
           "emotion": "playful",
           "intent": "light humour + observation"
         },
         {
           "speaker": "Regular Commuter B",
-          "text": "Ha! Spot on. This is the only thing standing between me and utter chaos before 9 AM. You’re not one of those ‘up at 5 for a jog’ types, are you?",
+          "text": "Ha! Spot on. This is the only thing standing between me and utter chaos before 9 AM. You\u2019re not one of those \u2018up at 5 for a jog\u2019 types, are you?",
           "emotion": "self-deprecating",
           "intent": "bond over shared struggle"
         },
         {
           "speaker": "Regular Commuter A",
-          "text": "Good lord, no. I barely manage toast before I’m out the door. Speaking of – reckon this train’s running a bit slow today?",
+          "text": "Good lord, no. I barely manage toast before I\u2019m out the door. Speaking of \u2013 reckon this train\u2019s running a bit slow today?",
           "emotion": "conspiratorial",
           "intent": "shift to shared inconvenience"
         },
         {
           "speaker": "Regular Commuter B",
-          "text": "Ugh, don’t get me started. Signal failures again, probably. At least we’ve got decent company for the delay!",
+          "text": "Ugh, don\u2019t get me started. Signal failures again, probably. At least we\u2019ve got decent company for the delay!",
           "emotion": "grateful",
           "intent": "compliment + rapport"
         },
         {
           "speaker": "Regular Commuter A",
-          "text": "Hear, hear! Say, if we’re doomed to this commute anyway, fancy a proper cuppa together tomorrow? There’s a decent stall by platform 3.",
+          "text": "Hear, hear! Say, if we\u2019re doomed to this commute anyway, fancy a proper cuppa together tomorrow? There\u2019s a decent stall by platform 3.",
           "emotion": "hopeful",
           "intent": "suggest future interaction"
         },
         {
           "speaker": "Regular Commuter B",
-          "text": "You’re on! Might even upgrade from my sad instant stuff. I’m Mark, by the way.",
+          "text": "You\u2019re on! Might even upgrade from my sad instant stuff. I\u2019m Mark, by the way.",
           "emotion": "enthusiastic",
           "intent": "share name (friendship milestone)"
         },
         {
           "speaker": "Regular Commuter A",
-          "text": "Sarah. Cheers, Mark – see you at the coffee revolt tomorrow, then!",
+          "text": "Sarah. Cheers, Mark \u2013 see you at the coffee revolt tomorrow, then!",
           "emotion": "warm",
           "intent": "solidify plans with humour"
         }
       ],
       "friendship_progression": "Starts with observational small talk about shared routines, builds rapport through humour and mutual complaints about commuting, and culminates in exchanging names and making concrete plans to meet again.",
-      "cultural_elements": [
-        "British self-deprecating humour",
-        "‘reckon’ as casual speculation",
-        "Complaining about transport as bonding",
-        "‘proper cuppa’ emphasis on tea culture",
-        "Understated compliment (‘decent company’)"
-      ],
       "rationale": [
         {
           "phrase": "Always see you on this train...",
           "explanation": "Observation of shared routine establishes common ground."
         },
         {
-          "phrase": "You’re the one who always nabs the seat...",
+          "phrase": "You\u2019re the one who always nabs the seat...",
           "explanation": "Reciprocal observation shows attentiveness, making the other feel recognised."
         },
         {
@@ -736,10 +843,36 @@
           "explanation": "Direct but low-pressure invitation moves interaction beyond small talk."
         },
         {
-          "phrase": "You’re on! Might even upgrade...",
+          "phrase": "You\u2019re on! Might even upgrade...",
           "explanation": "Enthusiastic acceptance + personal detail (coffee preference) deepens connection."
         }
-      ]
+      ],
+      "cultural_notes": [
+        "British self-deprecating humour",
+        "\u2018reckon\u2019 as casual speculation",
+        "Complaining about transport as bonding",
+        "\u2018proper cuppa\u2019 emphasis on tea culture",
+        "Understated compliment (\u2018decent company\u2019)"
+      ],
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
     },
     {
       "scenario_id": "FRIEND013",
@@ -766,7 +899,7 @@
       "dialogue": [
         {
           "speaker": "Passenger A",
-          "text": "Bit nippy out there today, isn’t it?",
+          "text": "Bit nippy out there today, isn\u2019t it?",
           "emotion": "polite",
           "intent": "break the ice with small talk"
         },
@@ -790,7 +923,7 @@
         },
         {
           "speaker": "Passenger A",
-          "text": "Oh lovely! I’m off to meet a mate near Covent Garden. The museum’s a brilliant choice though—saves you from this drizzle.",
+          "text": "Oh lovely! I\u2019m off to meet a mate near Covent Garden. The museum\u2019s a brilliant choice though\u2014saves you from this drizzle.",
           "emotion": "warm",
           "intent": "compliment and relate"
         },
@@ -808,23 +941,15 @@
         },
         {
           "speaker": "Passenger B",
-          "text": "Not at all—here, let me grab my phone.",
+          "text": "Not at all\u2014here, let me grab my phone.",
           "emotion": "accommodating",
           "intent": "reciprocate friendly gesture"
         }
       ],
       "friendship_progression": "Conversation moves from weather small talk to discovering shared interests (London activities), then a light invitation and contact exchange, suggesting potential future plans.",
-      "cultural_elements": [
-        "‘Bit nippy’ (colloquial for cold)",
-        "‘Cuppa’ (tea)",
-        "‘Cracking’ (excellent)",
-        "‘Smashing’ (great)",
-        "Polite indirect suggestion (‘fancy a museum trip’)",
-        "Use of ‘cheers’ for thanks"
-      ],
       "rationale": [
         {
-          "phrase": "Bit nippy out there today, isn’t it?",
+          "phrase": "Bit nippy out there today, isn\u2019t it?",
           "explanation": "Safe, culturally relevant small talk opens dialogue without pressure."
         },
         {
@@ -839,7 +964,34 @@
           "phrase": "Mind if I jot down your number?",
           "explanation": "Direct yet polite request signals genuine interest in maintaining contact."
         }
-      ]
+      ],
+      "cultural_notes": [
+        "\u2018Bit nippy\u2019 (colloquial for cold)",
+        "\u2018Cuppa\u2019 (tea)",
+        "\u2018Cracking\u2019 (excellent)",
+        "\u2018Smashing\u2019 (great)",
+        "Polite indirect suggestion (\u2018fancy a museum trip\u2019)",
+        "Use of \u2018cheers\u2019 for thanks"
+      ],
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
     },
     {
       "scenario_id": "FRIEND014",
@@ -872,7 +1024,7 @@
         },
         {
           "speaker": "Person Needing Help",
-          "text": "Oh, that’s very kind of you! I’m struggling a bit, to be honest.",
+          "text": "Oh, that\u2019s very kind of you! I\u2019m struggling a bit, to be honest.",
           "emotion": "grateful",
           "intent": "accept help"
         },
@@ -884,37 +1036,37 @@
         },
         {
           "speaker": "Person Needing Help",
-          "text": "Yes, just trying to catch the 3:15 to Manchester. Cheers for this—I overpacked as usual!",
+          "text": "Yes, just trying to catch the 3:15 to Manchester. Cheers for this\u2014I overpacked as usual!",
           "emotion": "appreciative",
           "intent": "share personal detail"
         },
         {
           "speaker": "Helper",
-          "text": "Happens to the best of us! I’m Alex, by the way.",
+          "text": "Happens to the best of us! I\u2019m Alex, by the way.",
           "emotion": "warm",
           "intent": "introduce self"
         },
         {
           "speaker": "Person Needing Help",
-          "text": "Nice to meet you, Alex. I’m Sam. You’re a lifesaver—these pavements are brutal with luggage!",
+          "text": "Nice to meet you, Alex. I\u2019m Sam. You\u2019re a lifesaver\u2014these pavements are brutal with luggage!",
           "emotion": "relieved",
           "intent": "reciprocate introduction"
         },
         {
           "speaker": "Helper",
-          "text": "Pleasure, Sam. Do you travel to Manchester often? I’ve got family up there.",
+          "text": "Pleasure, Sam. Do you travel to Manchester often? I\u2019ve got family up there.",
           "emotion": "curious",
           "intent": "find common ground"
         },
         {
           "speaker": "Person Needing Help",
-          "text": "Small world! I’m visiting my sister. Maybe we could grab a coffee next time you’re heading that way?",
+          "text": "Small world! I\u2019m visiting my sister. Maybe we could grab a coffee next time you\u2019re heading that way?",
           "emotion": "open",
           "intent": "suggest future interaction"
         },
         {
           "speaker": "Helper",
-          "text": "That’d be lovely! Here’s my number—shoot me a text so I’ve got yours too.",
+          "text": "That\u2019d be lovely! Here\u2019s my number\u2014shoot me a text so I\u2019ve got yours too.",
           "emotion": "enthusiastic",
           "intent": "exchange contacts"
         },
@@ -925,27 +1077,46 @@
           "intent": "express appreciation"
         }
       ],
-      "friendship_progression": "The conversation starts with a simple offer of help, progresses to introductions and personal sharing, and culminates in exchanging contact details and making tentative future plans—demonstrating a natural shift from strangers to potential friends.",
-      "cultural_elements": [
-        "British politeness norms ('Excuse me', 'Very kind of you')",
-        "Understated humour ('overpacked as usual')",
-        "Regional reference (Manchester)",
-        "Colloquialisms ('Proper decent of you')"
-      ],
+      "friendship_progression": "The conversation starts with a simple offer of help, progresses to introductions and personal sharing, and culminates in exchanging contact details and making tentative future plans\u2014demonstrating a natural shift from strangers to potential friends.",
       "rationale": [
         {
           "phrase": "Would you like a hand?",
           "explanation": "A polite, low-pressure offer of assistance that invites positive engagement without imposing."
         },
         {
-          "phrase": "I’m visiting my sister.",
+          "phrase": "I\u2019m visiting my sister.",
           "explanation": "Personal disclosure creates trust and provides hooks for further conversation."
         },
         {
           "phrase": "Maybe we could grab a coffee...",
           "explanation": "A casual, non-committal suggestion leaves room for organic friendship development."
         }
-      ]
+      ],
+      "cultural_notes": [
+        "British politeness norms ('Excuse me', 'Very kind of you')",
+        "Understated humour ('overpacked as usual')",
+        "Regional reference (Manchester)",
+        "Colloquialisms ('Proper decent of you')"
+      ],
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
     },
     {
       "scenario_id": "FRIEND015",
@@ -978,7 +1149,7 @@
         },
         {
           "speaker": "Person Who Lost Item",
-          "text": "Oh blimey, my wallet! I hadn’t even noticed. Cheers!",
+          "text": "Oh blimey, my wallet! I hadn\u2019t even noticed. Cheers!",
           "emotion": "surprised, relieved",
           "intent": "to express gratitude"
         },
@@ -990,13 +1161,13 @@
         },
         {
           "speaker": "Person Who Lost Item",
-          "text": "You’re a lifesaver. I’d have been in a right pickle without this.",
+          "text": "You\u2019re a lifesaver. I\u2019d have been in a right pickle without this.",
           "emotion": "grateful",
           "intent": "to show appreciation"
         },
         {
           "speaker": "Good Samaritan",
-          "text": "Glad I could help. It’s a nice wallet, by the way. Leather?",
+          "text": "Glad I could help. It\u2019s a nice wallet, by the way. Leather?",
           "emotion": "curious",
           "intent": "to make small talk"
         },
@@ -1008,39 +1179,33 @@
         },
         {
           "speaker": "Good Samaritan",
-          "text": "Now and then. I like to read by the fountain. It’s peaceful.",
+          "text": "Now and then. I like to read by the fountain. It\u2019s peaceful.",
           "emotion": "relaxed",
           "intent": "to share personal detail"
         },
         {
           "speaker": "Person Who Lost Item",
-          "text": "Same here! Maybe I’ll see you around. I’m usually here on weekends.",
+          "text": "Same here! Maybe I\u2019ll see you around. I\u2019m usually here on weekends.",
           "emotion": "hopeful",
           "intent": "to suggest future interaction"
         },
         {
           "speaker": "Good Samaritan",
-          "text": "Definitely. I’m Tom, by the way.",
+          "text": "Definitely. I\u2019m Tom, by the way.",
           "emotion": "open",
           "intent": "to introduce self"
         },
         {
           "speaker": "Person Who Lost Item",
-          "text": "Nice to meet you, Tom. I’m Sarah. Fancy a cuppa sometime?",
+          "text": "Nice to meet you, Tom. I\u2019m Sarah. Fancy a cuppa sometime?",
           "emotion": "warm",
           "intent": "to propose friendship"
         }
       ],
       "friendship_progression": "The conversation starts with a helpful gesture, leading to gratitude and small talk. Shared interests (reading in the park) and a casual invitation for tea create a natural bridge from strangers to potential friends.",
-      "cultural_elements": [
-        "‘Blimey’ (expression of surprise)",
-        "‘Cheers’ (informal thank you)",
-        "‘In a right pickle’ (in trouble)",
-        "‘Cuppa’ (cup of tea)"
-      ],
       "rationale": [
         {
-          "phrase": "You’re a lifesaver.",
+          "phrase": "You\u2019re a lifesaver.",
           "explanation": "Expresses deep gratitude, making the helper feel valued and opening the door for further interaction."
         },
         {
@@ -1051,7 +1216,32 @@
           "phrase": "Fancy a cuppa sometime?",
           "explanation": "A low-pressure, culturally familiar invitation that suggests continued contact without overcommitting."
         }
-      ]
+      ],
+      "cultural_notes": [
+        "\u2018Blimey\u2019 (expression of surprise)",
+        "\u2018Cheers\u2019 (informal thank you)",
+        "\u2018In a right pickle\u2019 (in trouble)",
+        "\u2018Cuppa\u2019 (cup of tea)"
+      ],
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
     },
     {
       "scenario_id": "FRIEND016",
@@ -1078,84 +1268,103 @@
       "dialogue": [
         {
           "speaker": "Art Enthusiast A",
-          "text": "This photograph is quite striking, isn’t it? The way the light falls on the subject’s face—it’s almost cinematic.",
+          "text": "This photograph is quite striking, isn\u2019t it? The way the light falls on the subject\u2019s face\u2014it\u2019s almost cinematic.",
           "emotion": "inspired",
           "intent": "initiate conversation, share appreciation"
         },
         {
           "speaker": "Art Enthusiast B",
-          "text": "Absolutely. There’s such depth to it—like there’s a whole story behind that single moment. Do you think it’s staged or candid?",
+          "text": "Absolutely. There\u2019s such depth to it\u2014like there\u2019s a whole story behind that single moment. Do you think it\u2019s staged or candid?",
           "emotion": "thoughtful",
           "intent": "engage, invite opinion"
         },
         {
           "speaker": "Art Enthusiast A",
-          "text": "Hmm, I’d lean towards candid. The imperfections—the slightly blurred hand, the uneven shadow—feel too genuine to be staged. What draws you to this exhibition?",
+          "text": "Hmm, I\u2019d lean towards candid. The imperfections\u2014the slightly blurred hand, the uneven shadow\u2014feel too genuine to be staged. What draws you to this exhibition?",
           "emotion": "engaged",
           "intent": "deepen discussion, show interest"
         },
         {
           "speaker": "Art Enthusiast B",
-          "text": "I’ve always been fascinated by how photography captures fleeting emotions. This artist’s work in particular—it’s like they’ve bottled humanity. And you?",
+          "text": "I\u2019ve always been fascinated by how photography captures fleeting emotions. This artist\u2019s work in particular\u2014it\u2019s like they\u2019ve bottled humanity. And you?",
           "emotion": "reflective",
           "intent": "share personal connection, reciprocate interest"
         },
         {
           "speaker": "Art Enthusiast A",
-          "text": "Much the same, really. I dabble in photography myself—mostly street scenes. There’s something magical about finding beauty in the mundane.",
+          "text": "Much the same, really. I dabble in photography myself\u2014mostly street scenes. There\u2019s something magical about finding beauty in the mundane.",
           "emotion": "passionate",
           "intent": "reveal personal hobby, create common ground"
         },
         {
           "speaker": "Art Enthusiast B",
-          "text": "Oh, that’s brilliant! I’d love to see your work sometime. Do you have a favourite spot in London for it?",
+          "text": "Oh, that\u2019s brilliant! I\u2019d love to see your work sometime. Do you have a favourite spot in London for it?",
           "emotion": "enthusiastic",
           "intent": "express genuine interest, hint at future interaction"
         },
         {
           "speaker": "Art Enthusiast A",
-          "text": "Borough Market, actually—the interplay of light and chaos there is endlessly inspiring. You’re welcome to tag along next time, if you’d like.",
+          "text": "Borough Market, actually\u2014the interplay of light and chaos there is endlessly inspiring. You\u2019re welcome to tag along next time, if you\u2019d like.",
           "emotion": "warm",
           "intent": "offer inclusion, test friendship potential"
         },
         {
           "speaker": "Art Enthusiast B",
-          "text": "I’d love that. Maybe we could grab a coffee after? I’d enjoy hearing more about your perspective on composition.",
+          "text": "I\u2019d love that. Maybe we could grab a coffee after? I\u2019d enjoy hearing more about your perspective on composition.",
           "emotion": "open",
           "intent": "solidify plans, extend interaction"
         },
         {
           "speaker": "Art Enthusiast A",
-          "text": "Perfect—let’s exchange numbers. It’s rare to meet someone who appreciates the art of observation as much as you do.",
+          "text": "Perfect\u2014let\u2019s exchange numbers. It\u2019s rare to meet someone who appreciates the art of observation as much as you do.",
           "emotion": "pleased",
           "intent": "transition to friendship, formalise connection"
         }
       ],
-      "friendship_progression": "The conversation begins with shared admiration for art, evolves into personal revelations about creative interests, and culminates in a concrete plan to meet again—demonstrating natural rapport-building through mutual passion and gradual vulnerability.",
-      "cultural_elements": [
-        "Understated compliments ('quite striking')",
-        "Polite invitations ('You’re welcome to tag along')",
-        "Indirect planning ('Maybe we could grab a coffee after?')",
-        "Respect for personal space (gradual sharing of hobbies)"
-      ],
+      "friendship_progression": "The conversation begins with shared admiration for art, evolves into personal revelations about creative interests, and culminates in a concrete plan to meet again\u2014demonstrating natural rapport-building through mutual passion and gradual vulnerability.",
       "rationale": [
         {
-          "phrase": "This photograph is quite striking, isn’t it?",
+          "phrase": "This photograph is quite striking, isn\u2019t it?",
           "explanation": "Opens with a neutral yet inviting observation, allowing the other person to engage without pressure."
         },
         {
-          "phrase": "I dabble in photography myself—mostly street scenes.",
+          "phrase": "I dabble in photography myself\u2014mostly street scenes.",
           "explanation": "Shares a personal detail to foster connection, making the interaction more meaningful."
         },
         {
-          "phrase": "You’re welcome to tag along next time, if you’d like.",
+          "phrase": "You\u2019re welcome to tag along next time, if you\u2019d like.",
           "explanation": "Offers a low-pressure future interaction, testing receptiveness to friendship."
         },
         {
-          "phrase": "let’s exchange numbers.",
+          "phrase": "let\u2019s exchange numbers.",
           "explanation": "Transitions from casual to committed connection, signalling mutual interest in deepening the relationship."
         }
-      ]
+      ],
+      "cultural_notes": [
+        "Understated compliments ('quite striking')",
+        "Polite invitations ('You\u2019re welcome to tag along')",
+        "Indirect planning ('Maybe we could grab a coffee after?')",
+        "Respect for personal space (gradual sharing of hobbies)"
+      ],
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
     },
     {
       "scenario_id": "FRIEND017",
@@ -1182,80 +1391,73 @@
       "dialogue": [
         {
           "speaker": "Experienced Gardener",
-          "text": "Lovely day for it, isn’t it? I see you’ve been eyeing those lavender plants.",
+          "text": "Lovely day for it, isn\u2019t it? I see you\u2019ve been eyeing those lavender plants.",
           "emotion": "friendly",
           "intent": "initiate conversation"
         },
         {
           "speaker": "Novice Gardener",
-          "text": "Oh, yes! I’ve been meaning to add some to my garden, but I’m not sure where to start. They seem a bit finicky.",
+          "text": "Oh, yes! I\u2019ve been meaning to add some to my garden, but I\u2019m not sure where to start. They seem a bit finicky.",
           "emotion": "curious",
           "intent": "seek advice"
         },
         {
           "speaker": "Experienced Gardener",
-          "text": "Not at all! Lavender’s quite hardy once it’s settled. Do you have a sunny spot? They adore the sun.",
+          "text": "Not at all! Lavender\u2019s quite hardy once it\u2019s settled. Do you have a sunny spot? They adore the sun.",
           "emotion": "helpful",
           "intent": "offer guidance"
         },
         {
           "speaker": "Novice Gardener",
-          "text": "I do, actually—a south-facing border. That’s brilliant to hear. I was worried about our rainy spells.",
+          "text": "I do, actually\u2014a south-facing border. That\u2019s brilliant to hear. I was worried about our rainy spells.",
           "emotion": "relieved",
           "intent": "express concern"
         },
         {
           "speaker": "Experienced Gardener",
-          "text": "Ah, they’ll manage. Just avoid waterlogged soil. If you’d like, I can point you to a variety that thrives here in the Midlands.",
+          "text": "Ah, they\u2019ll manage. Just avoid waterlogged soil. If you\u2019d like, I can point you to a variety that thrives here in the Midlands.",
           "emotion": "encouraging",
           "intent": "build rapport"
         },
         {
           "speaker": "Novice Gardener",
-          "text": "That’d be wonderful, thank you! I’m just starting out, so any tips are appreciated.",
+          "text": "That\u2019d be wonderful, thank you! I\u2019m just starting out, so any tips are appreciated.",
           "emotion": "grateful",
           "intent": "acknowledge kindness"
         },
         {
           "speaker": "Experienced Gardener",
-          "text": "We all start somewhere. I’ve got a notebook full of mistakes—*laughs*—happy to spare you a few.",
+          "text": "We all start somewhere. I\u2019ve got a notebook full of mistakes\u2014*laughs*\u2014happy to spare you a few.",
           "emotion": "warm",
           "intent": "share personal experience"
         },
         {
           "speaker": "Novice Gardener",
-          "text": "That’s so kind! Maybe I could buy you a cuppa in the café here? Swap notes?",
+          "text": "That\u2019s so kind! Maybe I could buy you a cuppa in the caf\u00e9 here? Swap notes?",
           "emotion": "hopeful",
           "intent": "extend invitation"
         },
         {
           "speaker": "Experienced Gardener",
-          "text": "I’d love that. And if you fancy, I’m part of a local gardening club—always room for newcomers.",
+          "text": "I\u2019d love that. And if you fancy, I\u2019m part of a local gardening club\u2014always room for newcomers.",
           "emotion": "inviting",
           "intent": "suggest future interaction"
         },
         {
           "speaker": "Novice Gardener",
-          "text": "That sounds perfect! Let me jot down your number—we can chat more over tea.",
+          "text": "That sounds perfect! Let me jot down your number\u2014we can chat more over tea.",
           "emotion": "enthusiastic",
           "intent": "solidify connection"
         }
       ],
       "friendship_progression": "The conversation begins with a neutral observation about the weather, a common British icebreaker. The experienced gardener offers unsolicited but friendly advice, which the novice gratefully accepts. Personal anecdotes and self-deprecating humour ('notebook full of mistakes') create warmth. The invitation to tea and mention of a shared activity (gardening club) transition the interaction from transactional to relational.",
-      "cultural_elements": [
-        "Weather as icebreaker",
-        "'Cuppa' (casual term for tea)",
-        "Self-deprecating humour",
-        "South-facing border (UK gardening norm)",
-        "Midlands reference (regional specificity)"
-      ],
       "rationale": [
         {
-          "phrase": "Lovely day for it, isn’t it?",
+          "phrase": "Lovely day for it, isn\u2019t it?",
           "explanation": "Uses weather as a neutral, culturally safe opener to gauge receptiveness."
         },
         {
-          "phrase": "I’ve got a notebook full of mistakes",
+          "phrase": "I\u2019ve got a notebook full of mistakes",
           "explanation": "Self-deprecation lowers barriers, making the expert seem approachable."
         },
         {
@@ -1263,10 +1465,36 @@
           "explanation": "Offering tea (a culturally significant gesture) signals willingness to deepen interaction."
         },
         {
-          "phrase": "I’m part of a local gardening club",
+          "phrase": "I\u2019m part of a local gardening club",
           "explanation": "Introduces a shared activity possibility, anchoring potential future meetings."
         }
-      ]
+      ],
+      "cultural_notes": [
+        "Weather as icebreaker",
+        "'Cuppa' (casual term for tea)",
+        "Self-deprecating humour",
+        "South-facing border (UK gardening norm)",
+        "Midlands reference (regional specificity)"
+      ],
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
     },
     {
       "scenario_id": "FRIEND018",
@@ -1293,25 +1521,25 @@
       "dialogue": [
         {
           "speaker": "Diner A",
-          "text": "Pardon me, mind if I share your table? It’s absolutely chocka in here.",
+          "text": "Pardon me, mind if I share your table? It\u2019s absolutely chocka in here.",
           "emotion": "apologetic",
           "intent": "initiate polite interaction"
         },
         {
           "speaker": "Diner B",
-          "text": "Oh, not at all! Be my guest. I’d hate to eat alone anyway.",
+          "text": "Oh, not at all! Be my guest. I\u2019d hate to eat alone anyway.",
           "emotion": "friendly",
           "intent": "accept and encourage conversation"
         },
         {
           "speaker": "Diner A",
-          "text": "Cheers! You’re a lifesaver. Fancy a bite of my chips? They’re proper crispy.",
+          "text": "Cheers! You\u2019re a lifesaver. Fancy a bite of my chips? They\u2019re proper crispy.",
           "emotion": "grateful",
           "intent": "offer food to build rapport"
         },
         {
           "speaker": "Diner B",
-          "text": "Haha, go on then—don’t mind if I do. You’ve convinced me with ‘proper crispy’.",
+          "text": "Haha, go on then\u2014don\u2019t mind if I do. You\u2019ve convinced me with \u2018proper crispy\u2019.",
           "emotion": "amused",
           "intent": "accept with light humour"
         },
@@ -1323,57 +1551,76 @@
         },
         {
           "speaker": "Diner B",
-          "text": "Local, thankfully. This place does the best Sunday roast in town—my weekly treat!",
+          "text": "Local, thankfully. This place does the best Sunday roast in town\u2014my weekly treat!",
           "emotion": "enthusiastic",
           "intent": "share personal routine"
         },
         {
           "speaker": "Diner A",
-          "text": "No kidding? I’ve been meaning to try it! Any other gems you’d recommend round here?",
+          "text": "No kidding? I\u2019ve been meaning to try it! Any other gems you\u2019d recommend round here?",
           "emotion": "engaged",
           "intent": "seek advice to continue bonding"
         },
         {
           "speaker": "Diner B",
-          "text": "Oh, loads! There’s a cracking little bakery two streets over—best sourdough this side of the Thames.",
+          "text": "Oh, loads! There\u2019s a cracking little bakery two streets over\u2014best sourdough this side of the Thames.",
           "emotion": "excited",
           "intent": "offer helpful local insight"
         },
         {
           "speaker": "Diner A",
-          "text": "Brilliant! Say… fancy being my food tour guide sometime? I’ll even return the favour with chips.",
+          "text": "Brilliant! Say\u2026 fancy being my food tour guide sometime? I\u2019ll even return the favour with chips.",
           "emotion": "playful",
           "intent": "propose future meetup"
         },
         {
           "speaker": "Diner B",
-          "text": "You’ve got yourself a deal! Here—let me jot down my number. Text me next weekend?",
+          "text": "You\u2019ve got yourself a deal! Here\u2014let me jot down my number. Text me next weekend?",
           "emotion": "warm",
           "intent": "exchange contact info"
         }
       ],
-      "friendship_progression": "The conversation starts with necessity-driven table-sharing, progresses through food-sharing and local recommendations, and culminates in exchanging contact details for future meetups—a natural British approach to building acquaintanceship.",
-      "cultural_elements": [
-        "‘Chocka’ (slang for crowded)",
-        "‘Proper crispy’ (emphasis on quality)",
-        "‘Cracking’ (excellent)",
-        "Polite indirect requests (‘mind if…’)",
-        "Food as social currency"
-      ],
+      "friendship_progression": "The conversation starts with necessity-driven table-sharing, progresses through food-sharing and local recommendations, and culminates in exchanging contact details for future meetups\u2014a natural British approach to building acquaintanceship.",
       "rationale": [
         {
           "phrase": "Fancy a bite of my chips?",
           "explanation": "Offering food creates immediate camaraderie and breaks the ice in British culture, where sharing meals is a bonding ritual."
         },
         {
-          "phrase": "You’ve convinced me with ‘proper crispy’.",
+          "phrase": "You\u2019ve convinced me with \u2018proper crispy\u2019.",
           "explanation": "Light humour about food preferences establishes shared values and eases tension between strangers."
         },
         {
           "phrase": "fancy being my food tour guide sometime?",
           "explanation": "A low-pressure, activity-based invitation allows the other person to gracefully accept or decline without social awkwardness."
         }
-      ]
+      ],
+      "cultural_notes": [
+        "\u2018Chocka\u2019 (slang for crowded)",
+        "\u2018Proper crispy\u2019 (emphasis on quality)",
+        "\u2018Cracking\u2019 (excellent)",
+        "Polite indirect requests (\u2018mind if\u2026\u2019)",
+        "Food as social currency"
+      ],
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
     },
     {
       "scenario_id": "FRIEND020",
@@ -1400,87 +1647,79 @@
       "dialogue": [
         {
           "speaker": "Football Fan A",
-          "text": "Blimey, what a start! That pass from Henderson was top drawer, wasn’t it?",
+          "text": "Blimey, what a start! That pass from Henderson was top drawer, wasn\u2019t it?",
           "emotion": "excited",
           "intent": "initiate conversation, share enthusiasm"
         },
         {
           "speaker": "Football Fan B",
-          "text": "Absolutely brilliant! You can always count on him to deliver. Proper captain’s performance.",
+          "text": "Absolutely brilliant! You can always count on him to deliver. Proper captain\u2019s performance.",
           "emotion": "passionate",
           "intent": "agree and bond over shared admiration"
         },
         {
           "speaker": "Football Fan A",
-          "text": "Too right! Say, you don’t happen to sit in the Kop end, do you? Your face looks familiar.",
+          "text": "Too right! Say, you don\u2019t happen to sit in the Kop end, do you? Your face looks familiar.",
           "emotion": "curious",
           "intent": "find common ground"
         },
         {
           "speaker": "Football Fan B",
-          "text": "Ha! Small world—I’m there every home game, row 12. You?",
+          "text": "Ha! Small world\u2014I\u2019m there every home game, row 12. You?",
           "emotion": "friendly",
           "intent": "reciprocate and deepen connection"
         },
         {
           "speaker": "Football Fan A",
-          "text": "No way! Row 15 here. Bet we’ve celebrated a fair few goals together without realising!",
+          "text": "No way! Row 15 here. Bet we\u2019ve celebrated a fair few goals together without realising!",
           "emotion": "delighted",
           "intent": "highlight shared experiences humorously"
         },
         {
           "speaker": "Football Fan B",
-          "text": "That’s mad! Next time we score, I’ll give you a proper nod from the front. Name’s Raj, by the way.",
+          "text": "That\u2019s mad! Next time we score, I\u2019ll give you a proper nod from the front. Name\u2019s Raj, by the way.",
           "emotion": "warm",
           "intent": "personal introduction, future interaction"
         },
         {
           "speaker": "Football Fan A",
-          "text": "Mike. Cheers, Raj! Reckon we’ll need that nod soon—look at Salah tearing down the wing!",
+          "text": "Mike. Cheers, Raj! Reckon we\u2019ll need that nod soon\u2014look at Salah tearing down the wing!",
           "emotion": "excited",
           "intent": "use humour to sustain energy"
         },
         {
           "speaker": "Football Fan B",
-          "text": "Go on, Mo! Bloke’s a wizard with the ball. Fancy grabbing a pint at halftime? My round.",
+          "text": "Go on, Mo! Bloke\u2019s a wizard with the ball. Fancy grabbing a pint at halftime? My round.",
           "emotion": "generous",
           "intent": "extend social offer"
         },
         {
           "speaker": "Football Fan A",
-          "text": "You’re on! Though if we keep playing like this, we might miss the second half celebrating!",
+          "text": "You\u2019re on! Though if we keep playing like this, we might miss the second half celebrating!",
           "emotion": "jovial",
           "intent": "accept and joke to solidify rapport"
         },
         {
           "speaker": "Football Fan B",
-          "text": "Worth it! Here—let’s swap numbers. Could meet up for the derby next month?",
+          "text": "Worth it! Here\u2014let\u2019s swap numbers. Could meet up for the derby next month?",
           "emotion": "enthusiastic",
           "intent": "escalate to future plans"
         },
         {
           "speaker": "Football Fan A",
-          "text": "Spot on. I’ll bring my mate Dave too—proper laugh, even if he supports the wrong team!",
+          "text": "Spot on. I\u2019ll bring my mate Dave too\u2014proper laugh, even if he supports the wrong team!",
           "emotion": "inclusive",
           "intent": "integrate social circles"
         }
       ],
       "friendship_progression": "The conversation begins with shared excitement over the match, escalates to recognising potential past encounters, and culminates in exchanging contact details and making future plans. Humour and generosity (offering a pint) accelerate bonding.",
-      "cultural_elements": [
-        "‘Blimey’ (British exclamation)",
-        "‘Top drawer’ (high praise)",
-        "‘Proper’ (emphatic usage)",
-        "‘Kop end’ (football culture reference)",
-        "Pint invitation (pub culture)",
-        "Self-deprecating humour about mates"
-      ],
       "rationale": [
         {
           "phrase": "Your face looks familiar",
           "explanation": "Creates intrigue and invites discovery of shared experiences."
         },
         {
-          "phrase": "Next time we score, I’ll give you a proper nod",
+          "phrase": "Next time we score, I\u2019ll give you a proper nod",
           "explanation": "Humorous future projection fosters continuity."
         },
         {
@@ -1491,7 +1730,34 @@
           "phrase": "Could meet up for the derby next month?",
           "explanation": "Transient interaction shifts to potential friendship via concrete plans."
         }
-      ]
+      ],
+      "cultural_notes": [
+        "\u2018Blimey\u2019 (British exclamation)",
+        "\u2018Top drawer\u2019 (high praise)",
+        "\u2018Proper\u2019 (emphatic usage)",
+        "\u2018Kop end\u2019 (football culture reference)",
+        "Pint invitation (pub culture)",
+        "Self-deprecating humour about mates"
+      ],
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
     },
     {
       "scenario_id": "FRIEND022",
@@ -1518,66 +1784,60 @@
       "dialogue": [
         {
           "speaker": "Freelancer A",
-          "text": "Excuse me, is this seat taken? I noticed the plug socket nearby and my laptop’s about to die.",
+          "text": "Excuse me, is this seat taken? I noticed the plug socket nearby and my laptop\u2019s about to die.",
           "emotion": "polite",
           "intent": "initiate contact, practical request"
         },
         {
           "speaker": "Freelancer B",
-          "text": "Not at all, help yourself. Always a nightmare when the battery goes, isn’t it?",
+          "text": "Not at all, help yourself. Always a nightmare when the battery goes, isn\u2019t it?",
           "emotion": "friendly",
           "intent": "acknowledge, share mild frustration"
         },
         {
           "speaker": "Freelancer A",
-          "text": "Tell me about it. Cheers! I’m Alex, by the way. Freelance graphic designer.",
+          "text": "Tell me about it. Cheers! I\u2019m Alex, by the way. Freelance graphic designer.",
           "emotion": "grateful",
           "intent": "introduce self, signal openness"
         },
         {
           "speaker": "Freelancer B",
-          "text": "Jamie. Copywriter. Do you work here often? It’s my first time—quite like the vibe.",
+          "text": "Jamie. Copywriter. Do you work here often? It\u2019s my first time\u2014quite like the vibe.",
           "emotion": "curious",
           "intent": "reciprocate introduction, probe for common ground"
         },
         {
           "speaker": "Freelancer A",
-          "text": "A few times a week. Beats the isolation of home, doesn’t it? That kettle in the kitchen makes a proper brew, too.",
+          "text": "A few times a week. Beats the isolation of home, doesn\u2019t it? That kettle in the kitchen makes a proper brew, too.",
           "emotion": "warm",
           "intent": "establish routine, inject light humour"
         },
         {
           "speaker": "Freelancer B",
-          "text": "Ah, a fellow tea enthusiast! That might’ve just sold me on this place. How’s the Wi-Fi holding up for you?",
+          "text": "Ah, a fellow tea enthusiast! That might\u2019ve just sold me on this place. How\u2019s the Wi-Fi holding up for you?",
           "emotion": "playful",
           "intent": "bond over shared interest, practical concern"
         },
         {
           "speaker": "Freelancer A",
-          "text": "Surprisingly decent. Had a client call earlier with no drops. You’re welcome to test it—I’ve got the password here.",
+          "text": "Surprisingly decent. Had a client call earlier with no drops. You\u2019re welcome to test it\u2014I\u2019ve got the password here.",
           "emotion": "helpful",
           "intent": "offer assistance, imply trust"
         },
         {
           "speaker": "Freelancer B",
-          "text": "You’re a lifesaver. Fancy grabbing a cuppa later? Could pick your brains about good spots in the area.",
+          "text": "You\u2019re a lifesaver. Fancy grabbing a cuppa later? Could pick your brains about good spots in the area.",
           "emotion": "appreciative",
           "intent": "propose casual follow-up, mutual benefit"
         },
         {
           "speaker": "Freelancer A",
-          "text": "Yeah, why not? There’s a decent café round the corner—does proper biscuits with their brews. Here, let me jot my number down.",
+          "text": "Yeah, why not? There\u2019s a decent caf\u00e9 round the corner\u2014does proper biscuits with their brews. Here, let me jot my number down.",
           "emotion": "agreeable",
           "intent": "accept invitation, escalate connection"
         }
       ],
-      "friendship_progression": "The conversation moves from practical cooperation (sharing space) to personal introductions, shared humour over British tea culture, and ends with exchanging contact details for future meetups—a natural progression from strangers to potential colleagues/friends.",
-      "cultural_elements": [
-        "Use of 'cheers' as thanks",
-        "Tea as social lubricant",
-        "Understated humour ('proper brew')",
-        "Indirect invitation via 'picking brains'"
-      ],
+      "friendship_progression": "The conversation moves from practical cooperation (sharing space) to personal introductions, shared humour over British tea culture, and ends with exchanging contact details for future meetups\u2014a natural progression from strangers to potential colleagues/friends.",
       "rationale": [
         {
           "phrase": "Always a nightmare when the battery goes",
@@ -1591,7 +1851,32 @@
           "phrase": "Fancy grabbing a cuppa later?",
           "explanation": "Low-pressure invitation framed around cultural ritual maintains professionalism while advancing connection."
         }
-      ]
+      ],
+      "cultural_notes": [
+        "Use of 'cheers' as thanks",
+        "Tea as social lubricant",
+        "Understated humour ('proper brew')",
+        "Indirect invitation via 'picking brains'"
+      ],
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
     },
     {
       "scenario_id": "FRIEND023",
@@ -1618,86 +1903,79 @@
       "dialogue": [
         {
           "speaker": "Traveller A",
-          "text": "Blimey, this delay’s a bit of a nightmare, isn’t it?",
+          "text": "Blimey, this delay\u2019s a bit of a nightmare, isn\u2019t it?",
           "emotion": "frustrated",
           "intent": "initiate conversation, share frustration"
         },
         {
           "speaker": "Traveller B",
-          "text": "Tell me about it. At this rate, we’ll be here till next week!",
+          "text": "Tell me about it. At this rate, we\u2019ll be here till next week!",
           "emotion": "resigned",
           "intent": "agree, lighten mood"
         },
         {
           "speaker": "Traveller A",
-          "text": "Ha! Might as well start a book club. What’s your destination, then?",
+          "text": "Ha! Might as well start a book club. What\u2019s your destination, then?",
           "emotion": "sociable",
           "intent": "humour, personal inquiry"
         },
         {
           "speaker": "Traveller B",
-          "text": "Headed to Edinburgh for a mate’s wedding. You?",
+          "text": "Headed to Edinburgh for a mate\u2019s wedding. You?",
           "emotion": "engaged",
           "intent": "reciprocate, share context"
         },
         {
           "speaker": "Traveller A",
-          "text": "Oh lovely! I’m off to Barcelona—supposed to be there for a work thing tomorrow. Fat chance now.",
+          "text": "Oh lovely! I\u2019m off to Barcelona\u2014supposed to be there for a work thing tomorrow. Fat chance now.",
           "emotion": "wry",
           "intent": "self-deprecating humour, vulnerability"
         },
         {
           "speaker": "Traveller B",
-          "text": "Oof, that’s rough. At least weddings are flexible. Fancy a cuppa while we wait? My treat.",
+          "text": "Oof, that\u2019s rough. At least weddings are flexible. Fancy a cuppa while we wait? My treat.",
           "emotion": "kind",
           "intent": "offer, deepen interaction"
         },
         {
           "speaker": "Traveller A",
-          "text": "You’re a lifesaver. I could murder a brew. Cheers!",
+          "text": "You\u2019re a lifesaver. I could murder a brew. Cheers!",
           "emotion": "grateful",
           "intent": "accept, express thanks"
         },
         {
           "speaker": "Traveller B",
-          "text": "No worries. So, Barcelona—what’s the work thing? Unless it’s top secret, of course.",
+          "text": "No worries. So, Barcelona\u2014what\u2019s the work thing? Unless it\u2019s top secret, of course.",
           "emotion": "curious",
           "intent": "follow-up, show interest"
         },
         {
           "speaker": "Traveller A",
-          "text": "Hah, hardly! Just a dull conference. Though if this delay stretches, I might ‘accidentally’ miss it.",
+          "text": "Hah, hardly! Just a dull conference. Though if this delay stretches, I might \u2018accidentally\u2019 miss it.",
           "emotion": "playful",
           "intent": "self-deprecate, bond over shared plight"
         },
         {
           "speaker": "Traveller B",
-          "text": "Smart thinking. Say, if you’re ever in Edinburgh after this, give me a shout. I’ll show you the proper pubs.",
+          "text": "Smart thinking. Say, if you\u2019re ever in Edinburgh after this, give me a shout. I\u2019ll show you the proper pubs.",
           "emotion": "warm",
           "intent": "future plans, friendship seed"
         },
         {
           "speaker": "Traveller A",
-          "text": "Deal! And if you’re near London, I owe you that cuppa. Here—let me grab your number.",
+          "text": "Deal! And if you\u2019re near London, I owe you that cuppa. Here\u2014let me grab your number.",
           "emotion": "enthusiastic",
           "intent": "reciprocate, solidify connection"
         }
       ],
       "friendship_progression": "Starts with shared frustration over the delay, progresses to humour and personal sharing, then mutual offers of assistance (tea) and future plans, culminating in exchanging contact details.",
-      "cultural_elements": [
-        "‘Blimey’ (British exclamation)",
-        "‘cuppa’ (informal for tea)",
-        "self-deprecating humour",
-        "pub culture reference",
-        "‘cheers’ as thanks"
-      ],
       "rationale": [
         {
-          "phrase": "Blimey, this delay’s a bit of a nightmare, isn’t it?",
+          "phrase": "Blimey, this delay\u2019s a bit of a nightmare, isn\u2019t it?",
           "explanation": "Opens with relatable frustration, inviting agreement and camaraderie."
         },
         {
-          "phrase": "At this rate, we’ll be here till next week!",
+          "phrase": "At this rate, we\u2019ll be here till next week!",
           "explanation": "Exaggeration for humour, easing tension and encouraging rapport."
         },
         {
@@ -1705,10 +1983,36 @@
           "explanation": "Offering a small kindness fosters connection and reciprocity."
         },
         {
-          "phrase": "if you’re ever in Edinburgh after this, give me a shout.",
+          "phrase": "if you\u2019re ever in Edinburgh after this, give me a shout.",
           "explanation": "Casual future plans signal openness to continued contact."
         }
-      ]
+      ],
+      "cultural_notes": [
+        "\u2018Blimey\u2019 (British exclamation)",
+        "\u2018cuppa\u2019 (informal for tea)",
+        "self-deprecating humour",
+        "pub culture reference",
+        "\u2018cheers\u2019 as thanks"
+      ],
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
     },
     {
       "scenario_id": "FRIEND026",
@@ -1735,67 +2039,61 @@
       "dialogue": [
         {
           "speaker": "Museum Visitor A",
-          "text": "This exhibit on Victorian life is fascinating, isn’t it? I had no idea how much daily life has changed.",
+          "text": "This exhibit on Victorian life is fascinating, isn\u2019t it? I had no idea how much daily life has changed.",
           "emotion": "curious",
           "intent": "initiate conversation, find common interest"
         },
         {
           "speaker": "Museum Visitor B",
-          "text": "Absolutely! It’s mad to think how different things were—like children working in factories. Puts modern complaints into perspective, doesn’t it?",
+          "text": "Absolutely! It\u2019s mad to think how different things were\u2014like children working in factories. Puts modern complaints into perspective, doesn\u2019t it?",
           "emotion": "thoughtful",
           "intent": "agree and reflect, deepen connection"
         },
         {
           "speaker": "Museum Visitor A",
-          "text": "Too right. And the craftsmanship on these artefacts—proper skilled work. Makes you appreciate the detail.",
+          "text": "Too right. And the craftsmanship on these artefacts\u2014proper skilled work. Makes you appreciate the detail.",
           "emotion": "impressed",
           "intent": "share admiration, bond over appreciation"
         },
         {
           "speaker": "Museum Visitor B",
-          "text": "Definitely. I’m always drawn to the textiles—the embroidery is stunning. Do you visit museums often?",
+          "text": "Definitely. I\u2019m always drawn to the textiles\u2014the embroidery is stunning. Do you visit museums often?",
           "emotion": "curious",
           "intent": "personalise conversation, learn about the other"
         },
         {
           "speaker": "Museum Visitor A",
-          "text": "When I can, yeah. This one’s a gem—I love how they’ve laid it out. You?",
+          "text": "When I can, yeah. This one\u2019s a gem\u2014I love how they\u2019ve laid it out. You?",
           "emotion": "engaged",
           "intent": "reciprocate interest, encourage sharing"
         },
         {
           "speaker": "Museum Visitor B",
-          "text": "Same. I try to pop in every few months—they rotate exhibits nicely. Fancy a cuppa after this? The café does a decent brew.",
+          "text": "Same. I try to pop in every few months\u2014they rotate exhibits nicely. Fancy a cuppa after this? The caf\u00e9 does a decent brew.",
           "emotion": "friendly",
           "intent": "suggest informal follow-up, test friendship potential"
         },
         {
           "speaker": "Museum Visitor A",
-          "text": "Oh, go on then. Could do with a sit-down—and a natter about the rest of the exhibits.",
+          "text": "Oh, go on then. Could do with a sit-down\u2014and a natter about the rest of the exhibits.",
           "emotion": "warm",
           "intent": "accept and extend interaction"
         },
         {
           "speaker": "Museum Visitor B",
-          "text": "Brilliant. Maybe we can compare notes on the Roman section next—I’ve heard they’ve added new pieces.",
+          "text": "Brilliant. Maybe we can compare notes on the Roman section next\u2014I\u2019ve heard they\u2019ve added new pieces.",
           "emotion": "enthusiastic",
           "intent": "plant seed for future interaction"
         }
       ],
-      "friendship_progression": "The conversation starts with shared admiration for the exhibit, moves to personal museum habits, and culminates in an invitation to continue chatting over tea—a classic British social step. The offer to revisit another section hints at future meet-ups.",
-      "cultural_elements": [
-        "‘Proper skilled work’ (colloquial admiration)",
-        "‘Pop in’ (casual visiting)",
-        "‘Fancy a cuppa’ (informal tea invitation)",
-        "‘Go on then’ (playful agreement)"
-      ],
+      "friendship_progression": "The conversation starts with shared admiration for the exhibit, moves to personal museum habits, and culminates in an invitation to continue chatting over tea\u2014a classic British social step. The offer to revisit another section hints at future meet-ups.",
       "rationale": [
         {
-          "phrase": "This exhibit on Victorian life is fascinating, isn’t it?",
+          "phrase": "This exhibit on Victorian life is fascinating, isn\u2019t it?",
           "explanation": "Opens with a neutral, culturally relevant topic to gauge interest and invite participation."
         },
         {
-          "phrase": "Puts modern complaints into perspective, doesn’t it?",
+          "phrase": "Puts modern complaints into perspective, doesn\u2019t it?",
           "explanation": "Uses a reflective question to deepen the exchange beyond surface-level observation."
         },
         {
@@ -1806,7 +2104,32 @@
           "phrase": "Maybe we can compare notes on the Roman section next",
           "explanation": "Implies future interaction without overcommitment, leaving room for organic connection."
         }
-      ]
+      ],
+      "cultural_notes": [
+        "\u2018Proper skilled work\u2019 (colloquial admiration)",
+        "\u2018Pop in\u2019 (casual visiting)",
+        "\u2018Fancy a cuppa\u2019 (informal tea invitation)",
+        "\u2018Go on then\u2019 (playful agreement)"
+      ],
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
     },
     {
       "scenario_id": "FRIEND027",
@@ -1833,77 +2156,70 @@
       "dialogue": [
         {
           "speaker": "Person A",
-          "text": "Blimey, this snow’s coming down like someone’s shaken a giant snow globe, isn’t it?",
+          "text": "Blimey, this snow\u2019s coming down like someone\u2019s shaken a giant snow globe, isn\u2019t it?",
           "emotion": "amused",
           "intent": "break the ice with humour"
         },
         {
           "speaker": "Person B",
-          "text": "Tell me about it! I half expect a polar bear to wander past at this rate. Fancy a cuppa while we wait it out? There’s a café just there.",
+          "text": "Tell me about it! I half expect a polar bear to wander past at this rate. Fancy a cuppa while we wait it out? There\u2019s a caf\u00e9 just there.",
           "emotion": "playful",
           "intent": "extend friendly invitation"
         },
         {
           "speaker": "Person A",
-          "text": "You’re a lifesaver – my fingers have gone full icicle mode. Though I warn you, I take my tea so strong it could trot.",
+          "text": "You\u2019re a lifesaver \u2013 my fingers have gone full icicle mode. Though I warn you, I take my tea so strong it could trot.",
           "emotion": "grateful",
           "intent": "accept while sharing personal quirk"
         },
         {
           "speaker": "Person B",
-          "text": "Hah! My gran always said proper tea should be able to stand a spoon up in it. You’d get her seal of approval.",
+          "text": "Hah! My gran always said proper tea should be able to stand a spoon up in it. You\u2019d get her seal of approval.",
           "emotion": "nostalgic",
           "intent": "bond over shared cultural reference"
         },
         {
           "speaker": "Person A",
-          "text": "Sounds like my kind of woman. Right then – race you to the café before we both turn into snowmen? Loser buys the biscuits.",
+          "text": "Sounds like my kind of woman. Right then \u2013 race you to the caf\u00e9 before we both turn into snowmen? Loser buys the biscuits.",
           "emotion": "challenging",
           "intent": "escalate playful interaction"
         },
         {
           "speaker": "Person B",
-          "text": "Oh you’re on! Though fair warning – I was county junior sprint champion. Your wallet’s about to fund some custard creams.",
+          "text": "Oh you\u2019re on! Though fair warning \u2013 I was county junior sprint champion. Your wallet\u2019s about to fund some custard creams.",
           "emotion": "competitive",
           "intent": "engage in light-hearted banter"
         },
         {
           "speaker": "Person A",
-          "text": "*pretends to tie shoelaces* Ahem, false start! Blimey, is that your Olympic training regimen – terrifying innocent tea drinkers?",
+          "text": "*pretends to tie shoelaces* Ahem, false start! Blimey, is that your Olympic training regimen \u2013 terrifying innocent tea drinkers?",
           "emotion": "mock-outraged",
           "intent": "continue humorous exchange"
         },
         {
           "speaker": "Person B",
-          "text": "Cheeky! Right, truce – let’s waddle there together like sensible penguins before someone breaks a hip on this ice.",
+          "text": "Cheeky! Right, truce \u2013 let\u2019s waddle there together like sensible penguins before someone breaks a hip on this ice.",
           "emotion": "caring",
           "intent": "show concern through humour"
         },
         {
           "speaker": "Person A",
-          "text": "Wise words. Say… you seem like good people to be stranded in an arctic wasteland with. Fancy exchanging numbers for future weather emergencies?",
+          "text": "Wise words. Say\u2026 you seem like good people to be stranded in an arctic wasteland with. Fancy exchanging numbers for future weather emergencies?",
           "emotion": "hopeful",
           "intent": "initiate friendship transition"
         },
         {
           "speaker": "Person B",
-          "text": "Absolutely! Next heatwave we can complain about melting together. Here – *pulls out phone* I’ll be your official British Weather Moaning Buddy.",
+          "text": "Absolutely! Next heatwave we can complain about melting together. Here \u2013 *pulls out phone* I\u2019ll be your official British Weather Moaning Buddy.",
           "emotion": "enthusiastic",
           "intent": "accept and cement connection"
         }
       ],
-      "friendship_progression": "Starts with weather-related banter, escalates through playful challenges and cultural references, transitions to care-taking humour, and culminates in exchanging contact information framed as 'weather emergency support' – a very British approach to friendship initiation.",
-      "cultural_elements": [
-        "‘Blimey’ as an exclamation",
-        "Tea strength as personality indicator",
-        "Custard creams reference",
-        "Self-deprecating humour about weather",
-        "‘Moaning’ as national pastime"
-      ],
+      "friendship_progression": "Starts with weather-related banter, escalates through playful challenges and cultural references, transitions to care-taking humour, and culminates in exchanging contact information framed as 'weather emergency support' \u2013 a very British approach to friendship initiation.",
       "rationale": [
         {
           "phrase": "Fancy a cuppa while we wait it out?",
-          "explanation": "British social lubricant – offering tea creates instant camaraderie and provides natural next step for interaction."
+          "explanation": "British social lubricant \u2013 offering tea creates instant camaraderie and provides natural next step for interaction."
         },
         {
           "phrase": "Loser buys the biscuits",
@@ -1913,7 +2229,33 @@
           "phrase": "Official British Weather Moaning Buddy",
           "explanation": "Humorous framing of contact exchange makes it feel culturally specific and less socially risky."
         }
-      ]
+      ],
+      "cultural_notes": [
+        "\u2018Blimey\u2019 as an exclamation",
+        "Tea strength as personality indicator",
+        "Custard creams reference",
+        "Self-deprecating humour about weather",
+        "\u2018Moaning\u2019 as national pastime"
+      ],
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
     },
     {
       "scenario_id": "FRIEND028",
@@ -1946,66 +2288,60 @@
         },
         {
           "speaker": "Bargain Hunter B",
-          "text": "Oh, that’s a cracking find! My nan’s got one just like it—still works a treat after 40 years.",
+          "text": "Oh, that\u2019s a cracking find! My nan\u2019s got one just like it\u2014still works a treat after 40 years.",
           "emotion": "nostalgic",
           "intent": "relate personally"
         },
         {
           "speaker": "Bargain Hunter A",
-          "text": "No way! Maybe I should snap it up then. You’ve got a good eye—spot anything else decent here?",
+          "text": "No way! Maybe I should snap it up then. You\u2019ve got a good eye\u2014spot anything else decent here?",
           "emotion": "curious",
           "intent": "seek collaboration"
         },
         {
           "speaker": "Bargain Hunter B",
-          "text": "Actually, that box of records over there—some real gems if you fancy a rummage. Fancy splitting the cost if we find a set?",
+          "text": "Actually, that box of records over there\u2014some real gems if you fancy a rummage. Fancy splitting the cost if we find a set?",
           "emotion": "playful",
           "intent": "propose teamwork"
         },
         {
           "speaker": "Bargain Hunter A",
-          "text": "You’re on! Nothing like a bit of vinyl hunting. Found anything yourself yet?",
+          "text": "You\u2019re on! Nothing like a bit of vinyl hunting. Found anything yourself yet?",
           "emotion": "enthusiastic",
           "intent": "build rapport"
         },
         {
           "speaker": "Bargain Hunter B",
-          "text": "A mint-condition '70s scarf earlier—total fluke. These boot sales are hit or miss, but that’s half the fun, eh?",
+          "text": "A mint-condition '70s scarf earlier\u2014total fluke. These boot sales are hit or miss, but that\u2019s half the fun, eh?",
           "emotion": "satisfied",
           "intent": "share success"
         },
         {
           "speaker": "Bargain Hunter A",
-          "text": "Too right! Say, you seem to know your stuff—d’you often do the rounds at these?",
+          "text": "Too right! Say, you seem to know your stuff\u2014d\u2019you often do the rounds at these?",
           "emotion": "interested",
           "intent": "explore common interest"
         },
         {
           "speaker": "Bargain Hunter B",
-          "text": "Every Sunday if I can! There’s a brilliant one in Peckham next week—fancy joining? Safety in numbers against the early birds!",
+          "text": "Every Sunday if I can! There\u2019s a brilliant one in Peckham next week\u2014fancy joining? Safety in numbers against the early birds!",
           "emotion": "friendly",
           "intent": "suggest future plans"
         },
         {
           "speaker": "Bargain Hunter A",
-          "text": "Peckham? Sold! Let’s swap numbers—I’ll bring the thermos if you bring the bargaining charm.",
+          "text": "Peckham? Sold! Let\u2019s swap numbers\u2014I\u2019ll bring the thermos if you bring the bargaining charm.",
           "emotion": "cheerful",
           "intent": "solidify connection"
         },
         {
           "speaker": "Bargain Hunter B",
-          "text": "Deal! Though warning: my charm’s only as good as the coffee.",
+          "text": "Deal! Though warning: my charm\u2019s only as good as the coffee.",
           "emotion": "humorous",
           "intent": "lighten mood"
         }
       ],
-      "friendship_progression": "Starts with shared excitement over finds, progresses to collaborative hunting, and culminates in exchanging contact info for future outings—bonding over thrifting passion and humour.",
-      "cultural_elements": [
-        "British slang ('blimey', 'innit', 'cracking')",
-        "Car boot sale tradition",
-        "Reference to Peckham (London locale)",
-        "Self-deprecating humour"
-      ],
+      "friendship_progression": "Starts with shared excitement over finds, progresses to collaborative hunting, and culminates in exchanging contact info for future outings\u2014bonding over thrifting passion and humour.",
       "rationale": [
         {
           "phrase": "Proper steal at a fiver",
@@ -2016,10 +2352,35 @@
           "explanation": "Humorous exaggeration creates camaraderie around a common 'enemy' (competitive shoppers)."
         },
         {
-          "phrase": "Let’s swap numbers",
+          "phrase": "Let\u2019s swap numbers",
           "explanation": "Direct yet low-pressure suggestion to continue the connection beyond the immediate interaction."
         }
-      ]
+      ],
+      "cultural_notes": [
+        "British slang ('blimey', 'innit', 'cracking')",
+        "Car boot sale tradition",
+        "Reference to Peckham (London locale)",
+        "Self-deprecating humour"
+      ],
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
     },
     {
       "scenario_id": "FRIEND029",
@@ -2046,66 +2407,60 @@
       "dialogue": [
         {
           "speaker": "Audience Member A",
-          "text": "Blimey, that last joke was proper cheeky, wasn’t it?",
+          "text": "Blimey, that last joke was proper cheeky, wasn\u2019t it?",
           "emotion": "amused",
           "intent": "initiate conversation, share reaction"
         },
         {
           "speaker": "Audience Member B",
-          "text": "Absolutely! I nearly spat out my drink. The way he delivered it—priceless.",
+          "text": "Absolutely! I nearly spat out my drink. The way he delivered it\u2014priceless.",
           "emotion": "entertained",
           "intent": "agree and bond over humour"
         },
         {
           "speaker": "Audience Member A",
-          "text": "You’re not wrong. Reminds me of a bloke I saw in Edinburgh last year—same deadpan style.",
+          "text": "You\u2019re not wrong. Reminds me of a bloke I saw in Edinburgh last year\u2014same deadpan style.",
           "emotion": "nostalgic",
           "intent": "share personal anecdote to connect"
         },
         {
           "speaker": "Audience Member B",
-          "text": "Oh, you go to the Fringe? I’ve been meaning to—any recommendations?",
+          "text": "Oh, you go to the Fringe? I\u2019ve been meaning to\u2014any recommendations?",
           "emotion": "interested",
           "intent": "show curiosity, steer toward common interests"
         },
         {
           "speaker": "Audience Member A",
-          "text": "Loads! There’s this improv group, ‘The Pretendy Fun Times’—sounds daft, but they had me in stitches.",
+          "text": "Loads! There\u2019s this improv group, \u2018The Pretendy Fun Times\u2019\u2014sounds daft, but they had me in stitches.",
           "emotion": "enthusiastic",
           "intent": "offer value, invite further discussion"
         },
         {
           "speaker": "Audience Member B",
-          "text": "Brilliant name! I’ll jot that down. Say, d’you come here often? This place is a gem.",
+          "text": "Brilliant name! I\u2019ll jot that down. Say, d\u2019you come here often? This place is a gem.",
           "emotion": "friendly",
           "intent": "hint at future interactions"
         },
         {
           "speaker": "Audience Member A",
-          "text": "Once a month, if I’m lucky. Fancy grabbing a pint after? They do a cracking ale at the pub next door.",
+          "text": "Once a month, if I\u2019m lucky. Fancy grabbing a pint after? They do a cracking ale at the pub next door.",
           "emotion": "warm",
           "intent": "propose casual meet-up"
         },
         {
           "speaker": "Audience Member B",
-          "text": "Go on then—you’ve sold me. Name’s Liam, by the way.",
+          "text": "Go on then\u2014you\u2019ve sold me. Name\u2019s Liam, by the way.",
           "emotion": "open",
           "intent": "formalise connection"
         },
         {
           "speaker": "Audience Member A",
-          "text": "Cheers, Liam! I’m Priya. Let’s nab a seat before the encore—I’ll tell you about the time I heckled a magician.",
+          "text": "Cheers, Liam! I\u2019m Priya. Let\u2019s nab a seat before the encore\u2014I\u2019ll tell you about the time I heckled a magician.",
           "emotion": "playful",
           "intent": "deepen rapport with humour"
         }
       ],
       "friendship_progression": "Starts with shared laughter over a joke, progresses to personal anecdotes and common interests (comedy festivals), and culminates in a casual plan to continue the conversation post-show.",
-      "cultural_elements": [
-        "‘Blimey’ (British exclamation)",
-        "‘Proper cheeky’ (colloquial praise)",
-        "‘Cracking ale’ (pub culture reference)",
-        "Casual pint invitation (British social norm)"
-      ],
       "rationale": [
         {
           "phrase": "Reminds me of a bloke I saw in Edinburgh...",
@@ -2116,10 +2471,35 @@
           "explanation": "Low-pressure invitation signals openness to friendship without overcommitment."
         },
         {
-          "phrase": "Let’s nab a seat before the encore...",
+          "phrase": "Let\u2019s nab a seat before the encore...",
           "explanation": "Lighthearted future-planning implies continued interaction."
         }
-      ]
+      ],
+      "cultural_notes": [
+        "\u2018Blimey\u2019 (British exclamation)",
+        "\u2018Proper cheeky\u2019 (colloquial praise)",
+        "\u2018Cracking ale\u2019 (pub culture reference)",
+        "Casual pint invitation (British social norm)"
+      ],
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
     },
     {
       "scenario_id": "FRIEND030",
@@ -2146,74 +2526,67 @@
       "dialogue": [
         {
           "speaker": "Wellness Seeker A",
-          "text": "Lovely session today, wasn’t it? I always find the guided breathing so calming.",
+          "text": "Lovely session today, wasn\u2019t it? I always find the guided breathing so calming.",
           "emotion": "peaceful",
           "intent": "initiate conversation, share positive experience"
         },
         {
           "speaker": "Wellness Seeker B",
-          "text": "Absolutely. It’s my first time here—was a bit nervous, but the instructor’s voice is so soothing.",
+          "text": "Absolutely. It\u2019s my first time here\u2014was a bit nervous, but the instructor\u2019s voice is so soothing.",
           "emotion": "relieved",
           "intent": "admit vulnerability, seek connection"
         },
         {
           "speaker": "Wellness Seeker A",
-          "text": "Oh, welcome then! I’ve been coming for a few months now. It gets easier—you’ll find your rhythm.",
+          "text": "Oh, welcome then! I\u2019ve been coming for a few months now. It gets easier\u2014you\u2019ll find your rhythm.",
           "emotion": "encouraging",
           "intent": "offer reassurance, establish common ground"
         },
         {
           "speaker": "Wellness Seeker B",
-          "text": "That’s good to hear. Do you do other mindfulness practices outside the group?",
+          "text": "That\u2019s good to hear. Do you do other mindfulness practices outside the group?",
           "emotion": "curious",
           "intent": "deepen conversation, explore shared interests"
         },
         {
           "speaker": "Wellness Seeker A",
-          "text": "I’ve started journaling, actually. It’s a bit hit and miss, but it helps me unwind. You?",
+          "text": "I\u2019ve started journaling, actually. It\u2019s a bit hit and miss, but it helps me unwind. You?",
           "emotion": "reflective",
           "intent": "share personal habit, invite reciprocity"
         },
         {
           "speaker": "Wellness Seeker B",
-          "text": "I’ve been trying yoga—though I’m hopeless at balancing! Still, it’s about the journey, isn’t it?",
+          "text": "I\u2019ve been trying yoga\u2014though I\u2019m hopeless at balancing! Still, it\u2019s about the journey, isn\u2019t it?",
           "emotion": "self-deprecating",
           "intent": "show humility, align with wellness philosophy"
         },
         {
           "speaker": "Wellness Seeker A",
-          "text": "Too right. I admire that attitude. Maybe we could swap tips sometime—yoga for journaling?",
+          "text": "Too right. I admire that attitude. Maybe we could swap tips sometime\u2014yoga for journaling?",
           "emotion": "warm",
           "intent": "suggest future interaction, mutual exchange"
         },
         {
           "speaker": "Wellness Seeker B",
-          "text": "I’d like that. Do you fancy a cuppa after next week’s session? There’s a quiet café round the corner.",
+          "text": "I\u2019d like that. Do you fancy a cuppa after next week\u2019s session? There\u2019s a quiet caf\u00e9 round the corner.",
           "emotion": "hopeful",
           "intent": "propose concrete plan, extend friendship"
         },
         {
           "speaker": "Wellness Seeker A",
-          "text": "That sounds perfect. Let’s exchange numbers—just in case one of us runs late, yeah?",
+          "text": "That sounds perfect. Let\u2019s exchange numbers\u2014just in case one of us runs late, yeah?",
           "emotion": "agreeable",
           "intent": "solidify plans, normalise contact exchange"
         }
       ],
       "friendship_progression": "The conversation begins with a shared positive experience in the session, progresses to personal disclosures about wellness practices, and culminates in a concrete plan to meet outside the group. Mutual support and curiosity drive the interaction.",
-      "cultural_elements": [
-        "‘Lovely session’ (understated positivity)",
-        "‘cuppa’ (colloquial for tea)",
-        "self-deprecating humour about yoga",
-        "indirect suggestion to exchange numbers (‘just in case’)",
-        "café as neutral meeting space"
-      ],
       "rationale": [
         {
-          "phrase": "Lovely session today, wasn’t it?",
+          "phrase": "Lovely session today, wasn\u2019t it?",
           "explanation": "Opens with a neutral but positive observation about a shared experience, inviting agreement and dialogue."
         },
         {
-          "phrase": "It’s about the journey, isn’t it?",
+          "phrase": "It\u2019s about the journey, isn\u2019t it?",
           "explanation": "Philosophical reflection reinforces shared values, creating emotional alignment."
         },
         {
@@ -2221,10 +2594,36 @@
           "explanation": "Offers a low-pressure future interaction framed as mutual benefit, not obligation."
         },
         {
-          "phrase": "Let’s exchange numbers—just in case",
+          "phrase": "Let\u2019s exchange numbers\u2014just in case",
           "explanation": "British indirectness softens the request for contact details, making it socially comfortable."
         }
-      ]
+      ],
+      "cultural_notes": [
+        "\u2018Lovely session\u2019 (understated positivity)",
+        "\u2018cuppa\u2019 (colloquial for tea)",
+        "self-deprecating humour about yoga",
+        "indirect suggestion to exchange numbers (\u2018just in case\u2019)",
+        "caf\u00e9 as neutral meeting space"
+      ],
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
     }
   ],
   "metadata": {
