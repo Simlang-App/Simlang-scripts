@@ -1,0 +1,3793 @@
+{
+  "conversations": [
+    {
+      "scenario_id": "021",
+      "scenario": "Card payment declined",
+      "customer_profile": "Embarrassed professional",
+      "culture": "UK",
+      "emotions": [
+        "embarrassed",
+        "frustrated",
+        "relieved"
+      ],
+      "success_rating": 7,
+      "naturalness_rating": 8,
+      "tone": "formal",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Costa\n- Scenario: Card payment declined\n- Customer Profile: Embarrassed professional\n- Emotions: embarrassed, frustrated, relieved\n- Tone: formal (polite, structured)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"formal\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "That'll be \u00a33.50, please.",
+          "emotion": "neutral",
+          "intent": "request payment"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Certainly, here you go.",
+          "emotion": "polite",
+          "intent": "offer payment"
+        },
+        {
+          "speaker": "Barista",
+          "text": "I'm terribly sorry, but your card's been declined. Would you like to try another method?",
+          "emotion": "apologetic",
+          "intent": "handle sensitive situation politely"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Oh dear, how embarrassing! Let me just check my mobile banking...",
+          "emotion": "flustered",
+          "intent": "explain while resolving issue"
+        },
+        {
+          "speaker": "Barista",
+          "text": "No rush at all. These things happen to the best of us.",
+          "emotion": "reassuring",
+          "intent": "put customer at ease"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Ah, it seems my direct debit went out earlier than expected. How silly of me not to check. May I pop to the cashpoint round the corner?",
+          "emotion": "relieved",
+          "intent": "explain and propose solution"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Of course! I'll keep your coffee warm at the till.",
+          "emotion": "helpful",
+          "intent": "accommodate customer"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Oh dear, how embarrassing!",
+          "explanation": "A very British understatement for distress, using 'oh dear' softens the embarrassment while maintaining formality."
+        },
+        {
+          "phrase": "May I pop to the cashpoint round the corner?",
+          "explanation": "'Pop to' is a common UK phrase meaning 'quickly go to', while 'cashpoint' (not ATM) and 'round the corner' are culturally specific terms."
+        },
+        {
+          "phrase": "These things happen to the best of us.",
+          "explanation": "A polite British idiom to diffuse awkward situations, implying the customer is among 'the best' people."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Costa",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "022",
+      "scenario": "Asking for Wi-Fi password",
+      "customer_profile": "Remote worker",
+      "culture": "UK",
+      "emotions": [
+        "focused",
+        "grateful"
+      ],
+      "success_rating": 9,
+      "naturalness_rating": 9,
+      "tone": "casual",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Starbucks\n- Scenario: Asking for Wi-Fi password\n- Customer Profile: Remote worker\n- Emotions: focused, grateful\n- Tone: casual (relaxed but professional)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"casual\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "text": "Hi there, could I grab the Wi-Fi password, please?",
+          "emotion": "focused",
+          "intent": "request information"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Of course! It's 'FlatWhite2023'\u2014all one word, capital F and W.",
+          "emotion": "helpful",
+          "intent": "provide assistance"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Brilliant, cheers for that!",
+          "emotion": "grateful",
+          "intent": "express thanks"
+        },
+        {
+          "speaker": "Barista",
+          "text": "No worries at all. Let me know if it doesn\u2019t connect\u2014sometimes it\u2019s a bit fussy.",
+          "emotion": "friendly",
+          "intent": "offer further help"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Will do. Ta very much!",
+          "emotion": "appreciative",
+          "intent": "acknowledge"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Brilliant, cheers for that!",
+          "explanation": "'Cheers' is a common British informal alternative to 'thanks', reinforcing casual but polite tone."
+        },
+        {
+          "phrase": "Ta very much!",
+          "explanation": "'Ta' is a colloquial British shortening of 'thanks', adding authenticity to the customer's casual gratitude."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Starbucks",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "023",
+      "scenario": "Loyalty app not working",
+      "customer_profile": "Tech-frustrated customer",
+      "culture": "UK",
+      "emotions": [
+        "frustrated",
+        "understanding"
+      ],
+      "success_rating": 7,
+      "naturalness_rating": 8,
+      "tone": "friendly",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Caff\u00e8 Nero\n- Scenario: Loyalty app not working\n- Customer Profile: Tech-frustrated customer\n- Emotions: frustrated, understanding\n- Tone: friendly (warm, familiar between regulars)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"friendly\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "text": "Morning, love. Bit of a nightmare with your app this morning \u2013 keeps saying 'server error' when I try to scan my loyalty card.",
+          "emotion": "frustrated",
+          "intent": "seek help while establishing rapport"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Oh blimey, not again! Sorry about that \u2013 our system's been playing up since the update. Let me just manually add your stamps, yeah?",
+          "emotion": "apologetic",
+          "intent": "acknowledge problem and offer solution"
+        },
+        {
+          "speaker": "Customer",
+          "text": "You're a lifesaver! I swear, these apps are more hassle than they're worth sometimes. Still want my usual flat white though.",
+          "emotion": "grateful",
+          "intent": "vent while maintaining humour"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Coming right up! And I've popped an extra stamp on for the bother \u2013 reckon you'll earn that free coffee by Friday at this rate!",
+          "emotion": "cheerful",
+          "intent": "compensate and build goodwill"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Cheers, pet! At least someone's got their head screwed on properly 'round here.",
+          "emotion": "warm",
+          "intent": "express appreciation with regional colloquialism"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Oh blimey, not again!",
+          "explanation": "A quintessentially British exclamation conveying exasperation while maintaining light-heartedness, perfect for UK customer service interactions."
+        },
+        {
+          "phrase": "Cheers, pet!",
+          "explanation": "Northern English colloquialism ('pet' as a term of endearment) establishes familiarity between regulars, balancing frustration with warmth."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Caff\u00e8 Nero",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "024",
+      "scenario": "Asking to use the toilet",
+      "customer_profile": "Polite customer",
+      "culture": "UK",
+      "emotions": [
+        "urgent",
+        "grateful"
+      ],
+      "success_rating": 9,
+      "naturalness_rating": 9,
+      "tone": "formal",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Costa\n- Scenario: Asking to use the toilet\n- Customer Profile: Polite customer\n- Emotions: urgent, grateful\n- Tone: formal (polite, structured)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"formal\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "text": "Excuse me, I'm terribly sorry to bother you, but might I use your toilet?",
+          "emotion": "urgent",
+          "intent": "request assistance politely"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Of course! It's just down the corridor on the left, past the bakery display.",
+          "emotion": "helpful",
+          "intent": "provide directions"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Oh, brilliant. Thank you ever so much\u2014I do appreciate it.",
+          "emotion": "grateful",
+          "intent": "express thanks"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Not at all. Do let us know if you need anything else.",
+          "emotion": "welcoming",
+          "intent": "offer further assistance"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "I'm terribly sorry to bother you",
+          "explanation": "A quintessentially British way to preface a request, emphasising politeness and slight self-deprecation."
+        },
+        {
+          "phrase": "Oh, brilliant",
+          "explanation": "A common UK expression of relieved approval, softer than 'great' and culturally natural here."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Costa",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "025",
+      "scenario": "Requesting tap water",
+      "customer_profile": "Health-conscious runner",
+      "culture": "UK",
+      "emotions": [
+        "thirsty",
+        "appreciative"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 8,
+      "tone": "casual",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Starbucks\n- Scenario: Requesting tap water\n- Customer Profile: Health-conscious runner\n- Emotions: thirsty, appreciative\n- Tone: casual (relaxed but professional)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"casual\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "text": "Hi there, could I possibly get a glass of tap water? Just finished a long run and I'm parched.",
+          "emotion": "thirsty",
+          "intent": "request service politely"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Of course! We do free tap water for everyone. Would you like ice with that?",
+          "emotion": "helpful",
+          "intent": "offer standard service"
+        },
+        {
+          "speaker": "Customer",
+          "text": "That'd be brilliant, thanks ever so much.",
+          "emotion": "appreciative",
+          "intent": "express gratitude"
+        },
+        {
+          "speaker": "Barista",
+          "text": "No worries at all. Here you go - nice tall glass. Mind the condensation!",
+          "emotion": "cheerful",
+          "intent": "deliver with friendly warning"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Absolute lifesaver, cheers! Do you recycle the glasses or should I pop it in the bin after?",
+          "emotion": "grateful",
+          "intent": "ask about eco-practices"
+        },
+        {
+          "speaker": "Barista",
+          "text": "We'll take care of washing it up, but ta for asking. Enjoy the rest of your day!",
+          "emotion": "polite",
+          "intent": "conclude interaction positively"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "parched",
+          "explanation": "Common UK colloquialism for extreme thirst, more vivid than 'thirsty' and culturally authentic."
+        },
+        {
+          "phrase": "ta for asking",
+          "explanation": "Casual British abbreviation of 'thanks' ('ta') paired with polite phrasing maintains professionalism while sounding natural."
+        },
+        {
+          "phrase": "pop it in the bin",
+          "explanation": "UK vernacular ('bin' instead of 'trash') with 'pop' conveying casual action, reflecting everyday speech patterns."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Starbucks",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "026",
+      "scenario": "Baby changing facilities inquiry",
+      "customer_profile": "New parent",
+      "culture": "UK",
+      "emotions": [
+        "anxious",
+        "relieved"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 8,
+      "tone": "friendly",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Caff\u00e8 Nero\n- Scenario: Baby changing facilities inquiry\n- Customer Profile: New parent\n- Emotions: anxious, relieved\n- Tone: friendly (warm, familiar between regulars)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"friendly\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "text": "Hi there, sorry to bother you\u2014do you happen to have baby changing facilities here?",
+          "emotion": "anxious",
+          "intent": "seek assistance"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Oh absolutely, no bother at all! We've got a changing table in the disabled loo just round the corner there.",
+          "emotion": "reassuring",
+          "intent": "provide help"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Oh brilliant, that's such a relief! High streets can be a proper nightmare for this sort of thing.",
+          "emotion": "relieved",
+          "intent": "express gratitude"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Tell me about it! We made sure to fit one when we refurbished last year\u2014pop in anytime you're passing, yeah?",
+          "emotion": "friendly",
+          "intent": "build rapport"
+        },
+        {
+          "speaker": "Customer",
+          "text": "You're a lifesaver\u2014might just become our new regular spot!",
+          "emotion": "grateful",
+          "intent": "establish connection"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "High streets can be a proper nightmare",
+          "explanation": "Uses UK term 'high street' (main shopping area) and colloquial intensifier 'proper' to convey shared cultural understanding."
+        },
+        {
+          "phrase": "You're a lifesaver",
+          "explanation": "Common British hyperbole to express gratitude, particularly in parent-child contexts where small conveniences feel monumental."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Caff\u00e8 Nero",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "027",
+      "scenario": "Drink too hot complaint",
+      "customer_profile": "Cautious customer",
+      "culture": "UK",
+      "emotions": [
+        "concerned",
+        "satisfied"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 8,
+      "tone": "formal",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Costa\n- Scenario: Drink too hot complaint\n- Customer Profile: Cautious customer\n- Emotions: concerned, satisfied\n- Tone: formal (polite, structured)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"formal\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "text": "Excuse me, I'm terribly sorry to bother you, but my latte seems to be a bit too hot to drink at the moment.",
+          "emotion": "concerned",
+          "intent": "politely raise an issue"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Oh, I do apologise for that. We aim for around 65\u00b0C, but sometimes it can come out hotter. Would you like me to make you a fresh one at a better temperature?",
+          "emotion": "apologetic",
+          "intent": "acknowledge and offer solution"
+        },
+        {
+          "speaker": "Customer",
+          "text": "That would be lovely, if it's not too much trouble. I don't mean to be fussy, I just don't want to burn my tongue.",
+          "emotion": "grateful",
+          "intent": "express appreciation while justifying request"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Not at all, it's no trouble. I'll have that remade for you straight away. Would you like me to pop an extra shot in there to make up for the wait?",
+          "emotion": "helpful",
+          "intent": "compensate and upsell politely"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Oh, that's very kind of you! Just the regular would be perfect though, thank you ever so much.",
+          "emotion": "satisfied",
+          "intent": "politely decline while showing appreciation"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Right you are. I'll bring it over to your table when it's ready. Again, sorry about that.",
+          "emotion": "professional",
+          "intent": "confirm resolution and maintain goodwill"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "I'm terribly sorry to bother you",
+          "explanation": "A very British way to preface a complaint, showing excessive politeness to soften the request."
+        },
+        {
+          "phrase": "Would you like me to pop an extra shot in there",
+          "explanation": "Uses colloquial 'pop' while maintaining formality, typical of UK service interactions offering compensation."
+        },
+        {
+          "phrase": "Thank you ever so much",
+          "explanation": "A quintessentially British intensifier ('ever so') that maintains formality while expressing genuine appreciation."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Costa",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "028",
+      "scenario": "Drink too cold complaint",
+      "customer_profile": "Disappointed regular",
+      "culture": "UK",
+      "emotions": [
+        "disappointed",
+        "understanding"
+      ],
+      "success_rating": 7,
+      "naturalness_rating": 8,
+      "tone": "friendly",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Starbucks\n- Scenario: Drink too cold complaint\n- Customer Profile: Disappointed regular\n- Emotions: disappointed, understanding\n- Tone: friendly (warm, familiar between regulars)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"friendly\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "text": "Hi there, love. I hate to be a bother, but my latte's gone a bit lukewarm already.",
+          "emotion": "disappointed",
+          "intent": "express concern politely"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Oh no! That shouldn't happen at all. Let me pop that back under the steam wand for you.",
+          "emotion": "apologetic",
+          "intent": "acknowledge and rectify"
+        },
+        {
+          "speaker": "Customer",
+          "text": "You're a star. I know you're always spot-on with my usual - must've been a busy moment.",
+          "emotion": "understanding",
+          "intent": "show appreciation while excusing"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Ta for being so lovely about it. Tell you what - I'll add an extra shot on the house to make up for it.",
+          "emotion": "grateful",
+          "intent": "compensate and maintain goodwill"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Now that's what I call service! Cheers, mate. See you tomorrow for our usual dance.",
+          "emotion": "pleased",
+          "intent": "close positively"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "gone a bit lukewarm",
+          "explanation": "British understatement softens complaint while accurately describing temperature issue."
+        },
+        {
+          "phrase": "You're a star",
+          "explanation": "Common UK colloquial praise that maintains friendly rapport between regulars."
+        },
+        {
+          "phrase": "our usual dance",
+          "explanation": "Playful metaphor referencing the familiar ordering routine, reinforcing regular customer status."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Starbucks",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "029",
+      "scenario": "Spilled drink assistance",
+      "customer_profile": "Clumsy customer",
+      "culture": "UK",
+      "emotions": [
+        "embarrassed",
+        "grateful"
+      ],
+      "success_rating": 9,
+      "naturalness_rating": 9,
+      "tone": "casual",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Caff\u00e8 Nero\n- Scenario: Spilled drink assistance\n- Customer Profile: Clumsy customer\n- Emotions: embarrassed, grateful\n- Tone: casual (relaxed but professional)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"casual\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "text": "Oh blimey, I've gone and spilled my latte all over the floor! I'm so sorry about this...",
+          "emotion": "embarrassed",
+          "intent": "apologize for accident"
+        },
+        {
+          "speaker": "Barista",
+          "text": "No worries at all, love! These things happen. Let me grab a mop and sort you out with a fresh one.",
+          "emotion": "reassuring",
+          "intent": "comfort customer and offer solution"
+        },
+        {
+          "speaker": "Customer",
+          "text": "You're an absolute star! I'll pay for the replacement, of course.",
+          "emotion": "grateful",
+          "intent": "express thanks and responsibility"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Don't be daft - accidents happen! This one's on the house. Fancy a biscuit to go with it?",
+          "emotion": "cheerful",
+          "intent": "build goodwill and offer gesture"
+        },
+        {
+          "speaker": "Customer",
+          "text": "You're too kind! I'll definitely be coming back here - the service is brilliant.",
+          "emotion": "appreciative",
+          "intent": "express loyalty"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Oh blimey",
+          "explanation": "A common British exclamation showing surprise/mild distress, more natural than 'Oh no' in this context."
+        },
+        {
+          "phrase": "Don't be daft",
+          "explanation": "A colloquial British way to dismiss someone's unnecessary concern, maintaining friendly informality."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Caff\u00e8 Nero",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "030",
+      "scenario": "Asking about allergen information",
+      "customer_profile": "Allergy-conscious parent",
+      "culture": "UK",
+      "emotions": [
+        "worried",
+        "reassured"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 8,
+      "tone": "formal",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Costa\n- Scenario: Asking about allergen information\n- Customer Profile: Allergy-conscious parent\n- Emotions: worried, reassured\n- Tone: formal (polite, structured)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"formal\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "text": "Excuse me, I was wondering if you could help me with some allergen information? My daughter has a nut allergy, and I want to make sure she's safe.",
+          "emotion": "worried",
+          "intent": "seek reassurance"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Of course, I completely understand. We take allergens very seriously here at Costa. Let me grab our allergen guide for you.",
+          "emotion": "reassuring",
+          "intent": "provide support"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Thank you, that would be brilliant. I just want to double-check before ordering anything.",
+          "emotion": "grateful",
+          "intent": "express appreciation"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Here you go. All our products are clearly marked, and we have separate preparation areas for nut-free items. Would you like me to recommend something from our \u2018Free From\u2019 range?",
+          "emotion": "helpful",
+          "intent": "offer assistance"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Yes, please. That would put my mind at ease. Maybe a hot chocolate or a cake?",
+          "emotion": "relieved",
+          "intent": "request suggestions"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Our vegan chocolate twist is nut-free and very popular with kids. I can prepare it fresh for you to avoid any cross-contamination.",
+          "emotion": "professional",
+          "intent": "ensure safety"
+        },
+        {
+          "speaker": "Customer",
+          "text": "That sounds perfect. Thank you ever so much for your help.",
+          "emotion": "reassured",
+          "intent": "express gratitude"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Not a problem at all. Your daughter\u2019s safety is our priority. I\u2019ll have that ready for you in just a moment.",
+          "emotion": "warm",
+          "intent": "conclude positively"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "That would be brilliant.",
+          "explanation": "A common British phrase expressing gratitude and approval, adding a polite and culturally appropriate tone."
+        },
+        {
+          "phrase": "Not a problem at all.",
+          "explanation": "A reassuring and friendly way to acknowledge the customer\u2019s concerns, typical in UK customer service interactions."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Costa",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "031",
+      "scenario": "Inquiring about opening hours",
+      "customer_profile": "Planning customer",
+      "culture": "UK",
+      "emotions": [
+        "curious",
+        "informed"
+      ],
+      "success_rating": 9,
+      "naturalness_rating": 9,
+      "tone": "friendly",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Starbucks\n- Scenario: Inquiring about opening hours\n- Customer Profile: Planning customer\n- Emotions: curious, informed\n- Tone: friendly (warm, familiar between regulars)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"friendly\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "text": "Morning! Could you tell me your opening hours over the weekend?",
+          "emotion": "curious",
+          "intent": "inquire"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Ah, lovely to see you again! We're open from 7 AM to 8 PM on Saturdays and 8 AM to 7 PM on Sundays.",
+          "emotion": "warm",
+          "intent": "inform"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Brilliant, thanks! And do you still do that early bird discount before 9 AM?",
+          "emotion": "informed",
+          "intent": "confirm"
+        },
+        {
+          "speaker": "Barista",
+          "text": "We sure do\u201420% off all hot drinks till 9 AM. Fancy your usual flat white then?",
+          "emotion": "friendly",
+          "intent": "upsell"
+        },
+        {
+          "speaker": "Customer",
+          "text": "You read my mind! See you Saturday morning.",
+          "emotion": "pleased",
+          "intent": "close"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Brilliant, thanks!",
+          "explanation": "A common British colloquialism expressing enthusiastic agreement or satisfaction."
+        },
+        {
+          "phrase": "You read my mind!",
+          "explanation": "A playful, familiar phrase used between regulars to acknowledge rapport."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Starbucks",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "032",
+      "scenario": "Requesting a receipt",
+      "customer_profile": "Business customer",
+      "culture": "UK",
+      "emotions": [
+        "professional",
+        "satisfied"
+      ],
+      "success_rating": 9,
+      "naturalness_rating": 9,
+      "tone": "formal",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Caff\u00e8 Nero\n- Scenario: Requesting a receipt\n- Customer Profile: Business customer\n- Emotions: professional, satisfied\n- Tone: formal (polite, structured)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"formal\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Good morning! That'll be \u00a33.20 for your flat white, please.",
+          "emotion": "cheerful",
+          "intent": "request payment"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Certainly, here you go. Could I possibly get a receipt for that?",
+          "emotion": "polite",
+          "intent": "request receipt"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Of course, no problem at all. Would you like it printed or emailed?",
+          "emotion": "helpful",
+          "intent": "clarify preference"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Printed would be perfect, thank you. I need it for my expenses.",
+          "emotion": "grateful",
+          "intent": "confirm preference"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Here you are. Have a lovely day!",
+          "emotion": "friendly",
+          "intent": "conclude transaction"
+        },
+        {
+          "speaker": "Customer",
+          "text": "You too, cheers!",
+          "emotion": "satisfied",
+          "intent": "express thanks"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Certainly, here you go.",
+          "explanation": "A polite and professional way to hand over payment, common in UK business interactions."
+        },
+        {
+          "phrase": "Printed would be perfect, thank you.",
+          "explanation": "The use of 'perfect' softens the request while maintaining formality, typical in British politeness."
+        },
+        {
+          "phrase": "You too, cheers!",
+          "explanation": "'Cheers' is a versatile British term used here to express thanks casually while maintaining professionalism."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Caff\u00e8 Nero",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "033",
+      "scenario": "Split payment for group order",
+      "customer_profile": "Organized friend",
+      "culture": "UK",
+      "emotions": [
+        "focused",
+        "accomplished"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 7,
+      "tone": "casual",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Costa\n- Scenario: Split payment for group order\n- Customer Profile: Organized friend\n- Emotions: focused, accomplished\n- Tone: casual (relaxed but professional)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"casual\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Hi there, what can I get for you today?",
+          "emotion": "friendly",
+          "intent": "greet and initiate order"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Morning! We'd like two flat whites, a cappuccino with an extra shot, and a pot of Earl Grey, please.",
+          "emotion": "focused",
+          "intent": "place group order clearly"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Lovely choice. That'll be \u00a314.80 altogether. Will that be on one bill or splitting it?",
+          "emotion": "helpful",
+          "intent": "confirm payment method"
+        },
+        {
+          "speaker": "Customer",
+          "text": "We'll split it - I'll cover the teas and one coffee, and my mates will sort the rest. Can you do separate contactless payments?",
+          "emotion": "accomplished",
+          "intent": "organize payment efficiently"
+        },
+        {
+          "speaker": "Barista",
+          "text": "No problem at all. Let's do yours first - that's \u00a36.20 for the Earl Grey and one flat white.",
+          "emotion": "patient",
+          "intent": "facilitate split payment"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Perfect, ta. *pays* Right, James - your cappuccino's \u00a34.60 and Sarah's coffee is \u00a33.80.",
+          "emotion": "efficient",
+          "intent": "delegate remaining payments"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Morning!",
+          "explanation": "Common UK daytime greeting more casual than 'Good morning', establishing relaxed tone."
+        },
+        {
+          "phrase": "ta",
+          "explanation": "British colloquialism for 'thank you' (from 'thanks'), reinforcing casual register among familiar speakers."
+        },
+        {
+          "phrase": "my mates",
+          "explanation": "Natural UK term for friends in group contexts, avoiding overly formal 'friends' or American 'buddies'."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Costa",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "034",
+      "scenario": "Using a discount voucher",
+      "customer_profile": "Budget-conscious student",
+      "culture": "UK",
+      "emotions": [
+        "hopeful",
+        "pleased"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 8,
+      "tone": "friendly",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Starbucks\n- Scenario: Using a discount voucher\n- Customer Profile: Budget-conscious student\n- Emotions: hopeful, pleased\n- Tone: friendly (warm, familiar between regulars)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"friendly\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Morning, love! Your usual flat white today?",
+          "emotion": "cheerful",
+          "intent": "recognise regular"
+        },
+        {
+          "speaker": "Customer",
+          "text": "You know it! Though I\u2019ve actually got a voucher this time\u2014mind if I use it?",
+          "emotion": "hopeful",
+          "intent": "request discount"
+        },
+        {
+          "speaker": "Barista",
+          "text": "No worries at all! Let\u2019s have a squiz at that voucher code.",
+          "emotion": "helpful",
+          "intent": "assist"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Brilliant, cheers! It\u2019s from my student union\u2014proper chuffed they finally did a deal with you lot.",
+          "emotion": "pleased",
+          "intent": "share context"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Ah, spot on! That\u2019ll knock two quid off. Still want that extra shot in there?",
+          "emotion": "playful",
+          "intent": "confirm order"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Go on then\u2014treat myself since I\u2019m saving!",
+          "emotion": "grateful",
+          "intent": "accept upsell"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Morning, love!",
+          "explanation": "Common UK caf\u00e9 greeting; \u2018love\u2019 conveys warmth without over-familiarity in northern/midlands dialects."
+        },
+        {
+          "phrase": "Let\u2019s have a squiz",
+          "explanation": "Casual Aussie-derived slang (\u2018squiz\u2019 = look) now widely understood in UK youth culture."
+        },
+        {
+          "phrase": "Proper chuffed",
+          "explanation": "Authentic British colloquialism (\u2018chuffed\u2019 = pleased) emphasises student\u2019s regional identity."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Starbucks",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "035",
+      "scenario": "Multiple order corrections",
+      "customer_profile": "Indecisive customer",
+      "culture": "UK",
+      "emotions": [
+        "confused",
+        "apologetic",
+        "satisfied"
+      ],
+      "success_rating": 7,
+      "naturalness_rating": 8,
+      "tone": "casual",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Caff\u00e8 Nero\n- Scenario: Multiple order corrections\n- Customer Profile: Indecisive customer\n- Emotions: confused, apologetic, satisfied\n- Tone: casual (relaxed but professional)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"casual\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Hi there, what can I get for you today?",
+          "emotion": "friendly",
+          "intent": "greet and initiate order"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Erm, could I have a latte, please? Actually, no\u2014maybe a cappuccino?",
+          "emotion": "confused",
+          "intent": "request with hesitation"
+        },
+        {
+          "speaker": "Barista",
+          "text": "No worries! A cappuccino it is. Would you like any syrups or extras with that?",
+          "emotion": "patient",
+          "intent": "confirm and upsell"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Oh, sorry\u2014do you do caramel? Or wait, is vanilla nicer?",
+          "emotion": "apologetic",
+          "intent": "indecisive follow-up"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Both are popular! Caramel\u2019s a bit richer, if that helps?",
+          "emotion": "helpful",
+          "intent": "guide decision"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Right, let\u2019s go for caramel then. Cheers!",
+          "emotion": "satisfied",
+          "intent": "finalise order"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Perfect\u2014one caramel cappuccino coming up. That\u2019ll be \u00a33.20, please.",
+          "emotion": "cheerful",
+          "intent": "conclude transaction"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "No worries!",
+          "explanation": "A common UK phrase to reassure someone, conveying patience and approachability."
+        },
+        {
+          "phrase": "Cheers!",
+          "explanation": "Informal British alternative to 'thanks', fitting the casual caf\u00e9 tone."
+        },
+        {
+          "phrase": "Erm",
+          "explanation": "Natural hesitation filler in UK English, making the dialogue more authentic."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Caff\u00e8 Nero",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "036",
+      "scenario": "Elderly customer needing assistance",
+      "customer_profile": "Elderly gentleman",
+      "culture": "UK",
+      "emotions": [
+        "patient",
+        "grateful"
+      ],
+      "success_rating": 9,
+      "naturalness_rating": 9,
+      "tone": "formal",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Costa\n- Scenario: Elderly customer needing assistance\n- Customer Profile: Elderly gentleman\n- Emotions: patient, grateful\n- Tone: formal (polite, structured)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"formal\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Good morning, sir! How may I help you today?",
+          "emotion": "cheerful",
+          "intent": "greet and offer assistance"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Good morning, young lady. I'm afraid I'm having a bit of trouble reading the menu. Would you mind helping an old chap out?",
+          "emotion": "polite",
+          "intent": "request assistance"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Of course, sir! It's no trouble at all. Our special today is a flat white with a complimentary biscuit. Might that interest you?",
+          "emotion": "patient",
+          "intent": "offer suggestion"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Oh, that sounds lovely! I do enjoy a flat white. And how kind to include a biscuit - just what I need with my morning cuppa.",
+          "emotion": "grateful",
+          "intent": "accept offer"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Splendid! Would you like that to have in or take away? We've some very comfortable armchairs free by the window.",
+          "emotion": "helpful",
+          "intent": "confirm order details"
+        },
+        {
+          "speaker": "Customer",
+          "text": "I think I'll stay in today, thank you. That window seat looks perfect for people watching.",
+          "emotion": "content",
+          "intent": "make selection"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Excellent choice, sir. That'll be \u00a33.20 please. I'll bring it over to you when it's ready.",
+          "emotion": "professional",
+          "intent": "conclude transaction"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Thank you ever so much for your patience. You've been most kind.",
+          "emotion": "appreciative",
+          "intent": "express gratitude"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Would you mind helping an old chap out?",
+          "explanation": "This quintessentially British self-deprecating phrase softens the request for help while maintaining dignity."
+        },
+        {
+          "phrase": "just what I need with my morning cuppa",
+          "explanation": "'Cuppa' is a common British colloquialism for a cup of tea, showing cultural authenticity in an elderly speaker's vocabulary."
+        },
+        {
+          "phrase": "Splendid!",
+          "explanation": "This slightly old-fashioned exclamation maintains formal cheerfulness while being appropriate for addressing an elderly customer."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Costa",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "037",
+      "scenario": "Teenager ordering with friends",
+      "customer_profile": "Confident teenager",
+      "culture": "UK",
+      "emotions": [
+        "excited",
+        "social"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 9,
+      "tone": "casual",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Starbucks\n- Scenario: Teenager ordering with friends\n- Customer Profile: Confident teenager\n- Emotions: excited, social\n- Tone: casual (relaxed but professional)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"casual\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Hi there, what can I get for you today?",
+          "emotion": "friendly",
+          "intent": "greet and take order"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Hey! Can I get a caramel frappuccino with extra whipped cream, please?",
+          "emotion": "excited",
+          "intent": "place order"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Sure thing! What size would you like?",
+          "emotion": "helpful",
+          "intent": "clarify order"
+        },
+        {
+          "speaker": "Customer",
+          "text": "I'll go for a grande, cheers!",
+          "emotion": "confident",
+          "intent": "confirm order"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Lovely! That\u2019ll be \u00a34.20, please.",
+          "emotion": "polite",
+          "intent": "request payment"
+        },
+        {
+          "speaker": "Customer",
+          "text": "No worries\u2014here you go!",
+          "emotion": "cheerful",
+          "intent": "pay"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Thanks! Your drink will be ready in a mo.",
+          "emotion": "grateful",
+          "intent": "confirm payment and reassure"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "cheers",
+          "explanation": "Common UK casual alternative to 'thanks', especially among younger speakers."
+        },
+        {
+          "phrase": "in a mo",
+          "explanation": "Short for 'in a moment', a colloquial British phrase indicating a short wait."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Starbucks",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "038",
+      "scenario": "Parent with crying child",
+      "customer_profile": "Stressed parent",
+      "culture": "UK",
+      "emotions": [
+        "stressed",
+        "grateful",
+        "relieved"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 8,
+      "tone": "friendly",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Caff\u00e8 Nero\n- Scenario: Parent with crying child\n- Customer Profile: Stressed parent\n- Emotions: stressed, grateful, relieved\n- Tone: friendly (warm, familiar between regulars)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"friendly\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Oh dear, sounds like someone's having a tough morning! Can I get you your usual to help out?",
+          "emotion": "sympathetic",
+          "intent": "offer comfort and familiarity"
+        },
+        {
+          "speaker": "Customer",
+          "text": "You're a lifesaver, Sarah. Just a flat white, please \u2013 and maybe a babyccino for this little tornado?",
+          "emotion": "stressed but grateful",
+          "intent": "request while acknowledging help"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Coming right up! Here's a biscuit to tide them over \u2013 on the house. We've all been there.",
+          "emotion": "warmly understanding",
+          "intent": "build rapport with small gesture"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Bless you, that's so kind. *sigh* Teething's been brutal this week.",
+          "emotion": "relieved",
+          "intent": "share vulnerability"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Pop into that corner sofa \u2013 it's comfier for feeding. I'll bring your order over when it's ready.",
+          "emotion": "practical kindness",
+          "intent": "offer discreet support"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Honestly, why do I even bother with other caf\u00e9s? You lot are proper angels.",
+          "emotion": "deeply grateful",
+          "intent": "express loyalty"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "You're a lifesaver",
+          "explanation": "Common British hyperbole to express gratitude, implying the barista is solving a crisis-level problem."
+        },
+        {
+          "phrase": "Proper angels",
+          "explanation": "Colloquial intensifier ('proper') paired with religious metaphor reflects UK caf\u00e9 culture's familial exaggeration between regulars."
+        },
+        {
+          "phrase": "Babyccino",
+          "explanation": "UK caf\u00e9 staple \u2013 frothy milk in espresso cup for children, demonstrates cultural familiarity with family-friendly coffee chains."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Caff\u00e8 Nero",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "039",
+      "scenario": "Very busy period queuing",
+      "customer_profile": "Impatient commuter",
+      "culture": "UK",
+      "emotions": [
+        "impatient",
+        "understanding"
+      ],
+      "success_rating": 7,
+      "naturalness_rating": 8,
+      "tone": "formal",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Costa\n- Scenario: Very busy period queuing\n- Customer Profile: Impatient commuter\n- Emotions: impatient, understanding\n- Tone: formal (polite, structured)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"formal\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Good morning! Sorry about the wait\u2014we're quite busy this morning. What can I get for you?",
+          "emotion": "apologetic",
+          "intent": "acknowledge delay and initiate order"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Morning. I'll have a large flat white, please. And make it quick\u2014I've got a train to catch.",
+          "emotion": "impatient",
+          "intent": "place order with urgency"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Of course, I'll prioritise that for you. Would you like anything else with that? A pastry, perhaps?",
+          "emotion": "accommodating",
+          "intent": "upsell while acknowledging haste"
+        },
+        {
+          "speaker": "Customer",
+          "text": "No, just the coffee, thanks. I appreciate you rushing it.",
+          "emotion": "slightly mollified",
+          "intent": "decline upsell but acknowledge effort"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Not at all\u2014here's your receipt. Your coffee will be ready at the end in just a mo.",
+          "emotion": "reassuring",
+          "intent": "confirm speedy service"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Cheers. Fingers crossed for my train, then.",
+          "emotion": "grateful but still anxious",
+          "intent": "express thanks with cultural idiom"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "make it quick",
+          "explanation": "Direct but polite phrasing common in UK service interactions when expressing urgency without rudeness."
+        },
+        {
+          "phrase": "just a mo",
+          "explanation": "Colloquial abbreviation of 'moment' reinforces UK informality within formal exchanges, building rapport."
+        },
+        {
+          "phrase": "Fingers crossed",
+          "explanation": "Quintessentially British idiom expressing hopefulness, softening the customer's earlier impatience."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Costa",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "040",
+      "scenario": "Meeting friends coordination",
+      "customer_profile": "Social coordinator",
+      "culture": "UK",
+      "emotions": [
+        "organized",
+        "cheerful"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 8,
+      "tone": "friendly",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Starbucks\n- Scenario: Meeting friends coordination\n- Customer Profile: Social coordinator\n- Emotions: organized, cheerful\n- Tone: friendly (warm, familiar between regulars)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"friendly\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Morning, Sarah! The usual flat white to start your day?",
+          "emotion": "cheerful",
+          "intent": "acknowledge regular customer"
+        },
+        {
+          "speaker": "Customer",
+          "text": "You know me too well! Actually, make it two today - meeting Jenna for a natter in 10.",
+          "emotion": "organized",
+          "intent": "place order + share context"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Lovely! Shall I pop them both under your loyalty card? Jenna's been in already - left her umbrella by the till last Thursday.",
+          "emotion": "helpful",
+          "intent": "confirm details + build rapport"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Oh brilliant, saves me texting! Could we grab that comfy corner booth? Need to finalize our book club plans.",
+          "emotion": "grateful",
+          "intent": "request seating + explain purpose"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Sorted! I'll bring over some shortbread biscuits on the house - you ladies always have proper chinwags.",
+          "emotion": "warm",
+          "intent": "offer hospitality"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "for a natter",
+          "explanation": "UK colloquialism meaning 'for a chat' - establishes informal tone between friends"
+        },
+        {
+          "phrase": "proper chinwags",
+          "explanation": "British idiom implying lively, lengthy conversations - shows barista's familiarity with their routine"
+        },
+        {
+          "phrase": "Shall I pop them...",
+          "explanation": "Polite UK phrasing for transactions - 'pop' implies effortless service between acquaintances"
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Starbucks",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "041",
+      "scenario": "Too cold in the shop complaint",
+      "customer_profile": "Sensitive customer",
+      "culture": "UK",
+      "emotions": [
+        "uncomfortable",
+        "understanding"
+      ],
+      "success_rating": 7,
+      "naturalness_rating": 8,
+      "tone": "casual",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Caff\u00e8 Nero\n- Scenario: Too cold in the shop complaint\n- Customer Profile: Sensitive customer\n- Emotions: uncomfortable, understanding\n- Tone: casual (relaxed but professional)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"casual\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "text": "Excuse me, I don't mean to be a bother, but it's absolutely freezing in here. Could we possibly turn the heating up a tad?",
+          "emotion": "uncomfortable",
+          "intent": "request assistance"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Oh, I'm ever so sorry about that! Let me check the thermostat for you\u2014it has been a bit nippy today, hasn't it?",
+          "emotion": "understanding",
+          "intent": "acknowledge complaint"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Thanks ever so much. I do love this place, just a bit too chilly to enjoy my latte properly.",
+          "emotion": "grateful",
+          "intent": "soften complaint"
+        },
+        {
+          "speaker": "Barista",
+          "text": "No trouble at all! I've adjusted it\u2014should warm up shortly. Can I get you another drink on the house while you wait?",
+          "emotion": "apologetic",
+          "intent": "offer compensation"
+        },
+        {
+          "speaker": "Customer",
+          "text": "That's really kind of you, but I'm alright. Just appreciate you sorting it.",
+          "emotion": "pleased",
+          "intent": "decline politely"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "absolutely freezing",
+          "explanation": "Common British understatement for being very cold, adding politeness to the complaint."
+        },
+        {
+          "phrase": "on the house",
+          "explanation": "Casual yet professional way to offer a complimentary item, typical in UK service interactions."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Caff\u00e8 Nero",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "042",
+      "scenario": "Asking for extra napkins and stirrers",
+      "customer_profile": "Practical customer",
+      "culture": "UK",
+      "emotions": [
+        "practical",
+        "appreciative"
+      ],
+      "success_rating": 9,
+      "naturalness_rating": 9,
+      "tone": "casual",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Costa\n- Scenario: Asking for extra napkins and stirrers\n- Customer Profile: Practical customer\n- Emotions: practical, appreciative\n- Tone: casual (relaxed but professional)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"casual\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Hi there, what can I get for you today?",
+          "emotion": "friendly",
+          "intent": "greet and offer service"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Hello! Could I have a large latte to take away, please?",
+          "emotion": "polite",
+          "intent": "place order"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Of course! That\u2019ll be \u00a33.20. Would you like any extras with that?",
+          "emotion": "helpful",
+          "intent": "confirm order and upsell"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Actually, could I grab a few extra napkins and stirrers? I always seem to need them.",
+          "emotion": "practical",
+          "intent": "request additional items"
+        },
+        {
+          "speaker": "Barista",
+          "text": "No problem at all\u2014here you go. I\u2019ll pop them in the bag with your coffee.",
+          "emotion": "accommodating",
+          "intent": "fulfil request"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Brilliant, thanks ever so much. Appreciate it!",
+          "emotion": "appreciative",
+          "intent": "express gratitude"
+        },
+        {
+          "speaker": "Barista",
+          "text": "You're welcome! Enjoy your coffee.",
+          "emotion": "cheerful",
+          "intent": "conclude interaction"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Brilliant, thanks ever so much",
+          "explanation": "A common British phrase combining casual enthusiasm ('Brilliant') with polite gratitude ('thanks ever so much'), reflecting appreciative yet understated manners."
+        },
+        {
+          "phrase": "I\u2019ll pop them in the bag",
+          "explanation": "'Pop' is a colloquial UK term meaning 'put casually but efficiently', fitting the casual yet professional tone of Costa's service."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Costa",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "043",
+      "scenario": "Comparing menu items between brands",
+      "customer_profile": "Analytical customer",
+      "culture": "UK",
+      "emotions": [
+        "curious",
+        "informed"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 7,
+      "tone": "formal",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Starbucks\n- Scenario: Comparing menu items between brands\n- Customer Profile: Analytical customer\n- Emotions: curious, informed\n- Tone: formal (polite, structured)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"formal\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Good afternoon! What can I get for you today?",
+          "emotion": "friendly",
+          "intent": "greet and initiate service"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Hello! I was wondering how your flat white compares to Costa's version. I find theirs a bit too milky for my taste.",
+          "emotion": "curious",
+          "intent": "seek specific comparison"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Ah, excellent question! Ours has a stronger espresso-to-milk ratio - we use a double ristretto shot as standard, whereas some chains use a single. Would you like to try a sample before committing?",
+          "emotion": "knowledgeable",
+          "intent": "provide expert advice and offer assistance"
+        },
+        {
+          "speaker": "Customer",
+          "text": "That's very kind, thank you. I notice you also do the oat milk option - how does that affect the flavour profile compared to regular dairy?",
+          "emotion": "engaged",
+          "intent": "request detailed information"
+        },
+        {
+          "speaker": "Barista",
+          "text": "It creates a slightly nuttier finish while still maintaining good texture. Many customers prefer it as it lets the coffee notes shine through more than standard milk.",
+          "emotion": "helpful",
+          "intent": "explain product characteristics"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Right then, I'll take a grande oat milk flat white please. Cheers for the advice!",
+          "emotion": "satisfied",
+          "intent": "make informed purchase"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Spot on choice! That'll be \u00a33.80 at the till when you're ready.",
+          "emotion": "approving",
+          "intent": "confirm order and state price"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Spot on choice!",
+          "explanation": "A very British way of showing approval - 'spot on' implies precise correctness while maintaining polite enthusiasm."
+        },
+        {
+          "phrase": "That's very kind, thank you",
+          "explanation": "Demonstrates the British tendency for understated politeness when accepting offers of assistance."
+        },
+        {
+          "phrase": "Right then",
+          "explanation": "A common UK discourse marker used to signal decision-making, more formal than alternatives like 'okay then'."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Starbucks",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "044",
+      "scenario": "Celebrating with special order",
+      "customer_profile": "Happy celebrant",
+      "culture": "UK",
+      "emotions": [
+        "excited",
+        "joyful"
+      ],
+      "success_rating": 9,
+      "naturalness_rating": 9,
+      "tone": "friendly",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Caff\u00e8 Nero\n- Scenario: Celebrating with special order\n- Customer Profile: Happy celebrant\n- Emotions: excited, joyful\n- Tone: friendly (warm, familiar between regulars)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"friendly\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "text": "Morning, Tom! Guess what? I\u2019ve just landed a promotion!",
+          "emotion": "excited",
+          "intent": "share good news"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Blimey, that\u2019s brilliant news! Congrats, mate! The usual flat white to celebrate, or something fancier?",
+          "emotion": "joyful",
+          "intent": "congratulate and upsell"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Oh, go on then\u2014make it a large caramel latte with extra whipped cream. Treat myself!",
+          "emotion": "giddy",
+          "intent": "indulge"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Proper celebratory order, that! Coming right up\u2014and I\u2019ll pop a free biscuit on the side. Well deserved!",
+          "emotion": "warm",
+          "intent": "reward loyalty"
+        },
+        {
+          "speaker": "Customer",
+          "text": "You\u2019re a star! Cheers, Tom\u2014this is why I love popping in here.",
+          "emotion": "grateful",
+          "intent": "express appreciation"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Blimey, that\u2019s brilliant news!",
+          "explanation": "\u2018Blimey\u2019 is a common British exclamation conveying surprise, while \u2018brilliant\u2019 reflects UK enthusiasm (vs. American \u2018awesome\u2019)."
+        },
+        {
+          "phrase": "Proper celebratory order, that!",
+          "explanation": "Inversion (\u2018that\u2019) and \u2018proper\u2019 emphasise authentic UK colloquialism, implying genuine approval."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Caff\u00e8 Nero",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "045",
+      "scenario": "Non-native speaker struggling",
+      "customer_profile": "ESL learner",
+      "culture": "UK",
+      "emotions": [
+        "nervous",
+        "encouraged"
+      ],
+      "success_rating": 7,
+      "naturalness_rating": 8,
+      "tone": "friendly",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Costa\n- Scenario: Non-native speaker struggling\n- Customer Profile: ESL learner\n- Emotions: nervous, encouraged\n- Tone: friendly (warm, familiar between regulars)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"friendly\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "text": "Um, hello... could I please have a... how you say... flat white?",
+          "emotion": "nervous",
+          "intent": "requesting coffee with hesitation"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Of course, love! One flat white coming right up. Would you like that regular or large?",
+          "emotion": "warm",
+          "intent": "clarifying order reassuringly"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Regular, please. And... sorry, what is 'skinny' milk?",
+          "emotion": "encouraged but unsure",
+          "intent": "seeking clarification"
+        },
+        {
+          "speaker": "Barista",
+          "text": "No worries at all! That's just our way of saying skimmed milk. You're doing grand - fancy anything to nibble with that? Our lemon drizzle's proper lush today.",
+          "emotion": "friendly",
+          "intent": "explaining colloquialism and upselling"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Oh! Yes please, that sounds... lovely. Thank you for being patient with me.",
+          "emotion": "grateful",
+          "intent": "expressing appreciation"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Anytime, pet! Here's your loyalty card - pop in next week and we'll have you ordering like a local!",
+          "emotion": "encouraging",
+          "intent": "building rapport"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "You're doing grand",
+          "explanation": "Northern English colloquialism meaning 'very well', used here to reassure while sounding authentically regional."
+        },
+        {
+          "phrase": "proper lush",
+          "explanation": "West Midlands slang for 'very delicious', intentionally used to expose learner to playful UK food descriptors."
+        },
+        {
+          "phrase": "Anytime, pet",
+          "explanation": "Northeast term of endearment ('pet') softens transactional exchange, reinforcing the regular-customer dynamic."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Costa",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "046",
+      "scenario": "Customer with hearing difficulty",
+      "customer_profile": "Hard of hearing customer",
+      "culture": "UK",
+      "emotions": [
+        "patient",
+        "grateful"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 8,
+      "tone": "formal",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Starbucks\n- Scenario: Customer with hearing difficulty\n- Customer Profile: Hard of hearing customer\n- Emotions: patient, grateful\n- Tone: formal (polite, structured)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"formal\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Good morning! What can I get for you today?",
+          "emotion": "friendly",
+          "intent": "initiate order"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Good morning. I\u2019m hard of hearing, so I might need you to repeat things\u2014I\u2019d like a flat white, please.",
+          "emotion": "polite",
+          "intent": "disclose hearing difficulty and place order"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Of course, no problem at all. A flat white\u2014would you like that regular or large?",
+          "emotion": "patient",
+          "intent": "clarify order details"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Regular, please. And could I have it with oat milk?",
+          "emotion": "grateful",
+          "intent": "specify preferences"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Absolutely. One regular flat white with oat milk. Would you like anything else with that?",
+          "emotion": "accommodating",
+          "intent": "upsell and confirm order"
+        },
+        {
+          "speaker": "Customer",
+          "text": "No, that\u2019s all\u2014thank you so much for your patience.",
+          "emotion": "appreciative",
+          "intent": "conclude order"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Not at all. Your total is \u00a33.20, and I\u2019ll bring it over to your table when it\u2019s ready.",
+          "emotion": "helpful",
+          "intent": "confirm payment and service"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "I\u2019m hard of hearing, so I might need you to repeat things",
+          "explanation": "Direct yet polite disclosure aligns with UK cultural norms of clear communication while maintaining courtesy."
+        },
+        {
+          "phrase": "Not at all",
+          "explanation": "A common British response to thanks, conveying reassurance without over-formality."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Starbucks",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "047",
+      "scenario": "Very tired early morning customer",
+      "customer_profile": "Exhausted worker",
+      "culture": "UK",
+      "emotions": [
+        "exhausted",
+        "desperate",
+        "grateful"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 9,
+      "tone": "casual",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Caff\u00e8 Nero\n- Scenario: Very tired early morning customer\n- Customer Profile: Exhausted worker\n- Emotions: exhausted, desperate, grateful\n- Tone: casual (relaxed but professional)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"casual\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Morning! You look like you could use a strong coffee.",
+          "emotion": "friendly",
+          "intent": "greet and assess"
+        },
+        {
+          "speaker": "Customer",
+          "text": "God, yes. I\u2019ve been up since 4am. Just need something to keep me going.",
+          "emotion": "exhausted",
+          "intent": "express need"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Rough one. Our double espresso usually does the trick\u2014fancy a shot with some hot milk to take the edge off?",
+          "emotion": "sympathetic",
+          "intent": "suggest solution"
+        },
+        {
+          "speaker": "Customer",
+          "text": "You\u2019re a lifesaver. Make it a large, please. And maybe a bacon roll if you\u2019ve got any left?",
+          "emotion": "desperate",
+          "intent": "request items"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Sorted! One \u2018save-the-day\u2019 latte coming up, and we\u2019ve just pulled fresh rolls out the oven.",
+          "emotion": "reassuring",
+          "intent": "confirm order"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Cheers, mate. Seriously, you\u2019ve no idea how much I need this.",
+          "emotion": "grateful",
+          "intent": "thank"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "God, yes",
+          "explanation": "Common UK exclamation showing tired exasperation; more natural than 'Oh yes' in this context."
+        },
+        {
+          "phrase": "You\u2019re a lifesaver",
+          "explanation": "Colloquial hyperbolic gratitude typical in British service interactions to lighten the mood."
+        },
+        {
+          "phrase": "Sorted!",
+          "explanation": "Very British informal confirmation implying effortless resolution, putting the customer at ease."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Caff\u00e8 Nero",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "048",
+      "scenario": "Wrong drink received yesterday",
+      "customer_profile": "Returning customer",
+      "culture": "UK",
+      "emotions": [
+        "disappointed",
+        "hopeful",
+        "satisfied"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 8,
+      "tone": "formal",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Costa\n- Scenario: Wrong drink received yesterday\n- Customer Profile: Returning customer\n- Emotions: disappointed, hopeful, satisfied\n- Tone: formal (polite, structured)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"formal\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "text": "Good morning. I hope you can help me\u2014I visited yesterday and received the wrong drink.",
+          "emotion": "disappointed",
+          "intent": "express concern politely"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Oh dear, I'm terribly sorry about that. Could you tell me what you ordered and what you received instead?",
+          "emotion": "apologetic",
+          "intent": "acknowledge and clarify"
+        },
+        {
+          "speaker": "Customer",
+          "text": "I ordered a flat white with oat milk, but I was given a latte with regular milk. I\u2019m lactose intolerant, so it was quite inconvenient.",
+          "emotion": "frustrated",
+          "intent": "explain issue clearly"
+        },
+        {
+          "speaker": "Barista",
+          "text": "That\u2019s completely unacceptable\u2014I do apologise. Let me make you the correct drink straight away, on the house.",
+          "emotion": "remorseful",
+          "intent": "rectify mistake"
+        },
+        {
+          "speaker": "Customer",
+          "text": "That\u2019s very kind of you, thank you. I do appreciate it.",
+          "emotion": "hopeful",
+          "intent": "acknowledge goodwill"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Not at all\u2014it\u2019s the least we can do. While I prepare this, would you like a complimentary pastry to make up for the trouble?",
+          "emotion": "conciliatory",
+          "intent": "offer compensation"
+        },
+        {
+          "speaker": "Customer",
+          "text": "That\u2019s very generous\u2014I\u2019d love a croissant, please. You\u2019ve turned this around wonderfully.",
+          "emotion": "satisfied",
+          "intent": "accept and praise"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Oh dear, I'm terribly sorry",
+          "explanation": "A quintessentially British understatement conveying sincere apology without over-dramatisation."
+        },
+        {
+          "phrase": "That\u2019s completely unacceptable",
+          "explanation": "Formal phrasing emphasising seriousness while maintaining professionalism\u2014common in UK customer service."
+        },
+        {
+          "phrase": "You\u2019ve turned this around wonderfully",
+          "explanation": "Polite British praise often using adverbs ('wonderfully') to soften positive feedback."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Costa",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "049",
+      "scenario": "Promotional offer confusion",
+      "customer_profile": "Confused customer",
+      "culture": "UK",
+      "emotions": [
+        "confused",
+        "clarified"
+      ],
+      "success_rating": 7,
+      "naturalness_rating": 8,
+      "tone": "friendly",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Starbucks\n- Scenario: Promotional offer confusion\n- Customer Profile: Confused customer\n- Emotions: confused, clarified\n- Tone: friendly (warm, familiar between regulars)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"friendly\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "text": "Excuse me, I'm a bit confused about this 'buy one get one free' offer on the board. Does it apply to all drinks?",
+          "emotion": "confused",
+          "intent": "clarify promotion"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Ah, no worries at all! It's just for our holiday specials\u2014the peppermint mocha and gingerbread latte. Fancy giving one a go?",
+          "emotion": "friendly",
+          "intent": "explain offer"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Oh, right! I didn't spot the small print. Cheers for that. Might try the gingerbread one then\u2014sounds proper festive!",
+          "emotion": "clarified",
+          "intent": "express interest"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Brilliant choice! That\u2019s my personal favourite too. Would you like the second one now or save it for later?",
+          "emotion": "warm",
+          "intent": "upsell"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Might as well take both now\u2014my mate\u2019s joining me in a bit. Ta very much!",
+          "emotion": "grateful",
+          "intent": "accept offer"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Cheers for that",
+          "explanation": "Common UK colloquialism expressing thanks, more casual than 'thank you' and builds rapport."
+        },
+        {
+          "phrase": "Sounds proper festive",
+          "explanation": "'Proper' intensifies the adjective in UK English, and 'festive' reflects seasonal cultural context."
+        },
+        {
+          "phrase": "Ta very much",
+          "explanation": "Informal British variant of 'thanks', often used between regulars to sound familiar and warm."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Starbucks",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "050",
+      "scenario": "Asking about job applications",
+      "customer_profile": "Job seeker",
+      "culture": "UK",
+      "emotions": [
+        "hopeful",
+        "professional"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 8,
+      "tone": "formal",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Caff\u00e8 Nero\n- Scenario: Asking about job applications\n- Customer Profile: Job seeker\n- Emotions: hopeful, professional\n- Tone: formal (polite, structured)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"formal\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "text": "Good morning! I was wondering if you might have any job vacancies at the moment?",
+          "emotion": "hopeful",
+          "intent": "inquire about job opportunities"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Good morning! Let me check for you\u2014we might have some openings. Are you looking for full-time or part-time work?",
+          "emotion": "helpful",
+          "intent": "gather information"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Part-time would be ideal, as I'm currently studying. I\u2019ve got some experience in customer service, if that helps.",
+          "emotion": "professional",
+          "intent": "provide relevant details"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Brilliant! We do value experience here. Would you like to fill out an application form, or would you prefer to email your CV?",
+          "emotion": "encouraging",
+          "intent": "offer options"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Emailing my CV would be great, thank you. Could you let me know the best address to send it to?",
+          "emotion": "grateful",
+          "intent": "request specific information"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Of course! It\u2019s careers@caffenero.com. Make sure to mention this location in your email\u2014we\u2019re the branch on High Street.",
+          "emotion": "friendly",
+          "intent": "provide clear instructions"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Perfect, I\u2019ll do that straight away. Thanks ever so much for your help!",
+          "emotion": "appreciative",
+          "intent": "express gratitude"
+        },
+        {
+          "speaker": "Barista",
+          "text": "You\u2019re very welcome. Best of luck with your application!",
+          "emotion": "warm",
+          "intent": "wish well"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Brilliant! We do value experience here.",
+          "explanation": "The word 'brilliant' is commonly used in UK English to express approval or enthusiasm, fitting the polite yet encouraging tone."
+        },
+        {
+          "phrase": "Thanks ever so much for your help!",
+          "explanation": "'Ever so much' is a British colloquialism that adds politeness and warmth, aligning with the formal but friendly interaction."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Caff\u00e8 Nero",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "051",
+      "scenario": "Tourist asking for directions",
+      "customer_profile": "Lost tourist",
+      "culture": "UK",
+      "emotions": [
+        "confused",
+        "grateful"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 8,
+      "tone": "friendly",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Costa\n- Scenario: Tourist asking for directions\n- Customer Profile: Lost tourist\n- Emotions: confused, grateful\n- Tone: friendly (warm, familiar between regulars)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"friendly\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "text": "Excuse me, I'm a bit lost. Could you point me towards the British Museum?",
+          "emotion": "confused",
+          "intent": "ask for directions"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Oh, you're not far at all! Just head left out the door, then take the second right onto Great Russell Street. You can't miss it.",
+          "emotion": "friendly",
+          "intent": "provide directions"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Left out the door, then second right... Got it. Cheers!",
+          "emotion": "grateful",
+          "intent": "confirm understanding"
+        },
+        {
+          "speaker": "Barista",
+          "text": "No worries at all! Fancy a cuppa before you go? Our flat whites are proper lovely.",
+          "emotion": "warm",
+          "intent": "offer hospitality"
+        },
+        {
+          "speaker": "Customer",
+          "text": "You know what? That sounds brilliant. I could use a quick sit-down.",
+          "emotion": "relieved",
+          "intent": "accept offer"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Cheers!",
+          "explanation": "Common British informal expression of thanks, fitting the casual coffee shop setting."
+        },
+        {
+          "phrase": "Proper lovely",
+          "explanation": "Colloquial UK phrasing emphasising genuine quality, typical of friendly staff recommendations."
+        },
+        {
+          "phrase": "Fancy a cuppa",
+          "explanation": "Invitation using familiar British vernacular ('cuppa' for hot drink) to establish warm tone."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Costa",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "052",
+      "scenario": "Scottish customer with strong accent",
+      "customer_profile": "Scottish visitor",
+      "culture": "UK",
+      "emotions": [
+        "friendly",
+        "patient"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 7,
+      "tone": "casual",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Starbucks\n- Scenario: Scottish customer with strong accent\n- Customer Profile: Scottish visitor\n- Emotions: friendly, patient\n- Tone: casual (relaxed but professional)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"casual\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Good morning! What can I get for you today?",
+          "emotion": "friendly",
+          "intent": "greet and initiate order"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Aye, mornin\u2019! I\u2019ll have a flat white, please. And maybe one o\u2019 those wee caramel shortbreads?",
+          "emotion": "cheerful",
+          "intent": "place order with regional phrasing"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Of course! A flat white and a caramel shortbread. Would you like that shortbread warmed up?",
+          "emotion": "helpful",
+          "intent": "offer additional service"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Och, that\u2019d be grand, thanks! You\u2019re a star.",
+          "emotion": "appreciative",
+          "intent": "express gratitude with Scottish colloquialism"
+        },
+        {
+          "speaker": "Barista",
+          "text": "No problem at all. That\u2019ll be \u00a34.80, please.",
+          "emotion": "polite",
+          "intent": "confirm order and state price"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Here ye go\u2014keep the change for yersel\u2019.",
+          "emotion": "generous",
+          "intent": "tip and close interaction warmly"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Och, that\u2019d be grand, thanks!",
+          "explanation": "\u2018Och\u2019 is a common Scottish interjection expressing mild surprise or agreement, while \u2018grand\u2019 is frequently used to mean \u2018fine\u2019 or \u2018good\u2019 in Scottish English."
+        },
+        {
+          "phrase": "You\u2019re a star.",
+          "explanation": "A lighthearted, colloquial compliment in UK English, often used to express appreciation in service interactions."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Starbucks",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "053",
+      "scenario": "Customer asking about local events",
+      "customer_profile": "Community-minded local",
+      "culture": "UK",
+      "emotions": [
+        "curious",
+        "engaged"
+      ],
+      "success_rating": 7,
+      "naturalness_rating": 8,
+      "tone": "friendly",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Caff\u00e8 Nero\n- Scenario: Customer asking about local events\n- Customer Profile: Community-minded local\n- Emotions: curious, engaged\n- Tone: friendly (warm, familiar between regulars)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"friendly\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "text": "Morning, Sarah! Lovely day for a cuppa, isn't it?",
+          "emotion": "cheerful",
+          "intent": "establish rapport"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Morning, love! Absolutely - that spring sunshine's finally showing its face. Your usual flat white?",
+          "emotion": "warm",
+          "intent": "acknowledge regular customer"
+        },
+        {
+          "speaker": "Customer",
+          "text": "You read my mind! Actually, while I'm here - any interesting happenings at the community centre this week? Saw the new noticeboard going up.",
+          "emotion": "curious",
+          "intent": "inquire about local events"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Ooh, good spotting! There's a proper knees-up Thursday evening - live folk music and a bake sale for the food bank. Fancy that?",
+          "emotion": "enthusiastic",
+          "intent": "share community news"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Sounds brilliant! Might drag the book club along - we've been meaning to do more than just natter over novels.",
+          "emotion": "engaged",
+          "intent": "express interest"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Here's your coffee, pet. Take one of these flyers - they've got all the deets. Say hi to the ladies for me!",
+          "emotion": "helpful",
+          "intent": "conclude interaction warmly"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "proper knees-up",
+          "explanation": "Quintessential British colloquialism meaning a lively social gathering, establishing cultural authenticity."
+        },
+        {
+          "phrase": "natter over novels",
+          "explanation": "Regional phrasing ('natter' for chat) combined with alliteration creates natural, characterful speech."
+        },
+        {
+          "phrase": "all the deets",
+          "explanation": "Contemporary abbreviation of 'details' showing casual rapport between regulars in a UK coffee shop setting."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Caff\u00e8 Nero",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "054",
+      "scenario": "Lunch rush quick order",
+      "customer_profile": "Efficient office worker",
+      "culture": "UK",
+      "emotions": [
+        "rushed",
+        "appreciative"
+      ],
+      "success_rating": 9,
+      "naturalness_rating": 8,
+      "tone": "formal",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Costa\n- Scenario: Lunch rush quick order\n- Customer Profile: Efficient office worker\n- Emotions: rushed, appreciative\n- Tone: formal (polite, structured)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"formal\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Good afternoon! What can I get for you today?",
+          "emotion": "cheerful",
+          "intent": "greet and initiate order"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Hello! Could I please have a medium latte and a chicken & bacon sandwich to take away?",
+          "emotion": "rushed",
+          "intent": "place quick order"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Of course! Would you like that sandwich warmed up?",
+          "emotion": "helpful",
+          "intent": "clarify order details"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Yes, please. That would be brilliant.",
+          "emotion": "appreciative",
+          "intent": "confirm preference"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Lovely. That'll be \u00a36.20 altogether. Pay by card?",
+          "emotion": "efficient",
+          "intent": "request payment"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Yes, here you go. Cheers!",
+          "emotion": "grateful",
+          "intent": "complete transaction"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "That would be brilliant.",
+          "explanation": "A common British phrase expressing polite enthusiasm, softer than 'great' but more engaged than 'fine'."
+        },
+        {
+          "phrase": "Cheers!",
+          "explanation": "Versatile UK term used here as a casual 'thank you', appropriate for quick service interactions despite formal tone."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Costa",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "055",
+      "scenario": "Student study group order",
+      "customer_profile": "Study group leader",
+      "culture": "UK",
+      "emotions": [
+        "organized",
+        "social"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 8,
+      "tone": "casual",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Starbucks\n- Scenario: Student study group order\n- Customer Profile: Study group leader\n- Emotions: organized, social\n- Tone: casual (relaxed but professional)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"casual\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Hi there! What can I get for you today?",
+          "emotion": "friendly",
+          "intent": "greet and initiate order"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Hello! We're a study group and need a proper caffeine boost. Could we get two flat whites, a caramel latte, and a pot of Earl Grey tea, please?",
+          "emotion": "organized",
+          "intent": "place group order"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Absolutely! Would you like the flat whites with regular or oat milk? We've got a new dairy-free option that's quite popular.",
+          "emotion": "helpful",
+          "intent": "clarify preferences"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Oh brilliant! Let's do oat milk for those - one of us is lactose intolerant. Cheers for asking!",
+          "emotion": "appreciative",
+          "intent": "confirm order details"
+        },
+        {
+          "speaker": "Barista",
+          "text": "No worries at all. That'll be \u00a314.20 altogether. Will you be having these here or taking away?",
+          "emotion": "professional",
+          "intent": "finalize transaction"
+        },
+        {
+          "speaker": "Customer",
+          "text": "We'll stay in - spotted some comfy sofas by the window. Here's a twenty - keep the change for the tip jar!",
+          "emotion": "generous",
+          "intent": "complete purchase"
+        },
+        {
+          "speaker": "Barista",
+          "text": "That's really kind of you! I'll bring your drinks over when they're ready. Good luck with the studying!",
+          "emotion": "grateful",
+          "intent": "conclude positively"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "proper caffeine boost",
+          "explanation": "A very British way to humorously acknowledge needing coffee for productivity, showing cultural awareness of UK understatement."
+        },
+        {
+          "phrase": "Cheers for asking!",
+          "explanation": "Common UK casual expression of thanks that's more natural than 'thank you' in this context, establishing regional authenticity."
+        },
+        {
+          "phrase": "keep the change for the tip jar",
+          "explanation": "Reflects UK tipping culture where rounding up is more common than percentage tips, showing cultural accuracy."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Starbucks",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "056",
+      "scenario": "Date preparation nervousness",
+      "customer_profile": "Nervous date-goer",
+      "culture": "UK",
+      "emotions": [
+        "nervous",
+        "excited",
+        "grateful"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 9,
+      "tone": "friendly",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Caff\u00e8 Nero\n- Scenario: Date preparation nervousness\n- Customer Profile: Nervous date-goer\n- Emotions: nervous, excited, grateful\n- Tone: friendly (warm, familiar between regulars)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"friendly\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Alright there, love? Usual flat white to calm the nerves?",
+          "emotion": "warm",
+          "intent": "recognise regular/offer comfort"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Oh, you noticed! Yeah, ta\u2014meeting someone special in 20 minutes and I\u2019m proper bricking it.",
+          "emotion": "nervous",
+          "intent": "confess anxiety"
+        },
+        {
+          "speaker": "Barista",
+          "text": "No need for that! They\u2019ll be chuffed you picked Nero. Here\u2014extra chocolate sprinkle on your cappuccino for luck.",
+          "emotion": "reassuring",
+          "intent": "boost confidence"
+        },
+        {
+          "speaker": "Customer",
+          "text": "You\u2019re a star! Mind if I camp by the window? Need to spot them first...",
+          "emotion": "grateful",
+          "intent": "request reassurance"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Course not\u2014table\u2019s reserved for you. Deep breaths, yeah? First dates are just posh chats with coffee.",
+          "emotion": "playful",
+          "intent": "lighten mood"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Cheers, that actually helps. Right\u2014wish me luck!",
+          "emotion": "excited",
+          "intent": "express gratitude"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "proper bricking it",
+          "explanation": "UK slang conveying intense nervousness\u2014authentic for informal confession between familiar faces."
+        },
+        {
+          "phrase": "they\u2019ll be chuffed",
+          "explanation": "British colloquialism meaning 'pleased', reinforces warm, regional tone."
+        },
+        {
+          "phrase": "posh chats with coffee",
+          "explanation": "Downplays formality with humour\u2014culturally British self-deprecation to ease tension."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Caff\u00e8 Nero",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "057",
+      "scenario": "Phone battery died, asking for charger",
+      "customer_profile": "Dependent on technology",
+      "culture": "UK",
+      "emotions": [
+        "desperate",
+        "grateful"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 8,
+      "tone": "casual",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Costa\n- Scenario: Phone battery died, asking for charger\n- Customer Profile: Dependent on technology\n- Emotions: desperate, grateful\n- Tone: casual (relaxed but professional)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"casual\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Customer",
+          "text": "Hi there, I'm in a bit of a pickle\u2014my phone's completely died. Do you happen to have a charger I could borrow?",
+          "emotion": "desperate",
+          "intent": "request help"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Oh no, that's a nightmare! We do have a few behind the counter\u2014do you need USB-C or Lightning?",
+          "emotion": "sympathetic",
+          "intent": "offer assistance"
+        },
+        {
+          "speaker": "Customer",
+          "text": "USB-C, please. You're an absolute lifesaver!",
+          "emotion": "grateful",
+          "intent": "express relief"
+        },
+        {
+          "speaker": "Barista",
+          "text": "No worries at all\u2014pop it here by the till while you wait. Fancy a cuppa while you're at it?",
+          "emotion": "friendly",
+          "intent": "upsell subtly"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Actually, yes! A flat white would be brilliant. Cheers!",
+          "emotion": "relieved",
+          "intent": "accept offer"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Sorted! That'll be \u00a33.20, and your phone should be good to go in 10 minutes.",
+          "emotion": "helpful",
+          "intent": "confirm resolution"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "in a bit of a pickle",
+          "explanation": "A common British idiom for being in trouble\u2014softens the request while sounding natural."
+        },
+        {
+          "phrase": "You're an absolute lifesaver",
+          "explanation": "Hyperbolic gratitude typical in UK casual speech to emphasise relief."
+        },
+        {
+          "phrase": "Fancy a cuppa while you're at it?",
+          "explanation": "Colloquial upsell using 'cuppa' (cup of tea/coffee) reflects Costa's caf\u00e9 culture."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Costa",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "058",
+      "scenario": "Taking Instagram photos of coffee",
+      "customer_profile": "Social media enthusiast",
+      "culture": "UK",
+      "emotions": [
+        "excited",
+        "creative"
+      ],
+      "success_rating": 8,
+      "naturalness_rating": 7,
+      "tone": "friendly",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Starbucks\n- Scenario: Taking Instagram photos of coffee\n- Customer Profile: Social media enthusiast\n- Emotions: excited, creative\n- Tone: friendly (warm, familiar between regulars)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"friendly\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Morning, love! The usual caramel latte with extra foam for your 'gram?",
+          "emotion": "cheerful",
+          "intent": "acknowledge regular customer"
+        },
+        {
+          "speaker": "Customer",
+          "text": "You know me too well! Though today I'm feeling adventurous\u2014maybe with a cinnamon sprinkle for that autumn vibe?",
+          "emotion": "excited",
+          "intent": "seek creative suggestion"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Ooh, brilliant! Let me artfully dust it so it looks proper lush in photos. Need a copper tray as a backdrop?",
+          "emotion": "playful",
+          "intent": "offer personalised service"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Stop it, you're a mind reader! That rustic tray with the little succulents last time got me 500 likes!",
+          "emotion": "grateful",
+          "intent": "share enthusiasm"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Coming right up\u2014just gonna tweak the milk texture so your cinnamon sits pretty. Won't be two ticks!",
+          "emotion": "focused",
+          "intent": "ensure aesthetic perfection"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "proper lush",
+          "explanation": "UK colloquialism emphasising visual appeal, commonly used by younger demographics when praising aesthetics."
+        },
+        {
+          "phrase": "won't be two ticks",
+          "explanation": "British idiom meaning 'very quickly', reinforces casual rapport between regulars."
+        },
+        {
+          "phrase": "autumn vibe",
+          "explanation": "Reflective of UK seasonal coffee culture where limited-edition flavours (like pumpkin spice) drive social media engagement."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Starbucks",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "059",
+      "scenario": "Delivery driver collection confusion",
+      "customer_profile": "Delivery driver",
+      "culture": "UK",
+      "emotions": [
+        "confused",
+        "professional"
+      ],
+      "success_rating": 7,
+      "naturalness_rating": 8,
+      "tone": "formal",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Caff\u00e8 Nero\n- Scenario: Delivery driver collection confusion\n- Customer Profile: Delivery driver\n- Emotions: confused, professional\n- Tone: formal (polite, structured)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"formal\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Good afternoon! How can I help you today?",
+          "emotion": "friendly",
+          "intent": "greet and offer assistance"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Afternoon. I\u2019m here to collect an order for delivery, but I can\u2019t seem to find it under the name provided.",
+          "emotion": "confused",
+          "intent": "explain the issue"
+        },
+        {
+          "speaker": "Barista",
+          "text": "I see. Could you confirm the name on the order, please? Sometimes there\u2019s a mix-up with spellings.",
+          "emotion": "helpful",
+          "intent": "clarify details"
+        },
+        {
+          "speaker": "Customer",
+          "text": "It should be under \u2018Thompson\u2019, but I\u2019ve checked twice and nothing\u2019s come up.",
+          "emotion": "frustrated",
+          "intent": "provide information"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Let me have another look for you. Ah\u2014here we go! It\u2019s actually under \u2018Thomson\u2019. The \u2018p\u2019 is silent, so it\u2019s easy to miss.",
+          "emotion": "apologetic",
+          "intent": "resolve confusion"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Right, that makes sense. Cheers for sorting that out.",
+          "emotion": "relieved",
+          "intent": "express gratitude"
+        },
+        {
+          "speaker": "Barista",
+          "text": "No problem at all. Here\u2019s your order\u2014have a safe delivery!",
+          "emotion": "polite",
+          "intent": "conclude interaction"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "Cheers for sorting that out.",
+          "explanation": "\u2018Cheers\u2019 is a common British informal expression of thanks, fitting the polite but not overly formal tone of the exchange."
+        },
+        {
+          "phrase": "The \u2018p\u2019 is silent, so it\u2019s easy to miss.",
+          "explanation": "This phrasing reflects a typical British understatement, softening the correction to maintain politeness."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Caff\u00e8 Nero",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    },
+    {
+      "scenario_id": "060",
+      "scenario": "Regular customer trying something new",
+      "customer_profile": "Adventurous regular",
+      "culture": "UK",
+      "emotions": [
+        "curious",
+        "trusting",
+        "pleased"
+      ],
+      "success_rating": 9,
+      "naturalness_rating": 9,
+      "tone": "friendly",
+      "prompt": "Create a realistic coffee shop conversation for language learners in strict JSON format. Output only a valid JSON object, with no additional text. Details:\n- Culture: UK English\n- Brand: Costa\n- Scenario: Regular customer trying something new\n- Customer Profile: Adventurous regular\n- Emotions: curious, trusting, pleased\n- Tone: friendly (warm, familiar between regulars)\n\nRequirements:\n- Alternating dialogue between participants (4\u201315 lines total, depending on scenario complexity).\n- Conversation length should match scenario realism:\n  * Simple transactions: 4-6 lines\n  * Standard consultations: 6-10 lines  \n  * Complex discussions: 8-12 lines\n  * Extended consultations: 10-15+ lines\n- Include emotional cues and speaker intentions throughout\n- Use appropriate regional phrases and cultural context\n- Ensure natural conversation flow with realistic pauses, clarifications, and follow-ups\n- Provide rationale for 2-3 standout phrases explaining cultural/linguistic choices\n\nOutput JSON structure:\n{\n  \"dialogue\": [\n    {\"speaker\": \"Barista\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    {\"speaker\": \"Customer\", \"text\": \"string\", \"emotion\": \"string\", \"intent\": \"string\"},\n    ...\n  ],\n  \"tone\": \"friendly\",\n  \"rationale\": [\n    {\"phrase\": \"string\", \"explanation\": \"1\u20132 sentences\"},\n    ...\n  ]\n}\n",
+      "dialogue": [
+        {
+          "speaker": "Barista",
+          "text": "Morning, love! Your usual flat white, or are we mixing it up today?",
+          "emotion": "cheerful",
+          "intent": "greet and offer"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Actually, I fancy trying something different. What's that new seasonal drink I've seen on the board?",
+          "emotion": "curious",
+          "intent": "inquire"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Ah, you mean the spiced orange hot chocolate? It's proper lush\u2014like Christmas in a cup!",
+          "emotion": "enthusiastic",
+          "intent": "recommend"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Ooh, go on then\u2014you've sold me! Might as well live a little, eh?",
+          "emotion": "pleased",
+          "intent": "accept suggestion"
+        },
+        {
+          "speaker": "Barista",
+          "text": "Brilliant choice! I'll pop an extra shot of cinnamon in there for you\u2014you won't regret it.",
+          "emotion": "warm",
+          "intent": "personalize order"
+        },
+        {
+          "speaker": "Customer",
+          "text": "You're a star. Cheers, mate!",
+          "emotion": "grateful",
+          "intent": "thank"
+        }
+      ],
+      "rationale": [
+        {
+          "phrase": "proper lush",
+          "explanation": "A common UK colloquialism (especially in the Midlands/North) meaning 'really good', reinforcing regional authenticity."
+        },
+        {
+          "phrase": "Christmas in a cup",
+          "explanation": "Culturally resonant metaphor in the UK where seasonal drinks are strongly associated with festive warmth."
+        },
+        {
+          "phrase": "you're a star",
+          "explanation": "A natural British expression of thanks, implying familiarity between regulars."
+        }
+      ],
+      "participants": [
+        "Barista",
+        "Customer"
+      ],
+      "setting": "Costa",
+      "cultural_notes": [],
+      "humour_potential": "low",
+      "social_context": "unknown",
+      "difficulty": "beginner",
+      "friendship_building_factor": "none",
+      "friendship_progression": "none",
+      "resident_profile": "none",
+      "housing_type": "none",
+      "primary_speaker_profile": "none",
+      "party_type": "none",
+      "communication_challenge": "none",
+      "cultural_focus": "none",
+      "prompt_used": "none",
+      "potential_mistakes": "none",
+      "dating_stage": "none",
+      "interaction_type": "none",
+      "communication_mode": "none",
+      "challenge_focus": "none",
+      "candidate_profile": "none",
+      "interview_type_category": "none",
+      "social_dynamic": "none",
+      "traveler_profile": "none",
+      "transportation_type": "none",
+      "student_profile": "none",
+      "temperature": "unknown"
+    }
+  ]
+}
